@@ -1,0 +1,6 @@
+owner = BHR
+controller = BHR
+add_core = PER
+add_core = BHR
+trade_goods = fish
+life_rating = 35 

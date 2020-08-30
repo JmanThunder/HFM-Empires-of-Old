@@ -1,0 +1,8 @@
+owner = DAM
+controller = DAM
+add_core = DAM
+trade_goods = cattle
+
+terrain = semidesert
+
+life_rating = 35

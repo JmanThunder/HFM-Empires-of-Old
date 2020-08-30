@@ -1,0 +1,10 @@
+owner = MOS
+
+controller = MOS
+
+add_core = MOS
+trade_goods = grain
+
+terrain = semidesert
+
+life_rating = 32

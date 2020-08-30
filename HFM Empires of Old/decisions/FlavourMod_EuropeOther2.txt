@@ -1,0 +1,459 @@
+political_decisions = {
+	
+	bessarabia_rename_rom = {
+		picture = gtfo
+		potential = {
+			primary_culture = romanian
+			owns = 676
+			owns = 677
+			owns = 673
+			NOT = { has_global_flag = bessarabia_rename_rom }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bessarabia_rename_rom
+			clr_global_flag = bessarabia_rename_aus
+			676 = { change_province_name = "Chisinau"  
+					state_scope = {
+					change_region_name = "Basarabia"}
+							}
+			677 = { change_province_name = "Cetatea Alba" }
+			678 = { change_province_name = "Ismail" }
+			673 = { change_province_name = "Cahul" }
+			3279 = { change_province_name = "Chelmenti" }
+		}
+		ai_will_do = { factor = 1 }
+	}	
+
+	bessarabia_rename_rus = {
+		picture = gtfo
+		potential = {
+			OR = {
+				primary_culture = russian
+				primary_culture = ukrainian
+			}
+			owns = 676
+			owns = 677
+			owns = 673
+			NOT = { has_global_flag = bessarabia_rename_rus }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bessarabia_rename_rus
+			clr_global_flag = bessarabia_rename_rom
+			676 = { change_province_name = "Kishinyov" 
+					state_scope = {
+					change_region_name = "Bessarabiya"}
+							}
+			677 = { change_province_name = "Belgorod" }
+			678 = { change_province_name = "Izmail" }
+			673 = { change_province_name = "Kagul" }
+			3279 = { change_province_name = "Kelmentsi" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	bukovina_rename_rom = {
+		picture = gtfo
+		potential = {
+			primary_culture = romanian
+			owns = 662
+			owns = 663
+			NOT = { has_global_flag = bukovina_rename_rom }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bukovina_rename_rom
+			clr_global_flag = bukovina_rename_aus
+			clr_global_flag = bukovina_rename_rus
+			662 = { change_province_name = "Cernauti"  
+					state_scope = {
+					change_region_name = "Bucovina"}
+							}
+			663 = { change_province_name = "Suceava" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	bukovina_rename_aus = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			NOT = { has_global_flag = bukovina_rename_aus }
+			owns = 662
+			owns = 663
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bukovina_rename_aus
+			clr_global_flag = bukovina_rename_rom
+			clr_global_flag = bukovina_rename_rus
+			662 = { change_province_name = "Czernowitz"  
+					state_scope = {
+					change_region_name = "Buchenland"}
+							}
+			663 = { change_province_name = "Sotschen" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	bukovina_rename_rus = {
+		picture = gtfo
+		potential = {
+			OR = {
+				primary_culture = russian
+				primary_culture = ukrainian
+			}
+			owns = 662
+			owns = 663
+			NOT = { has_global_flag = bukovina_rename_rus }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bukovina_rename_rus
+			clr_global_flag = bukovina_rename_rom
+			clr_global_flag = bukovina_rename_aus
+			662 = { change_province_name = "Chernovitsy" 
+					state_scope = {
+					change_region_name = "Bukovyna"}
+							}
+			663 = { change_province_name = "Sucava" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	burgenland_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				AND = {
+					is_culture_group = germanic
+					owns = 623
+					NOT = { has_global_flag = burgenland_rename_aus } 
+					
+				}
+				AND = {
+					primary_culture = hungarian
+					owns = 623
+					NOT = { has_global_flag = burgenland_rename_hun } 
+					
+				}
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			###German###
+			random_owned = {
+				limit = {
+					province_id = 623
+					owner = {
+						is_culture_group = germanic
+					}
+				}
+				623 = {
+					change_province_name = "Ödenburg"
+					state_scope = {
+						change_region_name = "Burgenland"
+					}
+				}
+				624 = { change_province_name = "Eisenstadt" }
+				3286 = { change_province_name = "Steinamanger" }
+				owner = { 
+					set_global_flag = burgenland_rename_aus 
+					clr_global_flag = burgenland_rename_hun 
+				}
+			}
+
+			###Hungarian###
+			random_owned = {
+				limit = {
+					province_id = 623
+					owner = {
+					primary_culture = hungarian
+					}
+				}
+				623 = {
+					change_province_name = "Sopron"
+					state_scope = {
+						change_region_name = "Örvidék"
+					}
+				}
+				624 = { change_province_name = "Kismarton" }
+				3286 = { change_province_name = "Szombathely" }
+				owner = { 
+					set_global_flag = burgenland_rename_hun 
+					clr_global_flag = burgenland_rename_aus 
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	finland_rename_swe = {
+		picture = gtfo
+		potential = {
+				owns = 343
+				owns = 336
+				owns = 345
+				primary_culture = swedish
+				NOT = { tag = SCA }
+			NOT = { has_global_flag = finland_rename_swe }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+				##Northern Finland##
+				336 = {
+					change_province_name = "Uleåborg"
+					state_scope = { change_region_name = "Österbotten" }
+				}
+				337 = { change_province_name = "Kajana" }
+				338 = { change_province_name = "Torneå" }
+				
+				##Western Finland##
+				345 = {
+					change_province_name = "Åbo"
+					state_scope = { change_region_name = "Egentliga Finland" }
+				}
+				346 = { change_province_name = "Vasa" }
+				347 = { change_province_name = "Tammerfors" }
+				348 = { change_province_name = "Landskapet Åland" }
+				
+				##Eastern Finland##
+				343 = {
+					change_province_name = "Helsingfors"
+					state_scope = { change_region_name = "Nyland" }
+				}
+				344 = { change_province_name = "Tavastehus" }
+				341 = { change_province_name = "S:t Michel" }
+				339 = { change_province_name = "Viborg" }
+
+			set_global_flag = finland_rename_swe 
+			clr_global_flag = finland_rename_fin 
+			clr_global_flag = finland_rename_rus 
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	finland_rename_fin = {
+		picture = gtfo
+		potential = {
+				owns = 343
+				owns = 336
+				owns = 345
+
+				OR = {
+					primary_culture = finnish
+					tag = SCA }
+			NOT = { has_global_flag = finland_rename_fin }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		
+		effect = {
+				336 = {
+					change_province_name = "Oulu"
+					state_scope = { change_region_name = "Pohjanmaa" }
+				}
+				337 = { change_province_name = "Kajaani" }
+				338 = { change_province_name = "Tornio" }
+				
+				##Western Finland##
+				345 = {
+					change_province_name = "Turku"
+					state_scope = { change_region_name = "Varsinais-Suomi" }
+				}
+				346 = { change_province_name = "Vaasa" }
+				347 = { change_province_name = "Tampere" }
+				348 = { change_province_name = "Ahvenanmaan" }
+				
+				##Eastern Finland##
+				343 = {
+					change_province_name = "Helsinki"
+					state_scope = { change_region_name = "Uusimaa" }
+				}
+				344 = { change_province_name = "Hämeenlinna" }
+				341 = { change_province_name = "Mikkeli" }
+				339 = { change_province_name = "Viipuri" }
+
+			set_global_flag = finland_rename_fin 
+			clr_global_flag = finland_rename_swe 
+			clr_global_flag = finland_rename_rus 
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	finland_rename_rus = {
+		picture = gtfo
+		potential = {
+				owns = 343
+				owns = 336
+				owns = 345
+				primary_culture = russian
+			NOT = { has_global_flag = finland_rename_rus }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+				336 = {
+					change_province_name = "Oulu"
+					state_scope = { change_region_name = "Severnaya Finlandia" }
+				}
+				337 = { change_province_name = "Kajana" }
+				338 = { change_province_name = "Torneo" }
+				
+				##Western Finland##
+				345 = {
+					change_province_name = "Abo"
+					state_scope = { change_region_name = "Zapadnaya Finlandia" }
+				}
+				346 = { change_province_name = "Nikolaistad" }
+				347 = { change_province_name = "Tammerfors" }
+				348 = { change_province_name = "Oland" }
+				
+				##Eastern Finland##
+				343 = {
+					change_province_name = "Gelsingfors"
+					state_scope = { change_region_name = "Vostochnaya Finlandia" }
+				}
+				344 = { change_province_name = "Tavastgus" }
+				341 = { change_province_name = "St. Michel" }
+				339 = { change_province_name = "Wyborg" }
+
+			set_global_flag = finland_rename_rus 
+			clr_global_flag = finland_rename_fin 
+			clr_global_flag = finland_rename_swe 
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	karelia_rename_fin = {
+		picture = gtfo
+		potential = {
+			OR = {
+			primary_culture = finnish
+			primary_culture = swedish
+			}
+			owns = 982
+			owns = 995
+			owns = 2587
+			NOT = { has_global_flag = karelia_rename_fin }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = karelia_rename_fin
+			clr_global_flag = karelia_rename_rus
+			982 = { change_province_name = "Petsamo" 
+					state_scope = {
+					change_region_name = "Karjala"}
+							}
+			2587 = { change_province_name = "Kuolan" }
+			983 = { change_province_name = "Porajärvi" }
+			984 = { change_province_name = "Kostamus" }
+			995 = { change_province_name = "Petroskoi " }
+		}
+		ai_will_do = { factor = 1 }
+	}	
+
+	karelia_rename_rus = {
+		picture = gtfo
+		potential = {
+			OR = {
+				primary_culture = russian
+			}
+			owns = 982
+			owns = 995
+			owns = 2587
+			NOT = { has_global_flag = karelia_rename_rus }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = karelia_rename_rus
+			clr_global_flag = karelia_rename_fin
+			982 = { change_province_name = "Petschenga" 
+					state_scope = {
+					change_region_name = "Kareliya"}
+							}
+			2587 = { change_province_name = "Kola" }
+			983 = { change_province_name = "Kandalaksha" }
+			984 = { change_province_name = "Kostomuksha" }
+			995 = { change_province_name = "Petrosavodsk" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	pressburg_rename_ger = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			OR = {				
+				AND = {
+					is_our_vassal = SLV
+					SLV = { owns = 633 }
+				}
+
+				AND = {
+					is_our_vassal = CZH
+					CZH = { owns = 633 }
+				}
+			}
+
+			NOT = { has_global_flag = pressburg_rename_ger }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = pressburg_rename_ger
+			633 = { 
+				change_province_name = "Prešporok"
+			}
+			prestige = 2
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+}

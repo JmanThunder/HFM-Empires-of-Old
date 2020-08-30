@@ -1,0 +1,7 @@
+owner = NYE
+controller = NYE
+add_core = NYE
+add_core = HDJ
+trade_goods = wool
+terrain = semidesert
+life_rating = 35

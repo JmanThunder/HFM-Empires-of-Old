@@ -1,0 +1,330 @@
+political_decisions = {
+	kpm_shipping = {
+		picture = kpm_shipping
+		potential = {
+			tag = NET
+			colonial_nation = yes
+			is_canal_enabled = 2
+			year = 1870
+			owns = 1413 #Batavia
+			NOT = { has_country_flag = kpm_shipping_founded }
+		}
+		
+		allow = {
+			war = no
+			relation = { 
+				who = ENG 
+				value = 100 
+			}
+			steel_steamers = 1
+			money = 15000
+		}
+		
+		effect = {
+			set_country_flag = kpm_shipping_founded
+			relation = {
+				who = ENG
+				value = 50
+			}
+			treasury = -15000
+			1413 = { naval_base = 5 }	
+			1413 = { add_province_modifier = { name = kpm_shipping  duration = -1 } }			
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	appoint_thorbecke = {
+		picture = thorbecke_reforms
+		potential = {
+			tag = NET
+			NOT = { year = 1860 }
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+			}
+			has_global_flag = liberal_revolution_somewhere
+			NOT = {
+				has_country_modifier = thorbecke_reforms 
+				has_country_flag = thorbecke_reforms
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				average_militancy = 3
+				num_of_revolts = 1
+				average_consciousness = 5
+			}
+		}
+		
+		effect = {
+			set_country_flag = thorbecke_reforms
+			prestige = 5
+			add_country_modifier = {
+				name = thorbecke_reforms
+				duration = 7300
+			}
+			random_owned = {
+				limit = {
+					owner = { government = prussian_constitutionalism }
+				}
+				owner = {
+					political_reform = universal_weighted_voting
+					political_reform = yes_meeting
+					political_reform = free_press
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = { government = absolute_monarchy }
+				}
+				owner = {
+					government = prussian_constitutionalism
+					political_reform = landed_voting
+					political_reform = yes_meeting
+					political_reform = free_press
+				}
+			}
+			political_reform = open_borders
+			remove_country_modifier = global_liberal_agitation
+			any_owned = {
+				limit = { is_colonial = no }
+				remove_province_modifier = liberal_agitation
+				any_pop = {
+					scaled_militancy = {
+						ideology = liberal
+						factor = -8
+					}
+					scaled_consciousness = {
+						ideology = liberal
+						factor = -8
+					}
+					scaled_militancy = {
+						ideology = conservative
+						factor = -6
+					}
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	ethische_politiek = {
+		picture = ethische_politiek
+		potential = {
+			tag = NET
+			colonial_nation = yes
+			any_owned_province = { is_core = INO }
+			has_global_flag = indonesia_organized
+			NOT = { has_country_flag = ethische_politiek }
+		}
+		
+		allow = {
+			war = no
+			invention = the_dark_continent
+			invention = mission_to_civilize
+			money = 35001
+			slavery = no_slavery
+		}
+		
+		effect = {
+			set_country_flag = ethische_politiek
+			badboy = -0.5
+			treasury = -35001
+			prestige = 15
+			any_pop = {
+				limit = { location = { is_core = INO } }
+				militancy = -3
+				consciousness = -3
+			}
+			political_reform = civilizing
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	banjarmasin_war = {
+		picture = banjarmasin_war
+		potential = {
+			tag = NET
+			colonial_nation = yes
+			any_owned_province = { continent = east_indies }
+			KLM = {
+				vassal_of = THIS
+				exists = yes
+				NOT = { civilized = yes }
+				NOT = { truce_with = THIS }
+			}
+			state_n_government = 1
+			NOT = { has_country_flag = banjarmasin_war }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			KLM = {
+				vassal_of = THIS
+				exists = yes
+				NOT = { civilized = yes }
+				NOT = { truce_with = THIS }
+			}
+		}
+		
+		effect = {
+			set_country_flag = banjarmasin_war
+			badboy = 2
+			release_vassal = KLM
+			war = {
+				target = KLM
+				attacker_goal = { casus_belli = establish_protectorate_BC_casus_belli }
+				defender_goal = { casus_belli = status_quo }
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	occupation_of_indonesia = {
+		picture = moluccan_map
+		potential = {
+			owns = 1413
+			colonial_nation = yes
+			OR = {
+				AND = { #Borneo
+					owns = 1423 #Banjar
+					owns = 1428 #Sintang
+					owns = 1424 #Kutai
+					3275 = { empty = yes } #Kapoea
+				}
+				AND = { #Celebes
+					owns = 1433 #Menado
+					owns = 1436 #Luwu
+					1434 = { empty = yes } #Luwuk
+				}
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				AND = { #Borneo
+					owns = 1423 #Banjar
+					owns = 1428 #Sintang
+					owns = 1424 #Kutai
+					3275 = { empty = yes } #Kapoea
+				}
+				AND = { #Celebes
+					owns = 1433 #Menado
+					owns = 1436 #Luwu
+					1434 = { empty = yes } #Luwuk
+				}
+			}
+		}
+		
+		effect = {
+			#Borneo#
+			random_owned = {
+				limit = {
+					owner = {
+						owns = 1428 #Sintang
+						owns = 1424 #Kutai
+						3275 = { empty = yes } #Kapoea
+					}
+				}
+				3275 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 20 }
+				owner = { prestige = 1 }
+			}
+			#Celebes#
+			random_owned = {
+				limit = {
+					owner = { 
+						owns = 1433 #Menado
+						owns = 1436 #Luwu
+						1434 = { empty = yes } #Luwuk
+					}
+				}
+				1434 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 25 }
+				1435 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 25 }
+				owner = { prestige = 1 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	disolve_riau_lingga = {
+		picture = abdul_rahman_ii
+		potential = {
+			owns = 1413
+			colonial_nation = yes
+			any_owned_province = { continent = east_indies }
+			RIA = {
+				vassal_of = THIS
+				exists = yes
+				NOT = { civilized = yes }
+				NOT = { truce_with = THIS }
+			}
+			nationalism_n_imperialism = 1
+			NOT = { has_country_flag = disolve_riau_lingga }
+		}
+		
+		allow = {
+			war = no
+			invention = the_dark_continent
+			RIA = {
+				vassal_of = THIS
+				exists = yes
+				NOT = { civilized = yes }
+				NOT = { truce_with = THIS }
+			}
+		}
+		
+		effect = {
+			set_country_flag = disolve_riau_lingga
+			badboy = 2.5
+			inherit = RIA
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	establish_bpm_oil = {
+		picture = bpm_oil
+		potential = {
+			tag = NET
+			owns = 1413 #Batavia
+			capital = 375 #Amsterdam
+			colonial_nation = yes
+			any_owned_province = { 
+				continent = east_indies 
+				trade_goods = oil
+			}
+			year = 1900
+			NOT = { has_country_flag = establish_bpm_oil }
+		}
+		
+		allow = {
+			war = no
+			invention = cracking
+		}
+		
+		effect = {
+			set_country_flag = establish_bpm_oil
+			prestige = 10
+			any_owned_province = { 
+				limit = {
+					continent = east_indies 
+					trade_goods = oil
+				}
+				add_province_modifier = {
+					name = bpm_oil
+					duration = -1
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+}

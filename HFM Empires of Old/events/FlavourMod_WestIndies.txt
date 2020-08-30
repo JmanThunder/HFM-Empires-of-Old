@@ -1,0 +1,204 @@
+#Floods in Jamacia
+province_event = {
+	id = 997200
+	title = "EVTNAME997200"
+	desc = "EVTDESC997200"
+	fire_only_once = yes
+	trigger = {
+		province_id = 2217
+		owned_by = JAM
+		year = 1860
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.5
+			year = 1863
+		}
+		modifier = {
+			factor = 0.35
+			year = 1864
+		}
+	}
+	
+	option = {
+		name = "EVTOPT997200"
+		add_province_modifier = { name = chinese_floods duration = 365 }
+		any_pop = { 
+			limit = { is_primary_culture = no }		
+			militancy = 5
+		}
+		JAM = { set_country_flag = jamacia_floods }
+	}
+}
+
+#A Letter from Dr. Edward Underhill
+province_event = {
+	id = 997201
+	title = "EVTNAME997201"
+	desc = "EVTDESC997201"
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = jamacia_floods
+		province_id = 2217
+		owned_by = JAM
+		year = 1864
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.1
+			year = 1865
+		}
+	}
+	
+	option = {
+		name = "EVTOPT997201"
+		any_pop = { 
+			limit = { is_primary_culture = no }		
+			militancy = 3
+		}
+		add_province_modifier = { name = racial_tensions duration = 365 }
+		JAM = {
+			prestige = -5
+			set_country_flag = dr_edward_underhill 
+		}
+		ENG = { country_event = 997202 }
+	}
+}
+
+#UK Gets Notified
+country_event = {
+	id = 997202
+	title = "EVTNAME997201"
+	desc = "EVTDESC997201"
+	is_triggered_only = yes
+	picture = "Administration"
+	
+	option = {
+		name = "EVTOPT997202"
+		relation = { who = FROM value = 50 }
+		FROM = {
+			any_pop = { 
+				limit = { is_primary_culture = no }		
+				militancy = 2
+			}
+		}
+	}
+}
+
+#Morant Bay Rebellion
+country_event = {
+	id = 997203
+	title = "EVTNAME997203"
+	desc = "EVTDESC997203"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		has_country_flag = dr_edward_underhill
+		tag = JAM
+		vassal_of = ENG
+		OR = {
+			average_militancy = 5
+			ai = yes
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	immediate = { set_global_flag = morant_bay_rebellion }
+	
+	option = {
+		name = "EVTOPTA997203"
+		war_exhaustion = 10
+		prestige = -5
+		badboy = 2
+		any_pop = { 
+			limit = { has_pop_culture = afro_caribbean }		
+			reduce_pop = 0.99
+		}
+		
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "EVTOPTB997203"
+		relation = { who = ENG value = -200 }
+		war_exhaustion = 10
+		prestige = -5
+		badboy = 5
+		ENG = { 
+			release_vassal = THIS 
+			country_event = 997204
+		}
+		any_pop = { 
+			limit = { has_pop_culture = british }		
+			reduce_pop = 0.85
+		}
+		primary_culture = kreol
+		add_accepted_culture = afro_caribbean
+		ai_chance = { factor = 0 }
+	}
+}
+
+#UK Gets Notified#
+country_event = {
+	id = 997204
+	title = "EVTNAME997203"
+	desc = "EVTDESC997203"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA997203"
+		war = {
+			target = JAM
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+		
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0.75
+				any_greater_power = { war_with = THIS }
+			}
+			modifier = {
+				factor = 0.5
+				national_provinces_occupied = 0.25
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB997202"
+		prestige = -25
+		relation = { who = FROM value = -50 }
+		FROM = {
+			any_pop = { 
+				limit = { has_pop_culture = british }		
+				move_pop = 2239
+			}
+		}
+		
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 5
+				any_greater_power = { war_with = THIS }
+			}
+			modifier = {
+				factor = 5
+				national_provinces_occupied = 0.25
+			}
+			modifier = {
+				factor = 0
+				war = no
+				NOT = { revolt_percentage = 0.25 }
+			}
+		}
+	}
+}

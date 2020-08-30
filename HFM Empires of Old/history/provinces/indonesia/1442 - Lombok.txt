@@ -1,0 +1,11 @@
+owner = BAL
+controller = BAL
+add_core = BAL
+trade_goods = timber
+life_rating = 35
+terrain = jungle_mountains
+1860.1.1 = {
+	owner = NET
+	controller = NET
+	colonial = 2
+}

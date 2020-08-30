@@ -1,0 +1,7 @@
+owner = CLA
+controller = CLA
+add_core = CLA
+
+trade_goods = fish
+
+life_rating = 30

@@ -1,0 +1,16 @@
+army = {
+	name = "Army of the Sultan of Selangor"
+	location = 1387
+	regiment = {
+		name= "1.Selangor State Troops"
+		type = irregular
+		home = 1387
+	}
+
+	regiment = {
+		name= "2.Selangor State Troops"
+		type = irregular
+		home = 1387
+	}
+}
+

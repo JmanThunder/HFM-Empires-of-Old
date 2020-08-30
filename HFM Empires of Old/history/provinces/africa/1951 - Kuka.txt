@@ -1,0 +1,14 @@
+owner = SOK
+
+controller = SOK
+
+add_core = SOK
+
+
+add_core = KBO
+
+trade_goods = cotton
+
+terrain = semidesert
+
+life_rating = 35

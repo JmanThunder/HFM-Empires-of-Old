@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+add_core = CAN
+add_core = USA
+trade_goods = cattle
+terrain = new_world_boreal
+life_rating = 25
+colonial = 2

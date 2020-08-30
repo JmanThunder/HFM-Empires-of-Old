@@ -1,0 +1,12 @@
+owner = FRA
+
+controller = FRA
+
+add_core = FRA
+
+add_core = WLL
+trade_goods = coal
+
+life_rating = 30
+
+1861.1.1 = { railroad = 3 }

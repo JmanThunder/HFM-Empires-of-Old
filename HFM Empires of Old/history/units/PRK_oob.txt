@@ -1,0 +1,16 @@
+army = {
+	name = "Army of the Sultan of Perak"
+	location = 2575
+	regiment = {
+		name= "1.Perak State Troops"
+		type = irregular
+		home = 2575
+	}
+
+	regiment = {
+		name= "2.Perak State Troops"
+		type = irregular
+		home = 2575
+	}
+}
+

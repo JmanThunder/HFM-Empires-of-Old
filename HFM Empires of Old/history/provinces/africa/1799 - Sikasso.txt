@@ -1,0 +1,10 @@
+owner = SEG
+
+controller = SEG
+
+add_core = SEG
+
+
+trade_goods = cotton
+
+life_rating = 35
