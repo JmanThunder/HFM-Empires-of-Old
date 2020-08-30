@@ -1,3 +1,3 @@
-name = "The Grand Combo 0.1.6 Master"
-path = "mod/TGC"
-user_dir = "TGC"
+name = "HFM Empires of Old"
+path = "mod/HFM Empires of Old"
+user_dir = "HFM Empires of Old"
