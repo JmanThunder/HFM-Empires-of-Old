@@ -1,4 +1,6 @@
-owner = ETHcontroller = ETHadd_core = TIG
+owner = ETH
+controller = ETH
+add_core = TIG
 add_core = ETH
 trade_goods = cattle
 life_rating = 35

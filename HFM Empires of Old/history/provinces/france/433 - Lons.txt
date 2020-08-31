@@ -1,10 +1,8 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-add_core = ARP
 trade_goods = coal
 life_rating = 30
-terrain = foresthills
 state_building = {
 	level = 2
 	building = ammunition_factory

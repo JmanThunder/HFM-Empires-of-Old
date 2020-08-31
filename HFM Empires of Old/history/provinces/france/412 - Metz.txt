@@ -5,7 +5,6 @@ add_core = ALS
 add_core = LOR
 trade_goods = iron
 life_rating = 31
-terrain = farmlandhills
 #state_building = {
 #	level = 1
 #	building = fabric_factory

@@ -1,7 +1,6 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-add_core = PIC
 trade_goods = iron
 life_rating = 30
 terrain = lille

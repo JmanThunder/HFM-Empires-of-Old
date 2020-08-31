@@ -2,7 +2,6 @@ owner = ENG
 controller = ENG
 add_core = ENG
 add_core = IRE
-add_core = ULS
 trade_goods = cattle
 naval_base = 1
 life_rating = 35

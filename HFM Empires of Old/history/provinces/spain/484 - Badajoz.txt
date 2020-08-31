@@ -3,7 +3,6 @@ controller = SPA
 add_core = SPA
 trade_goods = copper
 life_rating = 35
-terrain = dryforest
 1861.1.1 = { railroad = 3 }
 
 state_building = {

@@ -1,4 +1,6 @@
-owner = ETHcontroller = ETHadd_core = GON
+owner = ETH
+controller = ETH
+add_core = GON
 add_core = SHK
 add_core = ETH
 trade_goods = grain

@@ -1,7 +1,6 @@
 owner = SPA
 controller = SPA
 add_core = SPA
-add_core = LEO
 trade_goods = copper
 life_rating = 35
 terrain = montane_forest

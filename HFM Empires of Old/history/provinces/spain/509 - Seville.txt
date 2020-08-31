@@ -1,7 +1,6 @@
 owner = SPA
 controller = SPA
 add_core = SPA
-add_core = ANU
 trade_goods = grain
 life_rating = 35
 terrain = seville

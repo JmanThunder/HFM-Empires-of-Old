@@ -1,4 +1,7 @@
-owner = ETHcontroller = ETHadd_core = GONadd_core = SHW
+owner = ETH
+controller = ETH
+add_core = GON
+add_core = SHW
 add_core = ETH
 trade_goods = cattle
 life_rating = 35

@@ -1,4 +1,6 @@
-owner = PORcontroller = PORadd_core = GAZ
+owner = POR
+controller = POR
+add_core = GAZ
 trade_goods = fish
 terrain = savanna
 life_rating = 35
