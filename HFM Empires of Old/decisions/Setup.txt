@@ -1858,10 +1858,7 @@ political_decisions = {
             716 = { trade_goods = lead }
             1590 = { trade_goods = lead }
             1383 = { trade_goods = lead }
-            3535 = { trade_goods = lead }
             2145 = { trade_goods = lead }
-            3321 = { trade_goods = lead }
-            3433 = { trade_goods = lead }
             878 = { trade_goods = lead }
             148 = { trade_goods = lead }
             146 = { trade_goods = lead }
@@ -1870,11 +1867,9 @@ political_decisions = {
             797 = { trade_goods = lead }
             554 = { trade_goods = lead }
             586 = { trade_goods = lead }
-            3355 = { trade_goods = lead }
             263 = { trade_goods = lead }
             453 = { trade_goods = lead }
             447 = { trade_goods = lead }
-            3419 = { trade_goods = lead }
             1994 = { trade_goods = lead }
             2076 = { trade_goods = lead }
             1001 = { trade_goods = lead }
@@ -1935,13 +1930,7 @@ political_decisions = {
             1985 = { trade_goods = lead }
             1701 = { trade_goods = lead }
             
-            3632 = { trade_goods = copper }
-            3633 = { trade_goods = copper }
-            3630 = { trade_goods = copper }
-            3575 = { trade_goods = copper }
-            1067 = { trade_goods = copper }
-            3493 = { trade_goods = copper }
-            1757 = { trade_goods = copper }
+            1067 = { trade_goods = copper }            1757 = { trade_goods = copper }
             726 = { trade_goods = copper }
             581 = { trade_goods = copper }
             580 = { trade_goods = copper }
@@ -1953,23 +1942,17 @@ political_decisions = {
             484 = { trade_goods = copper }
             1003 = { trade_goods = copper }
             271 = { trade_goods = copper }
-            3511 = { trade_goods = copper }
-            3412 = { trade_goods = copper }
-            3499 = { trade_goods = copper }
-            3491 = { trade_goods = copper }
+            
             1144 = { trade_goods = copper }
             1071 = { trade_goods = copper }
-            3440 = { trade_goods = copper }
-            3435 = { trade_goods = copper }
+         
             899 = { trade_goods = copper }
             886 = { trade_goods = copper }
             2533 = { trade_goods = copper }
             2308 = { trade_goods = copper }
             682 = { trade_goods = copper }
             511 = { trade_goods = copper }
-            3365 = { trade_goods = copper }
-            3423 = { trade_goods = copper }
-            3418 = { trade_goods = copper }
+          
             1666 = { trade_goods = copper }
             1674 = { trade_goods = copper }
             1640 = { trade_goods = copper }
@@ -2018,12 +2001,11 @@ political_decisions = {
             2256 = { trade_goods = copper }
             2248 = { trade_goods = copper }
             
-            3675 = { trade_goods = spices }
+           
             649 = { trade_goods = spices }
             1342 = { trade_goods = spices }
             1520 = { trade_goods = spices }
-            3472 = { trade_goods = spices }
-            3431 = { trade_goods = spices }
+        
             2144 = { trade_goods = spices }
             2157 = { trade_goods = spices }
             2156 = { trade_goods = spices }
@@ -2077,12 +2059,9 @@ political_decisions = {
             2531 = { trade_goods = spices }
             1137 = { trade_goods = spices }
             
-            3676 = { trade_goods = sugar }
-            3676 = { trade_goods = sugar }
+          
             2270 = { trade_goods = sugar }
-            3610 = { trade_goods = sugar }
-            3352 = { trade_goods = sugar }
-            3358 = { trade_goods = sugar }
+           
             932 = { trade_goods = sugar }
             1132 = { trade_goods = sugar }
             1596 = { trade_goods = sugar }
@@ -2093,22 +2072,18 @@ political_decisions = {
             1131 = { trade_goods = sugar }
             1290 = { trade_goods = sugar }
             141 = { trade_goods = sugar }
-            3358 = { trade_goods = sugar }
+           
             2184 = { trade_goods = sugar }
-            3346 = { trade_goods = sugar }
             1751 = { trade_goods = sugar }
             2432 = { trade_goods = sugar }
             2213 = { trade_goods = sugar }
             2215 = { trade_goods = sugar }
             139 = { trade_goods = sugar }
-            3361 = { trade_goods = sugar }
             2210 = { trade_goods = sugar }
             2214 = { trade_goods = sugar }
             1419 = { trade_goods = sugar }
-            3325 = { trade_goods = sugar }
             2204 = { trade_goods = sugar }
             2258 = { trade_goods = sugar }
-            3316 = { trade_goods = sugar }
             2168 = { trade_goods = sugar }
             2159 = { trade_goods = sugar }
             2243 = { trade_goods = sugar }
@@ -2118,11 +2093,9 @@ political_decisions = {
             2276 = { trade_goods = sugar }
             2275 = { trade_goods = sugar }
             2229 = { trade_goods = sugar }
-            3402 = { trade_goods = sugar }
             142 = { trade_goods = sugar }
             2211 = { trade_goods = sugar }
-            3276 = { trade_goods = sugar }
-            3306 = { trade_goods = sugar }
+          
             1486 = { trade_goods = sugar }
             1564 = { trade_goods = sugar }
             1579 = { trade_goods = sugar }
@@ -2169,9 +2142,7 @@ political_decisions = {
             2428 = { trade_goods = sugar }
             2427 = { trade_goods = sugar }
             2426 = { trade_goods = sugar }
-            
-            3635 = { trade_goods = cocoa }
-            3599 = { trade_goods = cocoa }
+      
             2174 = { trade_goods = cocoa }
             2446 = { trade_goods = cocoa }
             2439 = { trade_goods = cocoa }
@@ -2184,20 +2155,17 @@ political_decisions = {
             2197 = { trade_goods = cocoa }
             2191 = { trade_goods = cocoa }
             2165 = { trade_goods = cocoa }
-            3360 = { trade_goods = cocoa }
+         
             2183 = { trade_goods = cocoa }
             2216 = { trade_goods = cocoa }
             2237 = { trade_goods = cocoa }
-            3283 = { trade_goods = cocoa }
+          
             2269 = { trade_goods = cocoa }
             2260 = { trade_goods = cocoa }
             2261 = { trade_goods = cocoa }
-            3424 = { trade_goods = cocoa }
-            3426 = { trade_goods = cocoa }
-            3427 = { trade_goods = furs }
-            3428 = { trade_goods = furs }
+          
             320 = { trade_goods = furs }
-            3391 = { trade_goods = furs }
+           
             3 = { trade_goods = furs }
             2599 = { trade_goods = furs }
             2630 = { trade_goods = furs }

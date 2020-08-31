@@ -3737,3 +3737,34 @@ RGO_education_10 = {
 }
 
 #####
+#########
+evidence_of_massacre = {
+    prestige = -0.08
+    badboy = 0.2
+    influence_modifier = -0.1
+    icon = 8
+}
+
+evidence_of_massacre2 = {
+    prestige = -0.01
+    badboy = 0.2
+    icon = 8
+}
+
+interment_camps = {
+    global_immigrant_attract = -2
+    non_accepted_pop_consciousness_modifier = 0.4
+    non_accepted_pop_militancy_modifier = 0.3
+    tax_efficiency = -0.2
+    administrative_efficiency_modifier = -0.4
+    badboy = 0.2
+    icon = 18
+}
+
+mass_graves = {
+    immigrant_attract = -3
+    pop_consciousness_modifier = 0.2
+    #immigrant_push = 0.5
+    #life_rating = -0.25
+    icon = 20
+}
