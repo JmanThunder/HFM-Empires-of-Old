@@ -7,7 +7,7 @@ political_decisions = {
         potential = {
             OR = {
                 exists = BRZ
-                exists = UPB
+                exists = PBC
             }
 	
                 exists = BOL
@@ -18,7 +18,7 @@ political_decisions = {
                 NOT = {
                     OR = {
                         owned_by = BRZ 
-                        owned_by = UPB
+                        owned_by = PBC
                     }
                 }
             }
@@ -26,7 +26,7 @@ political_decisions = {
                 NOT = {
                     OR = {
                         owned_by = BRZ 
-                        owned_by = UPB
+                        owned_by = PBC
                     }
                 }
             }
@@ -34,7 +34,7 @@ political_decisions = {
                 NOT = {
                     OR = {
                         owned_by = BRZ 
-                        owned_by = UPB
+                        owned_by = PBC
                     }
                 }
             }

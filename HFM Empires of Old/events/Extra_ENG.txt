@@ -93,10 +93,6 @@ country_event = {
 			name = naval_race
 			duration = 3650
 		}
-		any_pop = {
-			dominant_issue = { value = jingoism = 0.05 }
-			scaled_militancy = { issue = pacifism factor = 1 }
-		}
 	}
 
 	option = {

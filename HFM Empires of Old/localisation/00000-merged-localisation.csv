@@ -192,6 +192,17 @@ dismantling_country_desc;Our diplomatic efforts are currently centred in the dis
 loyal_vassal;Loyal Vassal;;;;;;;;;;;;;;;;;;;x,,,,,
 loyal_vassal_desc;We will stand by our protectors.;;;;;;;;;;;;;;;;;;;x,,,,,
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
+sugar;Sugar;;;;;;;;;x
+sugar_plantation;Sugar Plantation;;;;;;;;;x
+rum_distillery;Rum Distillery;;;;;;;;;x
+artisan_rum;Moonshiner;;;;;;;;;x
+spices;Spices;;;;;;;;;x
+spice_plantation;Spice Plantation;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+synthetic_rubber_factory;Synthetic Rubber Factory;;;;;;;;;x
+sugar_beet_refinery;Sugar Beet Refinery;;;;;;;;;x
+#;;;;;;;;;;;;;;;;;;;;;;;;;x
+copper;Copper;;;;;;;;;x
 cocoa;Cocoa;;;;;;;;;x
 fur;Furs;;;;;;;;;x
 sea_oil;Whales & Seals;;;;;;;;;x
@@ -333,3 +344,7 @@ cancel_internment_camps_title;Revoke Directive No. 1;;;;;;;;;;;;;
 cancel_internment_camps_desc;Too much international attention has been drawn to $CAPITAL$ due to Directive No. 1. The $COUNTRY_ADJ$ $MONARCHTITLE$ decided that it's time to dismantle the apparatus  that facilitated the Directive, in order to cast aside any international doubt over the integrity of the $COUNTRY_ADJ$ government. After this, rebuilding such infrastructure back could take a while.;;;;;;;;;;;;;
 internment_camps_title;Directive No. 1;;;;;;;;;;;;;
 internment_camps_desc;Directives for the prosecution of offences committed against the $COUNTRY_ADJ$ State\n\nWithin our nation's territories, elements hostile to $COUNTRY$ have increased their efforts against the $COUNTRY_ADJ$ State. The amount and the danger of these machinations oblige us to take severe measures as a determent. First of all the following directives are to be applied:\nI. Within the occupied territories, the adequate punishment for offences committed against the $COUNTRY_ADJ$ State or the occupying power which endanger their security or a state of readiness is on principle the death penalty.\nII. The offences listed in paragraph I as a rule are to be dealt with in the occupied countries only if it is probable that sentence of death will be passed upon the offender, at least the principal offender, and if the trial and the execution can be completed in a very short time.\nIII. Prisoners are subjected to military procedure only if particular military interests require this. In case $COUNTRY_ADJ$ or foreign authorities inquire about such prisoners, they are to be told that they were arrested, but that the proceedings do not allow any further information.\nIV. Commanders and the Court authorities within the framework of their jurisdiction, are personally responsible for the observance of this decree.\nV. The Chief of the High Command of the Armed Forces determines in which occupied territories this decree is to be applied. He is authorized to explain and to issue executive orders and supplements. The $COUNTRY_ADJ$ Minister of Justice will issue executive orders within his own jurisdiction.;;;;;;;;;;;;;
+anarchist;Syndicalist;;;;;;;;;;;;;x
+anarchist_uh;Syndicalists want to enact political and social reforms.;;;;;;;;;;;;;x
+TAG_anarchist;Industrial Workers of the World;;;;;;;;;;;;;x
+TAG_social_liberal;Social Liberal Party;;;;;;;;;;;;;x

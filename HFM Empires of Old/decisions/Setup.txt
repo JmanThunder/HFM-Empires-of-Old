@@ -2929,10 +2929,6 @@ political_decisions = {
                         primary_culture = south_italian
                     }
                 }
-                any_pop = {
-                    limit = { has_pop_culture = swiss }
-                    literacy = 0.4
-                }
             }
             #################Italian Swiss Pops Setup######################
 
@@ -3138,15 +3134,6 @@ political_decisions = {
                 }
                 diplomatic_influence = { who = GAZ value = -400 }
                 diplomatic_influence = { who = AGC value = -400 }
-            }
-
-            any_country = {
-                limit = {
-                    exists = yes
-                    is_greater_power = yes
-                    NOT = { is_our_vassal = NEH }
-                }
-                diplomatic_influence = { who = NEH value = -400 }
             }
 
             MEX = { add_country_modifier = { name = fight_the_power duration = 3650 } }

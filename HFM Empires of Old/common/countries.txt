@@ -4,7 +4,7 @@
 REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
-USS		="countries/United States of South America.txt"										
+USS		="countries/United States of South America.txt"		TMT     = "countries/Tuamotu.txt"
 ITS		= "countries/South Italy.txt"		
 ###France Mod###
 NZF		="countries/French New Zealand.txt"

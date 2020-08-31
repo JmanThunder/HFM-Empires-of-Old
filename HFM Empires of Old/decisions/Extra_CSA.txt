@@ -1723,7 +1723,6 @@ political_decisions = {
 					value = 50
 				}
 				prestige = 50
-				country_event = offer_of_sovereignty
 			}
 			set_global_flag = csa_sovereignty_offered
 		}

@@ -815,11 +815,7 @@ migration_chance = {
 			AND = { THIS = { culture = zulu } country = { has_country_flag = zulu_select } }			
 		}                   
 	}
-	
-	modifier = {
-		factor = -2.2
-		state_scope = { is_colonial = yes }
-	}
+
 	
 	modifier = {
 		factor = -100

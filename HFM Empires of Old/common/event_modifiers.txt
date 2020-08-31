@@ -3768,3 +3768,39 @@ mass_graves = {
     #life_rating = -0.25
     icon = 20
 }
+####AI Personalities
+
+coward_ai = {
+    badboy = -0.01
+    cb_generation_speed_modifier = 0.25
+    icon = 3
+}
+
+benefactor_ai = {
+    cb_generation_speed_modifier = 0.1
+    icon = 3
+}
+
+malevolent_ai = {
+    cb_generation_speed_modifier = -0.05
+    icon = 3
+}
+
+picking_personality = {
+    icon = 3
+}
+
+####
+regency_government = {
+    global_pop_consciousness_modifier = 0.1
+    global_pop_militancy_modifier = 0.05
+    political_reform_desire  = 0.25
+    cb_generation_speed_modifier = -0.25
+    influence_modifier = -0.25
+    org_regain = -0.25
+    icon = 8
+}
+province_small_immigration_boom = {
+    immigrant_attract = 1.5
+    icon = 9
+}
