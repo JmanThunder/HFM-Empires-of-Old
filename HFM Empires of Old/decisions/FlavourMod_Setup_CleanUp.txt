@@ -121,8 +121,6 @@ political_decisions = {
 			3252 = { remove_core = ADO remove_core = CAT add_core = FRA }
 			FRA = { inherit = ADO }
 			3253 = { remove_core = LIE add_core = AUS }
-			BEL = { inherit = MRN }			
-			3320 = { remove_core = MRN add_core = BEL }
 			AUS = { inherit = LIE }
 			3266 = { remove_core = SMR add_core = PAP add_core = ITA }
 			PAP = { inherit = SMR }
@@ -154,7 +152,6 @@ political_decisions = {
 						substate_of = ENG
 					}
 					exists = yes
-					war = no
 				}
 				RAJ = {
 					OR = {
@@ -163,7 +160,6 @@ political_decisions = {
 					}
 					alliance_with = ENG
 					exists = yes
-					war = no
 				}
 			}
 		}
@@ -172,6 +168,17 @@ political_decisions = {
 			OR = {
 				AND = { 
 					any_greater_power = { war_with = ENG NOT = { war_with = EIC } }
+					EIC = {
+						OR = {
+							vassal_of = ENG
+							substate_of = ENG
+						}
+						exists = yes
+						war = no
+					}
+				}
+				AND = { 
+					any_neighbor_country = { war_with = ENG NOT = { war_with = EIC } }
 					EIC = {
 						OR = {
 							vassal_of = ENG
@@ -512,6 +519,7 @@ political_decisions = {
 				tag = FRA
 				tag = BOR
 				tag = ITA
+				tag = ITS
 				AND = {
 					OR = { 
 						tag = GER
@@ -583,7 +591,7 @@ political_decisions = {
 				}
 				AND = {
 					tag = EIC
-					NOT = { total_amount_of_ships = 75 }
+					NOT = { total_amount_of_ships = 50 }
 				}
 				AND = {
 					year = 1905
@@ -774,6 +782,10 @@ political_decisions = {
 				tag = BEL
 				AND = { 
 					tag = ITA
+					is_greater_power = no
+				}
+				AND = { 
+					tag = ITS
 					is_greater_power = no
 				}
 			}
@@ -1136,7 +1148,7 @@ political_decisions = {
 		potential = { 
 			ai = yes
 			civilized = no
-			year = 1910
+			year = 1905
 			OR = {
 				tag = ETH
 				NOT = {

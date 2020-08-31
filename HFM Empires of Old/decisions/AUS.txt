@@ -574,15 +574,6 @@ political_decisions = {
 				}
 				secede_province = TUR
 			}
-			random_owned = {
-				limit = {
-					NOT = { is_core = THIS }
-					NOT = { any_core = { primary_culture = THIS } }
-					province_id = 3321
-					TUR = { exists = yes owns = 802 owns = 803 }
-				}
-				secede_province = SER
-			}
 			any_country = {
 				limit = {
 					OR = {

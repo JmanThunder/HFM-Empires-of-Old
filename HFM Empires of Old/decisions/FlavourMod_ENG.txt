@@ -645,7 +645,7 @@ political_decisions = {
 		picture = maldives_protectorate
 		potential = {
 			invention = the_dark_continent
-			MLD = { exists = yes in_sphere = THIS }
+			MLD = { exists = yes vassal_of = THIS }
 			NOT = { has_country_flag = maldives_protectorate }
 		}
 
@@ -656,7 +656,7 @@ political_decisions = {
 		}
 
 		effect = {
-			create_vassal = MLD
+			inherit = MLD
 			set_country_flag = maldives_protectorate
 		}
 		
@@ -774,153 +774,6 @@ political_decisions = {
 					badboy = -1 set_country_flag = papua_act_solomons 
 				}
 			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	jamaican_crown_colony = {
-		picture = map_caribbean
-		potential = {
-			has_global_flag = morant_bay_rebellion
-			JAM = { 
-				vassal_of = THIS 
-				exists = yes
-			}
-			NOT = { has_country_flag = jamaican_crown_colony }
-		}
-
-		allow = {
-			war = no
-			is_greater_power = yes
-		}
-
-		effect = {
-			inherit = JAM
-			2217 = {
-				any_pop = {
-					limit = { has_pop_culture = afro_caribbean }		
-					militancy = 5
-				}
-			}
-			JAM = { 
-				primary_culture = british
-				add_accepted_culture = kreol
-				add_accepted_culture = afro_caribbean
-			}
-			set_country_flag = jamaican_crown_colony
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	jamaican_accept_miniorities = {
-		picture = embrace_minority
-		potential = {
-			tag = JAM
-			primary_culture = british
-			NOT = { accepted_culture = afro_caribbean }
-			NOT = { has_country_flag = jamaican_accept_miniorities }
-		}
-
-		allow = {
-			war = no
-			average_militancy = 5
-			revolution_n_counterrevolution = 1
-			is_vassal = no
-			citizens_rights = all_voting_pops
-		}
-
-		effect = {
-			2217 = {
-				any_pop = {
-					limit = { has_pop_culture = afro_caribbean }		
-					militancy = -5
-				}
-			}
-			primary_culture = british
-			add_accepted_culture = kreol
-			add_accepted_culture = afro_caribbean
-			set_country_flag = jamaican_accept_miniorities
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	mosquito_protectorate = {
-		picture = moskito_coast_reserve
-		potential = {
-			tag = ENG
-			is_greater_power = yes
-			MSK = { exists = yes in_sphere = THIS }
-			NOT = { has_country_flag = mosquito_protectorate }
-		}
-
-		allow = {
-			war = no
-			is_greater_power = yes
-			OR = {
-				state_n_government = 1
-				year = 1844
-			}
-		}
-
-		effect = {
-			create_vassal = MSK
-			random_country = { 
-				limit = { 
-					OR = {
-						primary_culture = central_american
-						primary_culture = spanish
-					}
-					exists = yes
-					owns = 2197
-				}
-				relation = { who = ENG value = -200 }
-			}
-			set_country_flag = mosquito_protectorate
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	sovereign_base_area_cyprus = {
-		picture = sovereign_base_area
-		potential = {
-			tag = ENG
-			is_greater_power = yes
-			CYP = { exists = yes in_sphere = THIS vassal_of = THIS ai = yes }
-			owns = 1755 #Suez
-			2690 = { owned_by = CYP }
-			NOT = { has_country_flag = sovereign_base_area_cyprus }
-		}
-
-		allow = {
-			war = no
-			is_greater_power = yes
-			2690 = { owned_by = CYP }
-			owns = 1755
-			CYP = {
-				in_sphere = THIS
-				vassal_of = THIS
-			}
-		}
-
-		effect = {
-			treasury = -3500
-			badboy = 0.5
-			2690 = { 
-				secede_province = ENG 
-				add_core = ENG 
-				any_pop = { militancy = 5 }	
-				naval_base = 1
-			}
-			CYP = { any_pop = { militancy = 5 } }
-			any_country = {
-				limit = { primary_culture = greek }
-				relation = { who = ENG value = -50 }
-			}
-			set_country_flag = sovereign_base_area_cyprus
 		}
 		
 		ai_will_do = { factor = 1 }

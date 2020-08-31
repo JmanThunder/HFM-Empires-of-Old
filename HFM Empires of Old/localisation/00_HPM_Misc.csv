@@ -3,11 +3,11 @@ jefferson_method_desc;The Jefferson Method is a highest averages method for allo
 precious_goods;Precious Goods;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 precious_goods_RGO_SIZE;Precious Goods Market Size;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PARTY_LOYALTY_EFFECT_DESC;Loyalty towards §Y$PARTY$§W in §Y$PROV$§W will be changed by §Y$VALUE$§W.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-MODIFY_RELATION_EFFECT;§Y$SOURCE$?'s relation with §Y$TARGET$? changed with a value of $VALUE$.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MODIFY_RELATION_EFFECT;§Y$SOURCE$§!'s relation with §Y$TARGET$§! changed with a value of $VALUE$.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 IS_NOT_ACCEPTED_CULTURE;Is NOT an accepted culture.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 canned_food_factory;Cannery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 ALL_CORE_PROVINCE_THAT;For all core provinces \n;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-TOPBAR_POPULATION;Our adult male population is $CURR$. Our adult male population has changed by $CHANGE$ in the last §Y$DAYS$? days.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TOPBAR_POPULATION;Our adult male population is $CURR$. Our adult male population has changed by $CHANGE$ in the last §Y$DAYS$§! days.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 precious_metal;Precious Metals;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 precious_metal_RGO_SIZE;Precious Metals Mine Size;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 cattle;Livestock;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -120,7 +120,7 @@ BUDGET_GOLD_INCOME_DESC;Income from precious goods.;;;;;;;;;;;;;;;;;;;;;x
 BUDGET_GOLD;Precious Goods: §Y$VAL$§W;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EDU_DESC;The education budget is used to pay the intellectuals and influence literacy.;;;;;;;;;;;;;;;;;;;;;x
 MIL_COST_DESC;Supply costs for your military, Army and Navy, not including construction costs, salaries or overseas maintenance of provinces.;;;;;;;;;;;;;;;;;;;;;x
-STOCKPILE_COST_ESTIMATED;The National Stockpile consists of the expenses with the Army, Navy, construction budget and the maintenance of overseas provinces.\nWe §Yestimate? tomorrow's stockpile purchases will cost:;;;;;;;;;;;;;;;;;;x;;;;
+STOCKPILE_COST_ESTIMATED;The National Stockpile consists of the expenses with the Army, Navy, construction budget and the maintenance of overseas provinces.\nWe §Yestimate§! tomorrow's stockpile purchases will cost:;;;;;;;;;;;;;;;;;;x;;;;
 BUDGET_OVERSEAS;Overseas Maintenance;;;;;;;;;;;;;;;;;;;;;;;x
 BUDGET_CONSUMED_OVERSEAS;Overseas Maintenance expenses are calculated with the National Stockpile and can't be lowered.\nEstimated cost of last day's overseas goods consumption:;;;;;;;;;;;;;;;;;;;;;;x
 BUDGET_CONSUMED_MILITARY;Estimated cost of last day's military goods consumption:;;;;;;;;;;;;;;;;;;;;;;;x
@@ -180,8 +180,8 @@ control_3_desc;Obsolescence is the state of being which occurs when an object, s
 control_4;Obsolete Steam Turbines;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 control_4_desc;Obsolescence is the state of being which occurs when an object, service, or practice is no longer wanted even though it may still be in good working order. It occurs that Steam Turbines have become rather obsolete and lost some of their advantages.;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 acceptable_subsidies_l;Extended Subsidies;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
-MONEY_IS_ATLEAST_TRIGGER;Money is at least §Y$VALUE$§W?\n;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EFFECT_BUILD_IN_CAPITAL_DESC;§Y$BLD$? construction will take place in: §Y$PROVS$?\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+MONEY_IS_ATLEAST_TRIGGER;Money is at least §Y$VALUE$§W¤.\n;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EFFECT_BUILD_IN_CAPITAL_DESC;§Y$BLD$§! construction will take place in: §Y$PROVS$§!\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 ADD_WARGOAL_PRESTIGE;If we achieve this war goal, we will gain $COST$ §Yprestige§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 ADD_WARGOAL_MILITANCY;If we fail to achieve this war goal, our entire population will gain $MILITANCY$ §YMilitancy§W;;;;;;;;;;;;;;;;;;;;;;;;;;x
 ADD_WARGOAL_EFFECT;When we add this war goal, we will gain:;;;;;;;;;;;;;;;;;;;;;;;;;;x;
@@ -563,7 +563,7 @@ eugen_von_bohm_bawerk_desc;Böhm-Bawerk's career as a scholar was an intermittent
 leon_walras;Léon Walras;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 leon_walras_desc;The French economist Léon Walras (pronounced 'Valrasse') has been hailed by Joseph Schumpeter as 'the greatest of all economists'. Walras was one of the three leaders of the Marginalist Revolution, even though his greatest work, Elements of Pure Economics, was published in 1874, three years after those of William Stanley Jevons and Carl Menger. Nonetheless, alone among the three revolutionaries, Léon Walras set forth the new 'marginalist' or 'Neoclassical' theory in a formal general equilibrium setting.   Thus, he endowed it with the multi-market considerations Jevons had largely avoided and the mathematical precision Menger had eschewed. Léon Walras is widely and rightfully regarded as the father of general equilibrium theory.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 jean_jaures;Jean Jaurès;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-jean_jaures_desc;Jaurès was elected to the Chamber of Deputies in 1885. Defeated in the 1889 elections he returned to the University of Toulouse. He became increasingly radical in his political views and after reading Karl Marx he began advocating socialism. He was not a revolutionary and supported the Independent Socialists. While out of parliament Jaurès completed his mammoth Socialist History of the French Revolution. He also joined with Aristide Briand and Rene Viviani in 1904 to establish the left-wing newspaper, L'Humanit?in 1904. A new Socialist Party under Jaurès grew rapidly at the beginning of the century but split over the correct response to German militarism. Jaurès advocated a policy of international arbitration whereas others supported the Triple Entente.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+jean_jaures_desc;Jaurès was elected to the Chamber of Deputies in 1885. Defeated in the 1889 elections he returned to the University of Toulouse. He became increasingly radical in his political views and after reading Karl Marx he began advocating socialism. He was not a revolutionary and supported the Independent Socialists. While out of parliament Jaurès completed his mammoth Socialist History of the French Revolution. He also joined with Aristide Briand and Rene Viviani in 1904 to establish the left-wing newspaper, L'Humanité in 1904. A new Socialist Party under Jaurès grew rapidly at the beginning of the century but split over the correct response to German militarism. Jaurès advocated a policy of international arbitration whereas others supported the Triple Entente.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 johann_heinrich_von_thunen;Johann Heinrich von Thünen;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 johann_heinrich_von_thunen_desc;Johann Heinrich von Thünen was a North German landowner from the Mecklenburg area. Although educated at Götingen, he spent most of his life managing his rural estate, Tellow.  In the first volume of his treatise, The Isolated State (1826), he laid down the first serious treatment of spatial economics, connecting with the theory of rent.  His second volume (1850) developed the essence of the marginal productivity theory of distribution in a mathematically precise way, thereby making one of the most important Proto-Marginalists of the era. Nearing his death, he asked that his famous equation for the marginal product of labor, or natural wage, be carved into his tombstone.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 colorado_rebels_title;Colorados;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -732,7 +732,7 @@ breton;Breton;;;;;;;;;;;;x
 pan_albanian;Albanian;;;;;;;;;;;;x
 occitan;Occitan;Occitain;Occitanisch;;;;;;;;;;;x
 picard;Picard;;;;;;;;;;;;x
-western_slavic;Sorbian;;;;;;;;;;;;;;;;;;;;x
+western_slavic;Western Slavic;;;;;;;;;;;;;;;;;;;;x
 anglo_african;Anglo African;;;;;;;;;;;;x
 jewish_cultures;Jewish Cultures;;;;;;;;;;;;x
 itsekari;Ijaw;;;;;;;;;;;;x
@@ -770,3 +770,18 @@ liberal_rebels_desc;In an absolute monarchy, Jacobins will seek to impose a cons
 NORMAL_WAR_CONQUEST_ANY_NAME;$ORDER$Conquest of $SECOND$ War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_CONQUEST_ANY_NAME;$ORDER$War of $FIRST$ Aggression against $SECOND_COUNTRY$;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 RANK_INDUSTRY_D;Industry score is a measure of your level of industrialization. It is a combination of the number of employed craftsmen and clerks, divided by 2500, and the value of your foreign investment.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
+negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+conquest_low;Minor Conquest;;;;;;;;;;;;;x
+conquest_low_desc;Annex a country of small size and population by conquest;;;;;;;;;;;;;x
+conquest_low_setup;Annex minor nation of $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+take_capital;Take Capital;;;;;;;;;;;;;x
+take_capital_desc;Take the Capital region of a country and force them to move their capital elsewhere;;;;;;;;;;;;;x
+take_capital_setup;Take Capital region $STATE$ of $RECIPIENT$;;;;;;;;;;;;;x
+take_capital_short;Takes Capital from $RECIPIENT$;;;;;;;;;;;;;x

@@ -26,7 +26,10 @@ political_decisions = {
 				tag = SAR
 				tag = SVY
 			}
-			NOT = { exists = ITA }
+			NOT = { 
+				exists = ITA 
+				exists = ITS
+			}
 			NOT = { has_country_flag = plombieres }
 			owns = 465
 			owns = 466
@@ -149,17 +152,26 @@ political_decisions = {
 		potential = {
 			OR = {
 				AND = { 
-					tag = ITA
+					OR = {
+						tag = ITA
+						tag = ITS
+					}
 					NOT = { exists = SAR }
 					NOT = { exists = SVY }
 				}
 				AND = { 
 					tag = SAR
-					NOT = { exists = ITA }
+					NOT = { 
+						exists = ITA
+						exists = ITS
+					}
 				}
 				AND = { 
 					tag = SVY
-					NOT = { exists = ITA }
+					NOT = { 
+						exists = ITA
+						exists = ITS
+					}
 				}
 			}
 			has_country_flag = plombieres
@@ -188,18 +200,21 @@ political_decisions = {
 			badboy = -10
 			465 = {
 				remove_core = ITA
+				remove_core = ITS
 				remove_core = THIS
 				add_core = FRA
 				secede_province = FRA
 			}
 			466 = {
 				remove_core = ITA
+				remove_core = ITS
 				remove_core = THIS
 				add_core = FRA
 				secede_province = FRA
 			}
 			472 = {
 				remove_core = ITA
+				remove_core = ITS
 				remove_core = THIS
 				add_core = FRA
 				secede_province = FRA
@@ -471,11 +486,18 @@ political_decisions = {
 			OR = {
 				tag = SAR
 				tag = ITA
+				tag = ITS
 			}
 			OR = {
-				NOT = { exists = ITA }
+				NOT = { 
+					exists = ITA 
+					exists = ITS
+				}
 				AND = {
-					tag = ITA
+					OR = {
+						tag = ITA
+						tag = ITS
+					}
 					exists = SIC
 				}
 			}
@@ -541,7 +563,10 @@ political_decisions = {
 	law_of_guarantees = {
 		picture = law_of_guarantees
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			NOT = { has_country_flag = law_of_guarantees }
 		}
 
@@ -573,7 +598,7 @@ political_decisions = {
 						is_core = GEN
 					}
 				}
-				add_core = ITA
+				add_core = THIS
 				remove_core = SAR
 				remove_core = SVY
 				remove_core = SRD
@@ -598,7 +623,12 @@ political_decisions = {
 	italia_irredenta = {
 		picture = italia_irredenta
 		potential = {
-			tag = ITA
+			NOT = { has_country_flag = AUS_ITA_treaty }
+			OR= {
+				tag = ITA
+				tag = ITS
+			}
+			is_independant = yes
 			OR = {
 				AND = { owns = 727 NOT = { has_global_flag = italian_claimed_venetia } } #Lombardy
 				AND = {
@@ -625,7 +655,7 @@ political_decisions = {
 				
 				#Aosta
 				AND = {
-					721 = { NOT = { is_core = ITA } } #Aosta
+					721 = { NOT = { is_core = THIS } } #Aosta
 					OR = {
 						ai = no
 						mass_politics = 1
@@ -646,7 +676,7 @@ political_decisions = {
 				
 				#Savoie
 				AND = {
-					465 = { NOT = { is_core = ITA } } #Savoia
+					465 = { NOT = { is_core = THIS } } #Savoia
 					OR = {
 						NOT = { has_global_flag = plombieres }
 						AND = {
@@ -674,11 +704,11 @@ political_decisions = {
 			invention = national_fraternity
 			is_greater_power = yes
 			OR = {
-				729 = { NOT = { is_core = ITA } } #Venice
-				736 = { NOT = { is_core = ITA } } #Triest
-				734 = { NOT = { is_core = ITA } } #Trient
-				721 = { NOT = { is_core = ITA } } #Aosta
-				465 = { NOT = { is_core = ITA } } #Savoia
+				729 = { NOT = { is_core = THIS } } #Venice
+				736 = { NOT = { is_core = THIS } } #Triest
+				734 = { NOT = { is_core = THIS } } #Trient
+				721 = { NOT = { is_core = THIS } } #Aosta
+				465 = { NOT = { is_core = THIS } } #Savoia
 			}
 		}
 
@@ -688,7 +718,7 @@ political_decisions = {
 				limit = {
 					province_id = 727 #Lombardy
 				}
-				AUS_729 = { add_core = ITA }
+				AUS_729 = { add_core = THIS }
 				owner = { set_global_flag = italian_claimed_venetia }
 			}
 			
@@ -716,9 +746,9 @@ political_decisions = {
 						}
 					}
 				}
-				AUS_734 = { add_core = ITA remove_core = TST }
-				AUS_736 = { add_core = ITA }
-				owner = { set_global_flag = italian_claimed_south_tirol }
+				AUS_734 = { add_core = THIS remove_core = TST }
+				AUS_736 = { add_core = THIS }
+				owner = { set_global_flag = italian_claimed_venetia }
 			}
 			
 			#Claim Savoia
@@ -742,9 +772,9 @@ political_decisions = {
 						}	
 					}
 				}
-				465 = { add_core = ITA }
-				466 = { add_core = ITA }
-				472 = { add_core = ITA }
+				465 = { add_core = THIS }
+				466 = { add_core = THIS }
+				472 = { add_core = THIS }
 			}
 			
 			#Claim Aosta
@@ -759,7 +789,7 @@ political_decisions = {
 						}	
 					}
 				}
-				721 = { add_core = ITA }
+				721 = { add_core = THIS }
 			}
 		}
 		
@@ -777,6 +807,7 @@ political_decisions = {
 			ai = yes
 			NOT = {
 				exists = ITA
+				exists = ITS
 				has_country_flag = war_italian_independence
 			}
 			OR = {
@@ -913,6 +944,7 @@ political_decisions = {
 			is_culture_group = italian
 			NOT = {
 				exists = ITA
+				exists = ITS
 				has_global_flag = italian_call_to_union
 				has_global_flag = garibaldi_redshirts
 			}
@@ -1117,7 +1149,10 @@ political_decisions = {
 	treaty_of_ouchy = {
 		picture = treaty_signing
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			has_country_flag = guerra_di_libia
 			NOT = { has_country_flag = treaty_of_ouchy }
 		}
@@ -1145,7 +1180,7 @@ political_decisions = {
 						}
 					}
 					remove_core = TUR
-					secede_province = ITA
+					secede_province = THIS
 				}
 			}
 			random_state = {
@@ -1305,7 +1340,10 @@ political_decisions = {
 	conquest_of_the_adriatic = {
 	picture = conquest_adriatic
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			NOT = { has_country_flag = conquest_adriatic_happened }
 		}
 		
@@ -1322,8 +1360,8 @@ political_decisions = {
 		effect = {
 			badboy = 2
 			set_country_flag = conquest_adriatic_happened
-			AUS_780 = { add_core = ITA }
-			774 = { add_core = ITA }
+			AUS_780 = { add_core = THIS }
+			774 = { add_core = THIS }
 		}
 		
 		ai_will_do = {
@@ -1334,7 +1372,10 @@ political_decisions = {
 	reclaim_italian_lands = {
 	picture = reclaim_italian_lands
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			NOT = { has_country_flag = reclaim_italian_lands }
 			has_country_flag = conquest_adriatic_happened
 		}
@@ -1354,12 +1395,12 @@ political_decisions = {
 			badboy = 10
 			set_country_flag = reclaim_italian_lands
 			add_accepted_culture = maltese
-			SAR_466 = { add_core = ITA }
-			852 = { add_core = ITA }
-			853 = { add_core = ITA }
-			826 = { add_core = ITA }
-			854 = { add_core = ITA }
-			473 = { add_core = ITA }
+			SAR_466 = { add_core = THIS }
+			826	= { add_core = THIS }
+			852 = { add_core = THIS }
+			853 = { add_core = THIS }
+			854 = { add_core = THIS }
+			473 = { add_core = THIS }
 		}
 		
 		ai_will_do = {
@@ -1372,7 +1413,10 @@ political_decisions = {
 		potential = {
 			owns = 749
 			NOT = { has_country_flag = vittoriano_built }
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -1427,7 +1471,10 @@ political_decisions = {
 	abolish_italian_minors = {
 		picture = law_of_guarantees
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			has_country_flag = law_of_guarantees
 			any_owned_province = {
 				OR = {
@@ -1472,7 +1519,7 @@ political_decisions = {
 						is_core = SYC
 					}
 				}
-				add_core = ITA
+				add_core = THIS
 				remove_core = SAR
 				remove_core = SVY
 				remove_core = SRD

@@ -3,13 +3,15 @@ political_decisions = {
 		picture = "herat"
 		potential = {
 			tag = PER
-			1212 = { owner = { primary_culture = pashtun } }
+			AFG = {
+				civilized = no
+				ai = yes
+			}
 			owns = 1148
 			year = 1837
 			NOT = {
 				owns = 1212
 				truce_with = AFG
-				truce_with = HRT
 				has_global_flag = herat_expedition
 			}
 		}
@@ -17,10 +19,10 @@ political_decisions = {
 		allow = {
 			war = no
 			1212 = {
-				owner = {
+				owned_by = AFG
+				owner = { 
 					war = no 
 					is_vassal = no
-					primary_culture = pashtun
 				}
 				NOT = { is_core = THIS }
 			}
@@ -28,8 +30,12 @@ political_decisions = {
 		effect = {
 			set_global_flag = herat_expedition
 			random_owned = {
-				limit = { owner = { civilized = no } }
-				owner = { military_reform = yes_foreign_officers }
+				limit = {
+					owner = { civilized = no }
+				}
+				owner = {
+					military_reform = yes_foreign_officers
+				}
 			}
 			prestige = 5
 			1212 = { add_core = PER }
@@ -42,8 +48,9 @@ political_decisions = {
 				country_event = 99200
 			}
 		}
-		
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	second_herat_expedition = {
@@ -53,31 +60,25 @@ political_decisions = {
 			year = 1856
 			is_vassal = no
 			owns = 1148
-			1212 = {
-				owner = {
-					civilized = no
-					is_vassal = no
-					primary_culture = pashtun
-					NOT = { truce_with = THIS }
-				}
+			AFG = {
+				civilized = no
+				ai = yes
 			}
 			has_global_flag = herat_expedition
-			NOT = { exists = HRT }
 			NOT = { 
 				owns = 1212
+				truce_with = AFG
 				has_global_flag = anglo_persian_war  
 				has_global_flag = second_herat_expedition 
 			}
 		}
-		
 		allow = {
 			war = no
 			1212 = {
+				owned_by = AFG
 				owner = { 
 					war = no 
 					is_vassal = no
-					primary_culture = pashtun
-					NOT = { truce_with = THIS }
 				}
 				NOT = { is_core = THIS }
 			}
@@ -116,9 +117,9 @@ political_decisions = {
 					civilized = no
 					exists = yes
 				}
-				PER = {
-					truce_with = THIS
-					has_recently_lost_war = yes 
+				AND = {
+					truce_with = PER
+					owns = 1071 #Qeshm
 				}
 			}
 			NOT = { has_country_flag = treaty_of_paris_anglo_persian }
@@ -133,10 +134,7 @@ political_decisions = {
 						blockade = 0.8
 					}
 				}
-				PER = {
-					truce_with = THIS
-					has_recently_lost_war = yes 
-				}
+				PER = { truce_with = THIS }
 			}
 		}
 		
@@ -149,16 +147,10 @@ political_decisions = {
 				who = AFG
 				value = 100
 			}
-			#Secede Qeshm to Oman
-			random_owned = {
-				limit = { 
-					province_id = 1071 
-					OMA = { exists = yes in_sphere = THIS }
-				}
-				secede_province = OMA
-			}
 			any_owned = {
-				limit = { is_core = PER }
+				limit = {
+					is_core = PER
+				}
 				secede_province = PER
 			}
 		}

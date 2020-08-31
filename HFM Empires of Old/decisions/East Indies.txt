@@ -17,14 +17,6 @@ political_decisions = {
 				tag = SWK
 				tag = BRU
 				tag = MLY
-				tag = RIA
-				tag = PTK
-				tag = SBS
-				tag = BGN
-				#tag = MTN
-				#tag = LUW
-				tag = BTN
-				tag = STG
 			}
 			NOT = {
 				has_global_flag = indonesia_formed
@@ -39,73 +31,117 @@ political_decisions = {
 			state_n_government = 1
 			OR = {
 				tag = DJA
-				AND = { exists = DJA DJA = { war = no } relation = { who = DJA value = 50 } }
-				DJA = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = DJA
+					DJA = { war = no }
+					relation = {
+						who = DJA
+						value = 50
+					}
+				}
+				DJA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 			OR = {
 				tag = SAK
-				AND = { exists = SAK SAK = { war = no } relation = { who = SAK value = 50 } }
-				SAK = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = SAK
+					SAK = { war = no }
+					relation = {
+						who = SAK
+						value = 50
+					}
+				}
+				SAK = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 			OR = {
 				tag = ATJ
-				AND = { exists = ATJ ATJ = { war = no } relation = { who = ATJ value = 50 } }
-				ATJ =  { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = ATJ
+					ATJ = { war = no }
+					relation = {
+						who = ATJ
+						value = 50
+					}
+				}
+				ATJ = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 			OR = {
 				tag = SLW
-				AND = { exists = SLW SLW = { war = no } relation = { who = SLW value = 50 } }
-				SLW = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = SLW
+					SLW = { war = no }
+					relation = {
+						who = SLW
+						value = 50
+					}
+				}
+				SLW = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 			OR = {
 				tag = JAV
-				AND = { exists = JAV JAV = { war = no } relation = { who = JAV value = 50 } }
-				JAV = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = JAV
+					JAV = { war = no }
+					relation = {
+						who = JAV
+						value = 50
+					}
+				}
+				JAV = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 			OR = {
 				tag = BAL
-				AND = { exists = BAL BAL = { war = no } relation = { who = BAL value = 50 } }
-				BAL = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			OR = {
-				tag = RIA
-				AND = { exists = RIA RIA = { war = no } relation = { who = RIA value = 50 } }
-				RIA = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			OR = {
-				tag = PTK
-				AND = { exists = PTK PTK = { war = no } relation = { who = PTK value = 50 } }
-				PTK = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			OR = {
-				tag = SBS
-				AND = { exists = SBS SBS = { war = no } relation = { who = SBS value = 50 } }
-				SBS = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			OR = {
-				tag = BGN
-				AND = { exists = BGN BGN = { war = no } relation = { who = BGN value = 50 } }
-				BGN = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			#OR = {
-			#	tag = MTN
-			#	AND = { exists = MTN MTN = { war = no } relation = { who = MTN value = 50 } }
-			#	MTN = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			#}
-			OR = {
-				tag = BTN
-				AND = { exists = BTN BTN = { war = no } relation = { who = BTN value = 50 } }
-				BTN = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			}
-			#OR = {
-			#	tag = LUW
-			#	AND = { exists = LUW LUW = { war = no } relation = { who = LUW value = 50 } }
-			#	LUW = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
-			#}
-			OR = {
-				tag = STG
-				AND = { exists = STG STG = { war = no } relation = { who = STG value = 50 } }
-				STG = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+				AND = {
+					exists = BAL
+					BAL = { war = no }
+					relation = {
+						who = BAL
+						value = 50
+					}
+				}
+				BAL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
 			}
 		}
 
@@ -122,7 +158,6 @@ political_decisions = {
 			add_accepted_culture = javan
 			add_accepted_culture = malay
 			add_accepted_culture = moluccan
-			add_accepted_culture = dayak
 			TMR = { all_core = { add_core = INO } }
 			DJA = { all_core = { add_core = INO } }
 			KLM = { all_core = { add_core = INO } }
@@ -133,14 +168,7 @@ political_decisions = {
 			JAV = { all_core = { add_core = INO } }
 			BAL = { all_core = { add_core = INO } }
 			ATJ = { all_core = { add_core = INO } }
-			RIA = { all_core = { add_core = INO } }
-			#LUW = { all_core = { add_core = INO } }
-			BTN = { all_core = { add_core = INO } }
-			BRU_1394 = { add_core = INO }
-			NET_1401 = { add_core = INO }
-			NET_1426 = { add_core = INO }
 			BAL_1438 = { add_core = INO }
-			NET_1423 = { add_core = INO }
 			1452 = { add_core = INO }
 			1453 = { add_core = INO }
 			1454 = { add_core = INO }
@@ -157,14 +185,6 @@ political_decisions = {
 						tag = JAV
 						tag = BAL
 						tag = ATJ
-						tag = RIA
-						tag = PTK
-						tag = SBS
-						tag = BGN
-						#tag = MTN
-						tag = BTN
-						#tag = LUW
-						tag = STG
 					}
 					NOT = { tag = THIS }
 					war = no
@@ -192,14 +212,6 @@ political_decisions = {
 					remove_core = KTI
 					remove_core = SUL
 					remove_core = BRU
-					remove_core = RIA
-					remove_core = PTK
-					remove_core = SBS
-					remove_core = BGN
-					#remove_core = MTN
-					#remove_core = LUW
-					remove_core = BTN
-					remove_core = STG
 				}
 		}
 
@@ -284,8 +296,6 @@ political_decisions = {
 			KTI = { all_core = { add_core = MLY } }
 			KLM = { all_core = { add_core = MLY } }
 			BRU_1396 = { add_core = MLY }
-			1386 = { remove_core = SGP }
-			1388 = { remove_core = SGP }
 			random_owned = { limit = { province_id = 2576 } add_core = MLY }
 			any_country = {
 				limit = {
@@ -380,7 +390,7 @@ political_decisions = {
 		allow = {
 			war = no
 			is_greater_power = yes
-			invention = the_dark_continent
+			revolution_n_counterrevolution = 1
 			JOH = {
 				all_core = {
 					OR = {
@@ -588,8 +598,6 @@ political_decisions = {
 			}
 			MLY = { tech_school = unciv_tech_school }
 			SGP = { tech_school = unciv_tech_school }
-			1386 = { remove_core = SGP }
-			1388 = { remove_core = SGP }
 			any_owned = {
 				limit = { is_core = MLY NOT = { province_id = 1393 } }
 				remove_core = SWK

@@ -479,7 +479,7 @@ country_event = {
 		}
 		war = {
 			target = PER
-			attacker_goal = { casus_belli = humiliate }
+			attacker_goal = { casus_belli = treaty_port_casus_belli }
 			attacker_goal = { 
 				casus_belli = free_peoples
 				country = PER
@@ -589,103 +589,9 @@ country_event = {
 		any_owned = {
 			limit = { is_core = AFG }
 			remove_core = PER
-			remove_core = KHR
 			secede_province = AFG
 		}
-		AFG_1214 = { remove_core = KHR }
-		ai_chance = { factor = 100 }
-	}
-}
-
-#Centralizing Afghanistan
-province_event = {
-	id = 99301
-	title = "EVTNAME99301"
-	desc = "EVTDESC99301"
-	
-	trigger = {
-		is_core = AFG
-		OR = {
-			is_core = HRT
-			is_core = KUN
-			is_core = BDK
-			#is_core = MAI
-			#is_core = HRZ
-		}
-		owned_by = AFG
-	}
-	
-	mean_time_to_happen = { days = 7 }
-	
-	option = {
-		name = "EVTOPT99928"
-		state_scope = { 
-			any_owned = {
-				remove_core = HRT
-				remove_core = KUN
-				remove_core = BDK
-				#remove_core = MAI
-				#remove_core = HRZ
-			}
-		}
-		AFG = { plurality = 0.5 }
-		ai_chance = { factor = 100 }
-	}
-}
-
-#Centralizing Persia
-province_event = {
-	id = 99302
-	title = "EVTNAME99301"
-	desc = "EVTDESC99301"
-	
-	trigger = {
-		OR = {
-			is_core = PER
-			is_core = KHR
-			is_core = KHZ
-			is_core = URM
-			is_core = RDL
-			is_core = MKN
-		}
-		OR = {
-			is_core = HRT #Herat
-			is_core = KHR #Khorasan
-			is_core = ZFN #Za'farnlu
-			is_core = MKN #Mukriyan
-			is_core = URM #Urmia
-			is_core = KHZ #Arabistan
-			is_core = OMA #Omani Coast
-			is_core = RDL #Ardalan
-			#is_core = MAI #Maymana
-			AND = { 
-				province_id = 1136 #Bushire
-				is_core = BHR #Bahrain
-			}
-		}
-		owned_by = PER
-	}
-	
-	mean_time_to_happen = { days = 7 }
-	
-	option = {
-		name = "EVTOPT99928"
-		state_scope = { 
-			any_owned = {
-				remove_core = HRT
-				remove_core = KHR
-				remove_core = ZFN
-				remove_core = MKN
-				remove_core = URM
-				remove_core = KHZ
-				remove_core = OMA
-				remove_core = BHR
-				remove_core = RDL
-				#remove_core = MAI
-				add_core = PER
-			}
-		}
-		PER = { plurality = 0.5 }
+		
 		ai_chance = { factor = 100 }
 	}
 }

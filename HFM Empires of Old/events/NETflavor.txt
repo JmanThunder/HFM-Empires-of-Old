@@ -76,18 +76,11 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	mean_time_to_happen = {
-		months = 36
-		modifier = { 
-			factor = 0.35
-			year = 1860
-		}
-	}
+	mean_time_to_happen = { months = 6 }
 
 	option = {
 		name = "EVT952502OPTA"
 		set_country_flag = conquest_of_jambi
-		badboy = 1
 		leave_alliance = DJA
 		release_vassal = DJA
 		DJA = { end_military_access = THIS }
@@ -497,7 +490,6 @@ country_event = {
 		relation = { who = NET value = 50 }
 		any_country = { release = LBG leave_alliance = LBG }
 		FROM = { inherit = LBG }
-		3313 = { remove_core = LBG}
 		381 = { remove_core = LBG change_province_name = "Maastricht" }
 		ai_chance = { factor = 90 }
 	}
@@ -526,20 +518,6 @@ country_event = {
 		}
 		ai_chance = { factor = 10 }
 	}
-
-	option = {
-		name = "EVT952514OPTC"
-		badboy = 3
-		relation = { who = NET value = -10 }
-		any_country = { release = LBG leave_alliance = LBG }
-		FROM = { inherit = LBG }
-		381 = { remove_core = LBG change_province_name = "Maastricht" }
-		3313 = { remove_core = LBG }
-		3313 = { remove_core = NET }
-		3313 = { secede_province = THIS }
-		3313 = { add_core = THIS }
-	}
-
 }
 
 #The Limburg Crisis - Netherlands get informed
@@ -583,7 +561,6 @@ country_event = {
 		any_country = { limit = { has_country_flag = support_netherlands } clr_country_flag = support_netherlands leave_alliance = THIS }
 		any_country = { release = LBG leave_alliance = LBG }
 		inherit = LBG
-		3313 = { remove_core = LBG }
 		381 = { remove_core = LBG change_province_name = "Maastricht" }
 	}
 }

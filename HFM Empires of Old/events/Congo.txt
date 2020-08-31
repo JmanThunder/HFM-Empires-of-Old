@@ -136,11 +136,11 @@ country_event = {
 	option = {
 		name = "EVT955184OPTA"
 		set_global_flag = congo_failed
-		#1818 = { life_rating = 5 }
-		#1819 = { life_rating = 5 }
-		#1820 = { life_rating = 5 }
-		#1822 = { life_rating = 5 }
-		#1823 = { life_rating = 5 }
+		1818 = { life_rating = 5 }
+		1819 = { life_rating = 5 }
+		1820 = { life_rating = 5 }
+		1822 = { life_rating = 5 }
+		1823 = { life_rating = 5 }
 		
 		1965 = { life_rating = 5 }
 		1966 = { life_rating = 5 }

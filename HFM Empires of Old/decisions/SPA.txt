@@ -127,8 +127,6 @@ political_decisions = {
 			457 = { add_core = THIS } 
 			464 = { add_core = THIS }
 			517 = { add_core = THIS }
-			476 = { add_core = GLC }
-			474 = { add_core = GLC }
 			casus_belli = {
 				target = POR
 				type = conquest_any
@@ -190,7 +188,6 @@ political_decisions = {
 					OR = {
 						has_pop_culture = basque
 						has_pop_culture = catalan
-						has_pop_culture = galician
 					}
 				}
 				consciousness = 9
@@ -306,7 +303,6 @@ political_decisions = {
 				}
 			}
 			political_reform = unitary
-			GLC = { all_core = { remove_core = GLC } }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -323,7 +319,6 @@ political_decisions = {
 			1773 = { empty = yes }
 			1774 = { empty = yes }
 			1696 = { empty = yes }
-			1694 = { owner = { NOT = { tag = ARU } } }
 			has_global_flag = berlin_conference
 		}
 		

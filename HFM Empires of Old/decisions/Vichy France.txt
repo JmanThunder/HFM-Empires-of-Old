@@ -24,7 +24,6 @@ political_decisions = {
 			409 = { add_core = THIS }
 			410 = { add_core = THIS }
 			412 = { add_core = THIS }
-			3322 = { add_core = THIS }
 			random_owned = {
 				limit = { exists = FRA }
 				owner = {
@@ -79,7 +78,6 @@ political_decisions = {
 			409 = { remove_core = FRA remove_core = BOR }
 			410 = { remove_core = FRA remove_core = BOR }
 			412 = { remove_core = FRA remove_core = BOR }
-			3322 = { remove_core = FRA remove_core = BOR }
 			448 = { add_core = VIC }
 			449 = { add_core = VIC }
 			450 = { add_core = VIC }

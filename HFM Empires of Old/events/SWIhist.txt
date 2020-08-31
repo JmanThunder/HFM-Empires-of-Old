@@ -88,23 +88,22 @@ country_event = {
 
 country_event = {
 	id = 500060
-	title = "EVTNAME500060" #Swiss Partition
-	desc = "EVTDESC500060"
+	title = "EVTNAME500059" #Swiss Partition
+	desc = "EVTDESC500059"
 	picture = "bad_badboy"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA500060"
+		name = "EVTOPTA500059"
 		badboy = 3.5
-
 		random_owned = {
 			limit = {
 				owner = { is_culture_group = french }
 			}
 			FROM = {
 				any_owned = {
-					limit = {
+					limit = { 
 						is_core = SWI
 						region = SWI_607
 					}
@@ -116,9 +115,7 @@ country_event = {
 				}
 				country_event = 500061
 			}
-			owner = { 
-				add_accepted_culture = swiss_french
-			}
+			owner = { add_accepted_culture = swiss_french }
 		}
 		
 		random_owned = {
@@ -169,7 +166,7 @@ country_event = {
 		}
 		
 		ai_chance = {
-			factor = 100
+			factor = 80
 			modifier = {
 				factor = 1.5
 				truce_with = FROM
@@ -187,7 +184,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB500060"
+		name = "EVTOPTB500059"
 		random_owned = {
 			limit = {
 				owner = { is_culture_group = germanic }
@@ -247,7 +244,7 @@ country_event = {
 		prestige = 15
 		badboy = -3.5
 		ai_chance = {
-			factor = 0
+			factor = 20
 			modifier = {
 				factor = 4.0
 				NOT = { truce_with = FROM }
@@ -270,7 +267,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT500060A"
+		name = "EVTOPT500059A"
 		relation = { 
 			who = FROM
 			value = 100
@@ -289,7 +286,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT500060A"
+		name = "EVTOPT500059A"
 		relation = { 
 			who = FROM
 			value = -100

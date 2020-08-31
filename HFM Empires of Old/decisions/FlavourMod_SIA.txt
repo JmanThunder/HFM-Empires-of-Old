@@ -214,33 +214,4 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
-	
-	chiang_mai_integration_act = {
-		picture = form_laos
-		potential = {
-			tag = SIA
-			SHA = { exists = yes vassal_of = SIA }
-			NOT = {
-				has_country_flag = chiang_mai_integration
-			}
-			OR = {
-				civilized = yes
-				has_global_flag = anglo_siam_treaty_1909
-			}
-		}
-		allow = {
-			war = no
-			OR = {
-				civilized = yes
-				NOT = { owns = 1389 }
-			}
-			is_our_vassal = SHA
-		}
-		
-		effect = {
-			badboy = 1
-			inherit = SHA
-			set_country_flag = chiang_mai_integration
-		}
-	}
 }

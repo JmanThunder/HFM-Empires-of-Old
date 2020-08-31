@@ -476,13 +476,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.7
-			OR = {
-				terrain = jungle
-				terrain = new_world_jungle
-				terrain = jungle_farmland
-				terrain = jungle_hills
-				terrain = jungle_mountains
-			}
+			terrain = jungle
 		}
 		modifier = {
 			factor = 0.9

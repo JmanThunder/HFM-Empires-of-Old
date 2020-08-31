@@ -1218,7 +1218,7 @@ country_event = {
 	
 	option = {
 		name = "EVT60055559OPTA"
-		3286 = { #Szombathely
+		623 = { #Sopron
 			remove_core = AUS
 			remove_core = GER
 			remove_core = GCF
@@ -1230,13 +1230,11 @@ country_event = {
 			remove_province_modifier = national_assimilation_rejection
 			remove_province_modifier = national_assimilation_acceptance
 			remove_province_modifier = national_assimilation_complete
-			any_pop = { limit = { has_pop_culture = south_german } move_pop = 623 }
-			change_province_name = "Szombathely"
+			any_pop = { limit = { has_pop_culture = south_german } move_pop = 624 }
 		}
 		624 = { #Eisenstadt
 			remove_core = HUN
 			add_core = AUS
-			add_core = FROM
 			secede_province = FROM
 			remove_province_modifier = integration_refusal
 			remove_province_modifier = core_integration
@@ -1244,33 +1242,7 @@ country_event = {
 			remove_province_modifier = national_assimilation_rejection
 			remove_province_modifier = national_assimilation_acceptance
 			remove_province_modifier = national_assimilation_complete
-			any_pop = { limit = { has_pop_culture = hungarian } move_pop = 3286 }
-		}
-		623 = { #Ödenburg
-			remove_core = HUN
-			add_core = AUS
-			add_core = FROM
-			secede_province = FROM
-			remove_province_modifier = integration_refusal
-			remove_province_modifier = core_integration
-			remove_province_modifier = national_assimilation
-			remove_province_modifier = national_assimilation_rejection
-			remove_province_modifier = national_assimilation_acceptance
-			remove_province_modifier = national_assimilation_complete
-			any_pop = { limit = { has_pop_culture = hungarian } move_pop = 3286 }
-		}
-		3282 = { #Olsnitz
-			remove_core = HUN
-			add_core = AUS
-			add_core = FROM
-			secede_province = FROM
-			remove_province_modifier = integration_refusal
-			remove_province_modifier = core_integration
-			remove_province_modifier = national_assimilation
-			remove_province_modifier = national_assimilation_rejection
-			remove_province_modifier = national_assimilation_acceptance
-			remove_province_modifier = national_assimilation_complete
-			any_pop = { limit = { has_pop_culture = hungarian } move_pop = 3286 }
+			any_pop = { limit = { has_pop_culture = hungarian } move_pop = 623 }
 		}
 		relation = { who = FROM value = 110 }
 		badboy = -2

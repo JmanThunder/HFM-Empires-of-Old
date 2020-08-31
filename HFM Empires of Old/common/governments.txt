@@ -103,7 +103,7 @@ hms_government = {
 	
 	election = yes
 	duration = 48
-	appoint_ruling_party = no
+	appoint_ruling_party = yes
 	flagType = monarchy
 }
 
@@ -159,45 +159,5 @@ french_bourbon = {
 	
 	election = yes
 	duration = 48
-	appoint_ruling_party = no
+	appoint_ruling_party = yes
 }
-
-#absolute_monarchy_empire = {
-#	liberal = yes
-#	conservative = yes
-#	reactionary = yes
-#	
-#	
-#	election = no
-#	appoint_ruling_party = yes
-#	flagType = monarchy
-#}
- 
-#prussian_constitutionalism_empire = {
-#	liberal = yes
-#	socialist = yes
-#	conservative = yes
-#	reactionary = yes
-#	
-#	
-#	election = yes
-#	duration = 48
-#	appoint_ruling_party = yes
-#	flagType = monarchy
-#}
-
-#hms_government_empire = {
-#	liberal = yes
-#	socialist = yes
-#	conservative = yes
-#	reactionary = yes
-#	communist = yes
-#	anarcho_liberal = yes
-#	fascist = yes
-#	
-#	
-#	election = yes
-#	duration = 48
-#	appoint_ruling_party = no
-#	flagType = monarchy
-#}

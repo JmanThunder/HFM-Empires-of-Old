@@ -2095,8 +2095,8 @@ country_event = {
 #Qing Defeat in the Taiping Rebellion
 country_event = {
 	id = 160027
-	title = "EVTNAME160026" #Retreat to Formosa
-	desc = "EVTDESC160026"
+	title = "EVTNAME160027" #Retreat to Formosa
+	desc = "EVTDESC160027"
 	news = yes
 	news_desc_long = "EVTDESC160026_NEWS_LONG"
 	news_desc_medium = "EVTDESC160026_NEWS_MEDIUM"

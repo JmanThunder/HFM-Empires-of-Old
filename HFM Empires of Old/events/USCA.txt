@@ -390,7 +390,6 @@ country_event = {
 		2198 = { add_core = UCA }
 		2199 = { add_core = UCA }
 		2200 = { add_core = UCA }
-		3327 = { add_core = UCA }
 	}
 }
 
@@ -1438,7 +1437,6 @@ country_event = {
 		name = "EVT32555OPTB" #Give up our territory
 		prestige = -20
 		2200 = { secede_province = MSK }
-		3327 = { secede_province = MSK }
 		FROM = { create_vassal = MSK }
 		ai_chance = { factor = 0.05 }
 	}

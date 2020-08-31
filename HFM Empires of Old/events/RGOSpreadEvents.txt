@@ -17,7 +17,6 @@ province_event = {
 			terrain = hills
 			terrain = dryhills
 			terrain = farmlands
-			terrain = floodplain_farmland
 			terrain = mountain
 			
 			#Forest
@@ -263,10 +262,7 @@ province_event = {
 		
 		modifier = {
 			factor = 0.8
-			OR = {
-				terrain = farmlands
-				terrain = floodplain_farmland
-			}
+			terrain = farmlands
 			NOT = { is_colonial = yes }
 		}
 		
@@ -378,7 +374,6 @@ province_event = {
 						terrain = hills
 						terrain = dryhills
 						terrain = farmlands
-						terrain = floodplain_farmland
 						terrain = mountain
 						
 						#Forest
@@ -630,7 +625,6 @@ province_event = {
 						terrain = hills
 						terrain = dryhills
 						terrain = farmlands
-						terrain = floodplain_farmland
 						terrain = mountain
 						
 						#Forest
@@ -878,7 +872,6 @@ province_event = {
 							terrain = hills
 							terrain = dryhills
 							terrain = farmlands
-							terrain = floodplain_farmland
 							terrain = mountain
 							
 							#Forest
@@ -1117,7 +1110,6 @@ province_event = {
 								terrain = hills
 								terrain = dryhills
 								terrain = farmlands
-								terrain = floodplain_farmland
 								terrain = mountain
 								
 								#Forest
@@ -1373,7 +1365,6 @@ province_event = {
 						terrain = hills
 						terrain = dryhills
 						terrain = farmlands
-						terrain = floodplain_farmland
 						terrain = mountain
 					
 						#Forest
@@ -1622,7 +1613,6 @@ province_event = {
 							terrain = hills
 							terrain = dryhills
 							terrain = farmlands
-							terrain = floodplain_farmland
 							terrain = mountain
 							
 							#Forest
@@ -1861,7 +1851,6 @@ province_event = {
 								terrain = hills
 								terrain = dryhills
 								terrain = farmlands
-								terrain = floodplain_farmland
 								terrain = mountain
 								
 								#Forest
@@ -2116,7 +2105,6 @@ province_event = {
 						terrain = hills
 						terrain = dryhills
 						terrain = farmlands
-						terrain = floodplain_farmland
 						terrain = mountain
 						
 						#Forest
@@ -2364,7 +2352,6 @@ province_event = {
 							terrain = hills
 							terrain = dryhills
 							terrain = farmlands
-							terrain = floodplain_farmland
 							terrain = mountain
 							
 							#Forest
@@ -2603,7 +2590,6 @@ province_event = {
 								terrain = hills
 								terrain = dryhills
 								terrain = farmlands
-								terrain = floodplain_farmland
 								terrain = mountain
 								
 								#Forest
@@ -2858,7 +2844,6 @@ province_event = {
 						terrain = hills
 						terrain = dryhills
 						terrain = farmlands
-						terrain = floodplain_farmland
 						terrain = mountain
 						
 						#Forest
@@ -3106,7 +3091,6 @@ province_event = {
 							terrain = hills
 							terrain = dryhills
 							terrain = farmlands
-							terrain = floodplain_farmland
 							terrain = mountain
 							
 							#Forest
@@ -3345,7 +3329,6 @@ province_event = {
 								terrain = hills
 								terrain = dryhills
 								terrain = farmlands
-								terrain = floodplain_farmland
 								terrain = mountain
 								
 								#Forest

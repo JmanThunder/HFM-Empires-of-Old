@@ -506,7 +506,7 @@ political_decisions = {
 		potential = {
 			tag = EIC
 			ai = yes
-			money = 100001
+			money = 250000
 			ENG = { NOT = { money = 50000 } }
 		}
 		
@@ -514,9 +514,9 @@ political_decisions = {
 		}
 		
 		effect = {
-			treasury = -100000
+			treasury = -200000
 			ENG = {
-				treasury = 100000
+				treasury = 200000
 			}
 		}
 		
@@ -615,7 +615,6 @@ political_decisions = {
 		picture = anglification
 		potential = {
 			tag = EIC
-			exists = yes
 			ai = yes
 			OR = { 
 				has_global_flag = sepoy_rebellion

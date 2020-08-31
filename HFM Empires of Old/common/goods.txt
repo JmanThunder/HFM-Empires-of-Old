@@ -93,7 +93,7 @@ raw_material_goods = {
 
 industrial_goods = {
 	steel = { 
-		cost = 4.8
+		cost = 4.7
 		color = { 95 128 147 }
 		available_from_start = no
 	}

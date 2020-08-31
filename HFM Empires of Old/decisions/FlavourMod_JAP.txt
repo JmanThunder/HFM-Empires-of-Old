@@ -391,7 +391,6 @@ political_decisions = {
 			primary_culture = japanese
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
-			NOT = { has_country_flag = establish_karafuto_prefecture }
 			OR = { 
 				AND = { 
 					owns = 1087
@@ -466,8 +465,6 @@ political_decisions = {
 				}
 				1086 = { add_province_modifier = { name = population_resettlement duration = 1095 } }
 			}
-
-			set_country_flag = establish_karafuto_prefecture
 		}
 		
 		ai_will_do = { factor = 1 }

@@ -444,7 +444,6 @@ country_event = {
 			NOT = { terrain = semidesert }
 			NOT = { terrain = arctic }
 			NOT = { terrain = montane_tundra }
-			NOT = { terrain = himalayan_mountains }
 			NOT = { terrain = boreal }
 			NOT = { has_province_modifier = potato_blight }
 			NOT = { has_province_modifier = irish_potato_blight }
@@ -503,7 +502,6 @@ country_event = {
 				NOT = { terrain = semidesert }
 				NOT = { terrain = arctic }
 				NOT = { terrain = montane_tundra }
-				NOT = { terrain = himalayan_mountains }
 				NOT = { terrain = boreal }
 				NOT = { has_province_modifier = potato_blight }
 				NOT = { has_province_modifier = irish_potato_blight }
@@ -528,7 +526,6 @@ country_event = {
 					NOT = { terrain = semidesert }
 					NOT = { terrain = arctic }
 					NOT = { terrain = montane_tundra }
-					NOT = { terrain = himalayan_mountains }
 					NOT = { terrain = boreal }
 					NOT = { has_province_modifier = potato_blight }
 					NOT = { has_province_modifier = irish_potato_blight }
@@ -546,7 +543,6 @@ country_event = {
 					NOT = { terrain = semidesert }
 					NOT = { terrain = arctic }
 					NOT = { terrain = montane_tundra }
-					NOT = { terrain = himalayan_mountains }
 					NOT = { terrain = boreal }
 					NOT = { has_province_modifier = potato_blight }
 					NOT = { has_province_modifier = irish_potato_blight }

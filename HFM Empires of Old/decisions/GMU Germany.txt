@@ -48,66 +48,6 @@ political_decisions = {
 		}
 	}
 
-	force_austria_to_join = {
-		picture = german_confederation
-		potential = {
-
-			tag = GER
-			exists = AUS
-			is_sphere_leader_of = AUS
-			has_country_flag = brothers_war_winner 
-		}
-		
-		allow = {
-			war = no
-
-			NOT = {
-
-			has_global_flag = force_austria_to_join 			
-			}
-		}
-		
-		effect = {
-
-			AUS = {
-			country_event = 31515
-			}
-
-			set_country_flag = force_austria_to_join 
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	force_austria_to_join = {
-		picture = german_confederation
-		potential = {
-
-			tag = GER
-			exists = KUK
-			is_sphere_leader_of = KUK
-			has_country_flag = brothers_war_winner 
-		}
-		
-		allow = {
-			war = no
-
-			NOT = {
-
-			has_global_flag = force_austria_to_join 			
-			}
-		}
-		
-		effect = {
-
-			KUK = {
-			country_event = 31515
-			}
-
-			set_country_flag = force_austria_to_join 
-		}
-		ai_will_do = { factor = 1 }
-	}
-
 ######################
 # COLOGNE CATHEDRAL  #
 ######################

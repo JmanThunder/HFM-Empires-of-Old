@@ -2073,6 +2073,7 @@ country_event = {
 			}
 			PNJ = { annex_to = ENG }
 		}
+		
 		#Gaining Chitral from Afghanistan
 		random_owned = {
 			limit = {
@@ -2087,106 +2088,6 @@ country_event = {
 				any_owned = {
 					limit = { is_core = CRL }
 					secede_province = ENG
-				}
-			}
-		}
-		#Free any Russian Slaves
-		random_owned = {
-			limit = {
-				OR = {
-					is_core = KAZ
-					is_core = BUK
-					is_core = KOK
-					is_core = KHI
-				}
-				owner = {
-					civilized = no
-					OR = {
-						tag = BUK
-						tag = KHI
-						tag = KOK
-						tag = KAZ
-					}
-					truce_with = RUS
-				}
-			}
-			owner = { any_owned = { state_scope = { is_slave = no } } }
-		}
-		#Bukhara
-		random_owned = {
-			limit = {
-				is_core = BUK
-				owner = {
-					civilized = no
-					tag = BUK
-					truce_with = RUS
-				}
-			}
-			owner = {
-				any_owned = {
-					limit = { 
-						OR = {
-							province_id = 1199 
-							province_id = 1207
-						}
-					}
-					secede_province = RUS
-				}
-			}
-		}
-		#Kokand
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					tag = KOK
-					truce_with = RUS
-				}
-			}
-			owner = {
-				any_owned = {
-					limit = { 
-						province_id = 1203
-						province_id = 1201
-						province_id = 1195
-						is_core = KAZ
-						is_core = TAJ
-					}
-					secede_province = RUS
-				}
-			}
-		}
-		#Badakshan
-		random_owned = {
-			limit = {
-				is_core = BDK
-				owner = {
-					civilized = no
-					tag = BDK
-					truce_with = RUS
-				}
-			}
-			owner = {
-				any_owned = {
-					limit = { is_core = BDK }
-					secede_province = RUS
-				}
-			}
-		}
-		#Return any non-Afghan cores
-		random_owned = {
-			limit = {
-				is_core = AFG
-				owner = {
-					civilized = no
-					tag = AFG
-					truce_with = ENG
-				}
-			}
-			owner = {
-				any_owned = {
-					limit = { is_core = BUK }
-					secede_province = BUK
 				}
 			}
 		}

@@ -330,7 +330,6 @@ fascist_rebels = {
 		french_bourbon = fascist_dictatorship
 		dominion = fascist_dictatorship
 		democracy = fascist_dictatorship
-		federal_democracy = fascist_dictatorship
 		theocracy = fascist_dictatorship
 		colonial_company = fascist_dictatorship
 	}
@@ -620,7 +619,6 @@ communist_rebels = {
 		french_bourbon = proletarian_dictatorship
 		dominion = proletarian_dictatorship
 		democracy = proletarian_dictatorship
-		federal_democracy = presidential_dictatorship
 		theocracy = proletarian_dictatorship
 		colonial_company = proletarian_dictatorship
 	}
@@ -923,7 +921,6 @@ anarcho_liberal_rebels = {
 		french_bourbon = bourgeois_dictatorship
 		dominion = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
-		federal_democracy = bourgeois_dictatorship
 		theocracy = bourgeois_dictatorship
 		colonial_company = bourgeois_dictatorship
 	}
@@ -1010,7 +1007,6 @@ anarcho_liberal_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				ruling_party_ideology = anarcho_liberal
@@ -1021,7 +1017,6 @@ anarcho_liberal_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				ruling_party_ideology = liberal
@@ -1054,7 +1049,6 @@ anarcho_liberal_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				OR = { 
@@ -1245,7 +1239,6 @@ nationalist_rebels = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -1265,7 +1258,7 @@ nationalist_rebels = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
-	occupation_mult = 10.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
 	will_rise = {
@@ -1570,7 +1563,6 @@ pan_nationalist_rebels = {
 		french_bourbon = hms_government
 		dominion = hms_government
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -1984,7 +1976,6 @@ carlist_rebels = {
 		french_bourbon = absolute_monarchy
 		dominion = absolute_monarchy
 		democracy = absolute_monarchy
-		federal_democracy = absolute_monarchy
 		theocracy = theocracy
 		colonial_company = absolute_monarchy
 	}
@@ -2070,7 +2061,6 @@ carlist_rebels = {
 						government = prussian_constitutionalism
 						government = absolute_monarchy
 						government = democracy
-						government = federal_democracy
 					}
 				}
 			}
@@ -2251,7 +2241,6 @@ christino_rebels = {
 		french_bourbon = hms_government
 		dominion = hms_government
 		democracy = hms_government
-		federal_democracy = hms_government
 		theocracy = theocracy
 		colonial_company = hms_government
 	}
@@ -2497,7 +2486,6 @@ boxer_rebels = {
 		french_bourbon = absolute_monarchy
 		dominion = absolute_monarchy
 		democracy = absolute_monarchy
-		federal_democracy = absolute_monarchy
 		theocracy = theocracy
 		colonial_company = absolute_monarchy
 	}
@@ -2769,7 +2757,6 @@ red_shirts = {
 		french_bourbon = hms_government
 		dominion = hms_government
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = democracy
 		colonial_company = hms_government
 	}
@@ -3013,7 +3000,6 @@ indian_sepoys = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -3278,7 +3264,6 @@ indian_nationalists = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = federal_democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -3496,7 +3481,6 @@ liberal_rebels = {
 		french_bourbon = democracy
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = federal_democracy
 		theocracy = democracy
 		colonial_company = democracy
 	}
@@ -3635,7 +3619,6 @@ liberal_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				OR = { 
@@ -3659,7 +3642,6 @@ liberal_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				OR = { 
@@ -3948,7 +3930,6 @@ unciv_reactionary_rebels = {
 		french_bourbon = absolute_monarchy
 		dominion = absolute_monarchy
 		democracy = absolute_monarchy
-		federal_democracy = absolute_monarchy
 		theocracy = absolute_monarchy
 		colonial_company = colonial_company
 	}
@@ -4245,7 +4226,6 @@ separatist_rebels = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -4266,7 +4246,7 @@ separatist_rebels = {
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do remain after enforcing demands.
 	
-	occupation_mult = 10.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
 	will_rise = {
@@ -4505,7 +4485,6 @@ socialist_rebels = {
 		french_bourbon = democracy
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = democracy
 		colonial_company = democracy
 	}
@@ -4601,7 +4580,6 @@ socialist_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				OR = { 
@@ -4647,7 +4625,6 @@ socialist_rebels = {
 			country = {
 				OR = {
 					government = democracy
-					government = federal_democracy
 					government = hms_government
 				}
 				OR = { 
@@ -4990,7 +4967,6 @@ independence_rebels = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -5163,7 +5139,6 @@ turkish_nationalist_rebels = {
 		french_bourbon = democracy
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -5409,7 +5384,6 @@ native_rebels = {
 		french_bourbon = democracy
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = democracy
 		colonial_company = democracy
 	}
@@ -5597,7 +5571,6 @@ sioux_nation = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
 	}
@@ -5722,7 +5695,6 @@ apache = {
 		french_bourbon = hms_government
 		dominion = democracy
 		democracy = democracy
-		federal_democracy = democracy
 		theocracy = democracy
 		colonial_company = democracy
 	}

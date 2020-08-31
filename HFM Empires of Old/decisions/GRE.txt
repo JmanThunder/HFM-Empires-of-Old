@@ -420,7 +420,7 @@ political_decisions = {
 			###THRACE###
 			random_owned = {
 				limit = { province_id = 828 }
-				828 = { change_province_name = "Adrianoupolis" }
+				828 = { change_province_name = "Adrianople" }
 				owner = { set_country_flag = grecofication_edirne }
 			}
 			random_owned = {

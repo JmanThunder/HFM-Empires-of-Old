@@ -67,11 +67,12 @@ country_event = {
 			limit = {
 				OR = {
 					is_core = CPL
-					is_core = PZN
-					is_core = SLS
-					is_core = GLM
-					is_core = PML
+					pop_majority_culture = polish
 				}
+				NOT = { is_core = SIB }
+				NOT = { is_core = URA }
+				NOT = { is_core = YAK }
+				NOT = { is_core = KAM }
 			}
 			secede_province = CPL 
 		}

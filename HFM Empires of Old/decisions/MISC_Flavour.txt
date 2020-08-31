@@ -199,49 +199,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
-	rename_artois_NET2 = {
-		picture = NET_claim_artois
-		potential = {
-			OR = {
-				primary_culture = dutch
-				primary_culture = flemish
-			}
-			owns = 400 #Dunkirk
-			NOT = { has_global_flag = dutch_artois2 }
-		}
-		
-		allow = {
-			is_greater_power = yes
-		}
-		
-		effect = {
-			prestige = 1
-			400 = { change_province_name = "Duinkerke" }
-			set_global_flag = dutch_artois2
-		}
-			
-		ai_will_do = { factor = 1 }
-	}
-
-	rename_artois_FRA2 = {
-		picture = FRA_rename_artois
-		potential = {
-			primary_culture = french
-			owns = 400 #Dunkirk
-			has_global_flag = dutch_artois2
-		}
-		
-		allow = {
-			is_greater_power = yes
-		}
-		
-		effect = {
-			400 = { change_province_name = "Dunkerque" }
-			clr_global_flag = dutch_artois2
-		}
-			
-		ai_will_do = { factor = 1 }
-	}
 	build_neuschwanstein = {
 		picture = neuschwanstein
 		potential = {

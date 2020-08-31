@@ -470,7 +470,10 @@ country_event = {
 					tag = AUS
 					tag = KUK
 					AND = {
-						neighbour = ITA
+						OR = {
+							neighbour = ITA
+							neighbour = ITS
+						}
 						is_greater_power = yes
 					}
 				}

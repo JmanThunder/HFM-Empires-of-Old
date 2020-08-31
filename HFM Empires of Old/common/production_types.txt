@@ -5,7 +5,6 @@ factory_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
 		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
-		steel = 0.01
 	}
 	
 	owner = {
@@ -35,7 +34,6 @@ factory_template = {
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
-		steel = 0.01
 	}
 	
 	owner = {
@@ -65,7 +63,6 @@ cheap_factory_template = {
 machine_part_user_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
-		steel = 0.01
 	}
 	
 	owner = {
@@ -397,7 +394,7 @@ steel_factory = {
 	}
 
 	output_goods = steel
-	value = 20		#89.3, was 20 - 94
+	value = 19		#89.3, was 20 - 94
 	bonus = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.2
@@ -815,7 +812,7 @@ dye_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 2.2 #2.2
+	value = 2.1 #2.2
 	farm = yes
 }
 
@@ -850,7 +847,7 @@ opium_plantation = {
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 3.1 #2.8
+	value = 3.0 #2.8
 	farm = yes
 }
 
@@ -878,7 +875,7 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 5.0 #5
+	value = 4.8 #5
 	farm = yes
 }
 
@@ -1458,11 +1455,11 @@ artisan_fertilizer = {
 
 artisan_fabric_wool = {
 	input_goods = {     
-		wool = 20 #46
+		wool = 25 #46
 		dye = 2	#24
 	}
 	output_goods = fabric
-	value = 35			#81
+	value = 40			#81
 	owner = {
 		poptype = artisans 
 		effect = output

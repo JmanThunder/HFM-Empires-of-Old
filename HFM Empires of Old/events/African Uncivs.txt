@@ -108,6 +108,7 @@ country_event = { #The Mfecane
 		2108 = { life_rating = 15 }
 		2109 = { life_rating = 20 }
 		2110 = { life_rating = 20 }
+		3273 = { life_rating = 15 }
 		random_list = {
 			33 = { 
 				any_pop = { limit = { NOT = { OR = { has_pop_culture = boer has_pop_culture = nguni } } } reduce_pop = 0.3 }

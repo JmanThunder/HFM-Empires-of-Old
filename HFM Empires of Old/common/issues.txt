@@ -482,8 +482,6 @@ political_reforms = {
 			education_efficiency_modifier = -0.15
 			poor_savings_modifier = -0.5
 			global_immigrant_attract = -0.1
-			suppression_points_modifier = 0.15
-			literacy_con_impact = -0.1
 			allow = {
 				OR = {
 					has_country_flag = clean_up_colonial_government
@@ -579,7 +577,6 @@ political_reforms = {
 			navy_tech_research_bonus = 0.05
 			suppression_points_modifier = 0.25
 			administrative_multiplier = 1
-			badboy = -0.05
 			allow = { colonial_nation = yes }
 		}
 				
@@ -589,7 +586,6 @@ political_reforms = {
 			education_efficiency_modifier = 0.1
 			culture_tech_research_bonus = 0.05
 			administrative_multiplier = 1
-			badboy = -0.05
 			allow = {
 				colonial_nation = yes 
 				OR = {

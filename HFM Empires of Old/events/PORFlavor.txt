@@ -406,8 +406,6 @@ country_event = {
 			2056 = { empty = yes } #Zumbo
 			2054 = { empty = yes } #Tete
 			2581 = { empty = yes } #Mataka
-			2054 = { empty = yes } #Tete
-			2056 = { empty = yes } #Zumbo
 		}
 	}
 
@@ -428,7 +426,7 @@ country_event = {
 				2055 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
-			2056 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+			2056 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {
@@ -451,7 +449,7 @@ country_event = {
 				2058 = { owned_by = THIS }
 			}
 			owner = { prestige = 2 }
-			2054 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } life_rating = 25 }
+			2054 = { secede_province = POR any_pop = { limit = { is_primary_culture = no } literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {

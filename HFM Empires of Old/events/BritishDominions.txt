@@ -734,6 +734,7 @@ country_event = {
 		random_owned = { limit = { province_id = 2558 } change_province_name = "De Aar" add_core = SAF }
 		random_owned = { limit = { province_id = 2093 } change_province_name = "Calvinia" add_core = SAF }
 		random_owned = { limit = { province_id = 2094 } change_province_name = "Kimberley" add_core = SAF }
+		random_owned = { limit = { province_id = 3273 } change_province_name = "Pietersburg" }
 		random_owned = { limit = { province_id = 2111 } change_province_name = "Durban" add_core = SAF }
 		random_owned = { limit = { province_id = 2105 } state_scope = { change_region_name = "Transvaal" } }
 		random_owned = { limit = { province_id = 2102 } state_scope = { change_region_name = "Vrystaat" } }
@@ -1205,6 +1206,24 @@ country_event = {
 			}
 			owner = { prestige = -3 }
 			10 = { secede_province = THIS add_core = RPL any_pop = { literacy = -0.99 } }
+		}
+		random_owned = {
+			limit = {
+				6 = { empty = no }
+				7 = { empty = no }
+				8 = { empty = no }
+				2596 = { empty = no }
+				2598 = { empty = no }
+				9 = { empty = no }
+				11 = { empty = no }
+				12 = { empty = yes }
+				OR = {
+					43 = { owned_by = THIS }
+					2596 = { owned_by = THIS }
+				}
+			}
+			owner = { prestige = -3 }
+			12 = { secede_province = THIS add_core = RPL any_pop = { literacy = -0.99 } }
 		}
 		random_owned = {
 			limit = {

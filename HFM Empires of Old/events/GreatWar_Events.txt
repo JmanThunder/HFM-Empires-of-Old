@@ -5502,8 +5502,29 @@ country_event = {
 		}
 		random_country = {
 			limit = {
+				tag = ITS
+				truce_with = THIS
+			}
+			SAR_466 = {
+				add_core = ITS
+				secede_province = ITS
+			}
+			472 = {
+				add_core = ITS
+				secede_province = ITS
+			}
+			473 = { add_core = ITS secede_province = ITS }
+			
+			454 = { secede_province = ITS }
+			469 = { secede_province = ITS }
+			470 = { secede_province = ITS }
+			471 = { secede_province = ITS }
+		}
+		random_country = {
+			limit = {
 				tag = SAR
 				NOT = { exists = ITA }
+				NOT = { exists = ITS }
 				truce_with = THIS
 			}
 			SAR_466 = { add_core = SAR secede_province = SAR }
@@ -7538,7 +7559,6 @@ country_event = {
 							is_greater_power = yes
 							is_secondary_power = yes
 						}
-						is_vassal = no
 						OR = {
 							truce_with = THIS
 							AND = {
@@ -7575,7 +7595,6 @@ country_event = {
 					is_greater_power = yes
 					is_secondary_power = yes
 				}
-				is_vassal = no
 				OR = {
 					truce_with = THIS
 					AND = {
@@ -7615,7 +7634,6 @@ country_event = {
 									is_greater_power = yes
 									is_secondary_power = yes
 								}
-								is_vassal = no
 								OR = {
 									truce_with = FROM
 									AND = {
@@ -7646,7 +7664,6 @@ country_event = {
 									is_greater_power = yes
 									is_secondary_power = yes
 								}
-								is_vassal = no
 								OR = {
 									truce_with = FROM
 									AND = {
@@ -7709,7 +7726,6 @@ country_event = {
 								is_greater_power = yes
 								is_secondary_power = yes
 							}
-							is_vassal = no
 							OR = {
 								truce_with = THIS
 								AND = {
@@ -7735,7 +7751,6 @@ country_event = {
 						is_greater_power = yes
 						is_secondary_power = yes
 					}
-					is_vassal = no
 					OR = {
 						truce_with = THIS
 						AND = {
@@ -7771,7 +7786,6 @@ country_event = {
 					is_greater_power = yes
 					is_secondary_power = yes
 				}
-				is_vassal = no
 				OR = {
 					truce_with = THIS
 					AND = {
@@ -7870,7 +7884,6 @@ country_event = {
 								is_greater_power = yes
 								is_secondary_power = yes
 							}
-							is_vassal = no
 							OR = {
 								truce_with = THIS
 								AND = {
@@ -7897,7 +7910,6 @@ country_event = {
 							is_greater_power = yes
 							is_secondary_power = yes
 						}
-						is_vassal = no
 						OR = {
 							truce_with = THIS
 							AND = {

@@ -1,8 +1,4 @@
 ;;;;;;;;;;;x
-AGRESSION_WAR_PROTECTORATE_NAME_NET_KLM;The $ORDER$Banjarmasin War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-NORMAL_WAR_PROTECTORATE_NAME_NET_KLM;The $ORDER$Banjarmasin War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-AGRESSION_WAR_PUPPET_NAME_ENG_JAM;The Morant Bay Rebellion;;;;;;;;;;;;;;;x;;
-NORMAL_WAR_PUPPET_NAME_ENG_JAM;The Morant Bay Rebellion;;;;;;;;;;;;;;;x;;
 AGRESSION_WAR_CONQUEST_NAME_TUR_CRE;The $ORDER$Cretan Revolt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_WAR_CONQUEST_NAME_TUR_CRE;The $ORDER$Cretan Revolt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_PROTECTORATE_NAME_ENG_SOKThe $ORDER$Northern Nigeria Expedition;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
@@ -17,10 +13,6 @@ NORMAL_WAR_HUMILIATE_NAME_BAM_FRA;The French Conquest of Soudan;;;;;;;;;;;x,,,
 NORMAL_WAR_HUMILIATE_NAME_BAM_BOR;The French Conquest of Soudan;;;;;;;;;;;x,,,
 NORMAL_WAR_HUMILIATE_NAME_MAS_FRA;The French Conquest of Soudan;;;;;;;;;;;x,,,
 NORMAL_WAR_HUMILIATE_NAME_MAS_BOR;The French Conquest of Soudan;;;;;;;;;;;x,,,
-NORMAL_WAR_HUMILIATE_NAME_TOU_FRA;The French Conquest of Soudan;;;;;;;;;;;x,,,
-NORMAL_WAR_HUMILIATE_NAME_TOU_BOR;The French Conquest of Soudan;;;;;;;;;;;x,,,
-AGRESSION_WAR_RESTORE_ORDER_NAME_TUR_BHT;The $ORDER$Ottoman Intervention in Kurdistan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-NORMAL_WAR_RESTORE_ORDER_NAME_TUR_BHT;The $ORDER$Ottoman Intervention in Kurdistan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_RESTORE_ORDER_NAME_SAR_GEN;The $ORDER$Genoese Revolt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_WAR_RESTORE_ORDER_NAME_SAR_GEN;The $ORDER$Genoese Revolt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_PROTECTORATE_NAME_FRA_DAH;The $ORDER$Franco-Dahomean War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
@@ -89,8 +81,6 @@ AGRESSION_WAR_NAME_BOR_QNG;The $ORDER$Sino-French War;;;;;;;;;;;x,,,
 NORMAL_WAR_NAME_BOR_QNG;The $ORDER$Sino-French War;;;;;;;;;;;x,,,
 NORMAL_WAR_TAKE_CORE_NAME_WOL_FRA;French Conquest of Senegal;;;;;;;;;;;x,,,
 NORMAL_WAR_TAKE_CORE_NAME_WOL_BOR;French Conquest of Senegal;;;;;;;;;;;x,,,
-NORMAL_WAR_TAKE_CORE_NAME_TOO_FRA;French Conquest of Senegal;;;;;;;;;;;x,,,
-NORMAL_WAR_TAKE_CORE_NAME_TOO_BOR;French Conquest of Senegal;;;;;;;;;;;x,,,
 AGRESSION_WAR_HUMILIATE_NAME_QNG_JAP;The $ORDER$Sino-Japanese War;;;;;;;;;;;x,,,
 NORMAL_WAR_HUMILIATE_NAME_QNG_JAP;The $ORDER$Sino-Japanese War;;;;;;;;;;;x,,,
 NORMAL_WAR_PROTECTORATE_NAME_ENG_BUR;The 3rd Burma War;;;;;;;;;;;;;;;x;;

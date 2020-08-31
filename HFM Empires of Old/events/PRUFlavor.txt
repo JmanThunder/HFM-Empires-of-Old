@@ -240,9 +240,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA34604" 
 		prestige = 5
-
-		add_accepted_culture = ashkenazi
-
 		any_pop = {
 			limit = { has_pop_religion = jewish }
 			consciousness = 1
@@ -1038,134 +1035,7 @@ country_event = {
 			}
 			annex_to = SWI
 		}
-		ai_chance = { factor = 0.94 }
-	}
-	
-	option = {
-		name = "EVTOPTC34615"
-		badboy = 10
-		SWI = { country_event = 34617 }
-
-		ai_chance = { factor = 0.01 }
-	}
-}
-
-country_event = {
-	id = 34617
-	title = "EVTNAME34617"
-	desc = "EVTDESC34617"
-	picture = "neuchatel_canton"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA34617"
-		PRU = { country_event = 34618 }
-
-		relation = { who = PRU value = -400 }
-
-		random_country = {
-			limit = {
-				exists = yes
-				tag = NCT
-				ai = yes
-				OR = {
-					vassal_of = SWI
-					is_vassal = no
-				}
-			}
-			annex_to = SWI
-		}
-		ai_chance = { factor = 0.05 }
-	}
-
-	option = {
-
-		name = "EVTOPTB34617"
-		PRU = { country_event = 34619 }
-
-		SWI = {
-			relation = { who = PRU value = -100 }
-		}
-		ENG = {
-			relation = { who = PRU value = -50 }
-		}
-		FRA = {
-			relation = { who = PRU value = -50 }
-		}
-
-		PRU = { treasury = -50000 }
-		SWI = { treasury = +50000 }
-		leave_alliance = NCT
-		release_vassal = NCT
-		608 = { remove_core = NGF }
-		608 = { remove_core = GER }
-		608 = { remove_core = PRU }
-		608 = { remove_core = NCT }
-		3314 = { add_core = PRU }
-		3314 = { remove_core = SWI }
-		3314 = { secede_province = PRU }
-
-		random_country = {
-			limit = {
-				exists = yes
-				tag = NCT
-				ai = yes
-				OR = {
-					vassal_of = SWI
-					is_vassal = no
-				}
-			}
-			annex_to = SWI
-		}
 		ai_chance = { factor = 0.95 }
 	}
-
 }
 
-country_event = {
-	id = 34618
-	title = "EVTNAME34618" #swiss rejection
-	desc = "EVTDESC34618"
-	picture = "neuchatel_canton"
-    
-    	is_triggered_only = yes
-        
-   	fire_only_once = yes
-    
-  	mean_time_to_happen = { days = 1 }
-    
-	option = {
-        name = "EVTOPTA34618"
-
-		ENG = {
-			relation = { who = PRU value = -100 }
-		}
-		FRA = {
-			relation = { who = PRU value = -100 }
-		}
-		SWI = {
-			set_country_flag = neutrality_violated
-			remove_country_modifier = neutrality
-			add_country_modifier = { name = preparations_for_war duration = 370 }
-		}
-
-		random_owned = { limit = { owner = { ai = no } } owner = { casus_belli = { target = SWI type = humiliate months = 12 } } }
-		random_owned = { limit = { owner = { ai = yes } } owner = { casus_belli = { target = SWI type = humiliate_AI months = 12 } } }
-		add_country_modifier = { name = preparations_for_war duration = 370 }
-
-	}
-}
-
-country_event = {
-    id = 34619
-    title = "EVTNAME34619" #swiss acceptance
-    desc = "EVTDESC34619"
-    picture = "neuchatel_canton"
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = "EVTOPTA34619"
-    }
-}

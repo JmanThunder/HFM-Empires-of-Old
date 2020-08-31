@@ -307,6 +307,10 @@ political_decisions = {
 				country_event = 500060
 			}
 			random_country = {
+				limit = { tag = ITS exists = yes owns = 722 NOT = { has_country_flag = swiss_neutrality_violator } }
+				country_event = 500060
+			}
+			random_country = {
 				limit = { tag = SAR exists = yes owns = 722 NOT = { has_country_flag = swiss_neutrality_violator } }
 				country_event = 500060
 			}

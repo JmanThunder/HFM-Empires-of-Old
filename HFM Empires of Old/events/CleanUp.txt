@@ -1064,6 +1064,7 @@ country_event = {
 		government = theocracy
 		NOT = { tag = MON }
 		NOT = { tag = ITA }
+		NOT = { tag = ITS }
 		NOT = { tag = PAP }
 		NOT = { tag = TIB }
 		NOT = { tag = DAG }
@@ -1074,8 +1075,6 @@ country_event = {
 		NOT = { tag = SUD }
 		NOT = { tag = TPG }
 		NOT = { tag = MGL }
-		NOT = { tag = NYE }
-		NOT = { tag = DES }
 	}
 
 	mean_time_to_happen = { months = 1 }

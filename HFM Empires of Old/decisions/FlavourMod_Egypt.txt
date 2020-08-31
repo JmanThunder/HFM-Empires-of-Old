@@ -243,11 +243,6 @@ political_decisions = {
 				exists = yes
 				is_vassal = no
 				neighbour = THIS
-				OR = { 
-					part_of_sphere = no
-					in_sphere = THIS
-				}
-				truce_with = THIS
 			}
 		}
 		

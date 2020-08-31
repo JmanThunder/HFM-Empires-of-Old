@@ -73,7 +73,9 @@ liberate_country
 free_peoples
 free_allied_cores
 free_balkans
+monroe2     
 monroe_doctrine
+USS_monroe
 oriental_crisis
 unification_release_puppet_cb
 release_puppet
@@ -110,6 +112,9 @@ establish_protectorate_BC_casus_belli
 establish_protectorate_NI_casus_belli
 establish_protectorate_casus_belli
 status_quo
+take_capital
+conquest_low
+negotiated_transfer
 }
 
 # Great War CB's
@@ -2561,6 +2566,79 @@ free_balkans = {
 	}
 }
 
+monroe2 = {
+	sprite_index = 19
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+
+	badboy_factor = 0
+	prestige_factor = 1
+	peace_cost_factor = 15
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	always = yes
+
+	can_use = {
+		THIS = {
+			tag = USA
+			government = democracy
+			is_greater_power = yes
+			has_country_flag = shield_NW 
+		}
+		is_vassal = no
+		OR = {
+			capital_scope = { continent = europe }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = west_africa }
+			capital_scope = { continent = east_africa }
+			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = central_africa }
+			capital_scope = { continent = asia }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = australia_new_zealand }
+			capital_scope = { continent = polynesia }
+		}
+		any_owned_province = {
+			OR = {
+				continent = south_america
+				continent = north_america
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		NOT = { has_country_flag = dismantle_declared }
+	}
+
+	po_remove_prestige = yes
+	
+	on_po_accepted = {
+		country_event =	111979
+	}
+
+	war_name = WAR_MONROE_DOCTRINE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}		   
+
 monroe_doctrine = {
 	sprite_index = 19
 	is_triggered_only = yes
@@ -2713,6 +2791,131 @@ monroe_doctrine = {
 			value = 0.25
 		}
 	}
+}
+
+USS_monroe = {
+	sprite_index = 19
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	constructing_cb = no
+	
+	always = yes
+	
+
+	badboy_factor = 0.5
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	penalty_factor = 0.5
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	always = yes
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			tag = USS
+			is_greater_power = yes
+			has_country_flag = USS_miranda
+		}
+		is_vassal = no
+		OR = {
+			is_culture_group = american_cultures
+			is_culture_group = neo_european_cultures
+			capital_scope = { continent = europe }
+			capital_scope = { continent = africa }
+			capital_scope = { continent = west_africa }
+			capital_scope = { continent = east_africa }
+			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = asia }
+			capital_scope = { continent = oceania }
+			capital_scope = { continent = australia_new_zealand }
+			capital_scope = { continent = polynesia }
+		}
+		any_owned_province = {
+			OR = {
+				continent = south_america
+				continent = north_america
+			}
+			any_core = {
+				OR = {
+					primary_culture = mexican
+					primary_culture = central_american
+					primary_culture = north_andean
+					primary_culture = south_andean
+					primary_culture = platinean
+					primary_culture = brazilian
+					primary_culture = caribeno
+					primary_culture = afro_caribeno
+					primary_culture = afro_brazilian
+				}
+			}
+			NOT = {
+				is_core = USS
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			NOT = { has_country_flag = dismantle_declared }
+			THIS = { NOT = { has_country_flag = in_great_war } }
+			THIS = { ai = no }
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+		NOT = { tag = FROM }
+		any_owned_province = {
+			is_core = FROM
+			NOT = { is_core = USS }
+		}
+		FROM = {
+			OR = {
+				primary_culture = mexican
+				primary_culture = central_american 
+				primary_culture = north_andean
+				primary_culture = south_andean
+				primary_culture = platinean
+				primary_culture = brazilian
+				primary_culture = caribeno
+				primary_culture = afro_caribeno
+				primary_culture = afro_brazilian
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	
+	war_name = WAR_LIBERATE_NAME
+	
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+	}
+	on_po_accepted = {
+		country_event =	2651	# Territorial Loss event
+	}
+	all_allowed_states = yes
+	po_transfer_provinces = yes
+	po_release_puppet = yes
 }
 
 oriental_crisis = {
@@ -3166,7 +3369,6 @@ great_game_cb = {
 			AND = { tag = KAL THIS = { tag = ENG } }
 			AND = { tag = MAK THIS = { tag = ENG } }
 			AND = { tag = KAS THIS = { tag = ENG } }
-			AND = { tag = LAS THIS = { tag = ENG } }
 			AND = { tag = CRL THIS = { tag = ENG } }
 			
 			AND = { tag = KOK THIS = { tag = RUS } }
@@ -6845,9 +7047,8 @@ colonial_conquest = {
 			THIS = { ai = no }
 		}
 		OR = {
-			#Portuguese Africa
 			AND = { 
-				THIS = { owns = 2060 } #Mocambique
+				THIS = { owns = 2060 }
 				any_owned_province = {
 					OR = {
 						region = POR_2060
@@ -6857,12 +7058,10 @@ colonial_conquest = {
 					}
 				}
 			}
-			#Algeria
-			AND = {
+			AND = { 
 				THIS = { 
-					owns = 1700 #Algiers
+					owns = 1700 
 					revolution_n_counterrevolution = 1
-					primary_culture = french
 				}
 				any_owned_province = {
 					OR = {
@@ -6874,47 +7073,9 @@ colonial_conquest = {
 					}
 				}
 			}
-			#Dutch East Indies
-			AND = {
-				THIS = { 
-					owns = 1413 #Batavia
-					nationalism_n_imperialism = 1
-					primary_culture = dutch
-				}
-				any_owned_province = {
-					OR = {
-						region = NET_1423 #East Borneo
-						region = NET_1426 #South Borneo
-						region = BRU_1394 #West Borneo
-						region = NET_1449 #Celebes
-						region = NET_1398 #Sumatra
-						region = NET_1401 #Siak
-						region = NET_1413 #West Java
-						region = NET_1418 #East Java
-					}
-				}
-			}
-			#Malaya
-			AND = {
-				THIS = { 
-					owns = 1384 #Singapore 
-					nationalism_n_imperialism = 1
-					primary_culture = british
-					has_country_flag = malayan_ultimatium
-				}
-				any_owned_province = {
-					OR = {
-						region = ENG_1384
-						region = ENG_1391
-					}
-				}
-			}
 		}
 		is_vassal = no
-		OR = {
-			neighbour = THIS
-			any_neighbor_country = { vassal_of = THIS }
-		}
+		neighbour = THIS
 		NOT = { has_country_modifier = neutrality }
 		NOT = { in_sphere = THIS }
 		OR = {
@@ -6940,7 +7101,6 @@ colonial_conquest = {
 				THIS = { 
 					owns = 1700 
 					revolution_n_counterrevolution = 1
-					primary_culture = french
 				}
 				any_owned_province = {
 					OR = {
@@ -6949,40 +7109,6 @@ colonial_conquest = {
 						region = ALD_1708
 						region = ALD_1713
 						region = ALD_1718
-					}
-				}
-			}
-			AND = {
-				THIS = { 
-					owns = 1413 
-					nationalism_n_imperialism = 1
-					primary_culture = dutch
-				}
-				any_owned_province = {
-					OR = {
-						region = NET_1423 #East Borneo
-						region = NET_1426 #South Borneo
-						region = BRU_1394 #West Borneo
-						region = NET_1449 #Celebes
-						region = NET_1398 #Sumatra
-						region = NET_1401 #Siak
-						region = NET_1413 #West Java
-						region = NET_1418 #East Java
-					}
-				}
-			}
-			#Malaya
-			AND = {
-				THIS = { 
-					owns = 1384 #Singapore 
-					nationalism_n_imperialism = 1
-					primary_culture = british
-					has_country_flag = malayan_ultimatium
-				}
-				any_owned_province = {
-					OR = {
-						region = ENG_1384
-						region = ENG_1391
 					}
 				}
 			}
@@ -6995,10 +7121,10 @@ colonial_conquest = {
 	
 	on_add = {
 		random_list = {
-			25 = { badboy = 1.0 }
+			25 = { badboy = 0.5 }
+			25 = { badboy = 1 }
 			25 = { badboy = 1.5 }
 			25 = { badboy = 2 }
-			25 = { badboy = 2.5 }
 		}
 		
 		move_issue_percentage = { 
@@ -7073,6 +7199,198 @@ war_reparations = {
 	po_reparations = yes
 
 	war_name = WAR_NAME_REPARATIONS
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+#Negotiated Transfer
+negotiated_transfer = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 0
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	construction_speed = 2.0
+
+	can_use = {
+		number_of_states = 2 # annex if you want their last state
+		is_independant = yes
+		ai = no
+		THIS = { ai = no } 
+	}
+	
+	allowed_states = {
+		OR = {
+			is_colonial = yes
+			is_colonial = no
+		}
+		any_owned_province = {
+                     OR = {
+			is_colonial = yes
+			is_colonial = no
+                     }
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_NEGOTIATE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.00
+		}
+	}
+}
+
+conquest_low = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = {	total_pops = 400000 }
+		NOT = { is_our_vassal = THIS }
+		# only one state or unciv
+		NOT = { number_of_states = 5 }
+		OR = {
+			AND = {
+				civilized = yes
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				THIS = { civilized = no }
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				number_of_states = 2
+				THIS = {
+					OR = {
+						NOT = { is_greater_power = yes }
+						NOT = { nationalism_n_imperialism = 1 }
+					}
+				}
+			}
+		}
+	}
+
+	badboy_factor = 1.0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+take_capital = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.25
+	
+	badboy_factor = 3
+	prestige_factor = 10
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+		}
+		any_owned_province = { is_capital = yes }
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
 	
 	on_add = {
 		move_issue_percentage = { 

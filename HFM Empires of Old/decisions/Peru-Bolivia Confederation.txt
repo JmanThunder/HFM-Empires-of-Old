@@ -227,10 +227,6 @@ political_decisions = {
 				}
 				relation = { who = BOL value = 300 }
 			}
-
-		BOL = { country_event = 34625 }
-		PEU = { country_event = 34626 }
-
 		}
 		ai_will_do = {
 			factor = 1

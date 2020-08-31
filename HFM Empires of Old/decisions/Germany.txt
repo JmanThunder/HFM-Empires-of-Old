@@ -424,7 +424,6 @@ political_decisions = {
 			}
 			NOT = { owns = 533 }
 			NOT = { has_country_flag = has_questioned_heligoland }
-			NOT = { has_country_flag = has_questioned_heligoland2 }
 		}
 		
 		allow = {
@@ -452,40 +451,7 @@ political_decisions = {
 			set_country_flag = has_questioned_heligoland
 		}
 	}
-
-	the_heligoland_question2 = {
-		picture = the_heligoland_question
-		potential = {
-			OR = {
-				tag = GER
-				tag = GCF
-			}
-			owns = 533
-			NOT = { has_country_flag = has_questioned_heligoland }
-			NOT = { has_country_flag = has_questioned_heligoland2 }
-		}
-		
-		allow = {
-			is_greater_power = yes
-			war = no
-		}
-		
-		effect = {
-			533 = {
-				add_core = THIS
-				remove_core = HGL
-				change_province_name = "Helgoland"
-				prestige = 20
-
-				any_pop = { limit = { has_pop_culture = british } move_pop = 300 }
-				any_pop = { limit = { has_pop_culture = scottish } move_pop = 300 }
-				any_pop = { limit = { has_pop_culture = irish } move_pop = 300 }
-			}
-
-			set_country_flag = has_questioned_heligoland2
-		}
-	}
-
+	
 	construct_the_walhalla = {
 		picture = construct_the_walhalla
 		potential = {

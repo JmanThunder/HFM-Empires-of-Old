@@ -19,8 +19,16 @@ political_decisions = {
 			regular_clothes = 50
 			CAN_60 = { add_core = QUE }
 			capital = 57
-			46 = { state_scope = { change_region_name = "Southern Ontario" } }
-			58 = { state_scope = { change_region_name = "Québec" } }
+			46 = {
+				state_scope = {
+					change_region_name = "Southern Ontario"
+				}
+			}
+			58 = {
+				state_scope = {
+					change_region_name = "Southern Quebec"
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -59,7 +67,11 @@ political_decisions = {
 				add_core = QUE
 				remove_core = RPL
 			}
-			58 = { state_scope = { change_region_name = "Québec" } }
+			58 = {
+				state_scope = {
+					change_region_name = "Southern Quebec"
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -214,8 +226,10 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				tag = NEW
-				vassal_of = ENG
+				OR = {
+					tag = NEW
+					is_vassal = yes
+				}
 			}
 		}
 	}
@@ -244,15 +258,7 @@ political_decisions = {
 	build_the_cnr = {
 		picture = whistlestop_tour
 		potential = {
-			OR = {
-				tag = CAN
-				tag = FCA
-			}
-			owns = 52
-			owns = 36
-			owns = 30
-			owns = 26
-			owns = 13
+			tag = CAN
 			early_railroad = 1
 			NOT = { has_country_flag = build_the_cnr }
 			NOT = { has_country_flag = build_the_cnr3 }
@@ -278,7 +284,7 @@ political_decisions = {
 				}
 				infrastructure = 1
 			}
-			random_owned = { limit = { owner = { primary_culture = anglo_canadian } } 13 = { change_province_name = "Vancouver" } }
+			13 = { change_province_name = "Vancouver" }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -292,10 +298,7 @@ political_decisions = {
 		news_desc_short = "EVTDESC44355_NEWS_SHORT"
 		picture = whistlestop_tour
 		potential = {
-			OR = { 
-				tag = CAN
-				tag = FCA
-			}
+			tag = CAN
 			early_railroad = 1
 			has_country_flag = build_the_cnr
 			NOT = { has_country_flag = build_the_cnr1 }
@@ -572,7 +575,7 @@ political_decisions = {
 				life_rating = 5 
 				add_province_modifier = {
 					name = recently_built_city
-					duration = 730
+					duration = 1450
 				}
 			}
 		}
@@ -582,11 +585,9 @@ political_decisions = {
 	alaskan_frontier = {
 		picture = fort_selkirk
 		potential = {
+			tag = ENG
 			OR = {
-				AND = { 
-					owns = 17
-					tag = ENG
-				}
+				owns = 17
 				AND = {
 					tag = ENG
 					RPL = {
@@ -609,8 +610,12 @@ political_decisions = {
 				add_core = RPL
 				change_province_name = "Fort Selkirk"
 			}
-			2629 = { secede_province = THIS }
-			18 = { secede_province = THIS }
+			any_owned = {
+				limit = {
+					is_core = RPL
+				}
+				secede_province = RPL
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -657,7 +662,6 @@ political_decisions = {
 				NOT = { has_country_flag = refused_ruperts_land }
 				NOT = { has_country_flag = agreed_ruperts_land }
 			}
-			NOT = { has_country_flag = rupert_land_act }
 		}
 		
 		allow = {
@@ -667,7 +671,6 @@ political_decisions = {
 		
 		effect = {
 			badboy = -3
-			set_country_flag = rupert_land_act
 			#ENG_6 = { remove_core = THIS }
 			ENG_9 = { remove_core = THIS }
 			ENG_22 = { remove_core = THIS }
@@ -693,86 +696,6 @@ political_decisions = {
 				COL = { all_core = { remove_core = THIS } }
 			}
 			CAN = { country_event = 44321 }
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	rupert_land_act_alternate = {
-		picture = canadian_dominion
-		potential = {
-			year = 1875
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
-			NOT = { 
-				government = proletarian_dictatorship
-				government = presidential_dictatorship
-				government = fascist_dictatorship
-			}
-			OR = {
-				any_owned_province = {
-					OR = {
-						#region = ENG_6
-						region = ENG_9
-						region = ENG_22
-						region = ENG_30
-						region = ENG_36
-						region = CAN_50
-						region = CAN_60
-					}
-				}
-				RPL = {
-					exists = yes
-					vassal_of = THIS
-				}
-			}
-			NOT = { has_country_flag = refused_ruperts_land }
-			CAN = {
-				exists = no
-			}
-			has_country_flag = CAN_independence_refused
-			NOT = { has_country_flag = rupert_land_act }
-		}
-		
-		allow = {
-			war = no
-			money = 101000
-		}
-		
-		effect = {
-			treasury = -100000
-			#ENG_6 = { remove_core = THIS }
-			ENG_9 = { remove_core = THIS }
-			ENG_22 = { remove_core = THIS }
-			ENG_30 = { remove_core = THIS }
-			ENG_36 = { remove_core = THIS }
-			CAN_50 = { remove_core = THIS }
-			CAN_60 = { remove_core = THIS }
-			random_owned = {
-				limit = { region = USA_1 }
-				USA_1 = {
-					remove_core = THIS
-					remove_core = RUS
-				}
-			}
-			random_owned = {
-				limit = {
-					owner = {
-						NOT = { has_country_flag = british_columbia_organized }
-					}
-				}
-				CAN_13 = { remove_core = THIS }
-				#CAN_18 = { remove_core = THIS }
-				COL = { all_core = { remove_core = THIS } }
-			}
-			inherit = RPL
-			RPL = {
-				government = hms_government
-				all_core = { add_core = CAN }
-			}
-			set_country_flag = rupert_land_act
 		}
 		
 		ai_will_do = { factor = 1 }

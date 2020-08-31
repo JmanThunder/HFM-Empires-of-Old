@@ -1302,11 +1302,10 @@ province_event = {
 		name = "EVT98800OPTA"
 		state_scope = {
 			any_owned = {
-				limit = { NOT = { is_core = CHD } }
-				remove_core = KBO
-				remove_core = BRM
-				remove_core = WAD
-				remove_core = ADW
+				limit = {
+					NOT = { is_core = CHD }
+				}
+				add_core = CHD
 				any_pop = { militancy = -3 }
 			}
 		}

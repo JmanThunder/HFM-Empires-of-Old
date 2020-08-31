@@ -568,36 +568,25 @@ country_event = {
 			}
 			militancy = -10
 		}
-		random_owned = {
-			limit = { 
-				OR = {
-					AND = { IRE = { exists = no } is_core = IRE }
-					IRE = { exists = yes vassal_of = ENG }
-				}
+		IRE = { all_core = { remove_core = THIS } }
+		release_vassal = IRE
+		IRE = {
+			prestige = -80
+			government = dominion
+			any_owned = {
+				limit = { region = ENG_254 }
+				add_core = THIS
+				secede_province = THIS
 			}
-			THIS = { 
-				release_vassal = IRE 
-				relation = {
-					who = IRE
-					value = 200
-				}
-				diplomatic_influence = {
-					who = IRE
-					value = 400
-				}
-			}
-			IRE = {
-				prestige = -80
-				government = dominion
-				any_owned = {
-					limit = { region = ENG_254 }
-					add_core = THIS
-					secede_province = THIS
-				}
-			}
-			IRE = { all_core = { remove_core = THIS } }
 		}
-
+		relation = {
+			who = IRE
+			value = 200
+		}
+		diplomatic_influence = {
+			who = IRE
+			value = 200
+		}
 		any_greater_power = {
 			diplomatic_influence = { who = AST value = -400 }	
 			diplomatic_influence = { who = CAN value = -400 }	
@@ -659,34 +648,24 @@ country_event = {
 			}
 			militancy = -10
 		}
-		random_owned = {
-			limit = { 
-				OR = {
-					AND = { IRE = { exists = no } is_core = IRE }
-					IRE = { exists = yes vassal_of = ENG }
-				}
+		IRE = { all_core = { remove_core = THIS } }
+		release_vassal = IRE
+		IRE = {
+			prestige = -80
+			government = dominion
+			any_owned = {
+				limit = { region = ENG_254 }
+				add_core = THIS
+				secede_province = THIS
 			}
-			THIS = { 
-				release_vassal = IRE 
-				relation = {
-					who = IRE
-					value = 200
-				}
-				diplomatic_influence = {
-					who = IRE
-					value = 400
-				}
-			}
-			IRE = {
-				prestige = -80
-				government = dominion
-				any_owned = {
-					limit = { region = ENG_254 }
-					add_core = THIS
-					secede_province = THIS
-				}
-			}
-			IRE = { all_core = { remove_core = THIS } }
+		}
+		relation = {
+			who = IRE
+			value = 200
+		}
+		diplomatic_influence = {
+			who = IRE
+			value = 200
 		}
 		any_greater_power = {
 			diplomatic_influence = { who = AST value = -400 }	
@@ -944,11 +923,8 @@ province_event = {
 	trigger = {
 		capital_scope = { continent = europe }
 		is_greater_power = yes
-		province_id = 2026
-		THIS = {
-			owns = 2033
-			owns = 2026
-		}
+		owns = 2033
+		owns = 2026
 		has_global_flag = berlin_conference
 		has_global_flag = kenya_organized
 	}
@@ -957,29 +933,27 @@ province_event = {
 	
 	option = {
 		name = "EVT99107OPT"
-		THIS = {
-			any_owned = {
-				limit = {
-					is_core = KNY
-					NOT = { terrain = savanna }
-				}
-				add_province_modifier = {
-					name = small_immigration_boom
-					duration = 3650
-				}
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = -1
-				}
-				any_pop = {
-					limit = {
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
-					militancy = 3
-					consciousness = 3
-				}	
+		any_owned = {
+			limit = {
+				is_core = KNY
+				NOT = { terrain = savanna }
 			}
+			add_province_modifier = {
+				name = small_immigration_boom
+				duration = 3650
+			}
+			add_province_modifier = {
+				name = colonial_exploitation
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				militancy = 3
+				consciousness = 3
+			}	
 		}
 		ai_chance = { factor = 1 }
 	}

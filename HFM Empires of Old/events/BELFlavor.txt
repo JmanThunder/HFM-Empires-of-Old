@@ -348,12 +348,10 @@ country_event = {
 		relation = { who = ENG value = 50 }
 		relation = { who = NET value = 150 }
 		381 = { remove_core = BEL }
-		3313 = { remove_core = BEL }
 		397 = { remove_core = BEL }
 		random_owned = {
 			limit = { LUX = { exists = no } }
 			398 = { remove_core = LUX }
-			3318 = { remove_core = LUX }
 		}
 		any_owned = {
 			limit = {
@@ -451,7 +449,6 @@ country_event = {
 		BEL_394 = { remove_core = NET }
 		BEL_387 = { remove_core = NET }
 		381 = { add_core = LBG }
-		3313 = { add_core = LBG }
 		release_vassal = LBG
 		random_country = {
 				limit = {
@@ -588,7 +585,6 @@ country_event = {
 		}
 		relation = { who = NET value = 150 }
 		381 = { remove_core = NET }
-		3313 = { remove_core = NET }
 		BEL_394 = { remove_core = NET }
 		BEL_387 = { remove_core = NET }
 		NET = {
@@ -650,7 +646,6 @@ country_event = {
 		}
 		relation = { who = NET value = -100 }
 		381 = { remove_core = NET }
-		3313 = { remove_core = NET }
 		BEL_394 = { remove_core = NET }
 		BEL_387 = { remove_core = NET }
 		NET = {

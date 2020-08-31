@@ -342,7 +342,6 @@ political_decisions = {
 			TUR_810 = { remove_core = TUR } # Bulgaria
 			TUR_809 = { remove_core = TUR remove_core = RUM } #Eastern Rumelia
 			TUR_803 = { remove_core = TUR } # S.Serbia
-			TUR_806 = { remove_core = TUR } # Macedonia
 			MON_2582 = { remove_core = TUR } # Montenegro
 			TUR_853 = { remove_core = TUR } # Albania
 			TUR_832 = { remove_core = TUR } # Thessalia

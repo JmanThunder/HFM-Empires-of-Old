@@ -627,9 +627,6 @@ country_event = {
 			type = cut_down_to_size
 			months = 30
 		}
-		1186 = { add_core = RUS }
-		1188 = { add_core = RUS }
-		1190 = { add_core = RUS }
 	}
 }
 
@@ -647,14 +644,6 @@ country_event = {
 		any_pop = { militancy = 3 }
 		any_owned = {
 			limit = { is_core = RUS }
-			secede_province = RUS
-		}
-		any_owned = {
-			limit = { is_core = KAZ }
-			secede_province = RUS
-		}
-		any_owned = {
-			limit = { is_core = KOK }
 			secede_province = RUS
 		}
 		1613 = { add_core = MCK }
@@ -731,9 +720,6 @@ country_event = {
 	
 	option = {
 		name = "EVT80110OPTA"
-		
-		set_global_flag = peking_con
-
 		RUS = { country_event = 80101 }
 		any_country = {
 			limit = {
@@ -741,11 +727,7 @@ country_event = {
 					vassal_of = THIS
 					substate_of = THIS
 				}
-				OR = {
-					any_owned_province = { is_core = RUS }
-					any_owned_province = { is_core = KAZ }
-					any_owned_province = { is_core = KOK }
-				}
+				any_owned_province = { is_core = RUS }
 			}
 			country_event = 80103
 		}
@@ -1136,7 +1118,6 @@ country_event = {
 		diplomatic_influence = { who = FIN value = 200 }
 		339 = { remove_core = RUS }
 		982 = {
-			change_province_name = Petsamo
 			remove_core = RUS
 			add_core = FIN
 			secede_province = FIN

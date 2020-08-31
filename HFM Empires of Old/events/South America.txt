@@ -757,6 +757,7 @@ country_event = {
 
 	trigger = {
 		tag = PBC
+		is_independant = yes			  
 		owns = 2295 #Lima
 		owns = 2302 #Cusco
 		owns = 2578 #Tacna

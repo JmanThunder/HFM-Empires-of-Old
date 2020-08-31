@@ -369,11 +369,6 @@ political_decisions = {
 			any_owned = {
 				limit = {
 					is_core = WSF
-					NOT = { 
-						is_core = UKR
-						is_core = LIT
-						is_core = BYE
-					}
 				}
 				remove_core = THIS
 				secede_province = WSF

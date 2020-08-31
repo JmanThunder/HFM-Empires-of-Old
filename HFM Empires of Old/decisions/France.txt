@@ -331,9 +331,15 @@ political_decisions = {
 				war_policy = jingoism
 				war_policy = pro_military
 			}
-			ITA = {
-				exists = yes
-				NOT = { in_sphere = THIS }
+			OR = {
+				ITA = {
+					exists = yes
+					NOT = { in_sphere = THIS }
+				}
+				ITS = {
+					exists = yes
+					NOT = { in_sphere = THIS }
+				}
 			}
 			NOT = {
 				has_country_modifier = punitive_effects
@@ -375,9 +381,15 @@ political_decisions = {
 				war_policy = jingoism
 				war_policy = pro_military
 			}
-			ITA = {
-				exists = yes
-				NOT = { in_sphere = THIS }
+			OR = {
+				ITA = {
+					exists = yes
+					NOT = { in_sphere = THIS }
+				}
+				ITS = {
+					exists = yes
+					NOT = { in_sphere = THIS }
+				}
 			}
 			NOT = {
 				has_country_modifier = punitive_effects
@@ -401,7 +413,10 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				466 = { NOT = { is_core = ITA } }
+				OR = {
+					466 = { NOT = { is_core = ITA } }
+					466 = { NOT = { is_core = ITS } }
+				}
 			}
 			
 			modifier = {
@@ -476,6 +491,7 @@ political_decisions = {
 						is_core = CAT
 						is_core = CRS
 						is_core = ITA
+						is_core = ITS
 						is_core = THIS
 						is_core = SWI
 						AND = {

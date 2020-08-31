@@ -51,8 +51,23 @@ political_decisions = {
 		
 		allow = {
 			war_policy = jingoism
-			NOT = { relation = { who = ITA value = 100 } }
-			MNC = { OR = { NOT = { vassal_of = ITA } vassal_of = THIS } }
+			NOT = { 
+				OR = {
+					relation = { who = ITA value = 100 }
+					relation = { who = ITS value = 100 }
+				}
+			}
+			MNC = { 
+				OR = { 
+					NOT = { 
+						OR = {
+							vassal_of = ITA
+							vassal_of = ITS
+						}
+					} 
+					vassal_of = THIS 
+				} 
+			}
 		}
 		
 		effect = {
@@ -680,6 +695,7 @@ political_decisions = {
 						alliance_with = ENG
 						alliance_with = RUS
 						alliance_with = ITA
+						alliance_with = ITS
 					}
 				}
 				GER = {
@@ -726,10 +742,17 @@ political_decisions = {
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
-			ITA = {
-				exists = yes
-				NOT = { war_with = THIS }
-				owns = 744 #Florence
+			OR = {
+				ITA = {
+					exists = yes
+					NOT = { war_with = THIS }
+					owns = 744 #Florence
+				}
+				ITS = {
+					exists = yes
+					NOT = { war_with = THIS }
+					owns = 744 #Florence
+				}
 			}
 			owns = 465 #Annecy
 			owns = 721 #Aosta
@@ -751,6 +774,14 @@ political_decisions = {
 			any_owned = {
 				limit = { is_core = ITA  }
 				secede_province = ITA
+			}
+			721 = { remove_core = ITS }
+			465 = { remove_core = ITS }
+			466 = { remove_core = ITS }
+			472 = { remove_core = ITS }
+			any_owned = {
+				limit = { is_core = ITS  }
+				secede_province = ITS
 			}
 		}
 		
@@ -778,7 +809,6 @@ political_decisions = {
 				AND = { owns = 394 NOT = { has_global_flag = france_rename_charleroi } }
 				AND = { owns = 395 NOT = { has_global_flag = france_rename_liege } }
 				AND = { owns = 398 NOT = { has_global_flag = france_rename_arlon } }
-				AND = { owns = 3318 NOT = { has_global_flag = france_rename_arel } }
 			}
 		}
 		
@@ -822,20 +852,11 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 398 }
-				398 = { change_province_name = "Bastogne" }
+				398 = { change_province_name = "Arlon" }
 				owner = { 
 					set_global_flag = france_rename_arlon
 					clr_global_flag = dutch_rename_arlon
 					clr_global_flag = german_rename_arlon
-				}
-			}
-			random_owned = {
-				limit = { province_id = 3318 }
-				3318 = { change_province_name = "Arlon" }
-				owner = { 
-					set_global_flag = france_rename_arel
-					clr_global_flag = dutch_rename_arel
-					clr_global_flag = german_rename_arel
 				}
 			}
 			random_owned = {
@@ -896,7 +917,6 @@ political_decisions = {
 				AND = { owns = 570 has_global_flag = france_rename_hesse_pfalz }
 				AND = { owns = 397 has_global_flag = france_rename_luxemburg }
 				AND = { owns = 398 NOT = { has_global_flag = german_rename_arlon } }
-				AND = { owns = 3318 NOT = { has_global_flag = german_rename_arel } }
 				AND = { owns = 395 NOT = { has_global_flag = german_rename_liege } }
 				AND = { owns = 381 NOT = { has_global_flag = german_rename_limburg } }
 			}
@@ -950,20 +970,11 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 398 }
-				398 = { change_province_name = "Bastenach" }
+				398 = { change_province_name = "Arel" }
 				owner = { 
 					set_global_flag = german_rename_arlon
 					clr_global_flag = dutch_rename_arlon
 					clr_global_flag = france_rename_arlon
-				}
-			}
-			random_owned = {
-				limit = { province_id = 3318 }
-				3318 = { change_province_name = "Arel" }
-				owner = { 
-					set_global_flag = german_rename_arel
-					clr_global_flag = dutch_rename_arel
-					clr_global_flag = france_rename_arel
 				}
 			}
 			random_owned = {
@@ -988,11 +999,19 @@ political_decisions = {
 			capital = 425
 			has_country_flag = 2nd_empire
 			has_country_modifier = louis_napoleon_iii
-			ITA = {
-				ai = yes
-				exists = yes
-				owns = 750 #Viterbo
-				NOT = { owns = 749 } #Rome
+			OR = {
+				ITA = {
+					ai = yes
+					exists = yes
+					owns = 750 #Viterbo
+					NOT = { owns = 749 } #Rome
+				}
+				ITS = {
+					ai = yes
+					exists = yes
+					owns = 750 #Viterbo
+					NOT = { owns = 749 } #Rome
+				}
 			}
 			PAP = {
 				government = theocracy
@@ -1009,6 +1028,7 @@ political_decisions = {
 		allow = {
 			NOT = { any_greater_power = { war_with = THIS } }
 			NOT = { war_with = ITA }
+			NOT = { war_with = ITS }
 			is_greater_power = yes
 		}
 		
@@ -1026,7 +1046,11 @@ political_decisions = {
 			relation = {
 				who = ITA
 				value = -50
-			}	
+			}
+			relation = {
+				who = ITS
+				value = -50
+			}			
 		}
 		
 		ai_will_do = { factor = 1 }

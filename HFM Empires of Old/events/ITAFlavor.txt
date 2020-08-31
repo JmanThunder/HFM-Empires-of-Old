@@ -3,7 +3,10 @@ country_event = {
 	id = 35300
 
 	trigger = {
-		tag = ITA
+		OR = {
+			tag = ITA
+			tag = ITS
+		}
 		year = 1910
 		NOT = {
 			year = 1913
@@ -43,12 +46,14 @@ country_event = {
 	id = 35301
 
 	trigger = {
-		tag = ITA
+		OR = {
+			tag = ITA
+			tag = ITS
+		}
 		year = 1902
 		NOT = {
 			year = 1905
-			}
-		
+		}
 	}
 	
 	fire_only_once = yes
@@ -86,7 +91,10 @@ country_event = {
 	picture = "pope"
 	
 	trigger = {
-		tag = ITA
+		OR = {
+			tag = ITA
+			tag = ITS
+		}
 		year = 1891
 		NOT = {
 			year = 1894
@@ -140,7 +148,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = ITA
+		OR = {
+			tag = ITA
+			tag = ITS
+		}
 		war = no
 		is_disarmed = no
 		has_global_flag = berlin_congress_held
@@ -712,7 +723,10 @@ country_event = {
 			tag = SAR
 			tag = SVY
 			tag = SMR
-			exists = ITA
+			OR = {
+				exists = ITA
+				exists = ITS
+			}
 			truce_with = SAR
 			truce_with = SVY
 			has_country_flag = does_not_want_to_unify
@@ -1009,7 +1023,10 @@ country_event = {
 		is_vassal = no
 		is_disarmed = no
 		NOT = {
-			exists = ITA
+			OR= {
+				exists = ITA
+				exists = ITS
+			}
 			has_country_flag = does_not_want_to_be_unified
 		}
 		OR = {
@@ -1259,7 +1276,10 @@ country_event = {
 	picture = "vittoriano"
 
 	trigger = {
-		tag = ITA
+		OR = {
+			tag = ITA
+			tag = ITS
+		}
 		owns = 749
 		has_country_flag = altar_built
 		NOT = { has_country_modifier = monument_under_construction }
@@ -1402,6 +1422,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = ITA
+			tag = ITS
 			tag = TUS
 		}
 		year = 1881

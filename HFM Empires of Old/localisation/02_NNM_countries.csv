@@ -730,6 +730,7 @@ KAM_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;
 KAM_fascist;The Nationalists;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 KAZ;Kazakhstan;;;;;;;;;;;;;x
 KAZ_ADJ;Kazakh;;;;;;;;;;;;;x
+KAZ_conservative;The Conservatives;Faction royale;Königsfraktion;;;;;;;;;;;x
 KAZ_liberal;The Liberals;Faction libérale;Die liberale Fraktion;;;;;;;;;;;x
 KAZ_reactionary;The Khanate Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;x
 KAZ_anarcho_liberal;The Libertains;Faction radicale;Die radikale Fraktion;;;;;;;;;;;x
@@ -763,6 +764,8 @@ KER_anarcho_liberal;Radical Party;Radical Party;Radical Party;;;;;;;;;;;x
 KER_fascist;Mebyon Kernow;Mebyon Kernow;Mebyon Kernow;;;;;;;;;;;x
 KIT;Saint Kitts;;;;;;;;;;;;x
 KIT_ADJ;Kittitian;;;;;;;;;;;;x
+KLM;Kalimantan;;;;;;;;;;;;;x
+KLM_ADJ;Kalimantan;;;;;;;;;;;;;x
 KMK;Kalmykia;;;;;;;;;;;;x
 KMK_fascist_dictatorship;Kalmyk Khanate;;;;;;;;;;;;x
 KMK_proletarian_dictatorship;Kalmyk Republic;;;;;;;;;;;;x
@@ -828,6 +831,7 @@ KRY_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;
 KRY_fascist;The Nationalists;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 KTI;Kutai;;;;;;;;;;;;;x;
 KTI_ADJ;Kutain;;;;;;;;;;;;;x;
+KTI_conservative;Royal Faction;;;;;;;;;;;;x
 KTI_liberal;The Liberal Faction;;;;;;;;;;;;x
 KTI_reactionary;The Nationalist Faction;;;;;;;;;;;;x
 KTI_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
@@ -1023,6 +1027,9 @@ MRU_absolute_monarchy;Maritime Union;;;;;;;;;;;;x
 MRU_prussian_constitutionalism;Maritime Union;;;;;;;;;;;;x
 MRU_hms_government;Maritime Union;;;;;;;;;;;;x
 MRU_ADJ;Maritime;;;;;;;;;;;;x
+NEJ_absolute_monarchy_ADJ;Saudi;;;;;;;;;;;;x
+NEJ_prussian_constitutionalism_ADJ;Saudi;;;;;;;;;;;;x
+NEJ_hms_government_ADJ;Saudi;;;;;;;;;;;;x
 NGR;Nigeria;;;;;;;;;;;;x
 NGR_ADJ;Nigerian;;;;;;;;;;;;x
 NIG;Niger;;;;;;;;;;;;x
@@ -1586,6 +1593,9 @@ TCA_ADJ;Transcaucasian;;;;;;;;;;;;x
 TKG;Shogunate Japan;;;;;;;;;;;x
 TKG_ADJ;Tokugawa;;;;;;;;;;;x
 TKM;Turkmenistan;;;;;;;;;;;;;x
+TKM_absolute_monarchy;Salor Confederation;;;;;;;;;;;;x
+TKM_hms_government;Salor Confederation;;;;;;;;;;;;x
+TKM_prussian_constitutionalism;Salor Confederation;;;;;;;;;;;;x
 TKM_ADJ;Turkmenian;;;;;;;;;;;;;x
 TKM_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TKM_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1626,6 +1636,20 @@ TOS_hms_government;Tosa;;;;;;;;;;;;;x
 TOS_absolute_monarchy_ADJ;Yamauchi;;;;;;;;;;;;;x
 TOS_prussian_constitutionalism_ADJ;Yamauchi;;;;;;;;;;;;;x
 TOS_hms_government_ADJ;Yamauchi;;;;;;;;;;;;;x
+TPG;Heavenly Kingdom;;;;;;;;;;;;x
+TPG_democracy;Taiping Republic;;;;;;;;;;;;;x
+TPG_bourgeois_dictatorship;Taiping Republic;;;;;;;;;;;;;x
+TPG_proletarian_dictatorship;Communist Taiping;;;;;;;;;;;;;x
+TPG_fascist_dictatorship;Taiping;;;;;;;;;;;;;x
+TPG_presidential_dictatorship;Taiping Clique;;;;;;;;;;;;;x
+TPG_ADJ;Taiping;;;;;;;;;;;;x
+TPG_conservative;West King;;;;;;;;;;;;x
+TPG_liberal;Yi King;;;;;;;;;;;;x
+TPG_reactionary;East King;;;;;;;;;;;;x
+TPG_socialist;North King;;;;;;;;;;;;x
+TPG_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
+TPG_communist;The Communist Faction;;;;;;;;;;;;x
+TPG_fascist;The Fascist Faction;;;;;;;;;;;;x
 TRE_reactionary;Monarchici;Monarchici;Monarchici;;Monarchici;;;;;;;;;x
 TRE_liberal;Intransigenti;Intransigenti;Intransige nti;;Intransigenti;;;;;;;;;x
 TRE_conservative;Transigenti;Transigenti;Transigen ti;;Transigenti;;;;;;;;;x

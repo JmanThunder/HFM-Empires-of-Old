@@ -461,10 +461,6 @@ country_event = {
 				}
 			}
 			secede_province = ROM
-
-				673= { secede_province = RUS }
-				678= { secede_province = RUS }
-
 		}
 		any_owned = {
 			limit = { region = TUR_885 }
@@ -768,7 +764,6 @@ country_event = {
 				OR = {
 					region = MOL_673
 					province_id = 678
-					province_id = 673
 				}
 			}
 			add_core = ROM
@@ -1075,8 +1070,7 @@ country_event = {
 	option = {
 		name = "EVT97520OPTA"
 		clr_country_flag = romanian_war_of_independence
-		678 = { secede_province = RUS }
-		673 = { secede_province = RUS }
+		678 = { secede_province = RUS add_core = RUS }
 		ai_chance = { factor = 100 }
 	}
 	

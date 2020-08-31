@@ -21,6 +21,7 @@ political_decisions = {
 			ai = yes
 			government = democracy
 			NOT = { has_country_flag = usstatehood_we_have_applied }
+			NOT = { has_country_flag = LSK_form }																  
 		}
 		allow = {
 			139 = { owned_by = USA }

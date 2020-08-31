@@ -425,27 +425,11 @@ country_event = {
 	picture = "irish_republican_brotherhood"
 	
 	trigger = {
-		OR = {
-			AND = {
-				any_owned_province = {
-					is_core = IRE
-					culture = irish
-					NOT = { has_province_modifier = irish_republicans }
-					NOT = { has_province_modifier = irish_unionists }
-					pop_militancy = 2
-				}
-				NOT = { has_country_flag = help_for_the_irish }
-			}
-			AND = {
-				any_owned_province = {
-					is_core = IRE
-					culture = irish
-					NOT = { has_province_modifier = irish_republicans }
-					NOT = { has_province_modifier = irish_unionists }
-					pop_militancy = 5
-				}
-				has_country_flag = help_for_the_irish
-			}
+		any_owned_province = {
+			is_core = IRE
+			culture = irish
+			NOT = { has_province_modifier = irish_republicans }
+			NOT = { has_province_modifier = irish_unionists }
 		}
 		OR = {
 			AND = {
@@ -483,10 +467,7 @@ country_event = {
 	option = {
 		name = "EVT1010020OPTA"
 		set_country_flag = irish_republican_brotherhood
-		random_owned = { 
-			limit = { owner = { NOT = { has_country_flag = help_for_the_irish } } }
-			owner = { remove_accepted_culture = irish }
-		}
+		remove_accepted_culture = irish
 		set_variable = {
 			which = irish_republican_provinces
 			value = 1

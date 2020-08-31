@@ -101,7 +101,7 @@ country_event = {
 			target = EGY
 			attacker_goal = { casus_belli = make_puppet }
 		}
-		#EGY = { release_vassal = HDJ }
+		EGY = { release_vassal = HDJ }
 		any_pop = {
 			limit = { is_primary_culture = yes }
 			dominant_issue = {
@@ -215,9 +215,7 @@ country_event = {
 				limit = { is_core = TUR }
 				remove_core = TUR
 			}
-			release_vassal = HDJ
 		}
-		create_vassal = HDJ
 		HDJ_1151 = { remove_core = TUR }
 		YEM_1178 = { remove_core = TUR }
 		any_pop = {

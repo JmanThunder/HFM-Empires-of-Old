@@ -30,6 +30,7 @@ country_event = {
 		invention = colonial_negotiations
 		has_global_flag = berlin_conference
 		total_pops = 2000000
+		has_global_flag = berlin_conference
 		is_disarmed = no
 		money = 75001
 		num_of_ports = 3
@@ -39,6 +40,7 @@ country_event = {
 		NOT = { war_exhaustion = 5 }
 		NOT = { has_country_flag = german_new_guinea_company }
 		NOT = { invention = the_dark_continent }
+		NOT = { has_global_flag = colonial_railroading_disabled }
 	}
 	
 	mean_time_to_happen = {
@@ -331,7 +333,6 @@ country_event = {
 							province_id = 412
 							province_id = 410
 							province_id = 409
-							province_id = 3322
 						}
 					 }
 					culture = french
@@ -420,7 +421,6 @@ country_event = {
 							province_id = 412
 							province_id = 410
 							province_id = 409
-							province_id = 3322
 						}
 					 }
 					culture = french
@@ -464,12 +464,8 @@ country_event = {
 		badboy = -2
 		prestige = 5
 		381 = { remove_core = BEL }
-		398 = { remove_core = LUX }
 		397 = { remove_core = BEL remove_core = NET }
-		PRU = { inherit = MRN }
-		3313 = { remove_core = NET remove_core = BEL secede_province = PRU add_core = PRU } #Venlo
-		3318 = { remove_core = NET remove_core = BEL remove_core = WLL } #Arel
-		NET = { release = LUX }
+		398 = { remove_core = NET add_core = LUX }
 		# Any Luxembourg lands given to Luxembourg, it is freed if vassaled
 		any_owned = {
 			limit = { is_core = LUX }
@@ -481,7 +477,6 @@ country_event = {
 				vassal_of = NET
 			}
 			NET = { release = LUX }
-			3318 = { secede_province = LUX }
 		}
 		FROM = {
 			relation = { who = LUX value = 125 }
@@ -1159,14 +1154,6 @@ country_event = {
 		WUR = { relation = { who = NGF value = -50 } }
 		BAV = { relation = { who = NGF value = -50 } }
 
-		BAV = {
-		
-		3307 = { remove_core = BAV }
-		3307 = { add_core = NGF }
-		3307 = { secede_province = NGF }
-		
-		}
-
 		ai_chance = { factor = 0.01 }
 	}
 
@@ -1182,14 +1169,6 @@ country_event = {
 		HES = {
 			relation = { who = NGF value = 25 }
 			create_alliance = NGF
-		}
-
-		BAV = {
-		
-		3307 = { remove_core = BAV }
-		3307 = { add_core = NGF }
-		3307 = { secede_province = NGF }
-		
 		}
 
 		diplomatic_influence = { who = HES value = 400 }
@@ -1213,111 +1192,4 @@ country_event = {
 		ai_chance = { factor = 0.01 }
 	}
 
-}
-
-country_event = {
-
-	id = 11011
-    title = "EVTNAME11011"
-    desc = "EVTDESC11011"
-    picture = "bergen_lease"
-    is_triggered_only = yes
-
-    	option = {
-        	name = "EVTOPTA11011"
-
-		ENG = { relation = { who = GER value = -100 }
-			relation = { who = NOR value = -50 }
-			diplomatic_influence = { who = NOR value = -100 }
-			country_event = 33033
-		}
-		309 = { secede_province = GER }
-		GER = { country_event = 22022 }
-	}
-
-    	option = {
-        	name = "EVTOPTB11011"
-		GER = { relation = { who = NOR value = -100 }
-			diplomatic_influence = { who = NOR value = -200 }
-			country_event = 44044
-		}	
-		ENG = { create_alliance = NOR
-			country_event = 55055 }
-	}
-}
-country_event = {
-
-	id = 22022
-    title = "EVTNAME22022" #GER noragrees
-    desc = "EVTDESC22022"
-    picture = "bergen_lease"
-
-    is_triggered_only = yes
-
-    	option = {
-        	name = "EVTOPTA22022"
-		GER = { money = -1250000 }
-	}
-}
-
-country_event = {
-
-	id = 34620
-    title = "EVTNAME34620"
-    desc = "EVTDESC34620"
-    picture = "ohl"
-
-    is_triggered_only = yes
-
-    	option = {
-        	name = "EVTOPTA34620"
-
-		badboy = 3
-		FRA = { relation = { who = GER value = -100 } }
-
-
-	}
-
-    	option = {
-        	name = "EVTOPTB34620"
-
-		badboy = 2
-		FRA = { relation = { who = GER value = -50 } }
-
-		414 = { secede_province = FRA }
-		2622 = { secede_province = FRA }
-
-		FRA = {
-			433 = { secede_province = GER }
-			405 = { secede_province = GER }
-		}
-
-				414 = { 
-					change_province_name = "Épinal"
-					state_scope = { change_region_name = "Lorraine" }
-				}
-				2622 = { change_province_name = "Bar-le-Duc" }
-				433 = { change_province_name = "Beffert" }
-				405 = { change_province_name = "Karlstadt" }
-
-				set_global_flag = german_renamed_frborderlands
-
-	}
-
-}
-
-country_event = {
-
-	id = 33033
-    title = "EVTNAME33033" #ENG noragrees
-    desc = "EVTDESC33033"
-    picture = "bergen_lease"
-
-    is_triggered_only = yes
-
-    	option = {
-        	name = "EVTOPTA33033"
-		ENG = {
-			casus_belli = { target = GER type = cut_down_to_size months = 12 }
-	}
 }

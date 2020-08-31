@@ -1291,7 +1291,6 @@ country_event = {
 				duration = 1095
 			}
 		}
-		set_country_flag = intentona_de_yauco
 		ai_chance = {
 			factor = 70
 			modifier = {
@@ -1338,7 +1337,6 @@ country_event = {
 		badboy = -2
 		prestige = -5
 		release_vassal = PRI
-		set_country_flag = intentona_de_yauco
 		any_pop = {
 			limit = {
 				NOT = { has_pop_culture = caribeno }

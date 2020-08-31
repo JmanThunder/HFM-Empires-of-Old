@@ -78,7 +78,10 @@ political_decisions = {
 	italian_islands = {
 		picture = "italian_islands"
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			has_unclaimed_cores = no
 			has_global_flag = italian_claimed_venetia
 			NOT = { has_country_flag = italian_islands_claimed }
@@ -86,7 +89,10 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes			
-			ITA = { all_core = { owned_by = THIS } }
+			OR = {
+				ITA = { all_core = { owned_by = THIS } }
+				ITS = { all_core = { owned_by = THIS } }
+			}
 			revolution_n_counterrevolution = 1
 			prestige = 150
 			military_score = 100
@@ -101,9 +107,10 @@ political_decisions = {
 			set_country_flag = italian_islands_claimed
 			prestige = 10
 			badboy = 3
-			854 = { add_core = ITA } #Malta
-			473 = { add_core = ITA } #Corsica
-			826 = { add_core = ITA } #Corfu
+			854 = { add_core = THIS } #Malta
+			473 = { add_core = THIS } #Corsica
+			826 = { add_core = THIS } #Corfu
+			827 = { add_core = THIS } #Zante
                         
 			any_country = {
 				limit = {
@@ -114,7 +121,7 @@ political_decisions = {
 					}
 				}
 				relation = {
-					who = ITA
+					who = THIS
 					value = -100
 				}
 			}
@@ -132,7 +139,10 @@ political_decisions = {
 	encourage_italian_aircraft = {
 		picture = "encourage_italian_aircraft"
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			year = 1919
 			NOT = { has_country_flag = porco_rosso }
 		}
@@ -246,7 +256,10 @@ political_decisions = {
 	galleria_ve = {
 		picture = "galleria_ve"
 		potential = {
-			tag = ITA
+			OR = {
+				tag = ITA
+				tag = ITS
+			}
 			owns = 726
 			NOT = { has_country_flag = shopping_in_milan }
 		}
@@ -403,6 +416,39 @@ political_decisions = {
 				militancy = -1
 			}
 			annex_to = ITA
+			set_country_flag = roman_republic_joins
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	roman_republic_joins_ITS = {
+		picture = "italia_irredenta"
+		potential = {
+			tag = PAP
+			ai = yes
+			NOT = { has_country_flag = roman_republic_joins }
+		}
+		
+		allow = {
+			government = democracy
+			exists = ITS
+			ITS = {
+				is_greater_power = yes
+				OR = {
+					government = democracy
+					government = hms_government
+					government = prussian_constitutionalism
+				}
+			}
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+			}
+			annex_to = ITS
 			set_country_flag = roman_republic_joins
 		}
 		

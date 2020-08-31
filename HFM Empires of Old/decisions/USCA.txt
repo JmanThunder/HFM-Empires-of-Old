@@ -223,29 +223,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	clear_the_coast = {
-		picture = moskito_coast_reserve
-
-		potential = {
-			tag = HON
-			2200 = { owned_by = NIC }
-			NOT = { has_country_flag = clear_the_coast }
-		}
-
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			NIC = { 
-				3327 = { secede_province = HON }
-				set_country_flag = clear_the_coast 
-			}
-		}
-
-		ai_will_do = { factor = 1 }
-	}
-	
 	belize_purchase = {
 		picture = map_central_america
 		potential = {
@@ -507,7 +484,6 @@ political_decisions = {
 		effect = {
 			clr_country_flag = bluefields_will_be_ours
 			2200 = { secede_province = MSK }
-			3327 = { secede_province = MSK }
 			create_vassal = MSK
 			MSK = { government = absolute_monarchy }
 		}

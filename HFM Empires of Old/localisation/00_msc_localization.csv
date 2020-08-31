@@ -1,4 +1,4 @@
-﻿;;;;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;;;;x
 organize_central_asia_title;Hegemony in Central Asia;;;;;;;;;;;;;;;;;;;;;;;;;x
 organize_central_asia_desc;Our domination over the steppes is now uncontested: it is time we organize the area to better serve our needs.;;;;;;;;;;;;;;;;;;;;;;;;;x
 conquest_of_red_water_title;Conquest of the coast;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -9,10 +9,6 @@ rename_artois_NET_title;Artois is ours!;;;;;;;;;;;;;;;;;;;;;;;;;x
 rename_artois_NET_desc;The region of Artois is finally back in $COUNTRY_ADJ$ hands! The area has been part of our rightful historical realm and this should reflect on the world's maps.;;;;;;;;;;;;;;;;;;;;;;;;;x
 rename_artois_FRA_title;Artois is ours!;;;;;;;;;;;;;;;;;;;;;;;;;x
 rename_artois_FRA_desc;The region of Artois is finally back in $COUNTRY_ADJ$ hands! The area has been part of our rightful historical realm and this should reflect on the world's maps.;;;;;;;;;;;;;;;;;;;;;;;;;x
-rename_artois_NET2_title;Artois is ours!;;;;;;;;;;;;;;;;;;;;;;;;;x
-rename_artois_NET2_desc;The region of Artois is finally back in $COUNTRY_ADJ$ hands! The area has been part of our rightful historical realm and this should reflect on the world's maps.;;;;;;;;;;;;;;;;;;;;;;;;;x
-rename_artois_FRA2_title;Artois is ours!;;;;;;;;;;;;;;;;;;;;;;;;;x
-rename_artois_FRA2_desc;The region of Artois is finally back in $COUNTRY_ADJ$ hands! The area has been part of our rightful historical realm and this should reflect on the world's maps.;;;;;;;;;;;;;;;;;;;;;;;;;x
 build_neuschwanstein_title;The Neuschwanstein Castle;;;;;;;;;;;;;;;;;;;;;;;;;x
 build_neuschwanstein_desc;The Neuschwanstein Castle is a nineteenth-century Romanesque Revival palace on a rugged hill above the village of Hohenschwangau. The palace was commissioned paid out of his personal fortune by Ludwig II of Bavaria, "The Swan King", as a retreat and as a homage to Richard Wagner. The palace was intended as a personal refuge for the reclusive sovereign: it is said that from his bedroom in Hohenschwangau, Ludwig trained a telescope on a ridge to keep an eye on Neuschwanstein as it was being constructed.;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME110082;Smuggle Tea to $COUNTRY$;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -59,6 +55,7 @@ EVT110091OPTB;They are also our subjects.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME110092;Race Riots;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC110092;The situation in $PROVINCE$ has degraded lately: due to poverty, unemployment and the post-war tensions riots have taken place against some of our national minorities. Looting, lynching and pillaging took place by a mass of furious protesters. This will be a black mark in our history...;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVT110092OPTA;A sad state of affair...;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+FRA_404;Artois;;;;;;;;;x;;;;
 amir_kabir;Amir Kabir;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 desc_amir_kabir;Amir Kabir Mirza Taghi Khan Farahani is overseeing great works of reform in our country, to the anger of some.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 racial_tensions;Racial tensions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;

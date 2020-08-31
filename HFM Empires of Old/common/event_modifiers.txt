@@ -1,6 +1,34 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+####
+
+loyal_vassal = {
+	diplomatic_points_modifier = 0.1
+	icon = 5
+}
+
+being_dismantled = {
+	prestige = -0.01
+	badboy = -0.05
+	icon = 6
+}
+
+dismantling_country = {
+	prestige = 0.01
+	diplomatic_points_modifier = -0.01
+	icon = 5
+}
+
+considering_colonial_offer = {
+	diplomatic_points_modifier = -0.01
+	icon = 5
+}
+
+colony_to_be_annexed = {
+	prestige = -0.01
+	icon = 5
+}
 
 french_liberal_school = {
 	max_tariff = -0.25
@@ -2042,7 +2070,7 @@ the_female_shortage = {
 
 christian_pamphlets = {
 	pop_consciousness_modifier = 0.3
-	pop_militancy_modifier = 0.15
+	pop_militancy_modifier = 0.1
 	icon = 20
 }
 
@@ -2053,7 +2081,7 @@ christian_repression = {
 }
 
 anti_manchu_sentiment = {
-	pop_consciousness_modifier = 0.15
+	pop_consciousness_modifier = 0.1
 	pop_militancy_modifier = 0.35
 	icon = 18
 }
@@ -2087,12 +2115,9 @@ shastar_vidya = {
 ### Japan ###
 sakoku = {
 	prestige = 0.01
-	research_points_modifier = -0.05
-	land_organisation = -0.05
-	naval_organisation = -0.1
 	global_pop_militancy_modifier = -0.05
 	war_exhaustion = -0.1
-	cb_generation_speed_modifier = -1.25
+	cb_generation_speed_modifier = -1.5
 	icon = 5
 }
 
@@ -2386,8 +2411,8 @@ manufacturing_belt = {
 }
 
 king_cotton = {
-	local_RGO_output = 0.05
-	local_RGO_throughput = 0.05
+	local_RGO_output = 0.075
+	local_RGO_throughput = 0.075
 	icon = 15
 }
 
@@ -2881,9 +2906,9 @@ red_shirts = {
 
 ###Dutch###
 kpm_shipping = {
-	local_RGO_output = 0.05
-	farm_rgo_size = 1
-	rich_income_modifier = 0.05
+	local_RGO_output = 0.15
+	farm_rgo_size = 3
+	rich_income_modifier = 0.25
 	icon = 1
 }
 
@@ -2892,12 +2917,6 @@ thorbecke_reforms = {
 	core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = -0.01
 	icon = 7
-}
-
-bpm_oil = {
-	local_RGO_output = 0.05
-	farm_rgo_size = 0.5
-	icon = 1
 }
 
 ###HFM Russia/Balkans Modifiers
@@ -3041,6 +3060,7 @@ drang_nach_osten_country = {
 
 unciv_balance_qng = {
 	research_points_modifier = -0.4
+	cb_generation_speed_modifier = -0.25
 	icon = 10
 }
 
@@ -3085,13 +3105,11 @@ the_eight_banners = {
 	min_social_spending = 0.25
 	max_social_spending = 0.50
 	research_points_modifier = -0.15
-	cb_generation_speed_modifier = -0.75
+	cb_generation_speed_modifier = -1
 	war_exhaustion = -5
 	supply_consumption = -0.2
 	research_points_on_conquer = -0.5
 	tax_efficiency = -0.01
-	global_pop_militancy_modifier = 0.05
-	global_pop_consciousness_modifier = 0.05
 	icon = 16
 }
 
@@ -3136,7 +3154,6 @@ canton_system = {
 	import_cost = 0.05
 	rich_income_modifier = 0.25
 	local_RGO_throughput = 0.05
-	min_tariff = 0.1
 	icon = 11
 }
 
@@ -3199,7 +3216,7 @@ eic_balance = {
 }
 
 eic_balance2 = {
-	supply_consumption = -0.15
+	supply_consumption = -0.1
 	prestige = 0.03
 	icon = 7
 }
@@ -3242,6 +3259,7 @@ pax_britannica = {
 	diplomatic_points_modifier = 0.5
 	badboy = -0.05
 	influence_modifier = 0.05
+	supply_consumption = 0.05
 	min_military_spending = 0.25
 	icon = 7
 }
@@ -3285,4 +3303,96 @@ ai_warships_cooldown = {
 foreign_weapons_imported = {
 	icon = 9
 }
+###More Stuff HFM###
 
+monaco_sacked_modifer = {
+	local_artisan_output = -0.5
+	local_artisan_input = -0.5
+	local_factory_output = -1
+	local_factory_input = -1
+	local_RGO_output = -0.5
+	immigrant_attract = -0.50
+	immigrant_push = 0.25
+	local_ruling_party_support = -0.1
+	population_growth = -0.2
+	icon = 18
+}
+
+underground_railroad_NAF = {
+	global_population_growth = 0.005
+	icon = 17
+}
+
+NAF_ethnic_tensions = {
+	assimilation_rate = -0.1
+	local_RGO_output = -0.1
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.01
+	icon = 20
+}
+
+NAF_Tuskegee_Uni = {
+	research_points_modifier = 0.01
+	education_efficiency_modifier = 0.03
+	icon = 3
+}
+
+NAF_revolt_flag = {
+	icon = 18
+}
+
+NAF_uprising = {
+	pop_militancy_modifier = -0.05
+	mobilisation_size = 0.75
+	prestige = -0.02
+	war_exhaustion = -0.2
+	tax_efficiency = 0.25
+	tariff_efficiency_modifier = 0.25
+	icon = 18
+}
+### RGO Change ###
+switched_production = {
+	local_RGO_output = -0.50
+	icon = 14
+}
+
+rgo_changed = {
+	icon = 12
+}
+
+migration_factor_reduced = {
+    icon = 14
+	immigrant_push = -100
+}
+
+timber_employment_fix = {
+    local_RGO_throughput = -0.95
+    icon = 14
+}
+
+##### Birth Rate Campaigns ######
+
+birthrate_push_low = {
+	global_population_growth = 0.001
+    badboy = 0.04
+	tax_efficiency = -0.05
+    icon = 17
+}
+
+birthrate_push_medium = {
+    global_population_growth = 0.002
+    badboy = 0.08
+	tax_efficiency = -0.1
+    icon = 17
+}
+
+birthrate_push_high = {
+    global_population_growth = 0.003
+    badboy = 0.12
+	tax_efficiency = -0.2
+    icon = 17
+}
+
+recently_selected_birthrate = {
+    icon = 2
+}

@@ -782,8 +782,7 @@ country_event = {
 				ai = yes
 				owns = 678
 			}
-			678 = { secede_province = RUS }
-			673 = { secede_province = RUS }
+			678 = { secede_province = RUS add_core = RUS }
 		}
 		random_country = {
 			limit = {
@@ -837,10 +836,6 @@ country_event = {
 				exists = ROM
 			}
 			secede_province = ROM
-
-
-				673= { secede_province = RUS }
-				678= { secede_province = RUS }
 		}
 	
 		# Give Bulgaria, Eastern Rumelia, Silestre, Thrace to Bulgaria, free it if vassaled
@@ -1185,7 +1180,6 @@ country_event = {
 			
 		}
 		678 = { secede_province = RUS }
-		673 = { secede_province = RUS }
 		
 		ROM = {
 			add_country_modifier = {

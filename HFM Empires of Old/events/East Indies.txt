@@ -174,14 +174,14 @@ country_event = {
 				NOT = { vassal_of = THIS }
 				NOT = { in_sphere = THIS }
 			}
-			#KLM = {
-			#	neighbour = THIS
-			#	exists = yes
-			#	NOT = { civilized = yes }
-			#	NOT = { truce_with = THIS }
-			#	NOT = { vassal_of = THIS }
-			#	NOT = { in_sphere = THIS }
-			#}
+			KLM = {
+				neighbour = THIS
+				exists = yes
+				NOT = { civilized = yes }
+				NOT = { truce_with = THIS }
+				NOT = { vassal_of = THIS }
+				NOT = { in_sphere = THIS }
+			}
 		}
 		NOT = {
 			casus_belli = ATJ
@@ -190,7 +190,7 @@ country_event = {
 			casus_belli = BAL
 			casus_belli = KTI
 			casus_belli = LAN
-			#casus_belli = KLM
+			casus_belli = KLM
 		}
 	}
 
@@ -619,14 +619,6 @@ province_event = {
 				remove_core = KTI
 				remove_core = SUL
 				remove_core = BRU
-				remove_core = RIA
-				remove_core = PTK
-				remove_core = SBS
-				remove_core = BGN
-				#remove_core = MTN
-				remove_core = BTN
-				remove_core = LUW
-				remove_core = STG
 			}
 		}
 	}
@@ -912,8 +904,6 @@ country_event = {
 	
 	fire_only_once = yes
 	mean_time_to_happen = { months = 3 }
-	
-	immediate = { set_global_flag = anglo_siam_treaty_1909 }
 	
 	option = {
 		name = "EVT97122OPTA"

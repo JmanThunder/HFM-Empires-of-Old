@@ -86,6 +86,7 @@ political_decisions = {
 
 		ai_will_do = { factor = 1 }
 	}
+
 	create_romania = {
 		potential = {
 			NOT = { tag = URP }
@@ -127,42 +128,30 @@ political_decisions = {
 			badboy = 2
 			any_country = {
 				limit = {
+					OR = { 
+						is_our_vassal = WAL
+						is_our_vassal = MOL
+						is_our_vassal = SIE
+					}
+					NOT = { tag = THIS }
+				}
+				casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 12
+				}
+			}		
+			any_country = {
+				limit = {
 					OR = {
-						tag = MOL
 						tag = WAL
+						tag = MOL
 						tag = SIE
-						tag = MDV
-						tag = BKV
-						tag = URP
 					}
 					ai = yes
 					in_sphere = THIS
 				}
 				annex_to = THIS
-			}
-			any_country = {
-				limit = {
-					NOT = { is_culture_group = pan_romanian }
-					in_sphere = THIS
-					war = no
-					any_owned_province = {
-						OR = {
-							is_core = MOL
-							is_core = WAL
-							is_core = SIE
-						}
-					}
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							is_core = MOL
-							is_core = WAL
-							is_core = SIE
-						}
-					}
-					secede_province = THIS
-				}
 			}
 			any_owned = {
 				limit = {
@@ -175,12 +164,11 @@ political_decisions = {
 			create_alliance = ROM
 			diplomatic_influence = {
 				who = ROM
-				value = 400
+				value = 300
 			}
 			any_country = {
 				limit = {
 					OR = {
-						tag = RUS
 						tag = AUS
 						tag = KUK
 						tag = HUN
@@ -192,8 +180,12 @@ political_decisions = {
 					who = THIS
 					value = -50
 				}
+				relation = {
+					who = ROM
+					value = -50
+				}
 			}
-			ROM = { any_owned = { limit = { is_core = ROM } remove_core = WAL remove_core = MOL remove_core = URP } }
+			ROM = { any_owned = { limit = { is_core = ROM } remove_core = WAL remove_core = MOL } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -644,7 +636,6 @@ political_decisions = {
 			CRO = { all_core = { add_core = YUG } }
 			BOS = { all_core = { add_core = YUG } }
 			SLO = { all_core = { add_core = YUG } }
-			VOJ = { all_core = { add_core = YUG } }
 			random_owned = {
 				limit = { owner = { accepted_culture = north_italian } }
 				owner = { remove_accepted_culture = north_italian }
@@ -655,6 +646,7 @@ political_decisions = {
 					add_accepted_culture = serb
 					add_accepted_culture = croat
 					add_accepted_culture = slovene
+					add_accepted_culture = montenegrin
 				}
 			}
 			change_tag = YUG
@@ -716,7 +708,6 @@ political_decisions = {
 				is_sphere_leader_of = SLO
 				is_sphere_leader_of = ALB
 				is_sphere_leader_of = BUL
-				is_sphere_leader_of = VOJ
 			}	
 		}
 		allow = {
@@ -766,8 +757,10 @@ political_decisions = {
 			CRO = { all_core = { add_core = YUG } }
 			BOS = { all_core = { add_core = YUG } }
 			SLO = { all_core = { add_core = YUG } }
-			VOJ = { all_core = { add_core = YUG } }
 			TUR_853 = { add_core = YUG }
+			YUG = {
+				add_accepted_culture = montenegrin
+			}
 			any_country = {
 				limit = {
 					OR = {
@@ -777,7 +770,6 @@ political_decisions = {
 						tag = BOS
 						tag = SLO
 						tag = ALB
-						tag = VOJ
 					}
 					ai = yes
 					in_sphere = THIS

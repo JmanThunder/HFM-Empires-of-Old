@@ -19,7 +19,6 @@ country_event = {
 		250 = { remove_core = CAN }
 		158 = { remove_core = CAN }
 		250 = { remove_core = QUE }
-		49 = { remove_core = USA }
 		69 = { remove_core = NEN }
 		relation = { who = ENG value = 100 }
 		ai_chance = { factor = 95 }
@@ -919,6 +918,7 @@ country_event = {
 	
 	option = {
 		name = "EVT44154OPTA"
+		set_global_flag = USA_claimoregon
 		prestige = -20
 		USA = { country_event = 44155 }
 		relation = { who = USA value = 50 }
@@ -969,6 +969,7 @@ country_event = {
 	
 	option = {
 		name = "EVT44154OPTB"
+		set_global_flag = USA_claimoregon
 		set_country_flag = oregon_war
 		prestige = 5
 		leave_alliance = USA

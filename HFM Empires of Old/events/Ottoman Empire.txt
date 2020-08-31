@@ -1706,11 +1706,11 @@ country_event = {
 		owns = 1845
 		owns = 1838
 		owns = 1840
-		owns = 1839
-		owns = 1841
-		NOT = { exists = DAR }
-		1817 = { empty = yes }
+		1841 = { empty = yes }
+		1842 = { empty = yes }
+		1843 = { empty = yes }
 		1739 = { empty = yes }
+		1839 = { empty = yes }
 		has_global_flag = berlin_conference
 	}
 	
@@ -1720,17 +1720,23 @@ country_event = {
 	option = {
 		name = "EVT98647OPTA"
 		1841 = {
+			secede_province = THIS 
+			life_rating = 22
 			add_core = SUD
+			add_core = DAR
 			any_pop = { literacy = -0.99 }
 		}
-		1817 = {
+		1842 = {
 			secede_province = THIS 
 			add_core = SUD
 			add_core = DAR
 			any_pop = { literacy = -0.99 }
 		}
 		1843 = {
+			secede_province = THIS 
+			life_rating = 25
 			add_core = SUD
+			add_core = DAR
 			any_pop = { literacy = -0.99 }
 		}
 		1739 = {
@@ -1739,7 +1745,10 @@ country_event = {
 			any_pop = { literacy = -0.99 }
 		}
 		1839 = {
+			secede_province = THIS 
+			life_rating = 22
 			add_core = SUD
+			add_core = DAR
 			any_pop = { literacy = -0.99 }
 		}
 		
@@ -1935,7 +1944,6 @@ country_event = {
 			truce_with = EGY
 			EGY = { exists = no }
 			has_country_flag = egypt_limited_rule_agreed
-			owns = 917
 		}
 		war = no
 		BHT = { exists = yes NOT = { has_country_flag = yazidi_kurdistan } }
@@ -1945,15 +1953,7 @@ country_event = {
 	
 	fire_only_once = yes
 		
-	mean_time_to_happen = {
-		months = 24 
-		modifier = {
-			factor = 0.1
-			year = 1846
-		}
-	}
-	
-	immediate = { set_country_flag = massacres_of_badr_khan }
+	mean_time_to_happen = { months = 1 }
 	
 	option = {
 		name = "EVT986503OPTA"
@@ -1973,9 +1973,11 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = SRN
+					tag = MKN
 					tag = BNB
 					tag = BDN
 					tag = BTL
+					tag = RDL
 				}
 			}
 			annex_to = BHT
@@ -1983,7 +1985,7 @@ country_event = {
 		BHT = {
 			badboy = 1
 			set_country_flag = kafir_massacre
-			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.75 }
+			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.97 }
 			define_general = {
@@ -1994,38 +1996,38 @@ country_event = {
 		}
 		war = {
 			target = BHT
-			attacker_goal = {
-				casus_belli = annex_core_country
-				state_province_id  = 892
-			}
-			attacker_goal = {
-				casus_belli = acquire_core_state
-				state_province_id  = 890
-			}
-			attacker_goal = {
-				casus_belli = acquire_core_state
-				state_province_id  = 892
-			}
-			defender_goal = { casus_belli = humiliate }
+				attacker_goal = {
+					casus_belli = acquire_core_state
+					state_province_id  = 890
+				}
+				attacker_goal = {
+					casus_belli = acquire_core_state
+					state_province_id  = 892
+				}
+				attacker_goal = {
+					casus_belli = annex_core_country
+					state_province_id  = 892
+				}
+				defender_goal = { casus_belli = humiliate }
 		}
 		
-		#random_country = {
-		#	limit = { tag = PER ai = yes exists = yes }
-		#	relation = { who = BHT value = -400 }
-		#	country_event = 986501
-		#	war = {
-		#	target = BHT
-		#		attacker_goal = {
-		#			casus_belli = acquire_core_state
-		#			state_province_id  = 1111
-		#		}
-		#		attacker_goal = {
-		#			casus_belli = acquire_core_state
-		#			state_province_id  = 1118
-		#		}
-		#		defender_goal = { casus_belli = humiliate }
-		#	}
-		#}
+		random_country = {
+			limit = { tag = PER ai = yes exists = yes }
+			relation = { who = BHT value = -400 }
+			country_event = 986501
+			war = {
+			target = BHT
+				attacker_goal = {
+					casus_belli = acquire_core_state
+					state_province_id  = 1111
+				}
+				attacker_goal = {
+					casus_belli = acquire_core_state
+					state_province_id  = 1118
+				}
+				defender_goal = { casus_belli = humiliate }
+			}
+		}
 		
 		ai_chance = {
 			factor = 100 
@@ -2055,9 +2057,11 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = SRN
+					tag = MKN
 					tag = BNB
 					tag = BDN
 					tag = BTL
+					tag = RDL
 				}
 			}
 			annex_to = BHT
@@ -2065,7 +2069,7 @@ country_event = {
 		BHT = {
 			badboy = 1
 			set_country_flag = kafir_massacre
-			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.75 }
+			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.97 }
 			define_general = {
@@ -2101,9 +2105,11 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = SRN
+					tag = MKN
 					tag = BNB
 					tag = BDN
 					tag = BTL
+					tag = RDL
 				}
 			}
 			annex_to = BHT
@@ -2111,7 +2117,7 @@ country_event = {
 		BHT = {
 			badboy = 1
 			set_country_flag = kafir_massacre
-			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.75 }
+			any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.9 }
 			any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.97 }
 			define_general = {
@@ -2169,31 +2175,31 @@ country_event = {
 	option = {
 		name = "EVT986504OPTA"
 		badboy = 1
-		any_pop = { limit = { is_state_religion = yes } militancy = -4 }
-		any_pop = { limit = { is_state_religion = no } militancy = 9 }
-		random_list = {
-			25 = { 
-				any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.85 }
-				any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.9 }
-				any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.97 }
+			any_pop = { limit = { is_state_religion = yes } militancy = -4 }
+			any_pop = { limit = { is_state_religion = no } militancy = 9 }
+			random_list = {
+				25 = { 
+					any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.9 }
+					any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.9 }
+					any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.97 }
+				}
+				25 = { 
+					any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.85 }
+					any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.85 }
+					any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.9 }
+				}
+				25 = { 
+					any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.8 }
+					any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.8 }
+					any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.85 }
+				}
+				25 = { 
+					any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.75 }
+					any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.75 }
+					any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.8 }
+				}
 			}
-			25 = { 
-				any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.8 }
-				any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.85 }
-				any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.9 }
-			}
-			25 = { 
-				any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.75 }
-				any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.8 }
-				any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.85 }
-			}
-			25 = { 
-				any_pop = { limit = { has_pop_religion = catholic } reduce_pop = 0.7 }
-				any_pop = { limit = { has_pop_religion = orthodox } reduce_pop = 0.75 }
-				any_pop = { limit = { has_pop_religion = yazidi } reduce_pop = 0.8 }
-			}
-		}
-				
+		
 		any_country = {
 			limit = { is_greater_power = yes capital_scope = { continent = europe } NOT = { tag = THIS } }
 			relation = { who = THIS value = -100 }
@@ -2243,8 +2249,10 @@ country_event = {
 		BTL = { all_core = { remove_core = BTL } }
 		BDN = { all_core = { remove_core = BDN } }
 		BHT = { all_core = { remove_core = BHT } }
-		BNB = { all_core = { remove_core = BNB remove_core = PER } }
+		BNB = { all_core = { remove_core = BNB } }
 		SRN = { all_core = { remove_core = SRN } }
+		RDL = { all_core = { remove_core = RDL } }
+		MKN = { all_core = { remove_core = MKN } }	
 	}
 }
 

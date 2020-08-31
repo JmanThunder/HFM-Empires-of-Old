@@ -34,6 +34,20 @@ political_decisions = {
 			clr_country_flag = country_looking_through_options
 		}
 	}
+
+	option_disable_colonial_railroading = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = colonial_railroading_disabled }
+		}
+		allow = {}
+		effect = {
+			set_global_flag = colonial_railroading_disabled
+		}
+	}
 	
 	option_disable_anarcho_liberals = {
 		alert = no
@@ -391,19 +405,6 @@ political_decisions = {
 				}
 			literacy = -0.99
 			}
-			
-			diplomatic_influence = { who = ARC value = -100 }
-			diplomatic_influence = { who = PBC value = -100 }
-			diplomatic_influence = { who = CHL value = -100 }
-			diplomatic_influence = { who = PRG value = -100 }
-			diplomatic_influence = { who = SPU value = -100 }
-			diplomatic_influence = { who = PEU value = -100 }
-			diplomatic_influence = { who = ECU value = -100 }
-			diplomatic_influence = { who = CLM value = -100 }
-			diplomatic_influence = { who = VEN value = -100 }
-			diplomatic_influence = { who = UCA value = -100 }
-			diplomatic_influence = { who = MEX value = -100 }
-			diplomatic_influence = { who = BRZ value = -50 }
 		}
 	}
 
@@ -437,7 +438,6 @@ political_decisions = {
 						has_pop_culture = mayan
 						has_pop_culture = afro_caribbean
 						has_pop_culture = afro_american
-						has_pop_culture = kreol
 						has_pop_culture = khoisan
 						has_pop_culture = karen
 						has_pop_culture = native_american_minor
@@ -560,46 +560,6 @@ political_decisions = {
 				AST = { set_country_flag = unreleasable_country }
 				NZL = { set_country_flag = unreleasable_country }
 			}
-			
-			any_country = {
-				limit = {
-					vassal_of = THIS
-					is_culture_group = south_asian
-				}
-				set_country_flag = exempt_from_vassal_contribution
-			}
-			
-			JAM = {
-				any_pop = {
-					limit = { has_pop_culture = afro_caribbean }
-					literacy = -0.99
-				}
-				any_pop = {
-					limit = { has_pop_culture = kreol }
-					literacy = -0.35
-				}
-			}
-			
-			any_greater_power = { limit = { NOT = { tag = ENG } }
-				diplomatic_influence = { who = EIC value = -400 }
-				diplomatic_influence = { who = JOH value = -400 }
-				diplomatic_influence = { who = PRK value = -400 }
-				diplomatic_influence = { who = PHG value = -400 }
-				diplomatic_influence = { who = SLG value = -400 }
-				#diplomatic_influence = { who = KED value = -400 }
-				#diplomatic_influence = { who = TER value = -400 }
-				#diplomatic_influence = { who = KEL value = -400 }
-				diplomatic_influence = { who = ABU value = -400 }
-				diplomatic_influence = { who = OMA value = -400 }
-				diplomatic_influence = { who = PAT value = -50 }
-				diplomatic_influence = { who = BUR value = -50 }
-				diplomatic_influence = { who = BRU value = -50 }
-				diplomatic_influence = { who = SIA value = -100 }
-				diplomatic_influence = { who = MSK value = -50 }
-				diplomatic_influence = { who = JAM value = -50 }
-				diplomatic_influence = { who = MLD value = -50 }
-				diplomatic_influence = { who = RPL value = -100 }
-			}
 		}
 	}
 	
@@ -658,25 +618,6 @@ political_decisions = {
 				diplomatic_influence = { who = SAK value = -400 }
 				relation = { who = DJA value = -400 }
 				relation = { who = SAK value = -400 }
-				diplomatic_influence = { who = KTI value = -400 }
-				diplomatic_influence = { who = SLW value = -400 }
-				diplomatic_influence = { who = STG value = -400 }
-				diplomatic_influence = { who = BTN value = -400 }
-				diplomatic_influence = { who = RIA value = -400 }
-				diplomatic_influence = { who = KLM value = -400 }
-				diplomatic_influence = { who = SBS value = -400 }
-				#diplomatic_influence = { who = LUW value = -400 }
-				#diplomatic_influence = { who = MTN value = -400 }
-				diplomatic_influence = { who = PTK value = -400 }
-				diplomatic_influence = { who = BGN value = -400 }
-				relation = { who = STG value = -400 }
-				relation = { who = BTN value = -400 }
-				relation = { who = RIA value = -400 }
-				relation = { who = KLM value = -400 }
-				relation = { who = SBS value = -400 }
-				#relation = { who = MTN value = -400 }
-				relation = { who = PTK value = -400 }
-				relation = { who = BGN value = -400 }
 			}
 		}
 	}
@@ -916,20 +857,42 @@ political_decisions = {
 			TUR_832 = { add_province_modifier = { name = small_baby_boom duration = 730 } }
 			TUR_805 = { add_province_modifier = { name = small_baby_boom duration = 730 } }
 			TUR_823 = { add_province_modifier = { name = small_baby_boom duration = 730 } }
+
+			
 			any_owned = {
-				limit = { is_core = BUL }
+				limit = {
+					is_core = BUL
+				}
 				add_province_modifier = { name = small_baby_boom duration = 3650 }
 			}
+			
 			any_owned = {
-				limit = { is_core = SER }
+				limit = {
+					is_core = SER
+				}
 				add_province_modifier = { name = baby_boom duration = 3650 }
 			}
+			
+			
 			any_owned = {
-				limit = { is_core = GRE }
+				limit = {
+					is_core = GRE
+				}
 				add_province_modifier = { name = small_baby_boom duration = 3650 }
 			}
-			WAL = { any_owned = { add_province_modifier = { name = small_baby_boom duration = 3650 } } }
-			MOL = { any_owned = { add_province_modifier = { name = small_baby_boom duration = 3650 } } }
+			
+			WAL = {
+				any_owned = {
+					add_province_modifier = { name = small_baby_boom duration = 3650 }
+				}
+			}
+			
+			MOL = {
+				any_owned = {
+					add_province_modifier = { name = small_baby_boom duration = 3650 }
+				}
+			}
+			
 			any_greater_power = {
 				limit = { NOT = { tag = TUR } }
 				diplomatic_influence = { who = BTL value = -400 }
@@ -939,18 +902,31 @@ political_decisions = {
 				diplomatic_influence = { who = BNB value = -400 }
 				diplomatic_influence = { who = BDN value = -400 }
 			}
-			TUR_860 = { add_core = ANT }
-			TUR_863 = { add_core = ANT }
-			TUR_869 = { add_core = ANT }
-			881 = { add_core = ANT }
-			880 = { add_core = ANT }
-			TUR_809 = { add_core = RUM }
+			
+			TUR_860 = {
+				add_core = ANT
+			}
+			TUR_863 = {
+				add_core = ANT
+			}
+			TUR_869 = {
+				add_core = ANT
+			}
+			881 = {
+				add_core = ANT
+			}
+			880 = { 
+				add_core = ANT
+			}
+			
+			TUR_809 = {
+				add_core = RUM
+			}
 			diplomatic_influence = { who = SAM value = 400 }
 			SAM = {
 				any_pop = { limit = { culture = greek } literacy = 0.07 }
 				any_pop = { limit = { culture = turkish } literacy = 0.1 } 
 			}
-			war_exhaustion = 15
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -982,7 +958,6 @@ political_decisions = {
 			
 			any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian} } literacy = 0.01 }
 			any_pop = { limit = { OR = { has_pop_culture = greek has_pop_culture = armenian } } literacy = 0.05 }
-			war_exhaustion = 15
 		}
 	}
 	
@@ -1206,36 +1181,6 @@ political_decisions = {
 						NOT = { is_core = GER }
 					}
 					add_province_modifier = { name = small_baby_boom duration = 1095 }
-				}
-			}
-			
-			ALT = {
-				any_pop = {
-					limit = {
-						has_pop_religion = orthodox
-						OR = { 
-							has_pop_culture = estonian
-							has_pop_culture = latvian
-							has_pop_culture = volga_german
-							has_pop_culture = finnish
-						} 
-					}
-					literacy = 0.24
-				}
-			}
-			
-			AKH = {
-				any_pop = {
-					limit = {
-						has_pop_religion = orthodox
-						OR = { 
-							has_pop_culture = estonian
-							has_pop_culture = latvian
-							has_pop_culture = volga_german
-							has_pop_culture = finnish
-						} 
-					}
-					literacy = 0.24
 				}
 			}
 		}
@@ -1651,13 +1596,6 @@ political_decisions = {
 			any_pop = { limit = { OR = { has_pop_culture = maghrebi has_pop_culture = berber } } literacy = -0.99 }
 			relation = { who = WOL value = -400 }
 			relation = { who = TOO value = -400 }
-			
-			any_greater_power = { limit = { NOT = { tag = FRA } }
-				diplomatic_influence = { who = DAI value = -400 }
-				diplomatic_influence = { who = LUA value = -400 }
-				diplomatic_influence = { who = CHK value = -400 }
-				diplomatic_influence = { who = CAM value = -400 }
-			}
 		}
 	}
 	
@@ -1783,8 +1721,6 @@ political_decisions = {
 				name = america_new_world
 				duration = 1825
 			}
-			diplomatic_influence = { who = MEX value = -100 }
-			diplomatic_influence = { who = TEX value = 50 }
 		}
 	}
 	
@@ -2789,6 +2725,35 @@ political_decisions = {
 			}
 
 			MEX = { add_country_modifier = { name = fight_the_power duration = 3650 } }
+			
+			1493 = { 
+				add_province_modifier = {
+					name = canton_system
+					duration = -1
+				}	
+				add_province_modifier = {
+					name = "foreign_smugglers"
+					duration = -1
+				}
+				add_province_modifier = {
+					name = local_opium_habit
+					duration = -1
+				}
+			}
+			QNG = {
+				any_owned = {
+					limit = {
+						OR = { 
+							state_id = 1493
+							state_id = 1482
+						}
+					}
+					add_province_modifier = {
+						name = local_opium_habit
+						duration = -1
+					}
+				}
+			}
 		}
 	}
 	
@@ -2834,53 +2799,20 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_country_modifier = { name = the_eight_banners duration = -1 }
-			MCK = { add_country_modifier = { name = the_eight_banners duration = -1 } }
-			treasury = 50000
-			LAN = { government = presidential_dictatorship }
-			1493 = { 
-				add_province_modifier = {
-					name = canton_system
-					duration = -1
-				}	
-				add_province_modifier = {
-					name = "foreign_smugglers"
-					duration = -1
-				}
-				add_province_modifier = {
-					name = local_opium_habit
-					duration = -1
-				}
-			}
-			QNG = {
-				any_owned = {
-					limit = {
-						OR = { 
-							state_id = 1493
-							state_id = 1482
-						}
-					}
-					add_province_modifier = {
-						name = local_opium_habit
-						duration = -1
-					}
-				}
-			}
-			any_greater_power = { 
-				diplomatic_influence = { who = QNG value = -400 } 
-				diplomatic_influence = { who = YNN value = -400 } 
-				diplomatic_influence = { who = GUI value = -400 } 
-				diplomatic_influence = { who = XBI value = -400 }
-				diplomatic_influence = { who = IMG value = -400 } 
-				diplomatic_influence = { who = TIB value = -400 } 
+			add_country_modifier = {
+				name = the_eight_banners
+				duration = -1
 			}
 			
-			any_greater_power = {
-				limit = { NOT = { tag = RUS } }
-				diplomatic_influence = { who = MGL value = -400 } 
-				diplomatic_influence = { who = XIN value = -400 } 
-				diplomatic_influence = { who = MCK value = -400 } 
-				diplomatic_influence = { who = KOR value = -400 } 
+			MCK = { 
+				add_country_modifier = {
+					name = the_eight_banners
+					duration = -1
+				}
+			}
+			treasury = 50000
+			LAN = {
+				government = presidential_dictatorship
 			}
 		}
 	}

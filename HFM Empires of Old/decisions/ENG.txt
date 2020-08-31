@@ -1197,7 +1197,7 @@ political_decisions = {
 		effect = { 
 			set_country_flag = integrated_johore
 			JOH = { civilized = no tech_school = unciv_tech_school }
-			create_vassal = JOH
+			inherit = JOH
 			any_owned = { limit = { NOT = { OR = { province_id = 1386 province_id = 1384 province_id = 1385 } } } remove_core = JOH }
 			1388 = { remove_core = JOH add_core = PRK }
 			1389 = { remove_core = JOH add_core = PRK }
@@ -1244,7 +1244,7 @@ political_decisions = {
 			PHG = { civilized = no tech_school = unciv_tech_school }
 			PHG = { all_core = { add_province_modifier = { name = nationalist_agitation duration = 730 } } }
 			PHG = { all_core = { remove_core = JOH } }
-			create_vassal = PHG
+			inherit = PHG
 			badboy = 1
 			
 			random_owned = { limit = { exists = JOH } owner = { diplomatic_influence = { who = JOH value = 15 } } }
@@ -1286,7 +1286,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = integrated_selangor
 			SLG = { civilized = no tech_school = unciv_tech_school }
-			create_vassal = SLG
+			inherit = SLG
 			SLG = { all_core = { remove_core = JOH } }
 			badboy = 1
 			
@@ -1329,7 +1329,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = integrated_perak
 			PRK = { civilized = no tech_school = unciv_tech_school }
-			create_vassal = PRK
+			inherit = PRK
 			PRK = { all_core = { remove_core = JOH } }
 			badboy = 1
 			

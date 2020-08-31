@@ -913,6 +913,12 @@ country_event = {
 			add_core = TRN
 			add_core = SAF
 		}
+		3273 = {
+			change_province_name = "Hoedspruit"
+			secede_province = THIS
+			add_core = TRN
+			add_core = SAF
+		}
 		release_vassal = TRN
 		relation = { who = TRN value = 50 }
 		TRN = { prestige = -30 }
@@ -2423,8 +2429,8 @@ country_event = {
 		random_owned = {
 			limit = {
 				2092 = { empty = no }
-				2093 = { empty = yes }
-				2558 = { empty = yes }
+				2093 = { empty = no }
+				2558 = { empty = no }
 				2088 = { empty = yes }
 			}
 			2088 = {
@@ -2437,8 +2443,7 @@ country_event = {
 		random_owned = {
 			limit = {
 				2092 = { empty = no }
-				2088 = { empty = no }
-				2093 = { empty = yes }
+				2093 = { empty = no }
 				2558 = { empty = yes }
 			}
 			2558 = {
@@ -2452,7 +2457,6 @@ country_event = {
 		random_owned = {
 			limit = {
 				2092 = { empty = no }
-				2558 = { empty = no }
 				2093 = { empty = yes }
 			}
 			2093 = {

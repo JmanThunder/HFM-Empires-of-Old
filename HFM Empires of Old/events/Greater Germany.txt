@@ -175,7 +175,7 @@ country_event = {
 				province_id = 647
 			}
 			SIE = {
-				primary_culture = siebenburger
+				primary_culture = north_german
 				add_accepted_culture = romanian
 				add_accepted_culture = south_german
 			}
@@ -590,8 +590,6 @@ country_event = {
 		set_country_flag = austrian_destiny
 		GER = { country_event = 31516 }
 		624 = { add_core = AUS }
-		623 = { add_core = AUS }
-		3282 = { add_core = AUS }
 		any_pop = {
 			limit = {
 				is_primary_culture = no
@@ -662,8 +660,6 @@ country_event = {
 		set_country_flag = wants_to_unify
 		set_country_flag = austrian_destiny
 		624 = { add_core = AUS }
-		623 = { add_core = AUS }
-		3282 = { add_core = AUS }
 		any_pop = {
 			limit = {
 				is_primary_culture = no
@@ -684,7 +680,7 @@ country_event = {
 		}
 		GER = { country_event = 31519 }
 		ai_chance = {
-			factor = 60
+			factor = 30
 			modifier = {
 				factor = 1.5
 				is_secondary_power = yes
@@ -762,8 +758,6 @@ country_event = {
 		clr_country_flag = wants_to_unify
 		set_country_flag = austrian_destiny
 		624 = { add_core = AUS }
-		623 = { add_core = AUS }
-		3282 = { add_core = AUS }
 		GER = { country_event = 31518 }
 		prestige = -10
 		badboy = -5
@@ -779,7 +773,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 30
+			factor = 60
 			modifier = {
 				factor = 1.5
 				tag = KUK
@@ -1363,8 +1357,6 @@ country_event = {
 				NOT = { tag = DLM }
 				NOT = { tag = RUT }
 				NOT = { tag = UKR }
-				NOT = { tag = SLO }
-				NOT = { tag = VOJ }
 				any_core = {
 					owned_by = THIS
 					NOT = { is_core = GER }
