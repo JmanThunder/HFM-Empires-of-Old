@@ -4,7 +4,7 @@ owner = USA
 trade_goods = grain
 life_rating = 35
 fort = 1
-
+terrain = farmlands
 party_loyalty = {
 	ideology = conservative
 	loyalty_value = 13

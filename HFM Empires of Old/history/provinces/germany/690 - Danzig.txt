@@ -4,6 +4,7 @@ add_core = PRU
 add_core = GER
 add_core = DZG
 add_core = PML
+add_core = KSH
 trade_goods = fish
 life_rating = 40
 terrain = danzig

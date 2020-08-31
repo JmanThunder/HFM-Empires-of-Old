@@ -2,9 +2,21 @@ owner = USA
 controller = USA
 
 add_core = USA
-trade_goods = coal
+trade_goods = copper
 life_rating = 35
 terrain = pittsburgh
+
+
+state_building = {
+	level = 1
+	building = bronze_factory 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}
 
 party_loyalty = {
 	ideology = conservative

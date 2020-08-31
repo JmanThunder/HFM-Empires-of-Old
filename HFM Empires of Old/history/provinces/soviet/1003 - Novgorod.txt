@@ -4,3 +4,14 @@ add_core = RUS
 trade_goods = grain
 life_rating = 35
 1861.1.1 = { railroad = 2 }
+
+state_building = {
+	level = 1
+	building = bronze_factory 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}

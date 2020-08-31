@@ -3,7 +3,7 @@ controller = USA
 add_core = USA
 
 add_core = ULA
-trade_goods = grain
+trade_goods = sugar
 life_rating = 35
 terrain = neworleans
 naval_base = 1
@@ -17,6 +17,11 @@ party_loyalty = {
 	loyalty_value = 20
 }
 
+state_building = {
+	level = 1
+	building = rum_distillery
+	upgrade = yes
+}
 
 1861.1.1 = {
 	controller = CSA

@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = ENG
+add_core = PWL
 trade_goods = iron
 life_rating = 35
 terrain = bristol
@@ -15,7 +16,7 @@ party_loyalty = {
 
 state_building = {
 	level = 1
-	building = luxury_clothes_factory
+	building = fursil_luxury_clothes_factory
 	upgrade = yes
 }
 state_building = {

@@ -1,8 +1,16 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-trade_goods = coal
+add_core = OCC
+trade_goods = copper
 life_rating = 30
+terrain = foresthills
+state_building = {
+	level = 1
+	building = bronze_factory
+	upgrade = yes
+}
+
 1861.1.1 = {
 	state_building = {
 		level = 1

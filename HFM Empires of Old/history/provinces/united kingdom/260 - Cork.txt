@@ -2,12 +2,17 @@ owner = ENG
 controller = ENG
 add_core = ENG
 add_core = IRE
-trade_goods = fish
+trade_goods = coal
 life_rating = 35
 naval_base = 2 #Base in Cobh, important since pre-Napoleonic times
 party_loyalty = {
 	ideology = liberal
 	loyalty_value = 20
+}
+state_building = {
+	level = 2
+	building = ammunition_factory
+	upgrade = yes
 }
 1861.1.1 = {
 	state_building = {

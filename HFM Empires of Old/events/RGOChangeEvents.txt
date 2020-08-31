@@ -1,4 +1,4 @@
-#############################################
+##########################################################################################
 #											#
 #        	Discovering New Mines			#
 #											#
@@ -39,6 +39,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
+			terrain = farmlandhills
+			terrain = montane_dry
+			terrain = montane_desert
+			terrain = altiplano
+			terrain = montane_jungle
+			terrain = montane_boreal
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -105,6 +111,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
+				terrain = montane_dry
+				terrain = montane_desert
+				terrain = altiplano
+				terrain = montane_jungle
+				terrain = montane_boreal
 			}
 		}
 		modifier = {
@@ -130,6 +141,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -148,6 +166,10 @@ province_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+#################
+#ANON
+################################
 
 province_event = {
 	id = 199007
@@ -184,6 +206,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
+			terrain = farmlandhills
+			terrain = montane_dry
+			terrain = montane_desert
+			terrain = altiplano
+			terrain = montane_jungle
+			terrain = montane_boreal
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -250,6 +278,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
+				terrain = montane_dry
+				terrain = montane_desert
+				terrain = altiplano
+				terrain = montane_jungle
+				terrain = montane_boreal
 			}
 		}
 		modifier = {
@@ -275,6 +308,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -329,6 +369,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
+			terrain = farmlandhills
+			terrain = montane_dry
+			terrain = montane_desert
+			terrain = altiplano
+			terrain = montane_jungle
+			terrain = montane_boreal
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -396,6 +442,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
+				terrain = montane_dry
+				terrain = montane_desert
+				terrain = altiplano
+				terrain = montane_jungle
+				terrain = montane_boreal
 			}
 		}
 		modifier = {
@@ -421,6 +472,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -652,6 +710,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -710,6 +775,12 @@ province_event = {
 		OR = {
 			terrain = farmlands
 			terrain = mountain
+			terrain = farmlandhills
+			terrain = montane_jungle
+			terrain = montane_forest
+			terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 
 			#Montane Grassland
 			terrain = bern 
@@ -810,6 +881,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -864,6 +942,10 @@ province_event = {
 			terrain = dryhills
 			terrain = steppe
 			terrain = hills
+			terrain = montane_desert
+			terrain = montane_dry
+			terrain = altiplano
+			terrain = montane_farmlands
 			
 			#Steppe
 			terrain = rostov
@@ -1019,6 +1101,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1072,6 +1161,12 @@ province_event = {
 			terrain = forest
 			terrain = jungle
 			terrain = marsh
+			terrain = farmlandhills
+			terrain = montane_jungle
+			terrain = montane_forest
+			terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 			
 			#Farmlands
 			terrain = berlin  
@@ -1184,6 +1279,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1235,6 +1337,12 @@ province_event = {
 		}
 		OR = {
 			terrain = farmlands
+			terrain = farmlandhills
+			terrain = montane_jungle
+			terrain = montane_forest
+			terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 			
 			#Farmlands
 			terrain = berlin  
@@ -1318,6 +1426,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1371,6 +1486,9 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = hills
+			terrain = farmlandhills
+			terrain = montane_jungle
+			terrain = montane_farmlands
 			
 			#Montane Grassland
 			terrain = bern 
@@ -1458,6 +1576,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1515,6 +1640,12 @@ province_event = {
 			AND = {
 				OR = {
 					terrain = farmlands
+					terrain = farmlandhills
+					terrain = montane_jungle
+					terrain = montane_forest
+					terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 					
 					#Farmlands
 					terrain = berlin  
@@ -1604,6 +1735,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1686,6 +1824,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1740,6 +1885,9 @@ province_event = {
 			terrain = boreal
 			terrain = hills
 			terrain = marsh
+			terrain = montane_jungle
+			terrain = montane_forest
+			terrain = montane_boreal
 			
 			#Forest
 			terrain = dresden 
@@ -1852,6 +2000,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1905,6 +2060,7 @@ province_event = {
 			#Jungle
 			terrain = bangkok
 			terrain = manila
+			terrain = montane_jungle
 		}
 	}
 	
@@ -1933,6 +2089,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -1987,6 +2150,11 @@ province_event = {
 			terrain = farmlands
 			terrain = dryhills
 			terrain = steppe
+			terrain = farmlandhills
+			terrain = altiplano
+			terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 			
 			#Steppe
 			terrain = saratov
@@ -2209,6 +2377,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -2263,6 +2438,11 @@ province_event = {
 			terrain = steppe
 			terrain = plains
 			terrain = hills
+			terrain = farmlandhills
+			terrain = altiplano
+			terrain = montane_farmlands
+			terrain = forest_farmland
+			terrain = jungle_farmland
 			
 			#Steppe
 			terrain = saratov
@@ -2485,6 +2665,13 @@ province_event = {
 			NOT = { trade_goods = tea }
 			NOT = { trade_goods = coffee }
 			NOT = { trade_goods = opium }
+			NOT = { trade_goods = copper }
+			NOT = { trade_goods = lead }
+			NOT = { trade_goods = cocoa }
+			NOT = { trade_goods = spices }
+			NOT = { trade_goods = sea_oil }
+			NOT = { trade_goods = furs }
+			NOT = { trade_goods = sugar }
 		}
 	}
 
@@ -2504,7 +2691,447 @@ province_event = {
 	}
 }
 
-# HPM 0.4.5.2 port: colonial system
+#Coal Found / Discovered
+province_event = {
+	id = 199035
+	title = "EVTNAME199036"
+	desc = "EVTDESC199036"
+	
+	trigger = {
+		owned_by = THIS
+		controlled_by = THIS
+		owner = {
+			OR = {
+				civilized = yes
+				tag = KOR
+				tag = QNG
+				tag = TPG
+				tag = CHI
+			}
+		}
+		OR = {
+			province_id = 2102  #Qwa-Qwa/Winburg
+			province_id = 2109  #Ga-Riba/Lydenburg
+			province_id = 2105  #Ga-Rankuwa/Pretoria
+			province_id = 1664  #Kumamoto, Japan
+			province_id = 1661  #Nagasaki, Japan
+			AND = {
+				year = 1915
+				OR = {
+					province_id = 1490  #Lanzhou
+					province_id = 1526  #Baoqing
+					province_id = 1250  #Bhagalpur
+					province_id = 1255  #Rajshahi
+				}
+			}
+			AND = {
+				year = 1900
+				OR = {
+					province_id = 2334 	 #Punta Arenas
+					province_id = 2332  	#Osorno
+					province_id = 1408	#Padang (Ombilin)
+					province_id = 1399	#Palembang (Bukit Asam)
+					province_id = 2481	#Swan Hill
+					province_id = 2472	#Eden
+					province_id = 2470	#Port Macquaire Australia
+					province_id = 2471	#Bathurst
+					province_id = 2473 	#Wagga Wagga
+					province_id = 2483 	#Brisbane
+					province_id = 280   	#Newcastle on Tyne
+					province_id = 1582   	#Longan - China
+					province_id = 2062   	#Shangzhou - China
+					#province_id = 1561   	#Yenan - China
+				}
+			}
+			AND = {
+				year = 1880
+				OR = {
+					province_id = 2147  #Ciudad Acuna
+					province_id = 2152  #Monclova
+					province_id = 2155  #Torreon
+					province_id = 2255  #Barranquilla (El Cerrejón mines)
+					province_id = 2399  #Rio Gallegos (Río Turbio mines)
+					province_id = 2561  #Siegburg
+					province_id = 595   #Nuremberg (Waldenburg)
+					province_id = 598   #Bayreuth (Waldenburg)
+					province_id = 2484  #Gladstone
+					province_id = 1532  #Guihua - China
+					province_id = 1253  #Bardwan - India
+					province_id = 1573  #Fenzhou - China - 800k
+					province_id = 1575  #Pingyang - China - 800k
+				}
+			}
+			AND = {
+				year = 1870
+				OR = {
+					province_id = 232   #New York
+					province_id = 2099  #King's William Town
+					province_id = 2098  #Port Rex
+					province_id = 2101  #Bloemfontein
+					province_id = 2103  #Philoppolis
+					province_id = 2104  #Thaba Bosiu
+					province_id = 2100  #Port St. Johns
+					province_id = 2114 	#Mbabane
+					province_id = 2113	#Richard's bay 
+					province_id = 2112	#Emnambithi/Ladysmith
+					province_id = 2111	#Durban 
+					province_id = 717	#Kalisz 
+					province_id = 701 	#Gniezno 
+					province_id = 699	#Posen
+					province_id = 1619 	#Pyongyang
+					province_id = 1047	#Azov
+					province_id = 1045 	#Migulinskaya
+					province_id = 1423 	#Banjarmasin
+					province_id = 216   #Roanoke
+					province_id = 215   #Staunton
+					province_id = 2556  #Asheville (Coal Glen)
+					province_id = 171   #South Bend
+					province_id = 172   #Fort Wayne
+					province_id = 195   #Montgomery
+					province_id = 166   #Peoria
+					province_id = 151   #Des Moines
+					province_id = 152   #Oskaloosa
+					province_id = 108   #Grand Junction
+					province_id = 109   #Aspen
+					province_id = 99    #Moab
+					province_id = 110   #Rock Springs
+					province_id = 953   #Stanislavov
+					province_id = 714   #Tarnow
+					province_id = 704   #Nowy Sacz
+				}
+			}
+			AND = {
+				year = 1850
+				OR = {
+					province_id = 221  #Hagerstown
+					province_id = 224  #Scranton
+					province_id = 179  #Columbus
+					province_id = 182  #Cincinati
+					province_id = 180  #Sandusky
+					province_id = 2565 #Cebu
+				}
+			}
+		}
+		NOT = { trade_goods = coal } 
+		NOT = { has_province_modifier = switched_production }
+		
+		owner = {
+			war = no
+			OR = {
+				any_owned_province = {
+					trade_goods = coal
+					NOT = { unemployment_by_type = { value = 0.01 type = labourers } }
+				}
+				any_neighbor_country = {
+					war = no
+					any_owned_province = {
+						trade_goods = coal
+						NOT = { unemployment_by_type = { value = 0.01 type = labourers } }
+					}
+				}
+				any_greater_power = {
+					war = no
+					any_owned_province = {
+						trade_goods = coal
+						NOT = { unemployment_by_type = { value = 0.01 type = labourers } }
+					}
+				}
+			}
+		}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+		months = 40
+		modifier = {
+			factor = 0.5
+			year = 1880
+		}
+		modifier = {
+			factor = 0.5
+			year = 1890
+		}
+		modifier = {
+			factor = 0.5
+			year = 1900
+		}
+		modifier = {
+			factor = 0.5
+			year = 1905
+		}
+		modifier = {
+			factor = 10
+			province_id = 1399
+			NOT = { year = 1914 }
+		}
+		modifier = {
+			factor = 2
+			owner = { civilized = no }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA199035"
+		trade_goods = coal
+		add_province_modifier = { name = switched_production duration = 365 }
+	}
+}
+
+#Iron found
+province_event = {
+	id = 199036
+	title = "EVTNAME199035"
+	desc = "EVTDESC199035"
+	
+	trigger = {
+		owned_by = THIS
+		controlled_by = THIS
+		year = 1860
+		OR = {
+			owner = { civilized = yes }
+			AND = {
+				owner = {
+					OR = {
+						tag = QNG
+						tag = CHI
+						tag = TPG
+						tag = KOR
+					}
+				}
+				year = 1920
+			}
+		}
+		OR = {
+			AND = {
+				OR = {
+					province_id = 478 		#Santander, Spain
+					province_id = 479 		#Burgos, Spain
+					province_id = 492 		#Bilbao, Spain
+					province_id = 299 		#Plymouth, UK
+					province_id = 276 		#Holyhead, UK
+					province_id = 304 		#Isle of Man, UK
+				}
+				year = 1865
+			}
+			AND = {
+				OR = {
+					province_id = 1702 #Setif
+					province_id = 1629 #Wonsan
+					province_id = 958 #Kiev
+					#province_id = 2270 #Maracaibo - Venezuela
+					province_id = 971 #Krivoy Rog
+					province_id = 961 #Cherkassy
+					province_id = 1270 #Gwalior, after 1880
+					province_id = 682 #Breslau, after 1890
+					province_id = 706 #Warsaw, Poland, after 1875
+					province_id = 1689 #Melilla
+					province_id = 1688 #Ajdir
+					province_id = 1681 #Wazzan
+					##France
+					province_id = 434
+					province_id = 418
+					province_id = 428
+					province_id = 411
+					#Madagascar
+					province_id = 2115
+				}
+				year = 1882
+			}
+			AND = {
+				OR = {
+					province_id = 2108 #Nylstroom
+					province_id = 2110 #Hoedspruit
+					province_id = 1727 #Gafsa
+					province_id = 1630 #Kangnung
+					province_id = 1522 #Wuchang
+					province_id = 1397 #Sandakan
+					province_id = 1303 #Goa
+					province_id = 1528 #Yuezhou
+					province_id = 2492 #Port Lincoln
+					province_id = 2494 #Port Augusta
+					province_id = 2495 #Oodnadatta
+					province_id = 2475 #Broken Hill
+					province_id = 2489 #Long Reach
+					province_id = 2487 #Townsville
+					province_id = 2482 #Tasmania
+				}
+				year = 1900
+			}
+			province_id = 1404 #Palak Pinang - Belitung Island
+			province_id = 513  #Granada, Spain
+			province_id = 712  #Lodz, Poland, after 1850
+			province_id = 412  #Metz, after 1860
+			#province_id = 1613 #Chengde
+			province_id = 1620 #Chonchon, China
+			province_id = 1708 #Constantine (Mokta el Hadid mine)
+			province_id = 1707 #Mascara (Remchi mine)
+			province_id = 1679 #Amami, Japan
+			province_id = 1671 #Akita, Japan
+			province_id = 1642 #Hakodate, Japan
+			province_id = 1507 #Zhenyuan, China
+		}
+		NOT = { trade_goods = iron }
+		NOT = { has_province_modifier = switched_production }
+		
+		owner = {
+			war = no
+			OR = {
+				any_owned_province = {
+					trade_goods = iron
+					NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+				}
+				any_neighbor_country = {
+					war = no
+					any_owned_province = {
+						trade_goods = iron
+						NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+					}
+				}
+				any_greater_power = {
+					war = no
+					any_owned_province = {
+						trade_goods = iron
+						NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+					}
+				}
+			}
+		}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+		months = 40
+		modifier = {
+			factor = 0.75
+			year = 1910
+		}
+		modifier = {
+			factor = 0.5
+			year = 1915
+		}
+		modifier = {
+			factor = 0.5
+			year = 1920
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA199035"
+		trade_goods = iron
+		add_province_modifier = { name = switched_production duration = 365 }
+		owner = {
+			random_owned = {
+				limit = { province_id = 1631 NOT = { trade_goods = silk } } #Wonju
+				trade_goods = silk
+				add_province_modifier = { name = switched_production duration = 365 }
+			}
+			random_owned = {
+				limit = { province_id = 1624 NOT = { trade_goods = tea } } #Hanseong
+				trade_goods = tea
+				add_province_modifier = { name = switched_production duration = 365 }
+			}
+			random_owned = {
+				limit = { province_id = 1636 NOT = { trade_goods = tea } } #Taejon
+				trade_goods = tea
+				add_province_modifier = { name = switched_production duration = 365 }
+			}
+		}
+	}
+}
+	
+#Sulphur/Phosphate found
+province_event = {
+	id = 199037
+	title = "EVTNAME199037"
+	desc = "EVTDESC199037"
+	
+	trigger = {
+		owned_by = THIS
+		controlled_by = THIS
+		year = 1840
+		owner = { civilized = yes }
+		OR = {
+			province_id = 486 #Ipswich 
+			province_id = 1670 #Morioka, Japan 
+			AND = {
+				OR = {
+					province_id = 486 #Caceres 
+					province_id = 311 #Kragero
+					province_id = 413 #Verdun
+				}
+				year = 1850
+			}
+			AND = {
+				OR = {
+					province_id = 743 #Ravenna (Cesena)(Sulphur)
+					province_id = 456 #Montauban (Quercy)
+				}
+				year = 1860
+			}
+			AND = {
+				OR = {
+					province_id = 462  #Rodez (Aveyron)
+					#province_id = 394  #Charleroi
+					province_id = 1690  #Marrakesh
+					province_id = 1686  #Fez
+					province_id = 1682  #Meknes
+					province_id = 1692  #Huribka
+				}
+				year = 1872
+			}
+			AND = {
+				OR = {
+					province_id = 402 #Amiens (Somme)
+					province_id = 200 #Tampa
+					province_id = 1729 #Tozeur
+					province_id = 2406 #Penghu
+					province_id = 1426 #Pontianak
+				}
+				year = 1890
+			}
+		}
+		NOT = { trade_goods = sulphur }
+		NOT = { has_province_modifier = switched_production }
+		
+		owner = {
+			war = no
+			OR = {
+				any_owned_province = {
+					trade_goods = sulphur
+					NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+				}
+				any_neighbor_country = {
+					war = no
+					any_owned_province = {
+						trade_goods = sulphur
+						NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+					}
+				}
+				any_greater_power = {
+					war = no
+					any_owned_province = {
+						trade_goods = sulphur
+						NOT = { unemployment_by_type = { value = 0.05 type = labourers } }
+					}
+				}
+			}
+		}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "EVTOPTA199037"
+		trade_goods = sulphur
+		add_province_modifier = { name = switched_production duration = 365 }
+	}
+}
 
 #Nigeria Colonial Production
 country_event = {
@@ -2569,24 +3196,8 @@ country_event = {
 		1945 = { trade_goods = fruit } #Kano
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -200000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 200000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 200 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 200000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -2594,7 +3205,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 200 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 200000 } }
+			limit = {
+				owner = {
+					NOT = { money = 200000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 200 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 200000 } }
 			owner = { treasury = -200000 }
 		}
 		
@@ -3052,24 +3672,8 @@ country_event = {
 		1886 = { trade_goods = iron } #Bo
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 100000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -3077,7 +3681,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 100 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
+			limit = {
+				owner = {
+					NOT = { money = 100000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 100 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 100000 } }
 			owner = { treasury = -100000 }
 		}
 		
@@ -3641,7 +4254,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA199039" #Historical Option
-		1981 = { trade_goods = rubber }
 		1980 = { trade_goods = rubber }
 		1977 = { trade_goods = coffee }  #Brazzaville
 		1978 = { trade_goods = tropical_wood }
@@ -3652,7 +4264,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC199039" #Coffee Option
-		1981 = { trade_goods = rubber }
 		1980 = { trade_goods = tropical_wood }
 		1977 = { trade_goods = coffee }  #Brazzaville
 		1978 = { trade_goods = coffee }
@@ -3682,7 +4293,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC199048" #Rubber
-		1981 = { trade_goods = rubber }
 		1980 = { trade_goods = rubber }
 		1977 = { trade_goods = tropical_wood }  #Brazzaville
 		1978 = { trade_goods = tropical_wood }
@@ -3903,24 +4513,8 @@ country_event = {
 		2012 = { trade_goods = cotton }
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 100000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -3928,7 +4522,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 100 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
+			limit = {
+				owner = {
+					NOT = { money = 100000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 100 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 100000 } }
 			owner = { treasury = -100000 }
 		}
 		
@@ -4317,7 +4920,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA199039" #Historical Option
-		1795 = { trade_goods = cotton } #Kayes
 		1797 = { trade_goods = cotton } #Kita
 		1794 = { trade_goods = cotton } #Bamako
 		1798 = { trade_goods = cotton } #Bougouni
@@ -4327,51 +4929,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB199053" #Gold
-		1795 = { trade_goods = cotton } #Kayes
-		1797 = { trade_goods = cotton } #Kita
-		1794 = { trade_goods = precious_metal } #Bamako
-		1798 = { trade_goods = cotton } #Bougouni
-		1799 = { trade_goods = cotton } #Sikasso
-		
-		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					check_variable = { which = owed_cash_money value = 9 }
-				} 
-			}
-			owner = { change_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
-			owner = { treasury = -100000 }
-		}
-		
-		ai_chance = {
-			factor = 10
-		}
-	}
-	
-	option = {
 		name = "EVTOPTD199053" #tobacco Option
-		1795 = { trade_goods = tobacco } #Kayes
 		1797 = { trade_goods = tobacco } #Kita
 		1794 = { trade_goods = tobacco } #Bamako
 		1798 = { trade_goods = cotton } #Bougouni
@@ -4401,7 +4959,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTE199053" #coffee Option
-		1795 = { trade_goods = coffee } #Kayes
 		1797 = { trade_goods = coffee } #Kita
 		1794 = { trade_goods = coffee } #Bamako
 		1798 = { trade_goods = cotton } #Bougouni
@@ -5194,26 +5751,10 @@ country_event = {
 		1840 = { trade_goods = cotton }
 		1831 = { trade_goods = cotton }
 		1828 = { trade_goods = cotton }
-		
-		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
+	
 		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 100000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -5221,7 +5762,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 100 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
+			limit = {
+				owner = {
+					NOT = { money = 100000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 100 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 100000 } }
 			owner = { treasury = -100000 }
 		}
 		
@@ -5261,24 +5811,8 @@ country_event = {
 		1828 = { trade_goods = coffee }
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 100000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -5286,7 +5820,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 100 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
+			limit = {
+				owner = {
+					NOT = { money = 100000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 100 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 100000 } }
 			owner = { treasury = -100000 }
 		}
 		
@@ -5326,24 +5869,8 @@ country_event = {
 		1828 = { trade_goods = tobacco }
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -100000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 100000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 100 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 100000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -5351,7 +5878,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 100 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 100000 } }
+			limit = {
+				owner = {
+					NOT = { money = 100000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 100 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 100000 } }
 			owner = { treasury = -100000 }
 		}
 		
@@ -5491,8 +6027,7 @@ country_event = {
 	option = {
 		name = "EVTOPTE199038" #Leave it as is
 		any_owned = {
-            # HPM 0.4.5.2 port: HFM puts double duties on ASH tag, there is no GHN
-			limit = { is_core = ASH }
+			limit = { is_core = GHN }
 			any_pop = {
 				militancy = -3
 				consciousness = 1
@@ -5515,7 +6050,6 @@ country_event = {
 		name = "EVTOPTA199039" #Historical Option
 		
 		1906 = { trade_goods = cotton } #Orodaro
-		1905 = { trade_goods = cotton } #Bobo Dioulasso
 		1901 = { trade_goods = cotton } #Wagadugu
 		1904 = { trade_goods = cotton } #Fada Ngourma
 		
@@ -5527,7 +6061,6 @@ country_event = {
 		
 		
 		1906 = { trade_goods = coffee } #Orodaro
-		1905 = { trade_goods = coffee } #Bobo Dioulasso
 		1901 = { trade_goods = coffee } #Wagadugu
 		1904 = { trade_goods = coffee } #Fada Ngourma
 		
@@ -5557,7 +6090,6 @@ country_event = {
 		name = "EVTOPTD199050" #tobacco Option
 		
 		1906 = { trade_goods = tobacco } #Orodaro
-		1905 = { trade_goods = tobacco } #Bobo Dioulasso
 		1901 = { trade_goods = tobacco } #Wagadugu
 		1904 = { trade_goods = tobacco } #Fada Ngourma
 		
@@ -5766,24 +6298,8 @@ country_event = {
 		1425 = { trade_goods = timber }
 		
 		random_owned = {
-			limit = { owner = { ai = no } }
-			owner = { treasury = -200000 }
-		}
-		
-		random_owned = {
 			limit = {
 				owner = {
-					ai = yes
-					NOT = { money = 200000 }
-					NOT = { check_variable = { which = owed_cash_money value = 1 } }
-				}
-			}
-			owner = { set_variable = { which = owed_cash_money value = 200 } }
-		}
-		random_owned = {
-			limit = {
-				owner = {
-					ai = yes
 					NOT = { money = 200000 }
 					check_variable = { which = owed_cash_money value = 9 }
 				} 
@@ -5791,7 +6307,16 @@ country_event = {
 			owner = { change_variable = { which = owed_cash_money value = 200 } }
 		}
 		random_owned = {
-			limit = { owner = { ai = yes money = 200000 } }
+			limit = {
+				owner = {
+					NOT = { money = 200000 }
+					NOT = { check_variable = { which = owed_cash_money value = 1 } }
+				}
+			}
+			owner = { set_variable = { which = owed_cash_money value = 200 } }
+		}
+		random_owned = {
+			limit = { owner = { money = 200000 } }
 			owner = { treasury = -200000 }
 		}
 		
@@ -6042,7 +6567,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA199039" #Historical Option
 		
-		2115 = { trade_goods = coffee }
 		2121 = { trade_goods = coffee }
 		
 		2118 = { trade_goods = tropical_wood }
@@ -6050,24 +6574,19 @@ country_event = {
 		
 		2122 = { trade_goods = cotton }
 		
-		2116 = { trade_goods = iron }
-		
 		ai_chance = { factor = 80 }
 	}
 	
 	option = {
 		name = "EVTOPTB199049" #cotton Option
 		
-		2115 = { trade_goods = cotton }
 		2121 = { trade_goods = cotton }
 		
 		2118 = { trade_goods = tropical_wood }
 		2119 = { trade_goods = tropical_wood }
 		
 		2122 = { trade_goods = cotton }
-		
-		2116 = { trade_goods = iron }
-		
+				
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -6093,15 +6612,12 @@ country_event = {
 	option = {
 		name = "EVTOPTD199050" #tobacco Option
 		
-		2115 = { trade_goods = tobacco }
 		2121 = { trade_goods = tobacco }
 		
 		2118 = { trade_goods = tropical_wood }
 		2119 = { trade_goods = tropical_wood }
 		
 		2122 = { trade_goods = cotton }
-		
-		2116 = { trade_goods = iron }
 		
 		ai_chance = {
 			factor = 10
@@ -6397,5 +6913,958 @@ country_event = {
 			}
 		}
 		ai_chance = { factor = 0 }
+	}
+}
+
+#Malay/Malaysia Production
+country_event = {
+	id = 199069
+	title = "EVTNAME199069"
+	desc = "EVTDESC199069"
+	picture = "colonial_east_asia"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA199039" #Historical Option
+		
+		1394 = { trade_goods = coffee }
+		1395 = { trade_goods = timber }
+		
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "EVTOPTB199068" #Tea Option
+		
+		1394 = { trade_goods = tea }
+		1395 = { trade_goods = tea }
+		1388 = { trade_goods = tobacco }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC199068" #Forestry Option
+		
+		1394 = { trade_goods = tropical_wood }
+		1395 = { trade_goods = timber }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tropical_wood
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tropical_wood
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = rubber
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = rubber
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD199038" #Coffee
+		1394 = { trade_goods = coffee }
+		1395 = { trade_goods = coffee }
+		1388 = { trade_goods = coffee }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE199038" #Leave it as is
+		any_owned = {
+			limit = { is_core = MLY }
+			any_pop = {
+				militancy = -3
+				consciousness = 1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Laos Production
+country_event = {
+	id = 199070
+	title = "EVTNAME199070"
+	desc = "EVTDESC199070"
+	picture = "colonial_east_asia"
+	
+	is_triggered_only = yes
+	
+	immediate = { set_global_flag = rgo_change_in_laos }
+	
+	option = {
+		name = "EVTOPTA199039" #Historical Option
+		
+		1356 = { trade_goods = tropical_wood }
+		1357 = { trade_goods = coffee }
+		1363 = { trade_goods = tea }
+		
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "EVTOPTB199068" #Tea Option
+		
+		1356 = { trade_goods = tea }
+		1357 = { trade_goods = tea }
+		1363 = { trade_goods = tobacco }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC199068" #Forestry Option
+		
+		1356 = { trade_goods = tropical_wood }
+		1357 = { trade_goods = tropical_wood }
+		1363 = { trade_goods = rubber }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tropical_wood
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tropical_wood
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = rubber
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = rubber
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD199038" #Coffee
+		1356 = { trade_goods = coffee }
+		1357 = { trade_goods = coffee }
+		1363 = { trade_goods = cotton }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE199038" #Leave it as is
+		any_owned = {
+			limit = { is_core = LXA }
+			any_pop = {
+				militancy = -3
+				consciousness = 1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Cambodia Production
+country_event = {
+	id = 199071
+	title = "EVTNAME199071"
+	desc = "EVTDESC199071"
+	picture = "colonial_east_asia"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA199039" #Historical Option
+		
+		1366 = { trade_goods = tropical_wood }
+		random_owned = {
+			limit = {
+				province_id = 1367
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tropical_wood
+		}
+		random_owned = {
+			limit = {
+				province_id = 1364
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tropical_wood
+		}
+		
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "EVTOPTB199068" #Tea Option
+		
+		1366 = { trade_goods = tea }
+		random_owned = {
+			limit = {
+				province_id = 1367
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tea
+		}
+		random_owned = {
+			limit = {
+				province_id = 1364
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tropical_wood
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD199050" #tobacco Option
+		
+		1366 = { trade_goods = tobacco }
+		
+		random_owned = {
+			limit = {
+				province_id = 1367
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tobacco
+		}
+		random_owned = {
+			limit = {
+				province_id = 1364
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tropical_wood
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD199038" #Coffee
+		1366 = { trade_goods = coffee }
+		
+		random_owned = {
+			limit = {
+				province_id = 1367
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = coffee
+		}
+		random_owned = {
+			limit = {
+				province_id = 1364
+				NOT = { trade_goods = rubber }
+			}
+			trade_goods = tropical_wood
+		}
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE199038" #Leave it as is
+		any_owned = {
+			limit = { is_core = CAM }
+			any_pop = {
+				militancy = -3
+				consciousness = 1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Vietnam/Dai Nam Production
+country_event = {
+	id = 199072
+	title = "EVTNAME199072"
+	desc = "EVTDESC199072"
+	picture = "colonial_east_asia"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA199039" #Historical Option
+		
+		1380 = { trade_goods = coffee }
+		1381 = { trade_goods = coffee }
+		1375 = { trade_goods = coffee }
+		1378 = { trade_goods = tea }
+		1377 = { trade_goods = tea }
+		1379 = { trade_goods = tea }
+		1372 = { trade_goods = coal }
+		1371 = { trade_goods = iron }
+		1374 = { trade_goods = tropical_wood }
+
+		
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "EVTOPTB199068" #Tea Option
+		
+		1380 = { trade_goods = coffee }
+		1381 = { trade_goods = tea }
+		1375 = { trade_goods = tea }
+		1378 = { trade_goods = tea }
+		1377 = { trade_goods = tea }
+		1379 = { trade_goods = tea }
+		1372 = { trade_goods = coal }
+		1371 = { trade_goods = iron }
+		1374 = { trade_goods = tropical_wood }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tea
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC199050" #Cotton Option
+		
+		1380 = { trade_goods = coffee }
+		1381 = { trade_goods = cotton }
+		1375 = { trade_goods = cotton }
+		1378 = { trade_goods = cotton }
+		1377 = { trade_goods = cotton }
+		1379 = { trade_goods = tea }
+		1372 = { trade_goods = coal }
+		1371 = { trade_goods = iron }
+		1374 = { trade_goods = tropical_wood }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = cotton
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = cotton
+							unemployment_by_type = { value = 0.05 type = labourers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD199038" #Coffee
+		1380 = { trade_goods = coffee }
+		1381 = { trade_goods = coffee }
+		1375 = { trade_goods = coffee }
+		1378 = { trade_goods = coffee }
+		1377 = { trade_goods = coffee }
+		1379 = { trade_goods = tea }
+		1372 = { trade_goods = coal }
+		1371 = { trade_goods = iron }
+		1374 = { trade_goods = tropical_wood }
+		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE199038" #Leave it as is
+		any_owned = {
+			limit = { is_core = DAI }
+			any_pop = {
+				militancy = -3
+				consciousness = 1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Tea spread
+province_event = {
+	id = 199073
+	title = "EVTNAME199073"
+	desc = "EVTDESC199073"
+	
+	trigger = {
+		owned_by = THIS
+		controlled_by = THIS
+		NOT = { trade_goods = tea } 
+		NOT = { has_province_modifier = switched_production }
+		owner = {
+			QNG = { war = no }
+			war = no
+			OR = {
+				any_owned_province = {
+					trade_goods = tea
+					NOT = { unemployment_by_type = { value = 0.01 type = farmers } }
+				}
+				any_neighbor_country = {
+					war = no
+					any_owned_province = {
+						trade_goods = tea
+						NOT = { unemployment_by_type = { value = 0.01 type = farmers } }
+					}
+				}
+				any_greater_power = {
+					war = no
+					any_owned_province = {
+						trade_goods = tea
+						NOT = { unemployment_by_type = { value = 0.01 type = farmers } }
+					}
+				}
+			}
+		}
+		
+		OR = {
+			province_id = 1648 #Toyama, Japan
+			province_id = 1657 #Kyoto, Japan
+			province_id = 1655 #Osaka, Japan
+			province_id = 1667 #Tokushima, Japan
+			AND = {
+				year = 1855
+				OR = {
+					province_id = 2566
+					province_id = 1304
+					province_id = 1319
+					province_id = 1316
+					province_id = 1302
+					province_id = 1261
+					province_id = 1262
+					province_id = 1628
+					province_id = 2640
+					province_id = 1624
+					province_id = 1222
+					province_id = 1231
+					province_id = 1228
+					province_id = 1225
+					province_id = 1246
+					province_id = 1300
+					province_id = 1306
+					province_id = 1307
+					province_id = 1295
+					province_id = 1233
+					province_id = 1635
+					province_id = 1632
+					province_id = 1636
+					province_id = 1252
+					province_id = 1511 #Zhengzhou
+				}
+			}
+			AND = {
+				year = 1870
+				OR = {
+					province_id = 1297
+					province_id = 1266
+					province_id = 1290
+					province_id = 1593
+					province_id = 1248
+					province_id = 1318
+					province_id = 1350
+					province_id = 1359
+					province_id = 1407
+					province_id = 1301
+					province_id = 1278
+					province_id = 1274
+					province_id = 1327
+					province_id = 1236
+					province_id = 1569
+					province_id = 1502
+					province_id = 1662
+					province_id = 1565
+					province_id = 1540
+					province_id = 1547
+					province_id = 1474
+					province_id = 1524
+					province_id = 1541 #Tongzhou
+					province_id = 1471 #Chizhou
+					province_id = 1473 #Huizhou
+					province_id = 1509 #Anshun
+				}
+			}
+			
+			AND = {
+				year = 1890
+				OR = {
+					province_id = 1311
+					province_id = 1317
+					province_id = 1303
+					province_id = 1326
+					province_id = 1308
+					province_id = 1312
+					province_id = 1537
+					province_id = 1541
+					province_id = 1507 #Zhenyuan - China
+					province_id = 1503 #Guilin
+				}
+			}
+			
+			AND = {
+				year = 1910
+				OR = {
+					province_id = 1258
+					province_id = 1259
+					province_id = 1260
+					province_id = 1328
+					province_id = 1486 #Tingzhou
+					province_id = 1482 #Fuzhou
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 3
+			civilized = no
+		}
+	}
+	allow_multiple_instances = no
+
+	option = {
+		name = "EVTOPTA199073"
+		trade_goods = tea
+		add_province_modifier = { name = switched_production duration = 1825 }
+	}
+}
+##########################
+# ANON
+
+province_event = {
+	id = 199444
+	title = "EVTNAME199444" #Plantation Logic
+	desc = "EVTDESC199444"
+	
+	trigger = {
+		is_colonial = yes
+		owned_by = THIS
+		controlled_by = THIS
+		province_control_days = 1095
+		continent = africa
+		owner = {
+			war = no
+			invention = mission_to_civilize
+		}
+		NOT = {
+			has_province_modifier = switched_production
+			has_province_modifier = new_production
+			is_core = SAF
+			is_core = EGY
+			is_core = MOR
+			is_core = ALD
+			is_core = TUN
+			is_core = LBY
+			is_core = CYR
+			is_core = TRI
+		}
+		OR = {	
+			trade_goods = grain
+			trade_goods = fish
+			trade_goods = fruit
+			trade_goods = cattle
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "Plant it with sugar."
+		trade_goods = sugar
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}	
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = sugar
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = sugar
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}		
+	}	
+	option = {
+		name = "Plant it with coffee."
+		trade_goods = coffee
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = coffee
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "Plant it with cotton."
+		trade_goods = cotton
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = cotton
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = cotton
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "Plant it with spices."
+		trade_goods = spices
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = spices
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = spices
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "Plant it with cocoa."
+		trade_goods = cocoa
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = cocoa
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = cocoa
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "Plant it with tobacco."
+		trade_goods = tobacco
+		add_province_modifier = {
+			name = new_production
+			duration = 730
+		}
+		ai_chance = {
+			factor = 16.0
+			modifier = {
+				factor = 0
+				OR = {
+					any_neighbor_country = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+					any_greater_power = {
+						any_owned_province = {
+							trade_goods = tobacco
+							unemployment_by_type = { value = 0.05 type = farmers }
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "Intensify the existing operation."
+		add_province_modifier = {
+			name = intense_farming
+			duration = 730
+		}
+		ai_chance = {
+			factor = 0.4
+		}
 	}
 }

@@ -13,6 +13,11 @@ party_loyalty = {
 	ideology = conservative
 	loyalty_value = 20
 }
+state_building = {
+	level = 2
+	building = ammunition_factory
+	upgrade = yes
+}
 1861.1.1 = { 
 	railroad = 3 
 #	naval_base = 3 #Chatham

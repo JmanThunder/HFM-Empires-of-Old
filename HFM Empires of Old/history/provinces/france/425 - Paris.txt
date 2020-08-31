@@ -2,8 +2,24 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = grain
-life_rating = 31
+life_rating = 30
 terrain = paris
+
+state_building = {
+	level = 1
+	building = bronze_factory 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
 state_building = {
 	level = 1
 	building = luxury_furniture_factory

@@ -2,19 +2,30 @@ owner = AUS
 controller = AUS
 add_core = AUS
 trade_goods = grain
-life_rating = 35
+life_rating = 40
 terrain = vienna
 fort = 1
-#state_building = {
-#	level = 1
-#	building = regular_clothes_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+
+state_building = {
+	level = 2
+	building = bronze_factory 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = luxury_furniture_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 2 }
 1861.1.1 = {
 	state_building = {

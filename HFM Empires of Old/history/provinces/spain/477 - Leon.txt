@@ -1,11 +1,18 @@
 owner = SPA
 controller = SPA
 add_core = SPA
-trade_goods = coal
+add_core = LEO
+trade_goods = copper
 life_rating = 35
-#state_building = {
-#	level = 1
-#	building = steel_factory
-#	upgrade = yes
-#}
+terrain = montane_forest
+state_building = {
+	level = 1
+	building = bronze_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }

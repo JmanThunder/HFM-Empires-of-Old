@@ -2,7 +2,7 @@ owner = ENG
 controller = ENG
 add_core = ENG
 add_core = SCO
-trade_goods = coal
+trade_goods = copper
 naval_base = 2 
 life_rating = 35
 terrain = glasgow
@@ -14,19 +14,30 @@ party_loyalty = {
 	ideology = conservative
 	loyalty_value = 5
 }
-state_building = {
-	level = 3
-	building = steamer_shipyard
-	upgrade = yes
-}
+
 state_building = {
 	level = 2
-	building = steel_factory
+	building = bronze_factory
 	upgrade = yes
 }
 state_building = {
 	level = 1
 	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = steamer_shipyard
 	upgrade = yes
 }
 

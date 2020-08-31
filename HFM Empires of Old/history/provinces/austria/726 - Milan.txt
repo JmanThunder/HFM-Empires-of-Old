@@ -2,15 +2,20 @@ owner = AUS
 controller = AUS
 add_core = LOM
 add_core = ITA
-trade_goods = iron
+trade_goods = copper
 life_rating = 40
 terrain = milan
 fort = 1
-#state_building = {
-#	level = 1
-#	building = fabric_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = bronze_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1861.1.1 = {
 	owner = ITA
 	controller = ITA

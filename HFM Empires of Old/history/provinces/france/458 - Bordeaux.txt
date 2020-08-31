@@ -1,12 +1,13 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-trade_goods = fruit
+add_core = OCC
+trade_goods = coal
 life_rating = 30
 terrain = bordeaux
 state_building = {
-	level = 1
-	building = winery
+	level = 2
+	building = ammunition_factory
 	upgrade = yes
 }
 #state_building = {

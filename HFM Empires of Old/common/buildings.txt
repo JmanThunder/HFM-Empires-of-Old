@@ -25,7 +25,7 @@ aeroplane_factory = {
 		steel = 600
 		cement = 600
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -47,7 +47,7 @@ barrel_factory = {
 		cement = 500
 	}
 
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -68,7 +68,7 @@ automobile_factory = {
 		steel = 400
 		cement = 400
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -156,7 +156,7 @@ machine_parts_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -177,7 +177,7 @@ synthetic_oil_factory = {
 		steel = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -219,7 +219,7 @@ synthetic_sulphur_factory = {
 		steel = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -244,7 +244,7 @@ steamer_shipyard = {
 		steel = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -266,7 +266,7 @@ clipper_shipyard = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -288,7 +288,7 @@ luxury_clothes_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -308,7 +308,7 @@ luxury_furniture_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -350,7 +350,7 @@ artillery_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -369,7 +369,7 @@ small_arms_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -390,7 +390,7 @@ furniture_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -409,7 +409,7 @@ paper_mill = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 	
@@ -428,7 +428,7 @@ regular_clothes_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -447,7 +447,7 @@ explosives_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -469,7 +469,7 @@ ammunition_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -489,7 +489,7 @@ canned_food_factory = {
 		iron = 200
 		cement = 200
 	}
-	time = 730
+	time = 244
 	visibility = yes
 	onmap = no
 
@@ -527,10 +527,11 @@ liquor_distillery = {
 	goods_cost =
 	{
 		machine_parts = 80
-		iron = 200
+		iron = 100
+		bronze = 100
 		cement = 200
 	}
-	time = 730
+	time = 365
 	visibility = yes
 	onmap = no
 	
@@ -547,10 +548,11 @@ winery = {
 	goods_cost =
 	{
 		machine_parts = 80
-		iron = 200
+		iron = 100
+		bronze = 100
 		cement = 200
 	}
-	time = 730
+	time = 365
 	visibility = yes
 	onmap = no
 
@@ -672,7 +674,7 @@ fort = {
 	}
 	time = 1080 
 	visibility = yes
-	onmap = yes
+	onmap = no
 	max_level = 6
 	province = yes
 	fort_level = 1
@@ -711,9 +713,9 @@ railroad = {
 		cement = 100
 		steel = 100
 	}
-	time = 730
+	time = 244
 	visibility = yes
-	onmap = yes
+	onmap = no
 	max_level = 6
 	province = yes
 	
@@ -724,3 +726,172 @@ railroad = {
 	spawn_railway_track = yes
 }
 
+##################################
+# ANON
+
+rum_distillery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 80
+		iron = 100
+		bronze = 100
+		cement = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes	
+	production_type = rum_distillery
+	pop_build_factory = yes
+}
+
+bronze_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost = 
+	{
+		machine_parts = 200
+		iron = 200
+		coal = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	default_enabled = yes	
+	production_type = bronze_factory
+	pop_build_factory = yes
+}
+
+bronze_artillery_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		cement = 200
+	}
+	time = 244
+	visibility = yes
+	onmap = no
+
+	production_type = bronze_artillery_factory
+	pop_build_factory = yes
+}
+
+synthetic_rubber_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		machine_parts = 200
+		cement = 500
+	}
+	time = 244
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_rubber_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+sugar_beet_refinery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		machine_parts = 50
+		bronze = 50
+		cement = 50
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = sugar_beet_refinery 
+	pop_build_factory = yes
+}
+
+sea_fuel_refinery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 50
+		steel = 50
+		bronze = 50
+		cement = 50
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	default_enabled = yes	
+	production_type = whaler_sealer_fuel
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+fur_luxury_clothes_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		cement = 200
+	}
+	time = 244
+	visibility = yes
+	onmap = no
+
+	production_type = fur_luxury_clothes_factory
+	pop_build_factory = yes
+}
+fursil_luxury_clothes_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		cement = 200
+	}
+	time = 244
+	visibility = yes
+	onmap = no
+
+	production_type = fursil_luxury_clothes_factory
+	pop_build_factory = yes
+}

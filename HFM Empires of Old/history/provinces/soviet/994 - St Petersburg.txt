@@ -1,11 +1,27 @@
 owner = RUS
 controller = RUS
 add_core = RUS
+add_core = IZH
 trade_goods = grain
 life_rating = 42
 terrain = stpetersburg
 naval_base = 1
 fort = 1
+#state_building = {
+#	level = 1
+#	building = gunpowder_factory
+#	upgrade = yes
+#}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}  
 #state_building = {
 #	level = 1
 #	building = lumber_mill

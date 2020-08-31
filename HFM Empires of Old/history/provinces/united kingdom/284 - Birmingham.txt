@@ -12,14 +12,25 @@ party_loyalty = {
 	ideology = conservative
 	loyalty_value = 15
 }
+
 state_building = {
-	level = 2
-	building = explosives_factory
+	level = 1
+	building = bronze_factory
 	upgrade = yes
 }
 state_building = {
-	level = 3
-	building = artillery_factory
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = explosives_factory
 	upgrade = yes
 }
 state_building = {

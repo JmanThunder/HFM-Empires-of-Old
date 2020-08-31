@@ -16,7 +16,10 @@ rebel = {
 	irregular = 1
 }
 
-
+life_needs = {
+	timber = 2
+	grain =  2.5
+}
 everyday_needs = {
 	coal = 1
 }
@@ -33,38 +36,48 @@ ideologies = {
 		factor = 1
 	}
 }
+
 issues = {
+## The only issue for slaves is ##
+# Slavery #
 	no_slavery = {
 		factor = 4
 		
 		modifier = {
 			factor = 0
-			OR = {
-			NOT = { is_next_reform = no_slavery }
+			slavery = no_slavery
+		}
+		
+		modifier = {
+			factor = 0
 			country = { civilized = no }
-			}
 		}
 	}
 	
 	freedom_of_womb = {
-		factor = 4
+		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				NOT = { is_next_reform = freedom_of_womb }
-				country = { civilized = no }
-			}
+			NOT = { is_next_reform = freedom_of_womb }
 		}
+		
+		modifier = {
+			factor = 0
+			country = { civilized = no }
+		}
+		
 	}
 	
 	yes_slavery = {
 		factor = 1
 		modifier = {
-		factor = 0
-		OR = {
+			factor = 0
 			slavery = no_slavery
+		}
+		
+		modifier = {
+			factor = 0
 			country = { civilized = no }
-			}
 		}
 	}
 }

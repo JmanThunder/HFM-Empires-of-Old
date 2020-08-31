@@ -2,6 +2,22 @@ owner = LIP
 controller = LIP
 add_core = LIP
 add_core = GER
-trade_goods = coal
+trade_goods = copper
 life_rating = 40
 1861.1.1 = { railroad = 3 }
+
+state_building = {
+	level = 1
+	building = bronze_factory 
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_artillery_factory
+	upgrade = yes
+}

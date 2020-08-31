@@ -46,6 +46,7 @@ centralization = unitary
 colonial_policy = exploitation
 
 set_country_flag = protestant_country
+set_country_flag = 1836_set_up
 
 # Technologies
 post_napoleonic_thought = 1

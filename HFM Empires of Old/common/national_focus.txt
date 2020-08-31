@@ -24,6 +24,8 @@ rail_focus = { #Now called Colonial Policy
 				trade_goods = oil
 				trade_goods = precious_metal
 				trade_goods = sulphur
+				trade_goods = lead
+				trade_goods = copper
 			}
 		}
 	}
@@ -44,6 +46,8 @@ rail_focus = { #Now called Colonial Policy
 				trade_goods = oil
 				trade_goods = precious_metal
 				trade_goods = sulphur
+				trade_goods = lead
+				trade_goods = copper
 			}
 		}
 	}
@@ -400,6 +404,7 @@ production_focus = {
 		canned_food = 40
 		explosives = 40
 		fertilizer = 40
+		#gunpowder = 60
 		icon = 29
 		limit = {
 		#	civilized = yes

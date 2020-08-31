@@ -1,8 +1,16 @@
-owner = RUS
-controller = RUS
+#owner = RUS
+#controller = RUS
+owner = CPL
+controller = CPL
+add_core = RUS
 add_core = CPL
 add_core = POL
-trade_goods = cattle
+trade_goods = timber
 life_rating = 35
 terrain = lodz
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }

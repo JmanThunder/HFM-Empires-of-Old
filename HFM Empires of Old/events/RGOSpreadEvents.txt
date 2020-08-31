@@ -18,6 +18,100 @@ province_event = {
 			terrain = dryhills
 			terrain = farmlands
 			terrain = mountain
+			terrain = montane_farmlands
+			terrain = farmlandhills
+			terrain = montane_dry
+			terrain = altiplano
+			terrain = urban
+			terrain = floodplain_farmland
+			terrain = montane_boreal
+			terrain = montane_desert
+			terrain = montane_jungle
+			terrain = deserthills
+			terrain = dryforest
+			terrain = dry_forest_hills
+			terrain = dry_forest_mountains
+			terrain = foresthills
+			terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+			
+
+			#Anon capitals
+			terrain = derbend
+			terrain = cetinje
+			terrain = vaticancity
+			terrain = hawaii
+			terrain = oregoncity
+			terrain = tehran
+			terrain = easterisland
+			terrain = iasi
+			terrain = trabzon
+			terrain = aleppo
+			terrain = salonika
+			terrain = ankara
+			terrain = adana
+			terrain = antioch
+			terrain = nicosia
+			terrain = beirut
+			terrain = sochi
+			terrain = batumi
+			terrain = sinope
+			terrain = smyrna
+			terrain = konya
+			terrain = iraklion
+			terrain = kabul
+			terrain = tabriz
+			terrain = kashgar
+			terrain = bukhara
+			terrain = khiva
+			terrain = chania
+			terrain = surat
+			terrain = ahmedabad
+			terrain = kokand
+			terrain = granada
+			terrain = ava
+			terrain = coruna
+			terrain = nishapur
+			terrain = shiraz
+			terrain = bushire
+			terrain = bandarabbas
+			terrain = qom
+			terrain = basra
+			terrain = varna
+			terrain = mosul
+			terrain = tananarive
+			terrain = mogadishu
+			terrain = mombasa
+			terrain = valparaiso
+			terrain = curacao
+			terrain = bahia
+			terrain = recife
+			terrain = tenerife
+			terrain = meridayucatan
+			terrain = santodomingodm
+			terrain = sanjuanpr
+			terrain = kingstonjamaica
+			terrain = sansalvador
+			terrain = oaxaca
+			terrain = guadalajara
+			terrain = veracruz
+			terrain = halifax
+			terrain = isleofman
+			terrain = cusco
+			terrain = potosi
+			terrain = sanaa
+			terrain = constanta
+			terrain = portoalegre
+			terrain = novoarkhangelesk
+			terrain = kodiakisland
+			terrain = victoriaisland
+			terrain = kalat
+			terrain = fortross
+			terrain = monterrey
+			terrain = valenciavenezuela
+			terrain = arkhangelsk
+			terrain = azores
 			
 			#Forest
 			terrain = dresden 
@@ -242,6 +336,9 @@ province_event = {
 			trade_goods = opium
 			trade_goods = cotton
 			trade_goods = fruit
+			trade_goods = sugar
+			trade_goods = spices
+			trade_goods = cocoa
 		}
 	}
 	
@@ -375,6 +472,99 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
+						terrain = montane_farmlands
+						terrain = farmlandhills
+						terrain = montane_dry
+						terrain = altiplano
+						terrain = urban
+						terrain = floodplain_farmland
+						terrain = montane_boreal
+						terrain = montane_desert
+						terrain = montane_jungle
+						terrain = deserthills
+						terrain = dryforest
+						terrain = dry_forest_hills
+						terrain = dry_forest_mountains
+						terrain = foresthills
+						terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+						
+						#Anon capitals
+						terrain = derbend
+						terrain = cetinje
+						terrain = vaticancity
+						terrain = hawaii
+						terrain = oregoncity
+						terrain = tehran
+						terrain = easterisland
+						terrain = iasi
+						terrain = trabzon
+						terrain = aleppo
+						terrain = salonika
+						terrain = ankara
+						terrain = adana
+						terrain = antioch
+						terrain = nicosia
+						terrain = beirut
+						terrain = sochi
+						terrain = batumi
+						terrain = sinope
+						terrain = smyrna
+						terrain = konya
+						terrain = iraklion
+						terrain = kabul
+						terrain = tabriz
+						terrain = kashgar
+						terrain = bukhara
+						terrain = khiva
+						terrain = chania
+						terrain = surat
+						terrain = ahmedabad
+						terrain = kokand
+						terrain = granada
+						terrain = ava
+						terrain = coruna
+						terrain = nishapur
+						terrain = shiraz
+						terrain = bushire
+						terrain = bandarabbas
+						terrain = qom
+						terrain = basra
+						terrain = varna
+						terrain = mosul
+						terrain = tananarive
+						terrain = mogadishu
+						terrain = mombasa
+						terrain = valparaiso
+						terrain = curacao
+						terrain = bahia
+						terrain = recife
+						terrain = tenerife
+						terrain = meridayucatan
+						terrain = santodomingodm
+						terrain = sanjuanpr
+						terrain = kingstonjamaica
+						terrain = sansalvador
+						terrain = oaxaca
+						terrain = guadalajara
+						terrain = veracruz
+						terrain = halifax
+						terrain = isleofman
+						terrain = cusco
+						terrain = potosi
+						terrain = sanaa
+						terrain = constanta
+						terrain = portoalegre
+						terrain = novoarkhangelesk
+						terrain = kodiakisland
+						terrain = victoriaisland
+						terrain = kalat
+						terrain = fortross
+						terrain = monterrey
+						terrain = valenciavenezuela
+						terrain = arkhangelsk
+						terrain = azores
 						
 						#Forest
 						terrain = dresden 
@@ -599,6 +789,9 @@ province_event = {
 						trade_goods = opium
 						trade_goods = cotton
 						trade_goods = fruit
+						trade_goods = sugar
+						trade_goods = spices
+						trade_goods = cocoa
 					}
 				}
 				add_province_modifier = { name = local_tractors duration = -1 }
@@ -626,6 +819,99 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
+						terrain = montane_farmlands
+						terrain = farmlandhills
+						terrain = montane_dry
+						terrain = altiplano
+						terrain = urban
+						terrain = floodplain_farmland
+						terrain = montane_boreal
+						terrain = montane_desert
+						terrain = montane_jungle
+						terrain = deserthills
+						terrain = dryforest
+						terrain = dry_forest_hills
+						terrain = dry_forest_mountains
+						terrain = foresthills
+						terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+						
+						#Anon capitals
+						terrain = derbend
+						terrain = cetinje
+						terrain = vaticancity
+						terrain = hawaii
+						terrain = oregoncity
+						terrain = tehran
+						terrain = easterisland
+						terrain = iasi
+						terrain = trabzon
+						terrain = aleppo
+						terrain = salonika
+						terrain = ankara
+						terrain = adana
+						terrain = antioch
+						terrain = nicosia
+						terrain = beirut
+						terrain = sochi
+						terrain = batumi
+						terrain = sinope
+						terrain = smyrna
+						terrain = konya
+						terrain = iraklion
+						terrain = kabul
+						terrain = tabriz
+						terrain = kashgar
+						terrain = bukhara
+						terrain = khiva
+						terrain = chania
+						terrain = surat
+						terrain = ahmedabad
+						terrain = kokand
+						terrain = granada
+						terrain = ava
+						terrain = coruna
+						terrain = nishapur
+						terrain = shiraz
+						terrain = bushire
+						terrain = bandarabbas
+						terrain = qom
+						terrain = basra
+						terrain = varna
+						terrain = mosul
+						terrain = tananarive
+						terrain = mogadishu
+						terrain = mombasa
+						terrain = valparaiso
+						terrain = curacao
+						terrain = bahia
+						terrain = recife
+						terrain = tenerife
+						terrain = meridayucatan
+						terrain = santodomingodm
+						terrain = sanjuanpr
+						terrain = kingstonjamaica
+						terrain = sansalvador
+						terrain = oaxaca
+						terrain = guadalajara
+						terrain = veracruz
+						terrain = halifax
+						terrain = isleofman
+						terrain = cusco
+						terrain = potosi
+						terrain = sanaa
+						terrain = constanta
+						terrain = portoalegre
+						terrain = novoarkhangelesk
+						terrain = kodiakisland
+						terrain = victoriaisland
+						terrain = kalat
+						terrain = fortross
+						terrain = monterrey
+						terrain = valenciavenezuela
+						terrain = arkhangelsk
+						terrain = azores
 						
 						#Forest
 						terrain = dresden 
@@ -850,6 +1136,9 @@ province_event = {
 						trade_goods = opium
 						trade_goods = cotton
 						trade_goods = fruit
+						trade_goods = sugar
+						trade_goods = spices
+						trade_goods = cocoa
 					}
 				}
 			}
@@ -873,7 +1162,100 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
+							terrain = montane_farmlands
+							terrain = farmlandhills
+							terrain = montane_dry
+							terrain = altiplano
+							terrain = urban
+							terrain = floodplain_farmland
+							terrain = montane_boreal
+							terrain = montane_desert
+							terrain = montane_jungle
+							terrain = deserthills
+							terrain = dryforest
+							terrain = dry_forest_hills
+							terrain = dry_forest_mountains
+							terrain = foresthills
+							terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
 							
+							#Anon capitals
+							terrain = derbend
+							terrain = cetinje
+							terrain = vaticancity
+							terrain = hawaii
+							terrain = oregoncity
+							terrain = tehran
+							terrain = easterisland
+							terrain = iasi
+							terrain = trabzon
+							terrain = aleppo
+							terrain = salonika
+							terrain = ankara
+							terrain = adana
+							terrain = antioch
+							terrain = nicosia
+							terrain = beirut
+							terrain = sochi
+							terrain = batumi
+							terrain = sinope
+							terrain = smyrna
+							terrain = konya
+							terrain = iraklion
+							terrain = kabul
+							terrain = tabriz
+							terrain = kashgar
+							terrain = bukhara
+							terrain = khiva
+							terrain = chania
+							terrain = surat
+							terrain = ahmedabad
+							terrain = kokand
+							terrain = granada
+							terrain = ava
+							terrain = coruna
+							terrain = nishapur
+							terrain = shiraz
+							terrain = bushire
+							terrain = bandarabbas
+							terrain = qom
+							terrain = basra
+							terrain = varna
+							terrain = mosul
+							terrain = tananarive
+							terrain = mogadishu
+							terrain = mombasa
+							terrain = valparaiso
+							terrain = curacao
+							terrain = bahia
+							terrain = recife
+							terrain = tenerife
+							terrain = meridayucatan
+							terrain = santodomingodm
+							terrain = sanjuanpr
+							terrain = kingstonjamaica
+							terrain = sansalvador
+							terrain = oaxaca
+							terrain = guadalajara
+							terrain = veracruz
+							terrain = halifax
+							terrain = isleofman
+							terrain = cusco
+							terrain = potosi
+							terrain = sanaa
+							terrain = constanta
+							terrain = portoalegre
+							terrain = novoarkhangelesk
+							terrain = kodiakisland
+							terrain = victoriaisland
+							terrain = kalat
+							terrain = fortross
+							terrain = monterrey
+							terrain = valenciavenezuela
+							terrain = arkhangelsk
+							terrain = azores
+						
 							#Forest
 							terrain = dresden 
 							terrain = luxemburg 
@@ -1097,6 +1479,9 @@ province_event = {
 							trade_goods = opium
 							trade_goods = cotton
 							trade_goods = fruit
+							trade_goods = sugar
+							trade_goods = spices
+							trade_goods = cocoa
 						}
 					}
 					state_scope = {
@@ -1111,6 +1496,99 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
+								terrain = montane_farmlands
+								terrain = farmlandhills
+								terrain = montane_dry
+								terrain = altiplano
+								terrain = urban
+								terrain = floodplain_farmland
+								terrain = montane_boreal
+								terrain = montane_desert
+								terrain = montane_jungle
+								terrain = deserthills
+								terrain = dryforest
+								terrain = dry_forest_hills
+								terrain = dry_forest_mountains
+								terrain = foresthills
+								terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+								
+								#Anon capitals
+								terrain = derbend
+								terrain = cetinje
+								terrain = vaticancity
+								terrain = hawaii
+								terrain = oregoncity
+								terrain = tehran
+								terrain = easterisland
+								terrain = iasi
+								terrain = trabzon
+								terrain = aleppo
+								terrain = salonika
+								terrain = ankara
+								terrain = adana
+								terrain = antioch
+								terrain = nicosia
+								terrain = beirut
+								terrain = sochi
+								terrain = batumi
+								terrain = sinope
+								terrain = smyrna
+								terrain = konya
+								terrain = iraklion
+								terrain = kabul
+								terrain = tabriz
+								terrain = kashgar
+								terrain = bukhara
+								terrain = khiva
+								terrain = chania
+								terrain = surat
+								terrain = ahmedabad
+								terrain = kokand
+								terrain = granada
+								terrain = ava
+								terrain = coruna
+								terrain = nishapur
+								terrain = shiraz
+								terrain = bushire
+								terrain = bandarabbas
+								terrain = qom
+								terrain = basra
+								terrain = varna
+								terrain = mosul
+								terrain = tananarive
+								terrain = mogadishu
+								terrain = mombasa
+								terrain = valparaiso
+								terrain = curacao
+								terrain = bahia
+								terrain = recife
+								terrain = tenerife
+								terrain = meridayucatan
+								terrain = santodomingodm
+								terrain = sanjuanpr
+								terrain = kingstonjamaica
+								terrain = sansalvador
+								terrain = oaxaca
+								terrain = guadalajara
+								terrain = veracruz
+								terrain = halifax
+								terrain = isleofman
+								terrain = cusco
+								terrain = potosi
+								terrain = sanaa
+								terrain = constanta
+								terrain = portoalegre
+								terrain = novoarkhangelesk
+								terrain = kodiakisland
+								terrain = victoriaisland
+								terrain = kalat
+								terrain = fortross
+								terrain = monterrey
+								terrain = valenciavenezuela
+								terrain = arkhangelsk
+								terrain = azores
 								
 								#Forest
 								terrain = dresden 
@@ -1336,6 +1814,9 @@ province_event = {
 								trade_goods = opium
 								trade_goods = cotton
 								trade_goods = fruit
+								trade_goods = sugar
+								trade_goods = spices
+								trade_goods = cocoa
 							}
 						}
 						add_province_modifier = { name = local_tractors duration = -1 }
@@ -1366,6 +1847,99 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
+						terrain = montane_farmlands
+						terrain = farmlandhills
+						terrain = montane_dry
+						terrain = altiplano
+						terrain = urban
+						terrain = floodplain_farmland
+						terrain = montane_boreal
+						terrain = montane_desert
+						terrain = montane_jungle
+						terrain = deserthills
+						terrain = dryforest
+						terrain = dry_forest_hills
+						terrain = dry_forest_mountains
+						terrain = foresthills
+						terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+					
+						#Anon capitals
+						terrain = derbend
+						terrain = cetinje
+						terrain = vaticancity
+						terrain = hawaii
+						terrain = oregoncity
+						terrain = tehran
+						terrain = easterisland
+						terrain = iasi
+						terrain = trabzon
+						terrain = aleppo
+						terrain = salonika
+						terrain = ankara
+						terrain = adana
+						terrain = antioch
+						terrain = nicosia
+						terrain = beirut
+						terrain = sochi
+						terrain = batumi
+						terrain = sinope
+						terrain = smyrna
+						terrain = konya
+						terrain = iraklion
+						terrain = kabul
+						terrain = tabriz
+						terrain = kashgar
+						terrain = bukhara
+						terrain = khiva
+						terrain = chania
+						terrain = surat
+						terrain = ahmedabad
+						terrain = kokand
+						terrain = granada
+						terrain = ava
+						terrain = coruna
+						terrain = nishapur
+						terrain = shiraz
+						terrain = bushire
+						terrain = bandarabbas
+						terrain = qom
+						terrain = basra
+						terrain = varna
+						terrain = mosul
+						terrain = tananarive
+						terrain = mogadishu
+						terrain = mombasa
+						terrain = valparaiso
+						terrain = curacao
+						terrain = bahia
+						terrain = recife
+						terrain = tenerife
+						terrain = meridayucatan
+						terrain = santodomingodm
+						terrain = sanjuanpr
+						terrain = kingstonjamaica
+						terrain = sansalvador
+						terrain = oaxaca
+						terrain = guadalajara
+						terrain = veracruz
+						terrain = halifax
+						terrain = isleofman
+						terrain = cusco
+						terrain = potosi
+						terrain = sanaa
+						terrain = constanta
+						terrain = portoalegre
+						terrain = novoarkhangelesk
+						terrain = kodiakisland
+						terrain = victoriaisland
+						terrain = kalat
+						terrain = fortross
+						terrain = monterrey
+						terrain = valenciavenezuela
+						terrain = arkhangelsk
+						terrain = azores
 					
 						#Forest
 						terrain = dresden 
@@ -1591,6 +2165,9 @@ province_event = {
 						trade_goods = opium
 						trade_goods = cotton
 						trade_goods = fruit
+						trade_goods = sugar
+						trade_goods = spices
+						trade_goods = cocoa
 					}
 				}
 			}
@@ -1614,6 +2191,99 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
+							terrain = montane_farmlands
+							terrain = farmlandhills
+							terrain = montane_dry
+							terrain = altiplano
+							terrain = urban
+							terrain = floodplain_farmland
+							terrain = montane_boreal
+							terrain = montane_desert
+							terrain = montane_jungle
+							terrain = deserthills
+							terrain = dryforest
+							terrain = dry_forest_hills
+							terrain = dry_forest_mountains
+							terrain = foresthills
+							terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+							
+							#Anon capitals
+							terrain = derbend
+							terrain = cetinje
+							terrain = vaticancity
+							terrain = hawaii
+							terrain = oregoncity
+							terrain = tehran
+							terrain = easterisland
+							terrain = iasi
+							terrain = trabzon
+							terrain = aleppo
+							terrain = salonika
+							terrain = ankara
+							terrain = adana
+							terrain = antioch
+							terrain = nicosia
+							terrain = beirut
+							terrain = sochi
+							terrain = batumi
+							terrain = sinope
+							terrain = smyrna
+							terrain = konya
+							terrain = iraklion
+							terrain = kabul
+							terrain = tabriz
+							terrain = kashgar
+							terrain = bukhara
+							terrain = khiva
+							terrain = chania
+							terrain = surat
+							terrain = ahmedabad
+							terrain = kokand
+							terrain = granada
+							terrain = ava
+							terrain = coruna
+							terrain = nishapur
+							terrain = shiraz
+							terrain = bushire
+							terrain = bandarabbas
+							terrain = qom
+							terrain = basra
+							terrain = varna
+							terrain = mosul
+							terrain = tananarive
+							terrain = mogadishu
+							terrain = mombasa
+							terrain = valparaiso
+							terrain = curacao
+							terrain = bahia
+							terrain = recife
+							terrain = tenerife
+							terrain = meridayucatan
+							terrain = santodomingodm
+							terrain = sanjuanpr
+							terrain = kingstonjamaica
+							terrain = sansalvador
+							terrain = oaxaca
+							terrain = guadalajara
+							terrain = veracruz
+							terrain = halifax
+							terrain = isleofman
+							terrain = cusco
+							terrain = potosi
+							terrain = sanaa
+							terrain = constanta
+							terrain = portoalegre
+							terrain = novoarkhangelesk
+							terrain = kodiakisland
+							terrain = victoriaisland
+							terrain = kalat
+							terrain = fortross
+							terrain = monterrey
+							terrain = valenciavenezuela
+							terrain = arkhangelsk
+							terrain = azores
 							
 							#Forest
 							terrain = dresden 
@@ -1838,6 +2508,9 @@ province_event = {
 							trade_goods = opium
 							trade_goods = cotton
 							trade_goods = fruit
+							trade_goods = sugar
+							trade_goods = spices
+							trade_goods = cocoa
 						}
 					}
 					state_scope = {
@@ -1852,6 +2525,23 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
+								terrain = montane_farmlands
+								terrain = farmlandhills
+								terrain = montane_dry
+								terrain = altiplano
+								terrain = urban
+								terrain = floodplain_farmland
+								terrain = montane_boreal
+								terrain = montane_desert
+								terrain = montane_jungle
+								terrain = deserthills
+								terrain = dryforest
+								terrain = dry_forest_hills
+								terrain = dry_forest_mountains
+								terrain = foresthills
+								terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
 								
 								#Forest
 								terrain = dresden 
@@ -2076,6 +2766,9 @@ province_event = {
 								trade_goods = opium
 								trade_goods = cotton
 								trade_goods = fruit
+								trade_goods = sugar
+								trade_goods = spices
+								trade_goods = cocoa
 							}
 						}
 						add_province_modifier = { name = local_tractors duration = -1 }
@@ -2106,6 +2799,99 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
+						terrain = montane_farmlands
+						terrain = farmlandhills
+						terrain = montane_dry
+						terrain = altiplano
+						terrain = urban
+						terrain = floodplain_farmland
+						terrain = montane_boreal
+						terrain = montane_desert
+						terrain = montane_jungle
+						terrain = deserthills
+						terrain = dryforest
+						terrain = dry_forest_hills
+						terrain = dry_forest_mountains
+						terrain = foresthills
+						terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+						
+						#Anon capitals
+						terrain = derbend
+						terrain = cetinje
+						terrain = vaticancity
+						terrain = hawaii
+						terrain = oregoncity
+						terrain = tehran
+						terrain = easterisland
+						terrain = iasi
+						terrain = trabzon
+						terrain = aleppo
+						terrain = salonika
+						terrain = ankara
+						terrain = adana
+						terrain = antioch
+						terrain = nicosia
+						terrain = beirut
+						terrain = sochi
+						terrain = batumi
+						terrain = sinope
+						terrain = smyrna
+						terrain = konya
+						terrain = iraklion
+						terrain = kabul
+						terrain = tabriz
+						terrain = kashgar
+						terrain = bukhara
+						terrain = khiva
+						terrain = chania
+						terrain = surat
+						terrain = ahmedabad
+						terrain = kokand
+						terrain = granada
+						terrain = ava
+						terrain = coruna
+						terrain = nishapur
+						terrain = shiraz
+						terrain = bushire
+						terrain = bandarabbas
+						terrain = qom
+						terrain = basra
+						terrain = varna
+						terrain = mosul
+						terrain = tananarive
+						terrain = mogadishu
+						terrain = mombasa
+						terrain = valparaiso
+						terrain = curacao
+						terrain = bahia
+						terrain = recife
+						terrain = tenerife
+						terrain = meridayucatan
+						terrain = santodomingodm
+						terrain = sanjuanpr
+						terrain = kingstonjamaica
+						terrain = sansalvador
+						terrain = oaxaca
+						terrain = guadalajara
+						terrain = veracruz
+						terrain = halifax
+						terrain = isleofman
+						terrain = cusco
+						terrain = potosi
+						terrain = sanaa
+						terrain = constanta
+						terrain = portoalegre
+						terrain = novoarkhangelesk
+						terrain = kodiakisland
+						terrain = victoriaisland
+						terrain = kalat
+						terrain = fortross
+						terrain = monterrey
+						terrain = valenciavenezuela
+						terrain = arkhangelsk
+						terrain = azores
 						
 						#Forest
 						terrain = dresden 
@@ -2330,6 +3116,9 @@ province_event = {
 						trade_goods = opium
 						trade_goods = cotton
 						trade_goods = fruit
+						trade_goods = sugar
+						trade_goods = spices
+						trade_goods = cocoa
 					}
 				}
 			}
@@ -2353,6 +3142,99 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
+							terrain = montane_farmlands
+							terrain = farmlandhills
+							terrain = montane_dry
+							terrain = altiplano
+							terrain = urban
+							terrain = floodplain_farmland
+							terrain = montane_boreal
+							terrain = montane_desert
+							terrain = montane_jungle
+							terrain = deserthills
+							terrain = dryforest
+							terrain = dry_forest_hills
+							terrain = dry_forest_mountains
+							terrain = foresthills
+							terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+								
+							#Anon capitals
+							terrain = derbend
+							terrain = cetinje
+							terrain = vaticancity
+							terrain = hawaii
+							terrain = oregoncity
+							terrain = tehran
+							terrain = easterisland
+							terrain = iasi
+							terrain = trabzon
+							terrain = aleppo
+							terrain = salonika
+							terrain = ankara
+							terrain = adana
+							terrain = antioch
+							terrain = nicosia
+							terrain = beirut
+							terrain = sochi
+							terrain = batumi
+							terrain = sinope
+							terrain = smyrna
+							terrain = konya
+							terrain = iraklion
+							terrain = kabul
+							terrain = tabriz
+							terrain = kashgar
+							terrain = bukhara
+							terrain = khiva
+							terrain = chania
+							terrain = surat
+							terrain = ahmedabad
+							terrain = kokand
+							terrain = granada
+							terrain = ava
+							terrain = coruna
+							terrain = nishapur
+							terrain = shiraz
+							terrain = bushire
+							terrain = bandarabbas
+							terrain = qom
+							terrain = basra
+							terrain = varna
+							terrain = mosul
+							terrain = tananarive
+							terrain = mogadishu
+							terrain = mombasa
+							terrain = valparaiso
+							terrain = curacao
+							terrain = bahia
+							terrain = recife
+							terrain = tenerife
+							terrain = meridayucatan
+							terrain = santodomingodm
+							terrain = sanjuanpr
+							terrain = kingstonjamaica
+							terrain = sansalvador
+							terrain = oaxaca
+							terrain = guadalajara
+							terrain = veracruz
+							terrain = halifax
+							terrain = isleofman
+							terrain = cusco
+							terrain = potosi
+							terrain = sanaa
+							terrain = constanta
+							terrain = portoalegre
+							terrain = novoarkhangelesk
+							terrain = kodiakisland
+							terrain = victoriaisland
+							terrain = kalat
+							terrain = fortross
+							terrain = monterrey
+							terrain = valenciavenezuela
+							terrain = arkhangelsk
+							terrain = azores
 							
 							#Forest
 							terrain = dresden 
@@ -2577,6 +3459,9 @@ province_event = {
 							trade_goods = opium
 							trade_goods = cotton
 							trade_goods = fruit
+							trade_goods = sugar
+							trade_goods = spices
+							trade_goods = cocoa
 						}
 					}
 					state_scope = {
@@ -2591,6 +3476,99 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
+								terrain = montane_farmlands
+								terrain = farmlandhills
+								terrain = montane_dry
+								terrain = altiplano
+								terrain = urban
+								terrain = floodplain_farmland
+								terrain = montane_boreal
+								terrain = montane_desert
+								terrain = montane_jungle
+								terrain = deserthills
+								terrain = dryforest
+								terrain = dry_forest_hills
+								terrain = dry_forest_mountains
+								terrain = foresthills
+								terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+										
+								#Anon capitals
+								terrain = derbend
+								terrain = cetinje
+								terrain = vaticancity
+								terrain = hawaii
+								terrain = oregoncity
+								terrain = tehran
+								terrain = easterisland
+								terrain = iasi
+								terrain = trabzon
+								terrain = aleppo
+								terrain = salonika
+								terrain = ankara
+								terrain = adana
+								terrain = antioch
+								terrain = nicosia
+								terrain = beirut
+								terrain = sochi
+								terrain = batumi
+								terrain = sinope
+								terrain = smyrna
+								terrain = konya
+								terrain = iraklion
+								terrain = kabul
+								terrain = tabriz
+								terrain = kashgar
+								terrain = bukhara
+								terrain = khiva
+								terrain = chania
+								terrain = surat
+								terrain = ahmedabad
+								terrain = kokand
+								terrain = granada
+								terrain = ava
+								terrain = coruna
+								terrain = nishapur
+								terrain = shiraz
+								terrain = bushire
+								terrain = bandarabbas
+								terrain = qom
+								terrain = basra
+								terrain = varna
+								terrain = mosul
+								terrain = tananarive
+								terrain = mogadishu
+								terrain = mombasa
+								terrain = valparaiso
+								terrain = curacao
+								terrain = bahia
+								terrain = recife
+								terrain = tenerife
+								terrain = meridayucatan
+								terrain = santodomingodm
+								terrain = sanjuanpr
+								terrain = kingstonjamaica
+								terrain = sansalvador
+								terrain = oaxaca
+								terrain = guadalajara
+								terrain = veracruz
+								terrain = halifax
+								terrain = isleofman
+								terrain = cusco
+								terrain = potosi
+								terrain = sanaa
+								terrain = constanta
+								terrain = portoalegre
+								terrain = novoarkhangelesk
+								terrain = kodiakisland
+								terrain = victoriaisland
+								terrain = kalat
+								terrain = fortross
+								terrain = monterrey
+								terrain = valenciavenezuela
+								terrain = arkhangelsk
+								terrain = azores
 								
 								#Forest
 								terrain = dresden 
@@ -2815,6 +3793,9 @@ province_event = {
 								trade_goods = opium
 								trade_goods = cotton
 								trade_goods = fruit
+								trade_goods = sugar
+								trade_goods = spices
+								trade_goods = cocoa
 							}
 						}
 						add_province_modifier = { name = local_tractors duration = -1 }
@@ -2845,6 +3826,99 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
+						terrain = montane_farmlands
+						terrain = farmlandhills
+						terrain = montane_dry
+						terrain = altiplano
+						terrain = urban
+						terrain = floodplain_farmland
+						terrain = montane_boreal
+						terrain = montane_desert
+						terrain = montane_jungle
+						terrain = deserthills
+						terrain = dryforest
+						terrain = dry_forest_hills
+						terrain = dry_forest_mountains
+						terrain = foresthills
+						terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+						
+						#Anon capitals
+						terrain = derbend
+						terrain = cetinje
+						terrain = vaticancity
+						terrain = hawaii
+						terrain = oregoncity
+						terrain = tehran
+						terrain = easterisland
+						terrain = iasi
+						terrain = trabzon
+						terrain = aleppo
+						terrain = salonika
+						terrain = ankara
+						terrain = adana
+						terrain = antioch
+						terrain = nicosia
+						terrain = beirut
+						terrain = sochi
+						terrain = batumi
+						terrain = sinope
+						terrain = smyrna
+						terrain = konya
+						terrain = iraklion
+						terrain = kabul
+						terrain = tabriz
+						terrain = kashgar
+						terrain = bukhara
+						terrain = khiva
+						terrain = chania
+						terrain = surat
+						terrain = ahmedabad
+						terrain = kokand
+						terrain = granada
+						terrain = ava
+						terrain = coruna
+						terrain = nishapur
+						terrain = shiraz
+						terrain = bushire
+						terrain = bandarabbas
+						terrain = qom
+						terrain = basra
+						terrain = varna
+						terrain = mosul
+						terrain = tananarive
+						terrain = mogadishu
+						terrain = mombasa
+						terrain = valparaiso
+						terrain = curacao
+						terrain = bahia
+						terrain = recife
+						terrain = tenerife
+						terrain = meridayucatan
+						terrain = santodomingodm
+						terrain = sanjuanpr
+						terrain = kingstonjamaica
+						terrain = sansalvador
+						terrain = oaxaca
+						terrain = guadalajara
+						terrain = veracruz
+						terrain = halifax
+						terrain = isleofman
+						terrain = cusco
+						terrain = potosi
+						terrain = sanaa
+						terrain = constanta
+						terrain = portoalegre
+						terrain = novoarkhangelesk
+						terrain = kodiakisland
+						terrain = victoriaisland
+						terrain = kalat
+						terrain = fortross
+						terrain = monterrey
+						terrain = valenciavenezuela
+						terrain = arkhangelsk
+						terrain = azores
 						
 						#Forest
 						terrain = dresden 
@@ -3069,6 +4143,9 @@ province_event = {
 						trade_goods = opium
 						trade_goods = cotton
 						trade_goods = fruit
+						trade_goods = sugar
+						trade_goods = spices
+						trade_goods = cocoa
 					}
 				}
 			}
@@ -3092,6 +4169,99 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
+							terrain = montane_farmlands
+							terrain = farmlandhills
+							terrain = montane_dry
+							terrain = altiplano
+							terrain = urban
+							terrain = floodplain_farmland
+							terrain = montane_boreal
+							terrain = montane_desert
+							terrain = montane_jungle
+							terrain = deserthills
+							terrain = dryforest
+							terrain = dry_forest_hills
+							terrain = dry_forest_mountains
+							terrain = foresthills
+							terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+								
+							#Anon capitals
+							terrain = derbend
+							terrain = cetinje
+							terrain = vaticancity
+							terrain = hawaii
+							terrain = oregoncity
+							terrain = tehran
+							terrain = easterisland
+							terrain = iasi
+							terrain = trabzon
+							terrain = aleppo
+							terrain = salonika
+							terrain = ankara
+							terrain = adana
+							terrain = antioch
+							terrain = nicosia
+							terrain = beirut
+							terrain = sochi
+							terrain = batumi
+							terrain = sinope
+							terrain = smyrna
+							terrain = konya
+							terrain = iraklion
+							terrain = kabul
+							terrain = tabriz
+							terrain = kashgar
+							terrain = bukhara
+							terrain = khiva
+							terrain = chania
+							terrain = surat
+							terrain = ahmedabad
+							terrain = kokand
+							terrain = granada
+							terrain = ava
+							terrain = coruna
+							terrain = nishapur
+							terrain = shiraz
+							terrain = bushire
+							terrain = bandarabbas
+							terrain = qom
+							terrain = basra
+							terrain = varna
+							terrain = mosul
+							terrain = tananarive
+							terrain = mogadishu
+							terrain = mombasa
+							terrain = valparaiso
+							terrain = curacao
+							terrain = bahia
+							terrain = recife
+							terrain = tenerife
+							terrain = meridayucatan
+							terrain = santodomingodm
+							terrain = sanjuanpr
+							terrain = kingstonjamaica
+							terrain = sansalvador
+							terrain = oaxaca
+							terrain = guadalajara
+							terrain = veracruz
+							terrain = halifax
+							terrain = isleofman
+							terrain = cusco
+							terrain = potosi
+							terrain = sanaa
+							terrain = constanta
+							terrain = portoalegre
+							terrain = novoarkhangelesk
+							terrain = kodiakisland
+							terrain = victoriaisland
+							terrain = kalat
+							terrain = fortross
+							terrain = monterrey
+							terrain = valenciavenezuela
+							terrain = arkhangelsk
+							terrain = azores
 							
 							#Forest
 							terrain = dresden 
@@ -3316,6 +4486,9 @@ province_event = {
 							trade_goods = opium
 							trade_goods = cotton
 							trade_goods = fruit
+							trade_goods = sugar
+							trade_goods = spices
+							trade_goods = cocoa
 						}
 					}
 					state_scope = {
@@ -3330,6 +4503,99 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
+								terrain = montane_farmlands
+								terrain = farmlandhills
+								terrain = montane_dry
+								terrain = altiplano
+								terrain = urban
+								terrain = floodplain_farmland
+								terrain = montane_boreal
+								terrain = montane_desert
+								terrain = montane_jungle
+								terrain = deserthills
+								terrain = dryforest
+								terrain = dry_forest_hills
+								terrain = dry_forest_mountains
+								terrain = foresthills
+								terrain = junglehills
+			terrain = forest_farmland
+			terrain = jungle_farmland
+										
+								#Anon capitals
+								terrain = derbend
+								terrain = cetinje
+								terrain = vaticancity
+								terrain = hawaii
+								terrain = oregoncity
+								terrain = tehran
+								terrain = easterisland
+								terrain = iasi
+								terrain = trabzon
+								terrain = aleppo
+								terrain = salonika
+								terrain = ankara
+								terrain = adana
+								terrain = antioch
+								terrain = nicosia
+								terrain = beirut
+								terrain = sochi
+								terrain = batumi
+								terrain = sinope
+								terrain = smyrna
+								terrain = konya
+								terrain = iraklion
+								terrain = kabul
+								terrain = tabriz
+								terrain = kashgar
+								terrain = bukhara
+								terrain = khiva
+								terrain = chania
+								terrain = surat
+								terrain = ahmedabad
+								terrain = kokand
+								terrain = granada
+								terrain = ava
+								terrain = coruna
+								terrain = nishapur
+								terrain = shiraz
+								terrain = bushire
+								terrain = bandarabbas
+								terrain = qom
+								terrain = basra
+								terrain = varna
+								terrain = mosul
+								terrain = tananarive
+								terrain = mogadishu
+								terrain = mombasa
+								terrain = valparaiso
+								terrain = curacao
+								terrain = bahia
+								terrain = recife
+								terrain = tenerife
+								terrain = meridayucatan
+								terrain = santodomingodm
+								terrain = sanjuanpr
+								terrain = kingstonjamaica
+								terrain = sansalvador
+								terrain = oaxaca
+								terrain = guadalajara
+								terrain = veracruz
+								terrain = halifax
+								terrain = isleofman
+								terrain = cusco
+								terrain = potosi
+								terrain = sanaa
+								terrain = constanta
+								terrain = portoalegre
+								terrain = novoarkhangelesk
+								terrain = kodiakisland
+								terrain = victoriaisland
+								terrain = kalat
+								terrain = fortross
+								terrain = monterrey
+								terrain = valenciavenezuela
+								terrain = arkhangelsk
+								terrain = azores
 								
 								#Forest
 								terrain = dresden 
@@ -3554,6 +4820,9 @@ province_event = {
 								trade_goods = opium
 								trade_goods = cotton
 								trade_goods = fruit
+								trade_goods = sugar
+								trade_goods = spices
+								trade_goods = cocoa
 							}
 						}
 						add_province_modifier = { name = local_tractors duration = -1 }
@@ -4220,6 +5489,522 @@ province_event = {
 			}
 		}
 		
+	}
+}
+
+# Machine Tools - Mechanized Mining and dynamite
+province_event = {
+	id = 29901
+	title = "EVTNAME29901"
+	desc = "EVTDESC29901"
+	
+	trigger = {
+		NOT = { has_province_modifier = local_conveyors_and_excavators }
+		owner = {
+			invention = electric_rolling_techniques
+			combustion_engine = 1
+		}
+		NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+		NOT = {
+			unemployment_by_type = { value = 0.03 type = labourers }
+			state_scope = { is_slave = yes }
+		}
+		OR = {
+			trade_goods = coal
+			trade_goods = iron
+			trade_goods = precious_metal
+			trade_goods = sulphur
+			trade_goods = copper
+			trade_goods = lead
+		}
+	}
+		
+	mean_time_to_happen = {
+		months = 600
+		
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { has_province_modifier = local_conveyors_and_excavators }
+		}
+		
+		modifier = {
+			factor = 0.7
+			is_capital = yes
+		}
+		
+		modifier = {
+			factor = 0.75
+			any_pop = {
+				type = aristocrats #used to be farmers
+				cash_reserves = 200
+				location = { NOT = { is_overseas = yes } }
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			literacy = 0.9
+		}
+		modifier = {
+			factor = 0.9
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.9
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.9
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { literacy = 0.5 }
+		}
+		modifier = {
+			factor = 3
+			NOT = { literacy = 0.25 }
+		}
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 30 } }
+		}
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 25 } }
+		}
+		
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 20 } }
+		}
+		
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 15 } }
+		}
+		
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 10 } }
+		}
+		
+		modifier = {
+			factor = 0.95
+			owner = { NOT = { num_of_cities = 5 } }
+		}
+		
+		modifier = {
+			factor = 0.95
+			average_consciousness = 6
+		}
+		
+		modifier = {
+			factor = 0.95
+			average_consciousness = 7
+		}
+		
+		modifier = {
+			factor = 0.95
+			average_consciousness = 8
+		}
+		
+		modifier = {
+			factor = 1.1
+			average_militancy = 5
+		}
+		
+		modifier = {
+			factor = 1.2
+			average_militancy = 6
+		}
+		
+		modifier = {
+			factor = 1.3
+			average_militancy = 7
+		}
+		
+		modifier = {
+			factor = 2
+			state_scope = { has_pop_type = serfs }
+		}
+		
+		modifier = {
+			factor = 8
+			state_scope = { is_colonial = yes}
+		}
+		
+		modifier = {
+			factor = 4
+			is_overseas = yes
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA29903"
+		state_scope = {
+			any_owned = {
+				limit = {
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+				add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+			}
+		}
+		
+		owner = {
+			random_owned = {
+				limit = {
+					owner = {
+						number_of_states = 10
+						literacy = 0.7
+					}
+					any_neighbor_province = { has_province_modifier = local_conveyors_and_excavators }
+					NOT = {
+						has_province_modifier = local_conveyors_and_excavators
+						is_overseas = yes
+						is_colonial = yes
+						unemployment_by_type = { value = 0.03 type = labourers }
+						state_scope = {
+							is_slave = yes
+							has_pop_type = serfs
+						}
+					}
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+				state_scope = {
+					any_owned = {
+						limit = {
+							OR = {
+								trade_goods = coal
+								trade_goods = iron
+								trade_goods = precious_metal
+								trade_goods = sulphur
+								trade_goods = copper
+								trade_goods = lead
+							}
+						}
+						add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+					}
+				}
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				number_of_states = 10
+				any_owned_province = {
+					NOT = {
+						has_province_modifier = local_conveyors_and_excavators
+						unemployment_by_type = { value = 0.03 type = labourers }
+					}
+					state_scope = {
+						literacy = 0.5
+						NOT = {
+							has_pop_type = serfs
+							is_slave = yes
+						}
+					}
+					NOT = { is_overseas = yes }
+					NOT = { is_colonial = yes }
+					NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+			}
+			random = {
+				chance = 50
+				random_state = {
+					limit = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							is_slave = yes
+							has_pop_type = serfs
+						}
+						any_owned_province = {
+							NOT = {
+								unemployment_by_type = { value = 0.03 type = labourers }
+								has_province_modifier = local_conveyors_and_excavators
+								is_overseas = yes
+								is_colonial = yes
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = iron
+								trade_goods = precious_metal
+								trade_goods = sulphur
+								trade_goods = copper
+								trade_goods = lead
+							}
+						}
+					}
+					state_scope = {
+						any_owned = {
+							limit = { 
+								OR = {
+									trade_goods = coal
+									trade_goods = iron
+									trade_goods = precious_metal
+									trade_goods = sulphur
+									trade_goods = copper
+									trade_goods = lead
+								}
+							}
+						add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+						}
+					}
+				}
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				number_of_states = 20
+				any_owned_province = {
+					NOT = {
+						has_province_modifier = local_conveyors_and_excavators
+						unemployment_by_type = { value = 0.03 type = labourers }
+					}
+					state_scope = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							has_pop_type = serfs
+							is_slave = yes
+						}
+					}
+					NOT = { is_overseas = yes }
+					NOT = { is_colonial = yes }
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+			}
+			random = {
+				chance = 50
+				random_state = {
+					limit = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							is_slave = yes
+							has_pop_type = serfs
+						}
+						any_owned_province = {
+							NOT = {
+								unemployment_by_type = { value = 0.03 type = labourers }
+								has_province_modifier = local_conveyors_and_excavators
+								is_overseas = yes
+								is_colonial = yes
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = iron
+								trade_goods = precious_metal
+								trade_goods = sulphur
+								trade_goods = copper
+								trade_goods = lead
+							}
+						}
+					}
+					state_scope = {
+						any_owned = {
+							limit = { 
+								NOT = { has_province_modifier = treaty_port }
+								OR = {
+									trade_goods = coal
+									trade_goods = iron
+									trade_goods = precious_metal
+									trade_goods = sulphur
+									trade_goods = copper
+									trade_goods = lead
+								}
+							}
+						add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+						}
+					}
+				}
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				number_of_states = 30
+				any_owned_province = {
+					NOT = {
+						has_province_modifier = local_conveyors_and_excavators
+						unemployment_by_type = { value = 0.03 type = labourers }
+					}
+					state_scope = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							has_pop_type = serfs
+							is_slave = yes
+						}
+					}
+					NOT = { is_overseas = yes }
+					NOT = { is_colonial = yes }
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+			}
+			random = {
+				chance = 50
+				random_state = {
+					limit = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							is_slave = yes
+							has_pop_type = serfs
+						}
+						any_owned_province = {
+							NOT = {
+								unemployment_by_type = { value = 0.03 type = labourers }
+								has_province_modifier = local_conveyors_and_excavators
+								is_overseas = yes
+								is_colonial = yes
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = iron
+								trade_goods = precious_metal
+								trade_goods = sulphur
+								trade_goods = copper
+								trade_goods = lead
+							}
+						}
+					}
+					state_scope = {
+						any_owned = {
+							limit = { 
+								NOT = { has_province_modifier = treaty_port }
+								OR = {
+									trade_goods = coal
+									trade_goods = iron
+									trade_goods = precious_metal
+									trade_goods = sulphur
+									trade_goods = copper
+									trade_goods = lead
+								}
+							}
+						add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+						}
+					}
+				}
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				number_of_states = 40
+				any_owned_province = {
+					NOT = {
+						has_province_modifier = local_conveyors_and_excavators
+						unemployment_by_type = { value = 0.03 type = labourers }
+					}
+					state_scope = {
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						literacy = 0.5
+						NOT = {
+							has_pop_type = serfs
+							is_slave = yes
+						}
+					}
+					NOT = { is_overseas = yes }
+					NOT = { is_colonial = yes }
+					OR = {
+						trade_goods = coal
+						trade_goods = iron
+						trade_goods = precious_metal
+						trade_goods = sulphur
+						trade_goods = copper
+						trade_goods = lead
+					}
+				}
+			}
+			random = {
+				chance = 50
+				random_state = {
+					limit = {
+						literacy = 0.5
+						NOT = { any_owned_province = { NOT = { controlled_by = THIS } } }
+						NOT = {
+							is_slave = yes
+							has_pop_type = serfs
+						}
+						any_owned_province = {
+							NOT = {
+								unemployment_by_type = { value = 0.03 type = labourers }
+								has_province_modifier = local_conveyors_and_excavators
+								is_overseas = yes
+								is_colonial = yes
+							}
+							OR = {
+								trade_goods = coal
+								trade_goods = iron
+								trade_goods = precious_metal
+								trade_goods = sulphur
+								trade_goods = copper
+								trade_goods = lead
+							}
+						}
+					}
+					state_scope = {
+						any_owned = {
+							limit = { 
+								NOT = { has_province_modifier = treaty_port }
+								OR = {
+									trade_goods = coal
+									trade_goods = iron
+									trade_goods = precious_metal
+									trade_goods = sulphur
+									trade_goods = copper
+									trade_goods = lead
+								}
+							}
+						add_province_modifier = { name = local_conveyors_and_excavators duration = -1 }
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
