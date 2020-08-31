@@ -3472,3 +3472,268 @@ province_attract_immigrants = {
 	immigrant_attract = 100
 	icon = 9
 }
+###+RGO_education###
+
+RGO_education_0 = {
+	local_RGO_output = -0.0
+	local_factory_output = -0.00
+	
+	#poor_life_needs = -0.5
+	#middle_life_needs = -0.5
+	#rich_life_needs = -0.5
+	#poor_everyday_needs = -0.5
+	#middle_everyday_needs = -0.5
+	#rich_everyday_needs = -0.5
+	#poor_luxury_needs = -0.5
+	#middle_luxury_needs = -0.5
+	#rich_luxury_needs = -0.5
+	
+    poor_income_modifier = 0
+    middle_income_modifier = 0
+    rich_income_modifier = 0
+	immigrant_push = 0
+	population_growth = 0.05
+	icon = 3
+}
+
+RGO_education_1 = {
+	local_RGO_output = 0.1
+	local_factory_output = 0.01
+	
+	#poor_life_needs = -0.45
+	#middle_life_needs = -0.45
+	#rich_life_needs = -0.45
+	#poor_everyday_needs = -0.45
+	#middle_everyday_needs = -0.45
+	#rich_everyday_needs = -0.45
+	#poor_luxury_needs = -0.45
+	#middle_luxury_needs = -0.45
+	#rich_luxury_needs = -0.45
+	
+    poor_income_modifier = 0.1
+    middle_income_modifier = 0.1
+    rich_income_modifier = 0.1
+	immigrant_push = 0.1
+	goods_demand = 0.01
+	population_growth = 0.04
+	life_rating = 0.03
+	icon = 3
+}
+
+RGO_education_2 = {
+	local_RGO_output = 0.2
+	local_factory_output = 0.02
+	
+	#poor_life_needs = -0.4
+	#middle_life_needs = -0.4
+	#rich_life_needs = -0.4
+	#poor_everyday_needs = -0.4
+	#middle_everyday_needs = -0.4
+	#rich_everyday_needs = -0.4
+	#poor_luxury_needs = -0.4
+	#middle_luxury_needs = -0.4
+	#rich_luxury_needs = -0.4
+	
+    poor_income_modifier = 0.2
+    middle_income_modifier = 0.2
+    rich_income_modifier = 0.2
+	immigrant_push = 0.2
+	goods_demand = 0.02
+	population_growth = 0.03
+	life_rating = 0.06
+	icon = 3
+}
+
+RGO_education_3 = {
+	local_RGO_output = 0.3
+	local_factory_output = 0.03
+	
+	#poor_life_needs = -0.35
+	#middle_life_needs = -0.35
+	#rich_life_needs = -0.35
+	#poor_everyday_needs = -0.35
+	#middle_everyday_needs = -0.35
+	#rich_everyday_needs = -0.35
+	#poor_luxury_needs = -0.35
+	#middle_luxury_needs = -0.35
+	#rich_luxury_needs = -0.35
+	
+    poor_income_modifier = 0.3
+    middle_income_modifier = 0.3
+    rich_income_modifier = 0.3
+	immigrant_push = 0.30
+	goods_demand = 0.03
+	population_growth = 0.02
+	life_rating = 0.09
+	icon = 3
+}
+
+RGO_education_4 = {
+	local_RGO_output = 0.4
+	local_factory_output = 0.04
+	
+	#poor_life_needs = -0.30
+	#middle_life_needs = -0.30
+	#rich_life_needs = -0.30
+	#poor_everyday_needs = -0.30
+	#middle_everyday_needs = -0.30
+	#rich_everyday_needs = -0.30
+	#poor_luxury_needs = -0.30
+	#middle_luxury_needs = -0.30
+	#rich_luxury_needs = -0.30
+	
+    poor_income_modifier = 0.4
+    middle_income_modifier = 0.4
+    rich_income_modifier = 0.4
+	immigrant_push = 0.4
+	goods_demand = 0.04
+	population_growth = 0.01
+	life_rating = 0.12
+	icon = 3
+}
+
+RGO_education_5 = {
+	local_RGO_output = 0.5
+	local_factory_output = 0.05
+	
+	#poor_life_needs = -0.25
+	#middle_life_needs = -0.25
+	#rich_life_needs = -0.25
+	#poor_everyday_needs = -0.25
+	#middle_everyday_needs = -0.25
+	#rich_everyday_needs = -0.25
+	#poor_luxury_needs = -0.25
+	#middle_luxury_needs = -0.25
+	#rich_luxury_needs = -0.25
+	
+    poor_income_modifier = 0.5
+    middle_income_modifier = 0.5
+    rich_income_modifier = 0.5
+	immigrant_push = 0.5
+	goods_demand = 0.05
+	population_growth = -0.01
+	life_rating = 0.15
+	icon = 3
+}
+
+RGO_education_6 = {
+	local_RGO_output = 0.6
+	local_factory_output = 0.06
+	
+	#poor_life_needs = -0.20
+	#middle_life_needs = -0.20
+	#rich_life_needs = -0.20
+	#poor_everyday_needs = -0.20
+	#middle_everyday_needs = -0.20
+	#rich_everyday_needs = -0.20
+	#poor_luxury_needs = -0.20
+	#middle_luxury_needs = -0.20
+	#rich_luxury_needs = -0.20
+	
+    poor_income_modifier = 0.6
+    middle_income_modifier = 0.6
+    rich_income_modifier = 0.6
+	immigrant_push = 0.6
+	goods_demand = 0.06
+	population_growth = -0.015
+	life_rating = 0.18
+	icon = 3
+}
+
+RGO_education_7 = {
+	local_RGO_output = 0.7
+	local_factory_output = 0.07
+	
+	#poor_life_needs = -0.15
+	#middle_life_needs = -0.15
+	#rich_life_needs = -0.15
+	#poor_everyday_needs = -0.15
+	#middle_everyday_needs = -0.15
+	#rich_everyday_needs = -0.15
+	#poor_luxury_needs = -0.15
+	#middle_luxury_needs = -0.15
+	#rich_luxury_needs = -0.15
+	
+    poor_income_modifier = 0.35
+    middle_income_modifier = 0.35
+    rich_income_modifier = 0.35
+	immigrant_push = 0.35
+	goods_demand = 0.07
+	population_growth = -0.02
+	life_rating = 0.21
+	icon = 3
+}
+
+RGO_education_8 = {
+	local_RGO_output = 0.8
+	local_factory_output = 0.08
+	
+	#poor_life_needs = -0.10
+	#middle_life_needs = -0.10
+	#rich_life_needs = -0.10
+	#poor_everyday_needs = -0.10
+	#middle_everyday_needs = -0.10
+	#rich_everyday_needs = -0.10
+	#poor_luxury_needs = -0.10
+	#middle_luxury_needs = -0.10
+	#rich_luxury_needs = -0.10
+	
+    poor_income_modifier = 0.8
+    middle_income_modifier = 0.8
+    rich_income_modifier = 0.8
+	immigrant_push = 0.8
+	goods_demand = 0.08
+	population_growth = -0.025
+	life_rating = 0.24
+	icon = 3
+}
+
+RGO_education_9 = {
+	local_RGO_output = 0.9
+	local_factory_output = 0.09
+	
+	#poor_life_needs = -0.05
+	#middle_life_needs = -0.05
+	#rich_life_needs = -0.05
+	#poor_everyday_needs = -0.05
+	#middle_everyday_needs = -0.05
+	#rich_everyday_needs = -0.05
+	#poor_luxury_needs = -0.05
+	#middle_luxury_needs = -0.05
+	#rich_luxury_needs = -0.05
+	
+    poor_income_modifier = 0.9
+    middle_income_modifier = 0.9
+    rich_income_modifier = 0.9
+	immigrant_push = 0.9
+	goods_demand = 0.09
+	population_growth = -0.03
+	life_rating = 0.27
+	icon = 3
+}
+
+RGO_education_10 = {
+	local_RGO_output = 1
+	local_factory_output = 0.10
+	
+	#poor_life_needs = -0.0
+	#middle_life_needs = -0.0
+	#rich_life_needs = -0.0
+	#poor_everyday_needs = -0.0
+	#middle_everyday_needs = -0.0
+	#rich_everyday_needs = -0.0
+	#poor_luxury_needs = -0.0
+	#middle_luxury_needs = -0.0
+	#rich_luxury_needs = -0.0
+	
+	poor_income_modifier = 1.0
+    middle_income_modifier = 1.0
+    rich_income_modifier = 1.0
+	immigrant_push = 1.0
+	goods_demand = 0.1
+	population_growth = -0.035
+	life_rating = 0.30
+	icon = 3
+}
+
+#####
