@@ -49,3 +49,5 @@ political_decisions = {
 			clr_global_flag = germanized_crimea
 		}
 	}
+}
+}

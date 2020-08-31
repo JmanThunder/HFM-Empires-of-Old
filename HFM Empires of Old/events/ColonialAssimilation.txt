@@ -21,7 +21,7 @@ country_event = {
 		THIS = {
 			any_pop = {
 				limit = {
-					OR {
+					OR = {
 						is_culture_group = west_african
 						is_culture_group = central_african
 						is_culture_group = east_african

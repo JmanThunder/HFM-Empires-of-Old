@@ -1,7 +1,5 @@
-#owner = RUS
-#controller = RUS
-owner = CPL
-controller = CPL
+owner = RUS
+controller = RUS
 add_core = RUS
 add_core = CPL
 add_core = POL

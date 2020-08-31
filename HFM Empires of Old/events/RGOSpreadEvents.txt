@@ -18,100 +18,26 @@ province_event = {
 			terrain = dryhills
 			terrain = farmlands
 			terrain = mountain
-			terrain = montane_farmlands
+			
 			terrain = farmlandhills
-			terrain = montane_dry
-			terrain = altiplano
+			
+			
 			terrain = urban
-			terrain = floodplain_farmland
-			terrain = montane_boreal
+			
+			
 			terrain = montane_desert
 			terrain = montane_jungle
 			terrain = deserthills
-			terrain = dryforest
-			terrain = dry_forest_hills
-			terrain = dry_forest_mountains
-			terrain = foresthills
-			terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+			
+			
+			
+			
+			
+			
+			
 			
 
-			#Anon capitals
-			terrain = derbend
-			terrain = cetinje
-			terrain = vaticancity
-			terrain = hawaii
-			terrain = oregoncity
-			terrain = tehran
-			terrain = easterisland
-			terrain = iasi
-			terrain = trabzon
-			terrain = aleppo
-			terrain = salonika
-			terrain = ankara
-			terrain = adana
-			terrain = antioch
-			terrain = nicosia
-			terrain = beirut
-			terrain = sochi
-			terrain = batumi
-			terrain = sinope
-			terrain = smyrna
-			terrain = konya
-			terrain = iraklion
-			terrain = kabul
-			terrain = tabriz
-			terrain = kashgar
-			terrain = bukhara
-			terrain = khiva
-			terrain = chania
-			terrain = surat
-			terrain = ahmedabad
-			terrain = kokand
-			terrain = granada
-			terrain = ava
-			terrain = coruna
-			terrain = nishapur
-			terrain = shiraz
-			terrain = bushire
-			terrain = bandarabbas
-			terrain = qom
-			terrain = basra
-			terrain = varna
-			terrain = mosul
-			terrain = tananarive
-			terrain = mogadishu
-			terrain = mombasa
-			terrain = valparaiso
-			terrain = curacao
-			terrain = bahia
-			terrain = recife
-			terrain = tenerife
-			terrain = meridayucatan
-			terrain = santodomingodm
-			terrain = sanjuanpr
-			terrain = kingstonjamaica
-			terrain = sansalvador
-			terrain = oaxaca
-			terrain = guadalajara
-			terrain = veracruz
-			terrain = halifax
-			terrain = isleofman
-			terrain = cusco
-			terrain = potosi
-			terrain = sanaa
-			terrain = constanta
-			terrain = portoalegre
-			terrain = novoarkhangelesk
-			terrain = kodiakisland
-			terrain = victoriaisland
-			terrain = kalat
-			terrain = fortross
-			terrain = monterrey
-			terrain = valenciavenezuela
-			terrain = arkhangelsk
-			terrain = azores
+			
 			
 			#Forest
 			terrain = dresden 
@@ -472,99 +398,25 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
-						terrain = montane_farmlands
+						
 						terrain = farmlandhills
-						terrain = montane_dry
-						terrain = altiplano
+						
+						
 						terrain = urban
-						terrain = floodplain_farmland
-						terrain = montane_boreal
+						
+						
 						terrain = montane_desert
 						terrain = montane_jungle
 						terrain = deserthills
-						terrain = dryforest
-						terrain = dry_forest_hills
-						terrain = dry_forest_mountains
-						terrain = foresthills
-						terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 						
-						#Anon capitals
-						terrain = derbend
-						terrain = cetinje
-						terrain = vaticancity
-						terrain = hawaii
-						terrain = oregoncity
-						terrain = tehran
-						terrain = easterisland
-						terrain = iasi
-						terrain = trabzon
-						terrain = aleppo
-						terrain = salonika
-						terrain = ankara
-						terrain = adana
-						terrain = antioch
-						terrain = nicosia
-						terrain = beirut
-						terrain = sochi
-						terrain = batumi
-						terrain = sinope
-						terrain = smyrna
-						terrain = konya
-						terrain = iraklion
-						terrain = kabul
-						terrain = tabriz
-						terrain = kashgar
-						terrain = bukhara
-						terrain = khiva
-						terrain = chania
-						terrain = surat
-						terrain = ahmedabad
-						terrain = kokand
-						terrain = granada
-						terrain = ava
-						terrain = coruna
-						terrain = nishapur
-						terrain = shiraz
-						terrain = bushire
-						terrain = bandarabbas
-						terrain = qom
-						terrain = basra
-						terrain = varna
-						terrain = mosul
-						terrain = tananarive
-						terrain = mogadishu
-						terrain = mombasa
-						terrain = valparaiso
-						terrain = curacao
-						terrain = bahia
-						terrain = recife
-						terrain = tenerife
-						terrain = meridayucatan
-						terrain = santodomingodm
-						terrain = sanjuanpr
-						terrain = kingstonjamaica
-						terrain = sansalvador
-						terrain = oaxaca
-						terrain = guadalajara
-						terrain = veracruz
-						terrain = halifax
-						terrain = isleofman
-						terrain = cusco
-						terrain = potosi
-						terrain = sanaa
-						terrain = constanta
-						terrain = portoalegre
-						terrain = novoarkhangelesk
-						terrain = kodiakisland
-						terrain = victoriaisland
-						terrain = kalat
-						terrain = fortross
-						terrain = monterrey
-						terrain = valenciavenezuela
-						terrain = arkhangelsk
-						terrain = azores
+						
+						
+						
+						
+			
+			
+						
+						
 						
 						#Forest
 						terrain = dresden 
@@ -819,99 +671,25 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
-						terrain = montane_farmlands
+						
 						terrain = farmlandhills
-						terrain = montane_dry
-						terrain = altiplano
+						
+						
 						terrain = urban
-						terrain = floodplain_farmland
-						terrain = montane_boreal
+						
+						
 						terrain = montane_desert
 						terrain = montane_jungle
 						terrain = deserthills
-						terrain = dryforest
-						terrain = dry_forest_hills
-						terrain = dry_forest_mountains
-						terrain = foresthills
-						terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 						
-						#Anon capitals
-						terrain = derbend
-						terrain = cetinje
-						terrain = vaticancity
-						terrain = hawaii
-						terrain = oregoncity
-						terrain = tehran
-						terrain = easterisland
-						terrain = iasi
-						terrain = trabzon
-						terrain = aleppo
-						terrain = salonika
-						terrain = ankara
-						terrain = adana
-						terrain = antioch
-						terrain = nicosia
-						terrain = beirut
-						terrain = sochi
-						terrain = batumi
-						terrain = sinope
-						terrain = smyrna
-						terrain = konya
-						terrain = iraklion
-						terrain = kabul
-						terrain = tabriz
-						terrain = kashgar
-						terrain = bukhara
-						terrain = khiva
-						terrain = chania
-						terrain = surat
-						terrain = ahmedabad
-						terrain = kokand
-						terrain = granada
-						terrain = ava
-						terrain = coruna
-						terrain = nishapur
-						terrain = shiraz
-						terrain = bushire
-						terrain = bandarabbas
-						terrain = qom
-						terrain = basra
-						terrain = varna
-						terrain = mosul
-						terrain = tananarive
-						terrain = mogadishu
-						terrain = mombasa
-						terrain = valparaiso
-						terrain = curacao
-						terrain = bahia
-						terrain = recife
-						terrain = tenerife
-						terrain = meridayucatan
-						terrain = santodomingodm
-						terrain = sanjuanpr
-						terrain = kingstonjamaica
-						terrain = sansalvador
-						terrain = oaxaca
-						terrain = guadalajara
-						terrain = veracruz
-						terrain = halifax
-						terrain = isleofman
-						terrain = cusco
-						terrain = potosi
-						terrain = sanaa
-						terrain = constanta
-						terrain = portoalegre
-						terrain = novoarkhangelesk
-						terrain = kodiakisland
-						terrain = victoriaisland
-						terrain = kalat
-						terrain = fortross
-						terrain = monterrey
-						terrain = valenciavenezuela
-						terrain = arkhangelsk
-						terrain = azores
+						
+						
+						
+						
+			
+			
+						
+						
 						
 						#Forest
 						terrain = dresden 
@@ -1162,99 +940,25 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
-							terrain = montane_farmlands
+							
 							terrain = farmlandhills
-							terrain = montane_dry
-							terrain = altiplano
+							
+							
 							terrain = urban
-							terrain = floodplain_farmland
-							terrain = montane_boreal
+							
+							
 							terrain = montane_desert
 							terrain = montane_jungle
 							terrain = deserthills
-							terrain = dryforest
-							terrain = dry_forest_hills
-							terrain = dry_forest_mountains
-							terrain = foresthills
-							terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 							
-							#Anon capitals
-							terrain = derbend
-							terrain = cetinje
-							terrain = vaticancity
-							terrain = hawaii
-							terrain = oregoncity
-							terrain = tehran
-							terrain = easterisland
-							terrain = iasi
-							terrain = trabzon
-							terrain = aleppo
-							terrain = salonika
-							terrain = ankara
-							terrain = adana
-							terrain = antioch
-							terrain = nicosia
-							terrain = beirut
-							terrain = sochi
-							terrain = batumi
-							terrain = sinope
-							terrain = smyrna
-							terrain = konya
-							terrain = iraklion
-							terrain = kabul
-							terrain = tabriz
-							terrain = kashgar
-							terrain = bukhara
-							terrain = khiva
-							terrain = chania
-							terrain = surat
-							terrain = ahmedabad
-							terrain = kokand
-							terrain = granada
-							terrain = ava
-							terrain = coruna
-							terrain = nishapur
-							terrain = shiraz
-							terrain = bushire
-							terrain = bandarabbas
-							terrain = qom
-							terrain = basra
-							terrain = varna
-							terrain = mosul
-							terrain = tananarive
-							terrain = mogadishu
-							terrain = mombasa
-							terrain = valparaiso
-							terrain = curacao
-							terrain = bahia
-							terrain = recife
-							terrain = tenerife
-							terrain = meridayucatan
-							terrain = santodomingodm
-							terrain = sanjuanpr
-							terrain = kingstonjamaica
-							terrain = sansalvador
-							terrain = oaxaca
-							terrain = guadalajara
-							terrain = veracruz
-							terrain = halifax
-							terrain = isleofman
-							terrain = cusco
-							terrain = potosi
-							terrain = sanaa
-							terrain = constanta
-							terrain = portoalegre
-							terrain = novoarkhangelesk
-							terrain = kodiakisland
-							terrain = victoriaisland
-							terrain = kalat
-							terrain = fortross
-							terrain = monterrey
-							terrain = valenciavenezuela
-							terrain = arkhangelsk
-							terrain = azores
+							
+							
+							
+							
+			
+			
+							
+
 						
 							#Forest
 							terrain = dresden 
@@ -1496,99 +1200,25 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
-								terrain = montane_farmlands
+								
 								terrain = farmlandhills
-								terrain = montane_dry
-								terrain = altiplano
+								
+								
 								terrain = urban
-								terrain = floodplain_farmland
-								terrain = montane_boreal
+								
+								
 								terrain = montane_desert
 								terrain = montane_jungle
 								terrain = deserthills
-								terrain = dryforest
-								terrain = dry_forest_hills
-								terrain = dry_forest_mountains
-								terrain = foresthills
-								terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 								
-								#Anon capitals
-								terrain = derbend
-								terrain = cetinje
-								terrain = vaticancity
-								terrain = hawaii
-								terrain = oregoncity
-								terrain = tehran
-								terrain = easterisland
-								terrain = iasi
-								terrain = trabzon
-								terrain = aleppo
-								terrain = salonika
-								terrain = ankara
-								terrain = adana
-								terrain = antioch
-								terrain = nicosia
-								terrain = beirut
-								terrain = sochi
-								terrain = batumi
-								terrain = sinope
-								terrain = smyrna
-								terrain = konya
-								terrain = iraklion
-								terrain = kabul
-								terrain = tabriz
-								terrain = kashgar
-								terrain = bukhara
-								terrain = khiva
-								terrain = chania
-								terrain = surat
-								terrain = ahmedabad
-								terrain = kokand
-								terrain = granada
-								terrain = ava
-								terrain = coruna
-								terrain = nishapur
-								terrain = shiraz
-								terrain = bushire
-								terrain = bandarabbas
-								terrain = qom
-								terrain = basra
-								terrain = varna
-								terrain = mosul
-								terrain = tananarive
-								terrain = mogadishu
-								terrain = mombasa
-								terrain = valparaiso
-								terrain = curacao
-								terrain = bahia
-								terrain = recife
-								terrain = tenerife
-								terrain = meridayucatan
-								terrain = santodomingodm
-								terrain = sanjuanpr
-								terrain = kingstonjamaica
-								terrain = sansalvador
-								terrain = oaxaca
-								terrain = guadalajara
-								terrain = veracruz
-								terrain = halifax
-								terrain = isleofman
-								terrain = cusco
-								terrain = potosi
-								terrain = sanaa
-								terrain = constanta
-								terrain = portoalegre
-								terrain = novoarkhangelesk
-								terrain = kodiakisland
-								terrain = victoriaisland
-								terrain = kalat
-								terrain = fortross
-								terrain = monterrey
-								terrain = valenciavenezuela
-								terrain = arkhangelsk
-								terrain = azores
+								
+								
+								
+								
+			
+			
+								
+								
 								
 								#Forest
 								terrain = dresden 
@@ -1847,99 +1477,25 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
-						terrain = montane_farmlands
+						
 						terrain = farmlandhills
-						terrain = montane_dry
-						terrain = altiplano
+						
+						
 						terrain = urban
-						terrain = floodplain_farmland
-						terrain = montane_boreal
+						
+						
 						terrain = montane_desert
 						terrain = montane_jungle
 						terrain = deserthills
-						terrain = dryforest
-						terrain = dry_forest_hills
-						terrain = dry_forest_mountains
-						terrain = foresthills
-						terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+						
+						
+						
+						
+						
+			
+			
 					
-						#Anon capitals
-						terrain = derbend
-						terrain = cetinje
-						terrain = vaticancity
-						terrain = hawaii
-						terrain = oregoncity
-						terrain = tehran
-						terrain = easterisland
-						terrain = iasi
-						terrain = trabzon
-						terrain = aleppo
-						terrain = salonika
-						terrain = ankara
-						terrain = adana
-						terrain = antioch
-						terrain = nicosia
-						terrain = beirut
-						terrain = sochi
-						terrain = batumi
-						terrain = sinope
-						terrain = smyrna
-						terrain = konya
-						terrain = iraklion
-						terrain = kabul
-						terrain = tabriz
-						terrain = kashgar
-						terrain = bukhara
-						terrain = khiva
-						terrain = chania
-						terrain = surat
-						terrain = ahmedabad
-						terrain = kokand
-						terrain = granada
-						terrain = ava
-						terrain = coruna
-						terrain = nishapur
-						terrain = shiraz
-						terrain = bushire
-						terrain = bandarabbas
-						terrain = qom
-						terrain = basra
-						terrain = varna
-						terrain = mosul
-						terrain = tananarive
-						terrain = mogadishu
-						terrain = mombasa
-						terrain = valparaiso
-						terrain = curacao
-						terrain = bahia
-						terrain = recife
-						terrain = tenerife
-						terrain = meridayucatan
-						terrain = santodomingodm
-						terrain = sanjuanpr
-						terrain = kingstonjamaica
-						terrain = sansalvador
-						terrain = oaxaca
-						terrain = guadalajara
-						terrain = veracruz
-						terrain = halifax
-						terrain = isleofman
-						terrain = cusco
-						terrain = potosi
-						terrain = sanaa
-						terrain = constanta
-						terrain = portoalegre
-						terrain = novoarkhangelesk
-						terrain = kodiakisland
-						terrain = victoriaisland
-						terrain = kalat
-						terrain = fortross
-						terrain = monterrey
-						terrain = valenciavenezuela
-						terrain = arkhangelsk
-						terrain = azores
+						
 					
 						#Forest
 						terrain = dresden 
@@ -2191,99 +1747,25 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
-							terrain = montane_farmlands
+							
 							terrain = farmlandhills
-							terrain = montane_dry
-							terrain = altiplano
+							
+							
 							terrain = urban
-							terrain = floodplain_farmland
-							terrain = montane_boreal
+							
+							
 							terrain = montane_desert
 							terrain = montane_jungle
 							terrain = deserthills
-							terrain = dryforest
-							terrain = dry_forest_hills
-							terrain = dry_forest_mountains
-							terrain = foresthills
-							terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 							
-							#Anon capitals
-							terrain = derbend
-							terrain = cetinje
-							terrain = vaticancity
-							terrain = hawaii
-							terrain = oregoncity
-							terrain = tehran
-							terrain = easterisland
-							terrain = iasi
-							terrain = trabzon
-							terrain = aleppo
-							terrain = salonika
-							terrain = ankara
-							terrain = adana
-							terrain = antioch
-							terrain = nicosia
-							terrain = beirut
-							terrain = sochi
-							terrain = batumi
-							terrain = sinope
-							terrain = smyrna
-							terrain = konya
-							terrain = iraklion
-							terrain = kabul
-							terrain = tabriz
-							terrain = kashgar
-							terrain = bukhara
-							terrain = khiva
-							terrain = chania
-							terrain = surat
-							terrain = ahmedabad
-							terrain = kokand
-							terrain = granada
-							terrain = ava
-							terrain = coruna
-							terrain = nishapur
-							terrain = shiraz
-							terrain = bushire
-							terrain = bandarabbas
-							terrain = qom
-							terrain = basra
-							terrain = varna
-							terrain = mosul
-							terrain = tananarive
-							terrain = mogadishu
-							terrain = mombasa
-							terrain = valparaiso
-							terrain = curacao
-							terrain = bahia
-							terrain = recife
-							terrain = tenerife
-							terrain = meridayucatan
-							terrain = santodomingodm
-							terrain = sanjuanpr
-							terrain = kingstonjamaica
-							terrain = sansalvador
-							terrain = oaxaca
-							terrain = guadalajara
-							terrain = veracruz
-							terrain = halifax
-							terrain = isleofman
-							terrain = cusco
-							terrain = potosi
-							terrain = sanaa
-							terrain = constanta
-							terrain = portoalegre
-							terrain = novoarkhangelesk
-							terrain = kodiakisland
-							terrain = victoriaisland
-							terrain = kalat
-							terrain = fortross
-							terrain = monterrey
-							terrain = valenciavenezuela
-							terrain = arkhangelsk
-							terrain = azores
+							
+							
+							
+							
+			
+			
+							
+
 							
 							#Forest
 							terrain = dresden 
@@ -2525,23 +2007,23 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
-								terrain = montane_farmlands
+								
 								terrain = farmlandhills
-								terrain = montane_dry
-								terrain = altiplano
+								
+								
 								terrain = urban
-								terrain = floodplain_farmland
-								terrain = montane_boreal
+								
+								
 								terrain = montane_desert
 								terrain = montane_jungle
 								terrain = deserthills
-								terrain = dryforest
-								terrain = dry_forest_hills
-								terrain = dry_forest_mountains
-								terrain = foresthills
-								terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+								
+								
+								
+								
+								
+			
+			
 								
 								#Forest
 								terrain = dresden 
@@ -2799,99 +2281,25 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
-						terrain = montane_farmlands
+						
 						terrain = farmlandhills
-						terrain = montane_dry
-						terrain = altiplano
+						
+						
 						terrain = urban
-						terrain = floodplain_farmland
-						terrain = montane_boreal
+						
+						
 						terrain = montane_desert
 						terrain = montane_jungle
 						terrain = deserthills
-						terrain = dryforest
-						terrain = dry_forest_hills
-						terrain = dry_forest_mountains
-						terrain = foresthills
-						terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 						
-						#Anon capitals
-						terrain = derbend
-						terrain = cetinje
-						terrain = vaticancity
-						terrain = hawaii
-						terrain = oregoncity
-						terrain = tehran
-						terrain = easterisland
-						terrain = iasi
-						terrain = trabzon
-						terrain = aleppo
-						terrain = salonika
-						terrain = ankara
-						terrain = adana
-						terrain = antioch
-						terrain = nicosia
-						terrain = beirut
-						terrain = sochi
-						terrain = batumi
-						terrain = sinope
-						terrain = smyrna
-						terrain = konya
-						terrain = iraklion
-						terrain = kabul
-						terrain = tabriz
-						terrain = kashgar
-						terrain = bukhara
-						terrain = khiva
-						terrain = chania
-						terrain = surat
-						terrain = ahmedabad
-						terrain = kokand
-						terrain = granada
-						terrain = ava
-						terrain = coruna
-						terrain = nishapur
-						terrain = shiraz
-						terrain = bushire
-						terrain = bandarabbas
-						terrain = qom
-						terrain = basra
-						terrain = varna
-						terrain = mosul
-						terrain = tananarive
-						terrain = mogadishu
-						terrain = mombasa
-						terrain = valparaiso
-						terrain = curacao
-						terrain = bahia
-						terrain = recife
-						terrain = tenerife
-						terrain = meridayucatan
-						terrain = santodomingodm
-						terrain = sanjuanpr
-						terrain = kingstonjamaica
-						terrain = sansalvador
-						terrain = oaxaca
-						terrain = guadalajara
-						terrain = veracruz
-						terrain = halifax
-						terrain = isleofman
-						terrain = cusco
-						terrain = potosi
-						terrain = sanaa
-						terrain = constanta
-						terrain = portoalegre
-						terrain = novoarkhangelesk
-						terrain = kodiakisland
-						terrain = victoriaisland
-						terrain = kalat
-						terrain = fortross
-						terrain = monterrey
-						terrain = valenciavenezuela
-						terrain = arkhangelsk
-						terrain = azores
+						
+						
+						
+						
+			
+			
+						
+						
 						
 						#Forest
 						terrain = dresden 
@@ -3142,99 +2550,25 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
-							terrain = montane_farmlands
+							
 							terrain = farmlandhills
-							terrain = montane_dry
-							terrain = altiplano
+							
+							
 							terrain = urban
-							terrain = floodplain_farmland
-							terrain = montane_boreal
+							
+							
 							terrain = montane_desert
 							terrain = montane_jungle
 							terrain = deserthills
-							terrain = dryforest
-							terrain = dry_forest_hills
-							terrain = dry_forest_mountains
-							terrain = foresthills
-							terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+							
+							
+							
+							
+							
+			
+			
 								
-							#Anon capitals
-							terrain = derbend
-							terrain = cetinje
-							terrain = vaticancity
-							terrain = hawaii
-							terrain = oregoncity
-							terrain = tehran
-							terrain = easterisland
-							terrain = iasi
-							terrain = trabzon
-							terrain = aleppo
-							terrain = salonika
-							terrain = ankara
-							terrain = adana
-							terrain = antioch
-							terrain = nicosia
-							terrain = beirut
-							terrain = sochi
-							terrain = batumi
-							terrain = sinope
-							terrain = smyrna
-							terrain = konya
-							terrain = iraklion
-							terrain = kabul
-							terrain = tabriz
-							terrain = kashgar
-							terrain = bukhara
-							terrain = khiva
-							terrain = chania
-							terrain = surat
-							terrain = ahmedabad
-							terrain = kokand
-							terrain = granada
-							terrain = ava
-							terrain = coruna
-							terrain = nishapur
-							terrain = shiraz
-							terrain = bushire
-							terrain = bandarabbas
-							terrain = qom
-							terrain = basra
-							terrain = varna
-							terrain = mosul
-							terrain = tananarive
-							terrain = mogadishu
-							terrain = mombasa
-							terrain = valparaiso
-							terrain = curacao
-							terrain = bahia
-							terrain = recife
-							terrain = tenerife
-							terrain = meridayucatan
-							terrain = santodomingodm
-							terrain = sanjuanpr
-							terrain = kingstonjamaica
-							terrain = sansalvador
-							terrain = oaxaca
-							terrain = guadalajara
-							terrain = veracruz
-							terrain = halifax
-							terrain = isleofman
-							terrain = cusco
-							terrain = potosi
-							terrain = sanaa
-							terrain = constanta
-							terrain = portoalegre
-							terrain = novoarkhangelesk
-							terrain = kodiakisland
-							terrain = victoriaisland
-							terrain = kalat
-							terrain = fortross
-							terrain = monterrey
-							terrain = valenciavenezuela
-							terrain = arkhangelsk
-							terrain = azores
+
 							
 							#Forest
 							terrain = dresden 
@@ -3476,99 +2810,25 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
-								terrain = montane_farmlands
+								
 								terrain = farmlandhills
-								terrain = montane_dry
-								terrain = altiplano
+								
+								
 								terrain = urban
-								terrain = floodplain_farmland
-								terrain = montane_boreal
+								
+								
 								terrain = montane_desert
 								terrain = montane_jungle
 								terrain = deserthills
-								terrain = dryforest
-								terrain = dry_forest_hills
-								terrain = dry_forest_mountains
-								terrain = foresthills
-								terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+								
+								
+								
+								
+								
+			
+			
 										
-								#Anon capitals
-								terrain = derbend
-								terrain = cetinje
-								terrain = vaticancity
-								terrain = hawaii
-								terrain = oregoncity
-								terrain = tehran
-								terrain = easterisland
-								terrain = iasi
-								terrain = trabzon
-								terrain = aleppo
-								terrain = salonika
-								terrain = ankara
-								terrain = adana
-								terrain = antioch
-								terrain = nicosia
-								terrain = beirut
-								terrain = sochi
-								terrain = batumi
-								terrain = sinope
-								terrain = smyrna
-								terrain = konya
-								terrain = iraklion
-								terrain = kabul
-								terrain = tabriz
-								terrain = kashgar
-								terrain = bukhara
-								terrain = khiva
-								terrain = chania
-								terrain = surat
-								terrain = ahmedabad
-								terrain = kokand
-								terrain = granada
-								terrain = ava
-								terrain = coruna
-								terrain = nishapur
-								terrain = shiraz
-								terrain = bushire
-								terrain = bandarabbas
-								terrain = qom
-								terrain = basra
-								terrain = varna
-								terrain = mosul
-								terrain = tananarive
-								terrain = mogadishu
-								terrain = mombasa
-								terrain = valparaiso
-								terrain = curacao
-								terrain = bahia
-								terrain = recife
-								terrain = tenerife
-								terrain = meridayucatan
-								terrain = santodomingodm
-								terrain = sanjuanpr
-								terrain = kingstonjamaica
-								terrain = sansalvador
-								terrain = oaxaca
-								terrain = guadalajara
-								terrain = veracruz
-								terrain = halifax
-								terrain = isleofman
-								terrain = cusco
-								terrain = potosi
-								terrain = sanaa
-								terrain = constanta
-								terrain = portoalegre
-								terrain = novoarkhangelesk
-								terrain = kodiakisland
-								terrain = victoriaisland
-								terrain = kalat
-								terrain = fortross
-								terrain = monterrey
-								terrain = valenciavenezuela
-								terrain = arkhangelsk
-								terrain = azores
+								
 								
 								#Forest
 								terrain = dresden 
@@ -3826,99 +3086,25 @@ province_event = {
 						terrain = dryhills
 						terrain = farmlands
 						terrain = mountain
-						terrain = montane_farmlands
+						
 						terrain = farmlandhills
-						terrain = montane_dry
-						terrain = altiplano
+						
+						
 						terrain = urban
-						terrain = floodplain_farmland
-						terrain = montane_boreal
+						
+						
 						terrain = montane_desert
 						terrain = montane_jungle
 						terrain = deserthills
-						terrain = dryforest
-						terrain = dry_forest_hills
-						terrain = dry_forest_mountains
-						terrain = foresthills
-						terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
 						
-						#Anon capitals
-						terrain = derbend
-						terrain = cetinje
-						terrain = vaticancity
-						terrain = hawaii
-						terrain = oregoncity
-						terrain = tehran
-						terrain = easterisland
-						terrain = iasi
-						terrain = trabzon
-						terrain = aleppo
-						terrain = salonika
-						terrain = ankara
-						terrain = adana
-						terrain = antioch
-						terrain = nicosia
-						terrain = beirut
-						terrain = sochi
-						terrain = batumi
-						terrain = sinope
-						terrain = smyrna
-						terrain = konya
-						terrain = iraklion
-						terrain = kabul
-						terrain = tabriz
-						terrain = kashgar
-						terrain = bukhara
-						terrain = khiva
-						terrain = chania
-						terrain = surat
-						terrain = ahmedabad
-						terrain = kokand
-						terrain = granada
-						terrain = ava
-						terrain = coruna
-						terrain = nishapur
-						terrain = shiraz
-						terrain = bushire
-						terrain = bandarabbas
-						terrain = qom
-						terrain = basra
-						terrain = varna
-						terrain = mosul
-						terrain = tananarive
-						terrain = mogadishu
-						terrain = mombasa
-						terrain = valparaiso
-						terrain = curacao
-						terrain = bahia
-						terrain = recife
-						terrain = tenerife
-						terrain = meridayucatan
-						terrain = santodomingodm
-						terrain = sanjuanpr
-						terrain = kingstonjamaica
-						terrain = sansalvador
-						terrain = oaxaca
-						terrain = guadalajara
-						terrain = veracruz
-						terrain = halifax
-						terrain = isleofman
-						terrain = cusco
-						terrain = potosi
-						terrain = sanaa
-						terrain = constanta
-						terrain = portoalegre
-						terrain = novoarkhangelesk
-						terrain = kodiakisland
-						terrain = victoriaisland
-						terrain = kalat
-						terrain = fortross
-						terrain = monterrey
-						terrain = valenciavenezuela
-						terrain = arkhangelsk
-						terrain = azores
+						
+						
+						
+						
+			
+			
+						
+						
 						
 						#Forest
 						terrain = dresden 
@@ -4169,99 +3355,25 @@ province_event = {
 							terrain = dryhills
 							terrain = farmlands
 							terrain = mountain
-							terrain = montane_farmlands
+							
 							terrain = farmlandhills
-							terrain = montane_dry
-							terrain = altiplano
+							
+							
 							terrain = urban
-							terrain = floodplain_farmland
-							terrain = montane_boreal
+							
+							
 							terrain = montane_desert
 							terrain = montane_jungle
 							terrain = deserthills
-							terrain = dryforest
-							terrain = dry_forest_hills
-							terrain = dry_forest_mountains
-							terrain = foresthills
-							terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+							
+							
+							
+							
+							
+			
+			
 								
-							#Anon capitals
-							terrain = derbend
-							terrain = cetinje
-							terrain = vaticancity
-							terrain = hawaii
-							terrain = oregoncity
-							terrain = tehran
-							terrain = easterisland
-							terrain = iasi
-							terrain = trabzon
-							terrain = aleppo
-							terrain = salonika
-							terrain = ankara
-							terrain = adana
-							terrain = antioch
-							terrain = nicosia
-							terrain = beirut
-							terrain = sochi
-							terrain = batumi
-							terrain = sinope
-							terrain = smyrna
-							terrain = konya
-							terrain = iraklion
-							terrain = kabul
-							terrain = tabriz
-							terrain = kashgar
-							terrain = bukhara
-							terrain = khiva
-							terrain = chania
-							terrain = surat
-							terrain = ahmedabad
-							terrain = kokand
-							terrain = granada
-							terrain = ava
-							terrain = coruna
-							terrain = nishapur
-							terrain = shiraz
-							terrain = bushire
-							terrain = bandarabbas
-							terrain = qom
-							terrain = basra
-							terrain = varna
-							terrain = mosul
-							terrain = tananarive
-							terrain = mogadishu
-							terrain = mombasa
-							terrain = valparaiso
-							terrain = curacao
-							terrain = bahia
-							terrain = recife
-							terrain = tenerife
-							terrain = meridayucatan
-							terrain = santodomingodm
-							terrain = sanjuanpr
-							terrain = kingstonjamaica
-							terrain = sansalvador
-							terrain = oaxaca
-							terrain = guadalajara
-							terrain = veracruz
-							terrain = halifax
-							terrain = isleofman
-							terrain = cusco
-							terrain = potosi
-							terrain = sanaa
-							terrain = constanta
-							terrain = portoalegre
-							terrain = novoarkhangelesk
-							terrain = kodiakisland
-							terrain = victoriaisland
-							terrain = kalat
-							terrain = fortross
-							terrain = monterrey
-							terrain = valenciavenezuela
-							terrain = arkhangelsk
-							terrain = azores
+
 							
 							#Forest
 							terrain = dresden 
@@ -4503,99 +3615,25 @@ province_event = {
 								terrain = dryhills
 								terrain = farmlands
 								terrain = mountain
-								terrain = montane_farmlands
+								
 								terrain = farmlandhills
-								terrain = montane_dry
-								terrain = altiplano
+								
+								
 								terrain = urban
-								terrain = floodplain_farmland
-								terrain = montane_boreal
+								
+								
 								terrain = montane_desert
 								terrain = montane_jungle
 								terrain = deserthills
-								terrain = dryforest
-								terrain = dry_forest_hills
-								terrain = dry_forest_mountains
-								terrain = foresthills
-								terrain = junglehills
-			terrain = forest_farmland
-			terrain = jungle_farmland
+								
+								
+								
+								
+								
+			
+			
 										
-								#Anon capitals
-								terrain = derbend
-								terrain = cetinje
-								terrain = vaticancity
-								terrain = hawaii
-								terrain = oregoncity
-								terrain = tehran
-								terrain = easterisland
-								terrain = iasi
-								terrain = trabzon
-								terrain = aleppo
-								terrain = salonika
-								terrain = ankara
-								terrain = adana
-								terrain = antioch
-								terrain = nicosia
-								terrain = beirut
-								terrain = sochi
-								terrain = batumi
-								terrain = sinope
-								terrain = smyrna
-								terrain = konya
-								terrain = iraklion
-								terrain = kabul
-								terrain = tabriz
-								terrain = kashgar
-								terrain = bukhara
-								terrain = khiva
-								terrain = chania
-								terrain = surat
-								terrain = ahmedabad
-								terrain = kokand
-								terrain = granada
-								terrain = ava
-								terrain = coruna
-								terrain = nishapur
-								terrain = shiraz
-								terrain = bushire
-								terrain = bandarabbas
-								terrain = qom
-								terrain = basra
-								terrain = varna
-								terrain = mosul
-								terrain = tananarive
-								terrain = mogadishu
-								terrain = mombasa
-								terrain = valparaiso
-								terrain = curacao
-								terrain = bahia
-								terrain = recife
-								terrain = tenerife
-								terrain = meridayucatan
-								terrain = santodomingodm
-								terrain = sanjuanpr
-								terrain = kingstonjamaica
-								terrain = sansalvador
-								terrain = oaxaca
-								terrain = guadalajara
-								terrain = veracruz
-								terrain = halifax
-								terrain = isleofman
-								terrain = cusco
-								terrain = potosi
-								terrain = sanaa
-								terrain = constanta
-								terrain = portoalegre
-								terrain = novoarkhangelesk
-								terrain = kodiakisland
-								terrain = victoriaisland
-								terrain = kalat
-								terrain = fortross
-								terrain = monterrey
-								terrain = valenciavenezuela
-								terrain = arkhangelsk
-								terrain = azores
+								
 								
 								#Forest
 								terrain = dresden 

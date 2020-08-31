@@ -39,12 +39,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
-			terrain = farmlandhills
-			terrain = montane_dry
-			terrain = montane_desert
-			terrain = altiplano
-			terrain = montane_jungle
-			terrain = montane_boreal
+			
+			
+			
+			
+			
+			
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -111,11 +111,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
-				terrain = montane_dry
-				terrain = montane_desert
-				terrain = altiplano
-				terrain = montane_jungle
-				terrain = montane_boreal
+				
+				
+				
+				
+				
 			}
 		}
 		modifier = {
@@ -206,12 +206,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
-			terrain = farmlandhills
-			terrain = montane_dry
-			terrain = montane_desert
-			terrain = altiplano
-			terrain = montane_jungle
-			terrain = montane_boreal
+			
+			
+			
+			
+			
+			
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -278,11 +278,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
-				terrain = montane_dry
-				terrain = montane_desert
-				terrain = altiplano
-				terrain = montane_jungle
-				terrain = montane_boreal
+				
+				
+				
+				
+				
 			}
 		}
 		modifier = {
@@ -369,12 +369,12 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = montane_tundra
-			terrain = farmlandhills
-			terrain = montane_dry
-			terrain = montane_desert
-			terrain = altiplano
-			terrain = montane_jungle
-			terrain = montane_boreal
+			
+			
+			
+			
+			
+			
 			
 			terrain = lapaz
 			terrain = isfahan
@@ -442,11 +442,11 @@ province_event = {
 			OR = {
 				terrain = montane_tundra
 				terrain = montane_forest
-				terrain = montane_dry
-				terrain = montane_desert
-				terrain = altiplano
-				terrain = montane_jungle
-				terrain = montane_boreal
+				
+				
+				
+				
+				
 			}
 		}
 		modifier = {
@@ -775,8 +775,8 @@ province_event = {
 		OR = {
 			terrain = farmlands
 			terrain = mountain
-			terrain = farmlandhills
-			terrain = montane_jungle
+			
+			
 			terrain = montane_forest
 			terrain = montane_farmlands
 			terrain = forest_farmland
@@ -942,9 +942,9 @@ province_event = {
 			terrain = dryhills
 			terrain = steppe
 			terrain = hills
-			terrain = montane_desert
-			terrain = montane_dry
-			terrain = altiplano
+			
+			
+			
 			terrain = montane_farmlands
 			
 			#Steppe
@@ -1161,8 +1161,8 @@ province_event = {
 			terrain = forest
 			terrain = jungle
 			terrain = marsh
-			terrain = farmlandhills
-			terrain = montane_jungle
+			
+			
 			terrain = montane_forest
 			terrain = montane_farmlands
 			terrain = forest_farmland
@@ -1337,8 +1337,8 @@ province_event = {
 		}
 		OR = {
 			terrain = farmlands
-			terrain = farmlandhills
-			terrain = montane_jungle
+			
+			
 			terrain = montane_forest
 			terrain = montane_farmlands
 			terrain = forest_farmland
@@ -1486,8 +1486,8 @@ province_event = {
 			terrain = mountain
 			terrain = montane_forest
 			terrain = hills
-			terrain = farmlandhills
-			terrain = montane_jungle
+			
+			
 			terrain = montane_farmlands
 			
 			#Montane Grassland
@@ -1640,8 +1640,8 @@ province_event = {
 			AND = {
 				OR = {
 					terrain = farmlands
-					terrain = farmlandhills
-					terrain = montane_jungle
+					
+					
 					terrain = montane_forest
 					terrain = montane_farmlands
 			terrain = forest_farmland
@@ -1885,9 +1885,9 @@ province_event = {
 			terrain = boreal
 			terrain = hills
 			terrain = marsh
-			terrain = montane_jungle
+			
 			terrain = montane_forest
-			terrain = montane_boreal
+			
 			
 			#Forest
 			terrain = dresden 
@@ -2060,7 +2060,7 @@ province_event = {
 			#Jungle
 			terrain = bangkok
 			terrain = manila
-			terrain = montane_jungle
+			
 		}
 	}
 	
@@ -2150,8 +2150,8 @@ province_event = {
 			terrain = farmlands
 			terrain = dryhills
 			terrain = steppe
-			terrain = farmlandhills
-			terrain = altiplano
+			
+			
 			terrain = montane_farmlands
 			terrain = forest_farmland
 			terrain = jungle_farmland
@@ -2438,8 +2438,8 @@ province_event = {
 			terrain = steppe
 			terrain = plains
 			terrain = hills
-			terrain = farmlandhills
-			terrain = altiplano
+			
+			
 			terrain = montane_farmlands
 			terrain = forest_farmland
 			terrain = jungle_farmland

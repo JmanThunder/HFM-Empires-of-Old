@@ -13,3 +13,4 @@ country_event = {
 			casus_belli = { target = NOR type = add_to_sphere months = 12 }
 	}
 }
+}

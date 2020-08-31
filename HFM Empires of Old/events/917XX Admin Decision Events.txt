@@ -1041,8 +1041,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				OR = {
 					terrain = forest
@@ -1073,8 +1073,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				OR = {
 					terrain = forest
@@ -1105,8 +1105,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				OR = {
 					terrain = forest
@@ -1136,8 +1136,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				OR = {
 					terrain = forest
@@ -1203,8 +1203,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -1231,8 +1231,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -1259,8 +1259,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -1286,8 +1286,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			province_selector = -1
@@ -1317,8 +1317,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }			
@@ -1345,8 +1345,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -1373,8 +1373,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -1400,8 +1400,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}	
 			province_selector = -1
@@ -1431,8 +1431,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -1459,8 +1459,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -1487,8 +1487,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -1514,8 +1514,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}	
 			province_selector = -1
@@ -1545,8 +1545,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				is_coastal = yes
 			}
@@ -1574,8 +1574,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				is_coastal = yes
 			}
@@ -1603,8 +1603,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				is_coastal = yes
 			}
@@ -1631,8 +1631,8 @@ country_event = {
 					trade_goods = grain
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 				is_coastal = yes
 			}	
@@ -1664,12 +1664,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = tea_leaves
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
 			province_selector = -1
-			trade_goods = coffee_beans
+			trade_goods = coffee
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1692,12 +1692,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = tea_leaves
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
 			province_selector = -1
-			trade_goods = coffee_beans
+			trade_goods = coffee
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1720,12 +1720,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = tea_leaves
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
 			province_selector = -1
-			trade_goods = coffee_beans
+			trade_goods = coffee
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1747,11 +1747,11 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = tea_leaves
+					trade_goods = tea
 				}
 			}
 			province_selector = -1
-			trade_goods = coffee_beans
+			trade_goods = coffee
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1777,12 +1777,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = coffee_beans
+					trade_goods = coffee
 				}
 			}
 			owner = { money = 750 }
 			province_selector = -1
-			trade_goods = tea_leaves
+			trade_goods = tea
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1805,12 +1805,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = coffee_beans
+					trade_goods = coffee
 				}
 			}
 			owner = { money = 500 }
 			province_selector = -1
-			trade_goods = tea_leaves
+			trade_goods = tea
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1833,12 +1833,12 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = coffee_beans
+					trade_goods = coffee
 				}
 			}
 			owner = { money = 250 }
 			province_selector = -1
-			trade_goods = tea_leaves
+			trade_goods = tea
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1860,11 +1860,11 @@ country_event = {
 					trade_goods = silk
 					trade_goods = tobacco
 					trade_goods = grain
-					trade_goods = coffee_beans
+					trade_goods = coffee
 				}
 			}
 			province_selector = -1
-			trade_goods = tea_leaves
+			trade_goods = tea
 			add_province_modifier = {
 			name = switched_production
 			duration = 4562
@@ -1889,8 +1889,8 @@ country_event = {
 					trade_goods = dye
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -1917,8 +1917,8 @@ country_event = {
 					trade_goods = dye
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -1945,8 +1945,8 @@ country_event = {
 					trade_goods = dye
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -1972,8 +1972,8 @@ country_event = {
 					trade_goods = dye
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			province_selector = -1
@@ -2002,8 +2002,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -2030,8 +2030,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -2058,8 +2058,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -2085,8 +2085,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = silk
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			province_selector = -1
@@ -2115,8 +2115,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -2143,8 +2143,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -2171,8 +2171,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -2198,8 +2198,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = tobacco
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			province_selector = -1
@@ -2228,8 +2228,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = silk
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 750 }
@@ -2256,8 +2256,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = silk
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 500 }
@@ -2284,8 +2284,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = silk
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			owner = { money = 250 }
@@ -2311,8 +2311,8 @@ country_event = {
 					trade_goods = opium
 					trade_goods = dye
 					trade_goods = silk
-					trade_goods = coffee_beans
-					trade_goods = tea_leaves
+					trade_goods = coffee
+					trade_goods = tea
 				}
 			}
 			province_selector = -1

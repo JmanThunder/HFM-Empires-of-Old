@@ -3396,3 +3396,79 @@ birthrate_push_high = {
 recently_selected_birthrate = {
     icon = 2
 }
+########## PROVINCE SELECTOR DECISIONS ##########
+
+rgo_changed = {
+	icon = 12
+}
+
+switched_production = {
+	local_RGO_output = -0.50
+	icon = 14
+}
+
+rgo_expansion = {
+	farm_rgo_size = 1
+	mine_rgo_size = 1
+	icon = 13
+}
+
+political_propaganda = {
+	icon = 14
+}
+
+bad_boy = {
+	icon = 6
+}
+
+recruitment_drive = {
+	icon = 15
+}
+
+attract_immigrants = {
+	global_immigrant_attract = 0.5
+	icon = 7
+}
+
+restrict_emigration = {
+	icon = 7
+}
+
+draft_law_changed = {
+	icon = 15
+}
+
+assimilation = {
+	assimilation_rate = 10
+	icon = 1
+}
+
+literacy_campaign = {
+	icon = 7
+}
+
+small_baby_boom = {
+	population_growth = 0.001
+	icon = 19
+}
+
+recruited_leader = {
+	icon = 15
+}
+
+suppression = {
+	pop_militancy_modifier = -0.15
+	pop_consciousness_modifier = -0.15
+	icon = 20
+}
+
+country_suppression = {
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	icon = 18
+}
+
+province_attract_immigrants = {
+	immigrant_attract = 100
+	icon = 9
+}
