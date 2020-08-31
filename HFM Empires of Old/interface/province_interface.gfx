@@ -6,6 +6,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_a_new_interface"
+		texturefile = "gfx\\interface\\a_new_interface.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_immigrator_strip"
+		texturefile = "gfx\\interface\\immigrator_strip.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
 		name = "GFX_flashpoint_tension_icon"
 		texturefile = "gfx\\interface\\flashpoint_tension_icon.dds"
 	}
@@ -299,12 +311,6 @@ spriteTypes = {
 	}
 		
 	spriteType = {
-		name = "GFX_terrainimg_dry_mountains"
-		texturefile = "gfx\\interface\\terrain_dry_mountains.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
 		name = "GFX_terrainimg_marsh"
 		texturefile = "gfx\\interface\\terrain_marsh.tga"
 		norefcount = yes
@@ -321,34 +327,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_hills.tga"
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_floodplain_farmland"
-		texturefile = "gfx\\interface\\terrain_floodplain_farmland.tga"
-		norefcount = yes
-	}
 		
 	spriteType = {
 		name = "GFX_terrainimg_jungle"
 		texturefile = "gfx\\interface\\terrain_jungle.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_jungle_hills"
-		texturefile = "gfx\\interface\\terrain_jungle_hills.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_jungle_farmland"
-		texturefile = "gfx\\interface\\terrain_jungle_farmland.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_jungle_mountains"
-		texturefile = "gfx\\interface\\terrain_jungle_mountains.tga"
 		norefcount = yes
 	}
 
@@ -361,18 +343,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_terrainimg_semidesert"
 		texturefile = "gfx\\interface\\terrain_semidesert.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_semi_desert_mountains"
-		texturefile = "gfx\\interface\\terrain_semi_desert_mountains.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_himalayan_mountains"
-		texturefile = "gfx\\interface\\terrain_himalayan_mountains.tga"
 		norefcount = yes
 	}
 	

@@ -895,3 +895,33 @@ fursil_luxury_clothes_factory = {
 	production_type = fursil_luxury_clothes_factory
 	pop_build_factory = yes
 }
+province_selector = {
+	type = province_selector
+	goods_cost =
+	{
+		grain = 0.5
+	}
+	time = 0
+	visibility = no
+	onmap = no
+	max_level = 2
+	province = yes
+	
+	immigrant_push = 0.5
+}
+
+immigrator = {
+	type = immigrator
+	goods_cost =
+	{
+		grain = 0.5
+	}
+	time = 0
+	visibility = no
+	onmap = no
+	max_level = 2
+	province = yes
+	
+	immigrant_attract = 0.5
+}
+

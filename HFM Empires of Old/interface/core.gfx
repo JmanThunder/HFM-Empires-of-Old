@@ -28,7 +28,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_religion_small"
 		texturefile = "gfx\\interface\\icon_religion_small.dds"
-		noOfFrames = 26
+		noOfFrames = 18
 		loadType = "INGAME"
 	}
 	
@@ -67,33 +67,33 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resources_big"
 		texturefile = "gfx\\interface\\resources_big.dds"
-		noOfFrames = 58
+		noOfFrames = 50
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 58
+		noOfFrames = 50
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources_transparent"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 58
+		noOfFrames = 50
 		norefcount = yes
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_resources_small"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 58
+		noOfFrames = 50
 		norefcount = yes
 		allwaystransparent = no
 	}
 	spriteType = {
 		name = "GFX_resources_small_transparent"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 58
+		noOfFrames = 50
 		norefcount = yes
 		transparencecheck = yes
 	}

@@ -482,6 +482,339 @@ migration_chance = {
 			NOT = { consciousness = 6 } 
 		}
 	}
+		modifier = {
+		factor = 0.8
+		NOT = { country = { has_country_flag = culture_select } }
+		location = { has_building = province_selector }
+		country = { ai = no }
+		NOT = { country = { administration_spending = 0.99 } }
+		country = { education_spending = 0.99 }
+		is_accepted_culture = yes
+	}
+	
+	modifier = {
+		factor = -3
+		location = { has_building = province_selector }
+		country = { ai = no }
+		country = { administration_spending = 0.99 }
+	}
+	
+	modifier = {
+		factor = 0.8
+		NOT = { country = { has_country_flag = culture_select } }
+		location = { has_building = province_selector }
+		country = { ai = no }
+		NOT = { country = { administration_spending = 0.99 } }
+		NOT = { country = { education_spending = 0.99 } }
+		is_accepted_culture = no
+	}
+	
+	modifier = {
+		factor = -100
+		NOT = { location = { has_building = province_selector } }
+		country = { ai = no }
+	}
+	
+	modifier = {
+		factor = -2.2
+		state_scope = { is_colonial = yes }
+	}
+	
+	modifier = {
+		factor = 3
+		NOT = { country = { administration_spending = 0.99 } }
+		country = { has_country_flag = culture_select }
+		country = { ai = no }
+		location = { has_building = province_selector }
+		OR = {
+			AND = { THIS = { culture = dixie } country = { has_country_flag = dixie_select } }
+			AND = { THIS = { culture = yankee } country = { has_country_flag = yankee_select } }
+			AND = { THIS = { culture = mexican } country = { has_country_flag = mexican_select } }
+			AND = { THIS = { culture = texan } country = { has_country_flag = texan_select } }
+			AND = { THIS = { culture = afro_american } country = { has_country_flag = afro_american_select } }
+			AND = { THIS = { culture = anglo_canadian } country = { has_country_flag = anglo_canadian_select } }
+			AND = { THIS = { culture = swiss_french } country = { has_country_flag = swiss_french_select } }
+			AND = { THIS = { culture = swiss_german } country = { has_country_flag = swiss_german_select } }
+			AND = { THIS = { culture = swiss_italian } country = { has_country_flag = swiss_italian_select } }
+			AND = { THIS = { culture = romansh } country = { has_country_flag = romansh_select } }
+			AND = { THIS = { culture = ashkenazi } country = { has_country_flag = ashkenazi_select } }
+			AND = { THIS = { culture = sephardic } country = { has_country_flag = sephardic_select } }
+			AND = { THIS = { culture = north_german } country = { has_country_flag = north_german_select } }
+			AND = { THIS = { culture = south_german } country = { has_country_flag = south_german_select } }
+			AND = { THIS = { culture = volga_german } country = { has_country_flag = volga_german_select } }
+			AND = { THIS = { culture = siebenburger } country = { has_country_flag = siebenburger_select } }
+			AND = { THIS = { culture = dutch } country = { has_country_flag = dutch_select } }
+			AND = { THIS = { culture = flemish } country = { has_country_flag = flemish_select } }
+			AND = { THIS = { culture = french } country = { has_country_flag = french_select } }
+			AND = { THIS = { culture = breton } country = { has_country_flag = breton_select } }
+			AND = { THIS = { culture = picard } country = { has_country_flag = picard_select } }
+			AND = { THIS = { culture = occitan } country = { has_country_flag = occitan_select } }
+			AND = { THIS = { culture = arpitan } country = { has_country_flag = arpitan_select } }
+			AND = { THIS = { culture = rhinelander } country = { has_country_flag = rhinelander_select } }
+			AND = { THIS = { culture = croat } country = { has_country_flag = croat_select } }
+			AND = { THIS = { culture = serb } country = { has_country_flag = serb_select } }
+			AND = { THIS = { culture = bulgarian } country = { has_country_flag = bulgarian_select } }
+			AND = { THIS = { culture = montenegrin } country = { has_country_flag = montenegrin_select } }
+			AND = { THIS = { culture = bosniak } country = { has_country_flag = bosniak_select } }
+			AND = { THIS = { culture = slovene } country = { has_country_flag = slovene_select } }
+			AND = { THIS = { culture = albanian } country = { has_country_flag = albanian_select } }
+			AND = { THIS = { culture = turkish } country = { has_country_flag = turkish_select } }
+			AND = { THIS = { culture = greek } country = { has_country_flag = greek_select } }
+			AND = { THIS = { culture = hungarian } country = { has_country_flag = hungarian_select } }
+			AND = { THIS = { culture = gypsy } country = { has_country_flag = gypsy_select } }
+			AND = { THIS = { culture = romanian } country = { has_country_flag = romanian_select } }
+			AND = { THIS = { culture = galician } country = { has_country_flag = galician_select } }
+			AND = { THIS = { culture = spanish } country = { has_country_flag = spanish_select } }
+			AND = { THIS = { culture = basque } country = { has_country_flag = basque_select } }
+			AND = { THIS = { culture = catalan } country = { has_country_flag = catalan_select } }
+			AND = { THIS = { culture = portuguese } country = { has_country_flag = portuguese_select } }
+			AND = { THIS = { culture = brazilian } country = { has_country_flag = brazilian_select } }
+			AND = { THIS = { culture = russian } country = { has_country_flag = russian_select } }
+			AND = { THIS = { culture = ukrainian } country = { has_country_flag = ukrainian_select } }
+			AND = { THIS = { culture = ugrian } country = { has_country_flag = ugrian_select } }
+			AND = { THIS = { culture = byelorussian } country = { has_country_flag = byelorussian_select } }
+			AND = { THIS = { culture = polish } country = { has_country_flag = polish_select } }
+			AND = { THIS = { culture = west_slavic } country = { has_country_flag = west_slavic_select } }
+			AND = { THIS = { culture = bedouin } country = { has_country_flag = bedouin_select } }
+			AND = { THIS = { culture = maghrebi } country = { has_country_flag = maghrebi_select } }
+			AND = { THIS = { culture = misri } country = { has_country_flag = misri_select } }
+			AND = { THIS = { culture = mashriqi } country = { has_country_flag = mashriqi_select } }
+			AND = { THIS = { culture = sudanese } country = { has_country_flag = sudanese_select } }
+			AND = { THIS = { culture = berber } country = { has_country_flag = berber_select } }
+			AND = { THIS = { culture = swedish } country = { has_country_flag = swedish_select } }
+			AND = { THIS = { culture = danish } country = { has_country_flag = danish_select } }
+			AND = { THIS = { culture = icelandic } country = { has_country_flag = icelandic_select } }
+			AND = { THIS = { culture = sami } country = { has_country_flag = sami_select } }
+			AND = { THIS = { culture = finnish } country = { has_country_flag = finnish_select } }
+			AND = { THIS = { culture = norwegian } country = { has_country_flag = norwegian_select } }
+			AND = { THIS = { culture = british } country = { has_country_flag = british_select } }
+			AND = { THIS = { culture = irish } country = { has_country_flag = irish_select } }
+			AND = { THIS = { culture = scottish } country = { has_country_flag = scottish_select } }
+			AND = { THIS = { culture = welsh } country = { has_country_flag = welsh_select } }
+			AND = { THIS = { culture = maltese } country = { has_country_flag = maltese_select } }
+			AND = { THIS = { culture = anglo_indian } country = { has_country_flag = anglo_indian_select } }
+			AND = { THIS = { culture = platinean } country = { has_country_flag = platinean_select } }
+			AND = { THIS = { culture = caribeno } country = { has_country_flag = caribeno_select } }
+			AND = { THIS = { culture = north_andean } country = { has_country_flag = north_andean_select } }
+			AND = { THIS = { culture = south_andean } country = { has_country_flag = south_andean_select } }
+			AND = { THIS = { culture = central_american } country = { has_country_flag = central_american_select } }
+			AND = { THIS = { culture = french_canadian } country = { has_country_flag = french_canadian_select } }
+			AND = { THIS = { culture = north_italian } country = { has_country_flag = north_italian_select } }
+			AND = { THIS = { culture = south_italian } country = { has_country_flag = south_italian_select } }
+			AND = { THIS = { culture = wallonian } country = { has_country_flag = wallonian_select } }
+			AND = { THIS = { culture = czech } country = { has_country_flag = czech_select } }
+			AND = { THIS = { culture = slovak } country = { has_country_flag = slovak_select } }
+			AND = { THIS = { culture = latvian } country = { has_country_flag = latvian_select } }
+			AND = { THIS = { culture = estonian } country = { has_country_flag = estonian_select } }
+			AND = { THIS = { culture = lithuanian } country = { has_country_flag = lithuanian_select } }
+			AND = { THIS = { culture = mayan } country = { has_country_flag = mayan_select } }
+			AND = { THIS = { culture = nahua } country = { has_country_flag = nahua_select } }
+			AND = { THIS = { culture = quechua } country = { has_country_flag = quechua_select } }
+			AND = { THIS = { culture = aimara } country = { has_country_flag = aimara_select } }
+			AND = { THIS = { culture = amazonian } country = { has_country_flag = amazonian_select } }
+			AND = { THIS = { culture = patagonian } country = { has_country_flag = patagonian_select } }
+			AND = { THIS = { culture = tupinamba } country = { has_country_flag = tupinamba_select } }
+			AND = { THIS = { culture = metis } country = { has_country_flag = metis_select } }
+			AND = { THIS = { culture = dakota } country = { has_country_flag = dakota_select } }
+			AND = { THIS = { culture = cherokee } country = { has_country_flag = cherokee_select } }
+			AND = { THIS = { culture = pueblo } country = { has_country_flag = pueblo_select } }
+			AND = { THIS = { culture = navajo } country = { has_country_flag = navajo_select } }
+			AND = { THIS = { culture = cree } country = { has_country_flag = cree_select } }
+			AND = { THIS = { culture = inuit } country = { has_country_flag = inuit_select } }
+			AND = { THIS = { culture = native_american_minor } country = { has_country_flag = native_american_minor_select } }
+			AND = { THIS = { culture = guarani } country = { has_country_flag = guarani_select } }
+		}
+	}
+	
+	modifier = {
+		factor = 3
+		NOT = { country = { administration_spending = 0.99 } }
+		country = { has_country_flag = culture_select }
+		country = { ai = no }
+		location = { has_building = province_selector }
+		OR = {
+			AND = { THIS = { culture = manchu } country = { has_country_flag = manchu_select } }
+			AND = { THIS = { culture = tibetan } country = { has_country_flag = tibetan_select } }
+			AND = { THIS = { culture = uighur } country = { has_country_flag = uighur_select } }
+			AND = { THIS = { culture = beifaren } country = { has_country_flag = beifaren_select } }
+			AND = { THIS = { culture = nanfaren } country = { has_country_flag = nanfaren_select } }
+			AND = { THIS = { culture = miao } country = { has_country_flag = miao_select } }
+			AND = { THIS = { culture = min } country = { has_country_flag = min_select } }
+			AND = { THIS = { culture = hanhui } country = { has_country_flag = hanhui_select } }
+			AND = { THIS = { culture = hakka } country = { has_country_flag = hakka_select } }
+			AND = { THIS = { culture = yi } country = { has_country_flag = yi_select } }
+			AND = { THIS = { culture = yue } country = { has_country_flag = yue_select } }
+			AND = { THIS = { culture = zhuang } country = { has_country_flag = zhuang_select } }
+			AND = { THIS = { culture = georgian } country = { has_country_flag = georgian_select } }
+			AND = { THIS = { culture = armenian } country = { has_country_flag = armenian_select } }
+			AND = { THIS = { culture = azerbaijani } country = { has_country_flag = azerbaijani_select } }
+			AND = { THIS = { culture = dagestani } country = { has_country_flag = dagestani_select } }
+			AND = { THIS = { culture = chechen } country = { has_country_flag = chechen_select } }
+			AND = { THIS = { culture = circassian } country = { has_country_flag = circassian_select } }
+			AND = { THIS = { culture = korean } country = { has_country_flag = korean_select } }
+			AND = { THIS = { culture = japanese } country = { has_country_flag = japanese_select } }
+			AND = { THIS = { culture = ainu } country = { has_country_flag = ainu_select } }
+			AND = { THIS = { culture = mongol } country = { has_country_flag = mongol_select } }
+			AND = { THIS = { culture = vietnamese } country = { has_country_flag = vietnamese_select } }
+			AND = { THIS = { culture = siberian } country = { has_country_flag = siberian_select } }
+			AND = { THIS = { culture = persian } country = { has_country_flag = persian_select } }
+			AND = { THIS = { culture = pashtun } country = { has_country_flag = pashtun_select } }
+			AND = { THIS = { culture = hazara } country = { has_country_flag = hazara_select } }
+			AND = { THIS = { culture = kazak } country = { has_country_flag = kazak_select } }
+			AND = { THIS = { culture = kirgiz } country = { has_country_flag = kirgiz_select } }
+			AND = { THIS = { culture = tatar } country = { has_country_flag = tatar_select } }
+			AND = { THIS = { culture = uzbek } country = { has_country_flag = uzbek_select } }
+			AND = { THIS = { culture = kurdish } country = { has_country_flag = kurdish_select } }
+			AND = { THIS = { culture = tajik } country = { has_country_flag = tajik_select } }
+			AND = { THIS = { culture = baluchi } country = { has_country_flag = baluchi_select } }
+			AND = { THIS = { culture = turkmen } country = { has_country_flag = turkmen_select } }
+			AND = { THIS = { culture = assyrian } country = { has_country_flag = assyrian_select } }
+			AND = { THIS = { culture = telegu } country = { has_country_flag = telegu_select } }
+			AND = { THIS = { culture = tamil } country = { has_country_flag = tamil_select } }
+			AND = { THIS = { culture = nepali } country = { has_country_flag = nepali_select } }
+			AND = { THIS = { culture = oriya } country = { has_country_flag = oriya_select } }
+			AND = { THIS = { culture = avadhi } country = { has_country_flag = avadhi_select } }
+			AND = { THIS = { culture = bihari } country = { has_country_flag = bihari_select } }
+			AND = { THIS = { culture = sinhala } country = { has_country_flag = sinhala_select } }
+			AND = { THIS = { culture = manipuri } country = { has_country_flag = manipuri_select } }
+			AND = { THIS = { culture = kanauji } country = { has_country_flag = kanauji_select } }
+			AND = { THIS = { culture = kashmiri } country = { has_country_flag = kashmiri_select } }
+			AND = { THIS = { culture = gujarati } country = { has_country_flag = gujarati_select } }
+			AND = { THIS = { culture = rajput } country = { has_country_flag = rajput_select } }
+			AND = { THIS = { culture = marathi } country = { has_country_flag = marathi_select } }
+			AND = { THIS = { culture = kannada } country = { has_country_flag = kannada_select } }
+			AND = { THIS = { culture = malayalam } country = { has_country_flag = malayalam_select } }
+			AND = { THIS = { culture = bengali } country = { has_country_flag = bengali_select } }
+			AND = { THIS = { culture = panjabi } country = { has_country_flag = panjabi_select } }
+			AND = { THIS = { culture = sindi } country = { has_country_flag = sindi_select } }
+			AND = { THIS = { culture = thai } country = { has_country_flag = thai_select } }
+			AND = { THIS = { culture = shan } country = { has_country_flag = shan_select } }
+			AND = { THIS = { culture = karen } country = { has_country_flag = karen_select } }
+			AND = { THIS = { culture = malay } country = { has_country_flag = malay_select } }
+			AND = { THIS = { culture = javan } country = { has_country_flag = javan_select } }
+			AND = { THIS = { culture = lao } country = { has_country_flag = lao_select } }
+			AND = { THIS = { culture = moluccan } country = { has_country_flag = moluccan_select } }
+			AND = { THIS = { culture = burmese } country = { has_country_flag = burmese_select } }
+			AND = { THIS = { culture = khmer } country = { has_country_flag = khmer_select } }
+			AND = { THIS = { culture = filipino } country = { has_country_flag = filipino_select } }
+			AND = { THIS = { culture = asian_minor } country = { has_country_flag = asian_minor_select } }
+			AND = { THIS = { culture = kachin } country = { has_country_flag = kachin_select } }
+			AND = { THIS = { culture = assamese } country = { has_country_flag = assamese_select } }
+			AND = { THIS = { culture = yakut } country = { has_country_flag = yakut_select } }
+			AND = { THIS = { culture = hawaiian } country = { has_country_flag = hawaiian_select } }
+			AND = { THIS = { culture = polynesian } country = { has_country_flag = polynesian_select } }
+			AND = { THIS = { culture = maori } country = { has_country_flag = maori_select } }
+			AND = { THIS = { culture = aborigine } country = { has_country_flag = aborigine_select } }
+			AND = { THIS = { culture = melanesian } country = { has_country_flag = melanesian_select } }
+			AND = { THIS = { culture = micronesian } country = { has_country_flag = micronesian_select } }
+			AND = { THIS = { culture = afro_caribbean } country = { has_country_flag = afro_caribbean_select } }
+			AND = { THIS = { culture = afro_caribeno } country = { has_country_flag = afro_caribeno_select } }
+			AND = { THIS = { culture = afro_brazilian } country = { has_country_flag = afro_brazilian_select } }
+			AND = { THIS = { culture = afro_antillean } country = { has_country_flag = afro_antillean_select } }
+			AND = { THIS = { culture = kreol } country = { has_country_flag = kreol_select } }
+			AND = { THIS = { culture = griqua } country = { has_country_flag = griqua_select } }
+			AND = { THIS = { culture = boer } country = { has_country_flag = boer_select } }
+			AND = { THIS = { culture = australian } country = { has_country_flag = australian_select } }
+			AND = { THIS = { culture = french_australian } country = { has_country_flag = french_australian_select } }
+			AND = { THIS = { culture = cajun } country = { has_country_flag = cajun_select } }
+			AND = { THIS = { culture = alaskan } country = { has_country_flag = alaskan_select } }
+			AND = { THIS = { culture = neo_zelandais } country = { has_country_flag = neo_zelandais_select } }
+			AND = { THIS = { culture = louisianian } country = { has_country_flag = louisianian_select } }
+			AND = { THIS = { culture = akan } country = { has_country_flag = akan_select } }
+			AND = { THIS = { culture = bambara } country = { has_country_flag = bambara_select } }
+			AND = { THIS = { culture = dyula } country = { has_country_flag = dyula_select } }
+			AND = { THIS = { culture = edo } country = { has_country_flag = edo_select } }
+			AND = { THIS = { culture = ewe } country = { has_country_flag = ewe_select } }
+			AND = { THIS = { culture = fon } country = { has_country_flag = fon_select } }
+			AND = { THIS = { culture = fulbe } country = { has_country_flag = fulbe_select } }
+			AND = { THIS = { culture = hausa } country = { has_country_flag = hausa_select } }
+			AND = { THIS = { culture = ibibio } country = { has_country_flag = ibibio_select } }
+			AND = { THIS = { culture = itsekari } country = { has_country_flag = itsekari_select } }
+			AND = { THIS = { culture = ibo } country = { has_country_flag = ibo_select } }
+			AND = { THIS = { culture = kru } country = { has_country_flag = kru_select } }
+			AND = { THIS = { culture = mande } country = { has_country_flag = mande_select } }
+			AND = { THIS = { culture = western_nigritic } country = { has_country_flag = western_nigritic_select } }
+			AND = { THIS = { culture = mossi } country = { has_country_flag = mossi_select } }
+			AND = { THIS = { culture = gur } country = { has_country_flag = gur_select } }
+			AND = { THIS = { culture = senufo } country = { has_country_flag = senufo_select } }
+			AND = { THIS = { culture = songhai } country = { has_country_flag = songhai_select } }
+			AND = { THIS = { culture = tiv } country = { has_country_flag = tiv_select } }
+			AND = { THIS = { culture = tuareg } country = { has_country_flag = tuareg_select } }
+			AND = { THIS = { culture = wolof } country = { has_country_flag = wolof_select } }	
+		}
+	}
+	
+	modifier = {
+		factor = 3
+		NOT = { country = { administration_spending = 0.99 } }
+		country = { has_country_flag = culture_select }
+		country = { ai = no }
+		location = { has_building = province_selector }
+		OR = {
+			AND = { THIS = { culture = yoruba } country = { has_country_flag = yoruba_select } }
+			AND = { THIS = { culture = east_kwa } country = { has_country_flag = east_kwa_select } }
+			AND = { THIS = { culture = bakonkgo } country = { has_country_flag = bakonkgo_select } }
+			AND = { THIS = { culture = baguirmi } country = { has_country_flag = baguirmi_select } }
+			AND = { THIS = { culture = fang } country = { has_country_flag = fang_select } }
+			AND = { THIS = { culture = kanuri } country = { has_country_flag = kanuri_select } }
+			AND = { THIS = { culture = kuba } country = { has_country_flag = kuba_select } }
+			AND = { THIS = { culture = luba } country = { has_country_flag = luba_select } }
+			AND = { THIS = { culture = lunda } country = { has_country_flag = lunda_select } }
+			AND = { THIS = { culture = lendu } country = { has_country_flag = lendu_select } }
+			AND = { THIS = { culture = kingwana } country = { has_country_flag = kingwana_select } }
+			AND = { THIS = { culture = chokwe } country = { has_country_flag = chokwe_select } }
+			AND = { THIS = { culture = kavango } country = { has_country_flag = kavango_select } }
+			AND = { THIS = { culture = mongo } country = { has_country_flag = mongo_select } }
+			AND = { THIS = { culture = sara } country = { has_country_flag = sara_select } }
+			AND = { THIS = { culture = teda } country = { has_country_flag = teda_select } }
+			AND = { THIS = { culture = ubangian } country = { has_country_flag = ubangian_select } }
+			AND = { THIS = { culture = forest_bantu } country = { has_country_flag = forest_bantu_select } }
+			AND = { THIS = { culture = south_forest_bantu } country = { has_country_flag = south_forest_bantu_select } }
+			AND = { THIS = { culture = amhara } country = { has_country_flag = amhara_select } }
+			AND = { THIS = { culture = afar } country = { has_country_flag = afar_select } }
+			AND = { THIS = { culture = azande } country = { has_country_flag = azande_select } }
+			AND = { THIS = { culture = baganda } country = { has_country_flag = baganda_select } }
+			AND = { THIS = { culture = beja } country = { has_country_flag = beja_select } }
+			AND = { THIS = { culture = dinka } country = { has_country_flag = dinka_select } }
+			AND = { THIS = { culture = fur } country = { has_country_flag = fur_select } }
+			AND = { THIS = { culture = harari } country = { has_country_flag = harari_select } }
+			AND = { THIS = { culture = kefficho } country = { has_country_flag = kefficho_select } }
+			AND = { THIS = { culture = kikuyu } country = { has_country_flag = kikuyu_select } }
+			AND = { THIS = { culture = luo } country = { has_country_flag = luo_select } }
+			AND = { THIS = { culture = maasai } country = { has_country_flag = maasai_select } }
+			AND = { THIS = { culture = nuer } country = { has_country_flag = nuer_select } }
+			AND = { THIS = { culture = nuba } country = { has_country_flag = nuba_select } }
+			AND = { THIS = { culture = oromo } country = { has_country_flag = oromo_select } }
+			AND = { THIS = { culture = ruanda } country = { has_country_flag = ruanda_select } }
+			AND = { THIS = { culture = somali } country = { has_country_flag = somali_select } }
+			AND = { THIS = { culture = sukuma } country = { has_country_flag = sukuma_select } }
+			AND = { THIS = { culture = swahili } country = { has_country_flag = swahili_select } }
+			AND = { THIS = { culture = tigray } country = { has_country_flag = tigray_select } }
+			AND = { THIS = { culture = unyamwezi } country = { has_country_flag = unyamwezi_select } }
+			AND = { THIS = { culture = kilombero } country = { has_country_flag = kilombero_select } }
+			AND = { THIS = { culture = lacustrine_bantu } country = { has_country_flag = lacustrine_bantu_select } }
+			AND = { THIS = { culture = cushitic } country = { has_country_flag = cushitic_select } }
+			AND = { THIS = { culture = nilotic } country = { has_country_flag = nilotic_select } }
+			AND = { THIS = { culture = chewa } country = { has_country_flag = chewa_select } }
+			AND = { THIS = { culture = nyasa } country = { has_country_flag = nyasa_select } }
+			AND = { THIS = { culture = herero } country = { has_country_flag = herero_select } }
+			AND = { THIS = { culture = khoisan } country = { has_country_flag = khoisan_select } }
+			AND = { THIS = { culture = lomwe } country = { has_country_flag = lomwe_select } }
+			AND = { THIS = { culture = makua } country = { has_country_flag = makua_select } }
+			AND = { THIS = { culture = malagasy } country = { has_country_flag = malagasy_select } }
+			AND = { THIS = { culture = nguni } country = { has_country_flag = nguni_select } }
+			AND = { THIS = { culture = southern_bantu } country = { has_country_flag = southern_bantu_select } }
+			AND = { THIS = { culture = ovimbundu } country = { has_country_flag = ovimbundu_select } }
+			AND = { THIS = { culture = sena } country = { has_country_flag = sena_select } }
+			AND = { THIS = { culture = shona } country = { has_country_flag = shona_select } }
+			AND = { THIS = { culture = sotho } country = { has_country_flag = sotho_select } }
+			AND = { THIS = { culture = tonga } country = { has_country_flag = tonga_select } }
+			AND = { THIS = { culture = tswana } country = { has_country_flag = tswana_select } }
+			AND = { THIS = { culture = xhosa } country = { has_country_flag = xhosa_select } }
+			AND = { THIS = { culture = yao } country = { has_country_flag = yao_select } }
+			AND = { THIS = { culture = zulu } country = { has_country_flag = zulu_select } }			
+		}                   
+	}
 	
 	modifier = {
 		factor = -2.2

@@ -1,0 +1,1058 @@
+political_decisions = {
+
+	turn_off_ps = {
+		picture = disable_ps
+		potential = {
+			ai = no
+			ENG = { ai = yes }
+			NOT = {
+				year = 1837
+				month = 1
+				has_global_flag = ps_turned_off
+				tag = ENG
+			}
+		}
+		allow = {
+			NOT = { has_global_flag = ps_turned_off }
+		}
+
+		effect = {
+			set_global_flag = ps_turned_off
+		}
+		ai_will_do = {
+			factor = 0
+		}				
+	}
+	
+	turn_off_ps_eng = {
+		picture = disable_ps
+		potential = {
+			ai = no
+			tag = ENG
+			NOT = {
+				year = 1837
+				month = 1
+				has_global_flag = ps_turned_off
+			}
+		}
+		allow = {
+			NOT = { has_global_flag = ps_turned_off }
+		}
+
+		effect = {
+			set_global_flag = ps_turned_off
+		}			
+	}	
+
+	country_attract_immigrants = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { has_building = province_selector }
+			NOT = { has_country_modifier = attract_immigrants }
+			NOT = { war = yes }
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+				add_country_modifier = {
+					name = attract_immigrants
+					duration = 1825
+				}
+		}
+	}
+	
+	country_early_change_ideology = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }			
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			NOT = { is_ideology_enabled = socialist }
+			ai = no
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			country_event = {
+				id = 91700
+			}
+		}
+	}
+		
+	country_mid_change_ideology = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			ai = no
+			is_ideology_enabled = socialist
+			NOT = { is_ideology_enabled = communist }
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			country_event = {
+				id = 91701
+			}
+		}
+	}
+		
+	country_late_change_ideology = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			ai = no
+			is_ideology_enabled = communist
+			NOT = { is_ideology_enabled = fascist }
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			country_event = {
+				id = 91702
+			}
+		}
+	}
+		
+	country_endgame_change_ideology = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_modifier = political_propaganda }
+			NOT = { has_country_flag = deciding }
+			ai = no
+			is_ideology_enabled = fascist
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			country_event = {
+				id = 91703
+			}
+		}
+	}
+	
+	country_early_change_ideology_ps_disabled = {
+		picture = province_selector
+		potential = {
+			has_global_flag = ps_turned_off		
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			NOT = { is_ideology_enabled = socialist }
+			ai = no
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+		}
+		effect = {
+			country_event = {
+				id = 91704
+			}
+		}
+	}
+		
+	country_mid_change_ideology_ps_disabled = {
+		picture = province_selector
+		potential = {
+			has_global_flag = ps_turned_off
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			ai = no
+			is_ideology_enabled = socialist
+			NOT = { is_ideology_enabled = communist }
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+		}
+		effect = {
+			country_event = {
+				id = 91705
+			}
+		}
+	}
+		
+	country_late_change_ideology_ps_disabled = {
+		picture = province_selector
+		potential = {
+			has_global_flag = ps_turned_off
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = political_propaganda }
+			ai = no
+			is_ideology_enabled = communist
+			NOT = { is_ideology_enabled = fascist }
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+		}
+		effect = {
+			country_event = {
+				id = 91706
+			}
+		}
+	}
+		
+	country_endgame_change_ideology_ps_disabled = {
+		picture = province_selector
+		potential = {
+			has_global_flag = ps_turned_off
+			NOT = { has_country_modifier = political_propaganda }
+			NOT = { has_country_flag = deciding }
+			ai = no
+			is_ideology_enabled = fascist
+		}	
+		allow = {
+			NOT = { has_country_flag = political_propaganda }
+		}
+		effect = {
+			country_event = {
+				id = 91707
+			}
+		}
+	}
+
+	country_increase_healthcare = {
+		picture = country_scope
+		alert = no
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+			NOT = { health_care = universal_health_care }
+		}
+			
+		allow = {
+			civilized = yes
+			any_owned_province = { has_building = province_selector }
+			OR = {
+				AND = {
+					health_care = no_health_care
+					year = 1850
+					medicine = 1
+				}
+				AND = {
+					health_care = trinket_health_care
+					year = 1865
+					inorganic_chemistry = 1
+				}
+				AND = {
+					health_care = low_health_care
+					year = 1880
+					organic_chemistry = 1
+				}
+				AND = {
+					health_care = acceptable_health_care
+					year = 1895
+					electricity = 1
+				}
+				AND = {
+					health_care = good_health_care 
+					year = 1910
+					synthetic_polymers = 1
+				}
+			}
+		}
+
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+			random_owned = { limit = { owner = { health_care = good_health_care } } owner = { social_reform = universal_health_care } }
+			random_owned = { limit = { owner = { health_care = acceptable_health_care } } owner = { social_reform = good_health_care } }
+			random_owned = { limit = { owner = { health_care = low_health_care } } owner = { social_reform = acceptable_health_care } }
+			random_owned = { limit = { owner = { health_care = trinket_health_care } } owner = { social_reform = low_health_care } }
+			random_owned = { limit = { owner = { health_care = no_health_care } } owner = { social_reform = trinket_health_care } }
+		}		
+	}
+	
+	country_increase_healthcare_ps_disabled = {
+		picture = province_selector
+		alert = no
+		potential = {
+			has_global_flag = ps_turned_off
+			NOT = { has_country_flag = deciding }
+			ai = no
+			NOT = { health_care = good_health_care }
+		}
+			
+		allow = {
+			civilized = yes
+			OR = {
+				AND = {
+					health_care = no_health_care
+					year = 1850
+					medicine = 1
+				}
+				AND = {
+					health_care = trinket_health_care
+					year = 1865
+					inorganic_chemistry = 1
+				}
+				AND = {
+					health_care = low_health_care
+					year = 1880
+					organic_chemistry = 1
+				}
+				AND = {
+					health_care = acceptable_health_care
+					year = 1895
+					electricity = 1
+				}
+			}
+		}
+
+		effect = {
+			random_owned = { limit = { owner = { health_care = acceptable_health_care } } owner = { social_reform = good_health_care } }
+			random_owned = { limit = { owner = { health_care = low_health_care } } owner = { social_reform = acceptable_health_care } }
+			random_owned = { limit = { owner = { health_care = trinket_health_care } } owner = { social_reform = low_health_care } }
+			random_owned = { limit = { owner = { health_care = no_health_care } } owner = { social_reform = trinket_health_care } }
+		}		
+	}
+
+	country_increase_conscription = {
+		picture = country_scope
+		alert = no
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}
+			
+		allow = {
+			civilized = yes
+			NOT = { has_country_modifier = draft_law_changed }
+			any_owned_province = { has_building = province_selector }
+		}
+			
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+			add_country_modifier = {
+				name = draft_law_changed
+				duration = 1825
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { conscription = mandatory_service }
+						OR = {
+							government = fascist_dictatorship
+							government = proletarian_dictatorship
+							has_country_flag = in_great_war
+						}
+					}
+				}
+				owner = { political_reform = mandatory_service }
+			}
+			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = mandatory_service } }
+			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = four_year_draft } }
+			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = two_year_draft } }
+			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
+		}		
+	}
+	
+	country_increase_conscription_ps_disabled = {
+		picture = marching_soldiers
+		alert = no
+		potential = {
+			has_global_flag = ps_turned_off
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}
+			
+		allow = {
+			civilized = yes
+			NOT = { has_country_modifier = draft_law_changed }
+		}
+			
+		effect = {
+			add_country_modifier = {
+				name = draft_law_changed
+				duration = 7300
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { conscription = mandatory_service }
+						OR = {
+							government = fascist_dictatorship
+							government = proletarian_dictatorship
+							has_country_flag = in_great_war
+						}
+					}
+				}
+				owner = { political_reform = mandatory_service }
+			}
+			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = mandatory_service } }
+			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = four_year_draft } }
+			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = two_year_draft } }
+			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
+		}		
+	}	
+
+	country_recruitment_drive = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = recruitment_drive }
+			ai = no
+		}	
+		allow = {
+			NOT = { has_country_flag = recruitment_drive }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			set_country_flag = recruitment_drive
+			add_country_modifier = {
+				name = recruitment_drive
+				duration = 1095
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	country_recruit_general = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = recruited_leader }
+			ai = no
+		}
+		allow = {
+			NOT = { has_country_modifier = recruited_leader }
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			add_country_modifier = {
+				name = recruited_leader
+				duration = 3650
+			}
+
+			random_list = {
+				30 = {
+					define_general = {
+						name = "§RSkilled Commander"
+						personality = defence_3.1
+						background = attack_4.1
+					}
+				}
+				30 = {
+					define_general = {
+						name = "§RSkilled Commander"
+						personality = defence_4.1
+						background = attack_3.1
+					}
+				}
+				30 = {
+					define_general = {
+						name = "§RLegendary Commander"
+						personality = defence_4.1
+						background = attack_4.1
+					}
+				}
+				10 = {
+					define_general = {
+						name = "§RGod Commander"
+						personality = defence_5.1
+						background = attack_5.1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	country_reduce_infamy = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			NOT = { war = yes }
+			any_owned_province = { has_building = province_selector }
+			NOT = { has_country_modifier = bad_boy }
+		}
+		effect = {
+			add_country_modifier = { name = bad_boy duration = 1825 }
+			badboy = -3
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	country_suppression = {
+		picture = country_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			NOT = { has_country_modifier = country_suppression }
+			any_owned_province = {
+			has_building = province_selector 
+			}
+		}
+		effect = {
+			add_country_modifier = { name = country_suppression duration = 3650 }
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	state_assimilation = {
+		picture = state_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = {
+			NOT = { state_scope = { is_colonial = yes } }
+			has_building = province_selector
+			NOT = { has_province_modifier = assimilation }
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { has_province_modifier = assimilation }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = { name = assimilation duration = 3650 }
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+	
+	state_baby_boom = {
+		picture = state_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { 
+				has_building = province_selector 
+				NOT = { has_province_modifier = small_baby_boom }
+				NOT = { state_scope = { total_pops = 1000000 } }
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { state_scope = { total_pops = 100000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 3000
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 100000 }
+					NOT = { state_scope = { total_pops = 200000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2700
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 200000 }
+					NOT = { state_scope = { total_pops = 300000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2400
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 300000 }
+					NOT = { state_scope = { total_pops = 400000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 2100
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 400000 }
+					NOT = { state_scope = { total_pops = 500000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1800
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 500000 }
+					NOT = { state_scope = { total_pops = 600000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1500
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 600000 }
+					NOT = { state_scope = { total_pops = 700000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 1200
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 700000 }
+					NOT = { state_scope = { total_pops = 800000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 900
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 800000 }
+					NOT = { state_scope = { total_pops = 900000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 600
+						}
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 900000 }
+					NOT = { state_scope = { total_pops = 1000000 } }
+				}
+				state_scope = {
+					any_owned = {
+						province_selector = -1
+						add_province_modifier = {
+							name = small_baby_boom
+							duration = 300
+						}
+					}
+				}
+			}
+		}
+	}
+		
+	state_literacy_campaign = {
+		picture = state_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			#functionalism = 1
+			any_owned_province = { 
+				has_building = province_selector 
+				NOT = { 
+					state_scope = { 
+						any_owned_province = {
+							has_province_modifier = literacy_campaign
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { state_scope = { total_pops = 350000 } }
+				}
+				state_scope = {
+					any_pop = {
+						literacy = 0.15
+					}
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 5475
+						}
+						province_selector = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					AND = {
+						state_scope = { total_pops = 350000 }
+						NOT = { state_scope = { total_pops = 1000000 } }
+					}
+				}
+				state_scope = {
+					any_pop = {
+						literacy = 0.15
+					}
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 5475
+						}
+						province_selector = -1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+						state_scope = { total_pops = 1000000 }
+				}
+				state_scope = {
+					any_pop = {
+						literacy = 0.15
+					}
+					any_owned = {
+						add_province_modifier = {
+							name = literacy_campaign
+							duration = 5475
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+	
+	state_rgo_expansion = {
+		picture = state_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = {
+			has_building = province_selector 
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = { name = rgo_expansion duration = -1 }
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+	
+	state_suppression = {
+		picture = state_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { 
+			has_building = province_selector 
+			NOT = { has_province_modifier = suppression }
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { has_province_modifier = suppression }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = { name = suppression duration = 1825 }
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	province_blood_and_iron = {
+		picture = province_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = {
+			has_building = province_selector 
+			NOT = { trade_goods= precious_metal }
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { total_pops = 100000 }
+				}
+				add_province_modifier = {
+					name = blood_and_iron_mine
+					duration = -1
+				}
+				province_selector = -1
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					total_pops = 100000
+					NOT = { total_pops = 300000 }
+				}
+				add_province_modifier = {
+					name = blood_and_iron_mine
+					duration = -1
+				}
+				province_selector = -1
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					total_pops = 300000
+				}
+				add_province_modifier = {
+					name = blood_and_iron_mine
+					duration = -1
+				}
+				province_selector = -1
+			}
+		}
+	}	
+		
+	province_rgo_change_mining = {
+		picture = province_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = rgo_changed }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			set_country_flag = deciding
+			country_event = { 
+				id = 91736
+			}
+		}
+	}
+		
+	province_rgo_change_agriculture = {
+		picture = province_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			NOT = { has_country_modifier = rgo_changed }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			set_country_flag = deciding
+			country_event = {
+				id = 91737
+			}
+		}
+	}
+	
+	province_migration = {
+		picture = province_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { 
+			has_building = province_selector 
+			NOT = { has_province_modifier = province_attract_immigrants }
+			}
+		}
+		effect = {
+			set_country_flag = province_migration
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { has_province_modifier = province_attract_immigrants }
+				}
+				add_province_modifier = { name = province_attract_immigrants duration = 1825 }
+				province_selector = -1
+			}
+		}
+	}
+		
+	reset_province_selector = {
+		picture = province_scope
+		potential = {
+			NOT = { has_global_flag = ps_turned_off }
+			NOT = { has_country_flag = deciding }
+			ai = no
+		}	
+		allow = {
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
+}

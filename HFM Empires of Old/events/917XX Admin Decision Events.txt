@@ -1,0 +1,2331 @@
+country_event = {
+	id = 91700
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+		money = 700
+	}
+}
+
+country_event = {
+	id = 91701
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+		money = 700
+	}
+}
+
+country_event = {
+	id = 91702
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = communist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+		money = 700
+	}
+}
+
+country_event = {
+	id = 91703
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTF91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = fascist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = communist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 365
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+		money = 700
+	}
+}
+
+country_event = {
+	id = 91704
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+	}
+}
+
+country_event = {
+	id = 91705
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+	}
+}
+
+country_event = {
+	id = 91706
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = communist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+	}
+}
+
+country_event = {
+	id = 91707
+	title = "EVTNAME91700"
+	desc = "EVTDESC91700"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		set_country_flag = political_propaganda
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					province_selector = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTF91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = fascist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTE91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = communist
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = socialist
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTC91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = conservative
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTA91700"
+		add_country_modifier = {
+			name = political_propaganda
+			duration = 3650
+		}
+		clr_country_flag = political_propaganda
+				any_pop = {
+			ideology = {
+				factor = 0.25
+				value = reactionary
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTZ91700"
+		clr_country_flag = political_propaganda
+	}
+}
+
+########## RECRUITMENT DRIVE AND MIGRATION ##########
+
+country_event = {
+	id = 91708
+	title = "EVTNAME91708"
+	desc = "EVTDESC91708"
+
+	trigger = {
+		has_country_flag = recruitment_drive
+		NOT = { has_country_modifier = recruitment_drive }
+	}
+	
+		
+	immediate = {
+		clr_country_flag = recruitment_drive
+	}
+	
+	option = {
+		name = "EVTOPTA91708"
+	}
+}
+
+country_event = {
+	id = 91709
+	title = "EVTNAME91709"
+	desc = "EVTDESC91709"
+
+	trigger = {
+		has_country_flag = province_migration
+		NOT = {
+			any_owned_province = { has_province_modifier = province_attract_immigrants }
+		}
+	}
+	
+		
+	immediate = {
+		clr_country_flag = province_migration
+	}
+	
+	option = {
+		name = "EVTOPTA91709"
+	}
+}
+
+########## RGO CHANGE EVENTS ##########
+
+country_event = {
+	id = 91736 #Mining Decision Change
+	picture = mining
+	title = "EVTNAME91736"
+	desc = "EVTDESC91736"
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+
+	option = {
+		name = "EVT91736OPTA" #COAL
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = iron
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = coal
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = iron
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = coal
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }			
+				has_building = province_selector
+				OR = {
+					trade_goods = iron
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = coal
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+			total_pops = 300000
+				has_building = province_selector
+				OR = {
+					trade_goods = iron
+					trade_goods = sulphur
+				}
+			}
+			province_selector = -1
+			trade_goods = coal
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}	
+	}
+	
+	option = {
+		name = "EVT91736OPTB" #IRON
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = iron
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = iron
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }			
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = sulphur
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = iron
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+			total_pops = 300000
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = sulphur
+				}
+			}
+			province_selector = -1
+			trade_goods = iron
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}		
+	}
+	
+	option = {
+		name = "EVT91736OPTC" #SULPHUR
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = iron
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = sulphur
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = iron
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = sulphur
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }			
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = iron
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = sulphur
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+			total_pops = 300000
+				has_building = province_selector
+				OR = {
+					trade_goods = coal
+					trade_goods = iron
+				}
+			}
+			province_selector = -1
+			trade_goods = sulphur
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}
+
+	option = {
+		name = "EVT91737OPTB" #TIMBER
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				OR = {
+					terrain = forest
+					terrain = jungle
+					terrain = woods
+				}
+			}
+			province_selector = -1
+			trade_goods = timber
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				OR = {
+					terrain = forest
+					terrain = jungle
+					terrain = woods
+				}
+			}
+			province_selector = -1
+			trade_goods = timber
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}	
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				OR = {
+					terrain = forest
+					terrain = jungle
+					terrain = woods
+				}
+			}
+			province_selector = -1
+			trade_goods = timber
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}	
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				OR = {
+					terrain = forest
+					terrain = jungle
+					terrain = woods
+				}
+			}
+			province_selector = -1
+			trade_goods = timber
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+#		any_country = {
+#			any_owned = {
+#				limit = {
+#					trade_goods = timber
+#				}
+#				add_province_modifier = { name = unemployment_fix duration = 3 }
+#			}
+#		}
+#		any_owned = {
+#			limit = {
+#				trade_goods = timber
+#			}
+#			add_province_modifier = { name = unemployment_fix duration = 3 }
+#		}
+	}	
+	
+	option = {
+		name = "EVT91736OPTD"
+		clr_country_flag = deciding
+	}
+}
+
+country_event = {
+	id = 91737 #Agriculture Decision Change
+	picture = farming
+	title = "EVTNAME91737"
+	desc = "EVTDESC91737"
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+
+	option = {
+		name = "EVT91737OPTA" #WOOL
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = dye
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = wool
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = dye
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = wool
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = dye
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = wool
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000
+				has_building = province_selector
+				OR = {
+				    trade_goods = dye
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = wool
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}		
+	}
+	
+	option = {
+		name = "EVT91737OPTC" #COTTON
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }			
+			province_selector = -1
+			trade_goods = cotton
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = cotton
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = cotton
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}	
+			province_selector = -1
+			trade_goods = cotton
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT91737OPTD" #CATTLE
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = cattle
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = cattle
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = cattle
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}	
+			province_selector = -1
+			trade_goods = cattle
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT91737OPTE" #FISH
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				is_coastal = yes
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = fish
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				is_coastal = yes
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = fish
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }		
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				is_coastal = yes
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = fish
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = dye
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = grain
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+				is_coastal = yes
+			}	
+			province_selector = -1
+			trade_goods = fish
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT91737OPTG" #COFFEE BEANS
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = coffee_beans
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = coffee_beans
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = coffee_beans
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = coffee_beans
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}		
+	}
+	option = {
+		name = "EVT91737OPTF" #TEA LEAVES
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = coffee_beans
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = tea_leaves
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = coffee_beans
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = tea_leaves
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = coffee_beans
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = tea_leaves
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = grain
+					trade_goods = coffee_beans
+				}
+			}
+			province_selector = -1
+			trade_goods = tea_leaves
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}		
+	}
+	option = {
+		name = "EVT91737OPTH" #Opium
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = opium
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = opium
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = opium
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = opium
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}	
+	}
+	option = {
+		name = "EVT91737OPTI" #dye
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = dye
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = dye
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = dye
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = silk
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = dye
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}	
+	}
+	option = {
+		name = "EVT91737OPTJ" #silk
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = silk
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = silk
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = silk
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = tobacco
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = silk
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}
+	option = {
+		name = "EVT91737OPTK" #tobacco
+		clr_country_flag = deciding
+		random_owned = {
+			limit = {
+				NOT = { total_pops = 35000 }
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 750 }
+			province_selector = -1
+			trade_goods = tobacco
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 35000
+				NOT = { total_pops = 100000 }					
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 500 }
+			province_selector = -1
+			trade_goods = tobacco
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 100000
+				NOT = { total_pops = 300000 }				
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			owner = { money = 250 }
+			province_selector = -1
+			trade_goods = tobacco
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+		random_owned = {
+			limit = {
+				total_pops = 300000			
+				has_building = province_selector
+				OR = {
+				    trade_goods = wool
+					trade_goods = timber
+					trade_goods = cotton
+					trade_goods = cattle
+					trade_goods = fish
+					trade_goods = fruit
+					trade_goods = grain
+					trade_goods = opium
+					trade_goods = dye
+					trade_goods = silk
+					trade_goods = coffee_beans
+					trade_goods = tea_leaves
+				}
+			}
+			province_selector = -1
+			trade_goods = tobacco
+			add_province_modifier = {
+			name = switched_production
+			duration = 4562
+			}
+		}
+	}		
+	
+	option = {
+		name = "EVT91737OPTL"
+		clr_country_flag = deciding
+	}
+}

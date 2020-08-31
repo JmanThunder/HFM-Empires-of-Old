@@ -2,8 +2,8 @@ guiTypes = {
 	windowType = {
 		name = "province_view"
 		backGround=""
-		position = { x=0 y=-528 }	
-		size = { x=380 y=490 }
+		position = { x=0 y=-583 }	
+		size = { x=380 y=525 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -13,7 +13,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="background"
-			spriteType = "GFX_provinceview_bg"
+			spriteType = "GFX_a_new_interface"
 			position = { x= 0 y = -19 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -466,7 +466,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "build_factory_button"
-				position = { x= 331 y = 280 }
+				position = { x= 331 y = 350 }
 				quadTextureSprite = "GFX_build_factory"
 				clicksound = click
 			}
@@ -612,7 +612,7 @@ guiTypes = {
 			iconType = {
 				name = "goods_type"
 				spriteType = "GFX_resources"
-				position = { x = 235 y = 321 }
+				position = { x = 235 y = 356 }
 			}
 			
 					
@@ -620,13 +620,13 @@ guiTypes = {
 			iconType = {
 				name = "total_population_icon"
 				spriteType = "GFX_province_pop"
-				position = { x= 275 y = 323 }
+				position = { x= 275 y = 358 }
 				Orientation = "UPPER_LEFT"
 			}		
 			
 			instantTextBoxType = { 
 				name = "total_population"
-				position = { x = 305 y = 325 }
+				position = { x = 305 y = 360 }
 				font = "vic_18_black"
 				text = "total_population"	
 				maxWidth = 100
@@ -637,13 +637,13 @@ guiTypes = {
 			iconType = {
 				name = "culture_chart"
 				spriteType = "GFX_province_chart_small"
-				position = { x= 359 y = 318 }
+				position = { x= 359 y = 353 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name = "overlay_3"
 				spriteType = "GFX_pops_piesmall_overlay"
-				position = { x= 344 y = 316}
+				position = { x= 344 y = 351}
 				Orientation = "UPPER_LEFT"
 			}
 			
@@ -651,53 +651,53 @@ guiTypes = {
 			iconType = {
 				name ="rally_land_icon"
 				spriteType = "GFX_rally_land_icon"
-				position = { x = 107 y = 323 }
+				position = { x = 107 y = 358 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name ="rallypoint_merge_icon"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 152 y = 325 }
+				position = { x = 152 y = 360 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name ="rally_naval_icon"
 				spriteType = "GFX_rally_naval_icon"
-				position = { x = 10 y = 323 }
+				position = { x = 10 y = 358 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="rallypoint_merge_icon_naval"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 55 y = 325 }
+				position = { x = 55 y = 360 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_checkbox"
-				position = { x = 127 y = 322 }
+				position = { x = 127 y = 357 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 				shortcut = "x"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox"
-				position = { x = 172 y = 322 }
+				position = { x = 172 y = 357 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 				shortcut = "c"
 			}
 			checkboxType = {
 				name = "rallypoint_checkbox_naval"
-				position = { x = 30 y = 322 }
+				position = { x = 30 y = 357 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "v"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox_naval"
-				position = { x = 75 y = 322 }
+				position = { x = 75 y = 357 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "b"
 			}
@@ -711,7 +711,7 @@ guiTypes = {
 		windowType = {
 			name = "province_other"
 			backGround=""
-			position = { x=9 y=170 }	
+			position = { x=9 y=175 }	
 			size = { x=380 y=230 }
 			moveable = 0
 			dontRender = ""
@@ -871,7 +871,7 @@ guiTypes = {
 			## Country Info
 			guiButtonType = {
 				name = "country_flag"
-				position = { x= 15 y = 150 }
+				position = { x= 12 y = 150 }
 				quadTextureSprite ="GFX_topbarflag"
 				buttonText = " "
 				buttonFont = "vic_18_black"
@@ -895,14 +895,14 @@ guiTypes = {
 			iconType = {
 				name ="country_flag_overlay"
 				spriteType = "GFX_topbar_flag_overlay_trans"
-				position = { x= 6 y = 132 }
+				position = { x= 5 y = 132 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 		
 			instantTextBoxType = { 
 				name = "country_name"
-				position = { x = 90 y = 140 }
+				position = { x = 85 y = 140 }
 				font = "vic_22"
 				text = "France"	
 				maxWidth = 190
@@ -1166,13 +1166,13 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-			
 			iconType = {
 				name = "build_icon_infra"
 				spriteType = "GFX_province_infra_strip"
 				position = { x= 270 y = 88 }
 				Orientation = "UPPER_LEFT"
 			}
+
 			### progressbar when investing in railroad.
 			windowType = {
 				name = "infra_progress_win"
@@ -1270,17 +1270,17 @@ guiTypes = {
 			name = "province_buildings"
 			backGround=""
 			position = { x=0 y=343 }	
-			size = { x=380 y=180 }
+			size = { x=380 y=145 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
 			verticalBorder= ""
 			fullScreen = no	
 			Orientation = "UPPER_LEFT"
-							
+			
 			guiButtonType = {
 				name = "build_army"
-				position = { x = 82 y = 132 }
+				position = { x = 82 y = 200 }
 				quadTextureSprite = "GFX_button_standard_144"		
 				buttonText="PROVINCEVIEW_BUILD_ARMY2"	
 				buttonFont = "vic_18_black"
@@ -1291,7 +1291,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "build_navy"
-				position = { x = 238 y = 132 }
+				position = { x = 238 y = 200 }
 				quadTextureSprite = "GFX_button_standard_144"		
 				buttonText="PROVINCEVIEW_BUILD_NAVY2"	
 				buttonFont = "vic_18_black"
@@ -1303,12 +1303,12 @@ guiTypes = {
 			iconType = {
 				name = "army_icon"
 				spriteType = "GFX_topbar_army"
-				position = { x = 71 y = 104 }
+				position = { x = 71 y = 174 }
 			}
 			
 			instantTextBoxType = { 
 				name = "army_size"
-				position = { x = 103 y = 112 }
+				position = { x = 103 y = 182 }
 				font = "vic_18_black"
 				text = "army_size"	
 				maxWidth = 50
@@ -1319,23 +1319,23 @@ guiTypes = {
 			iconType = {
 				name = "navy_icon"
 				spriteType = "GFX_topbar_navy"
-				position = { x = 237 y = 104 }
+				position = { x = 237 y = 174 }
 			}
 			
 			iconType = {
 				name = "army_progress"
 				spriteType = "GFX_military_progress"
-				position = { x = 139 y = 111 }
+				position = { x = 139 y = 181 }
 			}
 			iconType = {
 				name = "army_progress_overlay"
 				spriteType = "GFX_military_progress_overlay"
-				position = { x = 136 y = 107 }
+				position = { x = 136 y = 177 }
 			}
 
 			instantTextBoxType = { 
 				name = "army_text"
-				position = { x = 135 y = 111 }
+				position = { x = 135 y = 181 }
 				font = "vic_18_black"
 				text = "army_text"	
 				maxWidth = 100
@@ -1346,17 +1346,17 @@ guiTypes = {
 			iconType = {
 				name = "navy_progress"
 				spriteType = "GFX_military_progress"
-				position = { x = 285 y = 111 }
+				position = { x = 285 y = 181 }
 			}
 			iconType = {
 				name = "navy_progress_overlay"
 				spriteType = "GFX_military_progress_overlay"
-				position = { x = 282 y = 107 }
+				position = { x = 282 y = 177 }
 			}			
 			
 			instantTextBoxType = { 
 				name = "navy_text"
-				position = { x = 281 y = 111 }
+				position = { x = 281 y = 171 }
 				font = "vic_18_black"
 				text = "navy_text"	
 				maxWidth = 100
@@ -1368,52 +1368,52 @@ guiTypes = {
 			iconType = {
 				name ="rally_land_icon"
 				spriteType = "GFX_rally_land_icon"
-				position = { x = 23 y = 105 }
+				position = { x = 23 y = 170 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="rally_naval_icon"
 				spriteType = "GFX_rally_naval_icon"
-				position = { x = 46 y = 104 }
+				position = { x = 46 y = 169 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name ="rallypoint_merge_icon"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 22 y = 138 }
+				position = { x = 22 y = 203 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="rallypoint_merge_icon_naval"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 46 y = 138 }
+				position = { x = 46 y = 203 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_checkbox"
-				position = { x = 23 y = 121 }
+				position = { x = 23 y = 186 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 				shortcut = "x"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox"
-				position = { x = 23 y = 148 }
+				position = { x = 23 y = 213 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 				shortcut = "c"
 			}
 			checkboxType = {
 				name = "rallypoint_checkbox_naval"
-				position = { x = 47 y = 121 }
+				position = { x = 47 y = 186 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "v"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox_naval"
-				position = { x = 47 y = 148 }
+				position = { x = 47 y = 213 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "b"
 			}
@@ -1463,7 +1463,7 @@ guiTypes = {
 	windowType = {
 		name = "building"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0}	
 		size = { x=380 y=35 }
 		moveable = 0
 		dontRender = ""
@@ -1471,10 +1471,22 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no	
 		Orientation = "UPPER_LEFT"
-		
+	
 		iconType = {
-			name = "build_icon0"
-			spriteType = "GFX_province_fort_strip"
+			name = "build_icon4"
+			spriteType = "GFX_immigrator_strip"
+			position = { x= 23 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "build_icon3"
+			spriteType = "GFX_immigrator_strip"
+			position = { x= 23 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "build_icon2"
+			spriteType = "GFX_province_infra_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1485,12 +1497,12 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
-			name = "build_icon2"
-			spriteType = "GFX_province_infra_strip"
+			name = "build_icon0"
+			spriteType = "GFX_province_fort_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextBoxType = { 
 			name = "description"
 			position = { x = 69 y = 7 }
@@ -1712,8 +1724,8 @@ guiTypes = {
 		windowType = {
 			name = "province_buildings"
 			backGround=""
-			position = { x=0 y=343 }	
-			size = { x=380 y=180 }
+			position = { x=0 y=303 }	
+			size = { x=380 y=145 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -1723,7 +1735,7 @@ guiTypes = {
 							
 			guiButtonType = {
 				name = "build_army"
-				position = { x = 82 y = 132 }
+				position = { x = 82 y = 136 }
 				quadTextureSprite = "GFX_button_standard_144"		
 				buttonText="PROVINCEVIEW_BUILD_ARMY2"	
 				buttonFont = "vic_18_black"
@@ -1734,7 +1746,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "build_navy"
-				position = { x = 238 y = 132 }
+				position = { x = 238 y = 128 }
 				quadTextureSprite = "GFX_button_standard_144"		
 				buttonText="PROVINCEVIEW_BUILD_NAVY2"	
 				buttonFont = "vic_18_black"
@@ -1746,12 +1758,12 @@ guiTypes = {
 			iconType = {
 				name = "army_icon"
 				spriteType = "GFX_topbar_army"
-				position = { x = 71 y = 104 }
+				position = { x = 71 y = 100 }
 			}
 			
 			instantTextBoxType = { 
 				name = "army_size"
-				position = { x = 103 y = 112 }
+				position = { x = 103 y = 108 }
 				font = "vic_18_black"
 				text = "army_size"	
 				maxWidth = 50
@@ -1762,23 +1774,23 @@ guiTypes = {
 			iconType = {
 				name = "navy_icon"
 				spriteType = "GFX_topbar_navy"
-				position = { x = 237 y = 104 }
+				position = { x = 237 y = 100 }
 			}
 			
 			iconType = {
 				name = "army_progress"
 				spriteType = "GFX_military_progress"
-				position = { x = 139 y = 111 }
+				position = { x = 139 y = 107 }
 			}
 			iconType = {
 				name = "army_progress_overlay"
 				spriteType = "GFX_military_progress_overlay"
-				position = { x = 136 y = 107 }
+				position = { x = 136 y = 111 }
 			}
 
 			instantTextBoxType = { 
 				name = "army_text"
-				position = { x = 135 y = 111 }
+				position = { x = 135 y = 107 }
 				font = "vic_18_black"
 				text = "army_text"	
 				maxWidth = 100
@@ -1789,17 +1801,17 @@ guiTypes = {
 			iconType = {
 				name = "navy_progress"
 				spriteType = "GFX_military_progress"
-				position = { x = 285 y = 111 }
+				position = { x = 285 y = 107 }
 			}
 			iconType = {
 				name = "navy_progress_overlay"
 				spriteType = "GFX_military_progress_overlay"
-				position = { x = 282 y = 107 }
+				position = { x = 282 y = 103 }
 			}			
 			
 			instantTextBoxType = { 
 				name = "navy_text"
-				position = { x = 281 y = 111 }
+				position = { x = 281 y = 107 }
 				font = "vic_18_black"
 				text = "navy_text"	
 				maxWidth = 100
@@ -1811,51 +1823,51 @@ guiTypes = {
 			iconType = {
 				name ="rally_land_icon"
 				spriteType = "GFX_rally_land_icon"
-				position = { x = 23 y = 105 }
+				position = { x = 23 y = 101 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="rally_naval_icon"
 				spriteType = "GFX_rally_naval_icon"
-				position = { x = 46 y = 104 }
+				position = { x = 46 y = 100 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
 				name ="rallypoint_merge_icon"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 22 y = 138 }
+				position = { x = 22 y = 134 }
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
 				name ="rallypoint_merge_icon_naval"
 				spriteType = "GFX_rally_merge_small"
-				position = { x = 46 y = 138 }
+				position = { x = 46 y = 134 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_checkbox"
-				position = { x = 23 y = 121 }
+				position = { x = 23 y = 117 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 				shortcut = "x"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox"
-				position = { x = 23 y = 148 }
+				position = { x = 23 y = 144 }
 				quadTextureSprite = "GFX_rally_land_checkbox"
 			}
 			checkboxType = {
 				name = "rallypoint_checkbox_naval"
-				position = { x = 47 y = 121 }
+				position = { x = 47 y = 117 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "v"
 			}
 			
 			checkboxType = {
 				name = "rallypoint_merge_checkbox_naval"
-				position = { x = 47 y = 148 }
+				position = { x = 47 y = 144 }
 				quadTextureSprite = "GFX_rally_naval_checkbox"
 				shortcut = "b"
 			}

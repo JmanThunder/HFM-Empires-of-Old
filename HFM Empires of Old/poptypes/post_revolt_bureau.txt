@@ -156,7 +156,12 @@ country_migration_target =
 migration_target =
 {
 	factor = 0.01
-	
+
+	modifier = {
+		factor = -100
+		NOT = { has_building = immigrator }
+		country = { ai = no }
+	}
 	modifier = {
 		factor = 0.1
 		unemployment = 0.1
