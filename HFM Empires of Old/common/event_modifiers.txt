@@ -3492,7 +3492,7 @@ RGO_education_0 = {
     middle_income_modifier = 0
     rich_income_modifier = 0
 	immigrant_push = 0
-	population_growth = 0.05
+	population_growth = 0.005
 	icon = 3
 }
 
@@ -3515,7 +3515,7 @@ RGO_education_1 = {
     rich_income_modifier = 0.1
 	immigrant_push = 0.1
 	goods_demand = 0.01
-	population_growth = 0.04
+	population_growth = 0.004
 	life_rating = 0.03
 	icon = 3
 }
@@ -3539,7 +3539,7 @@ RGO_education_2 = {
     rich_income_modifier = 0.2
 	immigrant_push = 0.2
 	goods_demand = 0.02
-	population_growth = 0.03
+	population_growth = 0.003
 	life_rating = 0.06
 	icon = 3
 }
@@ -3563,7 +3563,7 @@ RGO_education_3 = {
     rich_income_modifier = 0.3
 	immigrant_push = 0.30
 	goods_demand = 0.03
-	population_growth = 0.02
+	population_growth = 0.002
 	life_rating = 0.09
 	icon = 3
 }
@@ -3587,7 +3587,7 @@ RGO_education_4 = {
     rich_income_modifier = 0.4
 	immigrant_push = 0.4
 	goods_demand = 0.04
-	population_growth = 0.01
+	population_growth = 0.001
 	life_rating = 0.12
 	icon = 3
 }
@@ -3611,7 +3611,7 @@ RGO_education_5 = {
     rich_income_modifier = 0.5
 	immigrant_push = 0.5
 	goods_demand = 0.05
-	population_growth = -0.01
+	population_growth = -0.001
 	life_rating = 0.15
 	icon = 3
 }
@@ -3635,7 +3635,7 @@ RGO_education_6 = {
     rich_income_modifier = 0.6
 	immigrant_push = 0.6
 	goods_demand = 0.06
-	population_growth = -0.015
+	population_growth = -0.0015
 	life_rating = 0.18
 	icon = 3
 }
@@ -3659,7 +3659,7 @@ RGO_education_7 = {
     rich_income_modifier = 0.35
 	immigrant_push = 0.35
 	goods_demand = 0.07
-	population_growth = -0.02
+	population_growth = -0.002
 	life_rating = 0.21
 	icon = 3
 }
@@ -3683,7 +3683,7 @@ RGO_education_8 = {
     rich_income_modifier = 0.8
 	immigrant_push = 0.8
 	goods_demand = 0.08
-	population_growth = -0.025
+	population_growth = -0.0025
 	life_rating = 0.24
 	icon = 3
 }
@@ -3707,7 +3707,7 @@ RGO_education_9 = {
     rich_income_modifier = 0.9
 	immigrant_push = 0.9
 	goods_demand = 0.09
-	population_growth = -0.03
+	population_growth = -0.003
 	life_rating = 0.27
 	icon = 3
 }
@@ -3731,7 +3731,7 @@ RGO_education_10 = {
     rich_income_modifier = 1.0
 	immigrant_push = 1.0
 	goods_demand = 0.1
-	population_growth = -0.035
+	population_growth = -0.0035
 	life_rating = 0.30
 	icon = 3
 }
