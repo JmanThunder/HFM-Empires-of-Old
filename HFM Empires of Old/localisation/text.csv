@@ -15120,7 +15120,7 @@ UNITARRIVED_2;our $TYPE$ of;notre $TYPE$,;Unsere $TYPE$;$TYPE$ przybywa!;nuestro
 UNITARRIVED_3;$NAME$;$NAME$;$NAME$;nasze $TYPE$ z;$NAME$;$TYPE$ di;$TYPE$ egységünk,;naše $TYPE$ jménem;;;;;;x;;;;
 UNITARRIVED_4;has safely arrived in;est arrivé sans encombre dans la province;ist sicher in;$NAME$;ha llegado a salvo a;$NAME$;$NAME$;$NAME$;;;;;;x;;;;
 UNITARRIVED_5;$PROV$;$PROV$.;$PROV$ angekommen.;przybywa (-j¹) bezpiecznie do;$PROV$;è arrivato in sicurezza a;sikeresen megérkezett;bezpeènì dorazila do;;;;;;x;;;;
-UNITARRIVED_6;They are awaiting further orders;Ils y attendent de nouveaux ordres.;Sie warten auf weitere Befehle.;prowincji $PROV$;Están esperando órdenes adicionales;$PROV$;$PROV provinciára.;$PROV$;;;;;;x;;;;
+UNITARRIVED_6;They are awaiting further orders;Ils y attendent de nouveaux ordres.;Sie warten auf weitere Befehle.;prowincji $PROV$;Están esperando órdenes adicionales;$PROV$;$PROV$ provinciára.;$PROV$;;;;;;x;;;;
 UNITARRIVED_LOG;$NAME$ arrived in $PROV$;$NAME$ est arrivé dans la province $PROV$;$NAME$ ist in $PROV$ angekommen.;Oczekuj¹ na dalsze rozkazy;$NAME$ llegó a $PROV$;Attende ulteriori ordini;További parancsainkra várnak.;Oèekává další rozkazy.;;;;;;x;;;;
 UNITARRIVED_BTN1;OK;OK;OK;$NAME$ przyby³ do prowincji $PROV$;Aceptar;;$NAME$ è arrivato in $PROV$è arrivato in;$NAME$ dorazil do $PROV$;;;;;;x;;;;
 UNITARRIVED_BTN2;OK;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x;;;;

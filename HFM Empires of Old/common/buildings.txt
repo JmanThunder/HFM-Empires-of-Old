@@ -864,29 +864,6 @@ sugar_beet_refinery = {
 	pop_build_factory = yes
 }
 
-sea_fuel_refinery = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 50
-		steel = 50
-		bronze = 50
-		cement = 50
-	}
-	time = 365
-	visibility = yes
-	onmap = no
-
-	default_enabled = yes	
-	production_type = whaler_sealer_fuel
-	pop_build_factory = yes
-	strategic_factory = yes
-}
-
 fur_luxury_clothes_factory = {
 	type = factory
 

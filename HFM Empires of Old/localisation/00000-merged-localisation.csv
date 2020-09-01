@@ -208,13 +208,9 @@ fur;Furs;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 cocoa_plantation;Cocoa Plantation;;;;;;;;;x
 fur_trapper;Furrier;;;;;;;;;x
-whaler_sealer;Tryworker;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-whaler_sealer_fuel;Industrial Trywork;;;;;;;;;x
-artisan_whaler_sealer_fuel;Tryworker;;;;;;;;;x
 wool_fabric_factory;Woolen Fabric Factory;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-sea_fuel_refinery;Industrial Trywork;;;;;;;;;x
 fur_luxury_clothes_factory;Luxury Clothes Factory (Fur);;;;;;;;;x
 luxury_clothes_factory;Luxury Clothes Factory (Silk);;;;;;;;;x
 fursil_luxury_clothes_factory;Luxury Clothes Factory (Fur & Silk);;;;;;;;;x
