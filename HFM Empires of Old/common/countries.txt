@@ -100,6 +100,10 @@ PRO 	= "countries/Provence.txt"
 TUL 	= "countries/Toulouse.txt"
 ARN 	= "countries/Aragon.txt"
 JER 	= "countries/Jerusalem.txt"
+REW		="countries/Rewah.txt"
+PNK        ="countries/Pontianak.txt"
+NEH        ="countries/Neuchatel Canton.txt"
+GHN        ="countries/Ghana.txt"
 
 ###Colonial Spain Countries
 CGC 		= "countries/Colonial Chile.txt"

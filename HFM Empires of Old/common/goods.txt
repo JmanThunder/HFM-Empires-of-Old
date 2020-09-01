@@ -92,10 +92,6 @@ raw_material_goods = {
 		cost = 12.5
 		color = { 253 199 110 }
 	}
-	sea_oil = {
-		cost = 14
-		color = { 253 199 110 }
-	}
 	precious_metal = { 
 		cost = 8
 		tradeable = no

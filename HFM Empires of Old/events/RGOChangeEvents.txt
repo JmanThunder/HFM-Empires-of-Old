@@ -145,7 +145,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -312,7 +312,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -476,7 +476,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -714,7 +714,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -885,7 +885,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1105,7 +1105,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1283,7 +1283,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1430,7 +1430,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1580,7 +1580,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1739,7 +1739,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -1828,7 +1828,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -2004,7 +2004,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -2093,7 +2093,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -2381,7 +2381,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}
@@ -2669,7 +2669,7 @@ province_event = {
 			NOT = { trade_goods = lead }
 			NOT = { trade_goods = cocoa }
 			NOT = { trade_goods = spices }
-			NOT = { trade_goods = sea_oil }
+			
 			NOT = { trade_goods = furs }
 			NOT = { trade_goods = sugar }
 		}

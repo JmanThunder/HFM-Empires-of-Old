@@ -1766,42 +1766,6 @@ artisan_fursil_luxury_clothes = {
 }
 
 
-
-whaler_sealer = {
-	template = RGO_template_labourers
-	output_goods = sea_oil 
-	value = 1.2
-	farm = yes
-}
-whaler_sealer_fuel = {
-	template = factory_template
-	input_goods = { 
-		sea_oil = 2.1			#30	total input+maint = 40
-	}
-	output_goods = fuel
-	value = 2			#50
-	bonus = {
-		trigger = { trade_goods_in_state = sea_oil }
-		value = 0.2
-	}
-}
-artisan_whaler_sealer_fuel = {
-	input_goods = { 
-		sea_oil = 2.1			#30	total input+maint = 40
-	}
-	output_goods = fuel
-	value = 2			#50
-	
-	owner = {
-		poptype = artisans 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 10000
-}
-
 wool_fabric_factory = {       
 	template = factory_template
 	input_goods = {     
