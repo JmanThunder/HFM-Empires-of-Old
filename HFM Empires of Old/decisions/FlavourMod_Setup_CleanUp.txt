@@ -124,6 +124,10 @@ political_decisions = {
 			AUS = { inherit = LIE }
 			3266 = { remove_core = SMR add_core = PAP add_core = ITA }
 			PAP = { inherit = SMR }
+			3325 = { remove_core = CUO add_core = SPA }
+			SPA = { inherit = CUO }
+			3320 = { remove_core = MRN add_core = BEL }
+			BEL = { inherit = MRN }
 		}
 	}
 	
