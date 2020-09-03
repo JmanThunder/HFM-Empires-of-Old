@@ -7297,6 +7297,170 @@ conquest_low = {
 				}
 			}
 		}
+		NOT = { is_our_vassal = THIS }
+		OR = {
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
+			neighbour = THIS
+			AND = { war_with = THIS ai = no }
+		}
+		OR = {
+			THIS = { civilized = no }
+			civilized = yes
+		}
+		OR = {
+			NOT = {
+				any_state = {
+					is_colonial = no
+					NOT = { any_owned_province = { is_capital = yes } }
+				}
+			}
+			AND = {
+				THIS = { government = fascist_dictatorship }
+				NOT = { number_of_states = 4 }
+			}
+			AND = {
+				tag = SWI
+				NOT = { number_of_states = 4 }
+			}
+		}
+		is_vassal = no
+		NOT = { has_country_modifier = neutrality }
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			THIS = { government = fascist_dictatorship }
+			THIS = { government = proletarian_dictatorship }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			THIS = { ai = no }
+		}
+		
+		#AI anti-military will not use this
+		OR = {
+			THIS = { ai = no }
+			THIS = { NOT = { war_policy = anti_military } }
+		}
+		
+		#AI will not use this when fighting for hegemony
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					any_owned_province = {
+						any_core = {
+							is_cultural_union = yes
+							this_culture_union = this_union
+						}
+					}	
+					any_greater_power = {
+						war_with = THIS
+						culture_has_union_tag = yes
+						is_culture_group = THIS
+						cultural_union = { exists = no }
+					}
+					THIS = { is_greater_power = yes }
+				}
+			}
+		}
+		
+		#AI can only grab neighboring states, coastal if it's a coastal GP
+		OR = {
+			THIS = { ai = no }
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+					}
+					any_owned_province = { port = yes }
+				}
+			}
+		}
+		
+		#AI will not grab cores of allies/spherelings
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				any_owned_province = {
+					any_core = {
+						exists = yes
+						OR = {
+							alliance_with = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		#AI will not try to grab cores of their union if they're sphere to a GP of their culture group
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					THIS = {
+						is_greater_power = no
+						part_of_sphere = yes
+						culture_has_union_tag = yes
+						cultural_union = { exists = no }
+						sphere_owner = { is_culture_group = THIS }
+					}
+					any_owned_province = {
+						any_core = {
+							is_cultural_union = yes
+							this_culture_union = this_union
+						}
+					}
+				}
+			}
+		}
+		
+		#pro-military AI will not grab cores of non-existing, non-union countries
+		#unless they own some cores or it's part of their culture group
+		#jingoistic will also grab existing cores that they already own some of
+		#fascist & communist countries are exempt from this
+		OR = {
+			THIS = { ai = no }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { government = fascist_dictatorship }
+			AND = {
+				THIS = { war_policy = pro_military }
+				any_owned_province = {
+					any_core = {
+						is_cultural_union = no
+						exists = no
+						OR = {
+							any_core = { owned_by = THIS }
+							is_culture_group = THIS
+						}
+					}
+				}
+			}
+			AND = {
+				THIS = { war_policy = jingoism }
+				any_owned_province = {
+					any_core = {
+						OR = {
+							any_core = { owned_by = THIS }
+							AND = {
+								exists = no
+								is_cultural_union = no
+								is_culture_group = THIS
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 
 	badboy_factor = 1.0
@@ -7349,23 +7513,54 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
+		is_vassal = no
+		OR = {
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
+			neighbour = THIS
+			AND = { war_with = THIS ai = no }
+		}
+		NOT = { 
+			is_our_vassal = THIS
+			has_country_modifier = neutrality
+		}
+		any_state = {
 			is_colonial = no
 		}
 		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
+			THIS = { civilized = no }
+			civilized = yes
+		}
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			THIS = { government = fascist_dictatorship }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { civilized = no }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			THIS = { ai = no }
+		}
+		#AI anti-military will not use this
+		OR = {
+			THIS = { ai = no }
+			THIS = { NOT = { war_policy = anti_military } }
+		}
+		#AI will not use this CB when duking it out over hegemony
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					culture_has_union_tag = yes
+					is_culture_group = THIS
+					cultural_union = { exists = no }
+					is_greater_power = yes
+					THIS = { is_greater_power = yes }
 				}
 			}
 		}
