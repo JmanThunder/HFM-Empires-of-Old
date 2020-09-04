@@ -3,6 +3,7 @@ political_decisions = {
 
 	become_saudi_arabia = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = NEJ
 				tag = HDJ
@@ -104,6 +105,7 @@ political_decisions = {
 	form_saudi_arabia = {
 		picture = become_saudi_arabia
 		potential = {
+			exists = yes
 			NOT = {
 				tag = NEJ
 				tag = HDJ
@@ -209,6 +211,7 @@ political_decisions = {
 	form_arab_union = {
 	picture = form_arab_union
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = post_colonial_country }
 			OR = {
 				primary_culture = mashriqi
@@ -276,6 +279,7 @@ political_decisions = {
 	form_maghreb = {
 		picture = form_maghreb
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = post_colonial_country }
 			primary_culture = maghrebi
 			NOT = { exists = MGH }
@@ -382,6 +386,7 @@ political_decisions = {
 	maghrebi_claims = {
 		picture = form_maghreb
 		potential = {
+			exists = yes
 			tag = MGH
 			NOT = { has_country_flag = maghrebi_claims }
 		}
@@ -419,6 +424,7 @@ political_decisions = {
 	arab_union_claims = {
 		picture = form_arab_union
 		potential = {
+			exists = yes
 			tag = ARU
 			NOT = { has_country_flag = arab_union_claims }
 		}
@@ -458,6 +464,7 @@ political_decisions = {
 	start_pearl_hunting = {
 		picture = bahrain_trade
 		potential = {
+			exists = yes
 			ai = yes
 			OR = {
 				1162 = {
@@ -525,6 +532,7 @@ political_decisions = {
 	end_pearl_hunting = {
 		picture = bahrain_trade
 		potential = {
+			exists = yes
 			ai = yes
 			OR = {
 				1162 = {

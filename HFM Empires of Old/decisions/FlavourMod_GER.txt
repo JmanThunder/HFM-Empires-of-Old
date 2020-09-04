@@ -1,7 +1,8 @@
 political_decisions = {
 	build_reichstag = {
 		picture = "reichstag"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = {
 				tag = GER
 				tag = GCF
@@ -39,7 +40,8 @@ political_decisions = {
 	
 	berlin_baghdad_railway = {
 		picture = "berlin_baghdad"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = {
 				tag = GER
 				tag = GCF
@@ -79,6 +81,7 @@ political_decisions = {
 	franco_prussian_war_memorial = {
 		picture = "franco_prussian_memorial"
 		potential = {
+			exists = yes
 			OR = {
 				tag = GER
 				tag = GCF
@@ -132,7 +135,8 @@ political_decisions = {
 	
 	franco_prussian_war_memorial2 = {  #Alternate Non-EMS Dispatch Unification Through an AI Freeing ALS, Allows AUS/BAV to use as well
 		picture = "franco_prussian_memorial"
-		potential = { 
+		potential = {
+			exists = yes 
 			is_greater_power = yes
 			is_culture_group = germanic
 			ALS = { exists = yes }
@@ -204,7 +208,8 @@ political_decisions = {
 	
 	treaty_of_vienna = {
 		picture = "form_germany"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = { 
 				tag = GER
 				AND = {
@@ -295,7 +300,8 @@ political_decisions = {
 	
 	bohemian_question = {
 		picture = "czech_autonomy"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = {
 				tag = GER
 				tag = GCF
@@ -365,6 +371,7 @@ political_decisions = {
 	greater_germany_hungarian_border_treaty = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = greater_germany_hungarian_border_treaty_tried }
 			OR = { 
 				tag = GER
@@ -467,7 +474,8 @@ political_decisions = {
 	
 	ger_ai_banat = {
 		picture = "treaty_signing"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -529,7 +537,8 @@ political_decisions = {
 	
 	dutch_prussian_alliance = {
 		picture = "treaty_signing"
-		potential = { 
+		potential = {
+			exists = yes 
 			is_greater_power = yes
 			primary_culture = north_german
 			387 = { is_core = NET }
@@ -555,6 +564,7 @@ political_decisions = {
 	treaty_of_amsterdamn = {
 		picture = "treaty_signing"
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			primary_culture = north_german
 			NOT = { exists = BEL }
@@ -581,6 +591,7 @@ political_decisions = {
 	the_jade_purchase = {
 		picture = "wilhelmshaven"
 		potential = {
+			exists = yes
 			tag = PRU
 			NOT = { has_country_flag = has_asked_for_jade }
 			NOT = { owns = 3259 }
@@ -617,6 +628,7 @@ political_decisions = {
 	rhineland_reacquire = {
 		picture = "rhineland"
 		potential = {
+			exists = yes
 			is_culture_group = germanic
 			is_greater_power = yes
 			NOT = { tag = KUK }
@@ -655,6 +667,7 @@ political_decisions = {
 	claim_liechenstein = {
 	picture = form_germany
 		potential = {
+			exists = yes
 			OR = { 
 				tag = GER
 				tag = GCF
@@ -697,6 +710,7 @@ political_decisions = {
 	become_schleswig = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			tag = SWH
 			any_owned_province = { is_core = HOL }
 			exists = HOL
@@ -741,6 +755,7 @@ political_decisions = {
 	begin_austro_prussian_war = {
 		picture = austro_prussian_war
 		potential = {
+			exists = yes
 			tag = PRU
 			nationalism_n_imperialism = 1
 			year = 1860
@@ -792,6 +807,7 @@ political_decisions = {
 	duchy_of_lorraine = {
 		picture = duchy_of_lorraine
 		potential = {
+			exists = yes
 			is_culture_group = germanic
 			is_greater_power = yes
 			owns = 411
@@ -852,6 +868,7 @@ political_decisions = {
 	wilhelmshaven_imperial_shipyard = {
 		picture = wilhelmshaven_imperial_shipyard
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = wilhelmshaven_imperial_shipyard_built }
 			tag = GER
 			owns = 3259
@@ -928,6 +945,7 @@ political_decisions = {
 	danzig_imperial_shipyard = {
 		picture = danzig_imperial_shipyard
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = danzig_imperial_shipyard_built }
 			OR = {
 				tag = PRU
@@ -954,7 +972,7 @@ political_decisions = {
 			690 = { naval_base = 3 }
 			random_owned = {
 				limit = {
-					province_id = 690 #Westpreußen
+					province_id = 690 #Westpreu??en
 					state_scope = {
 						NOT = { has_building = steamer_shipyard }
 					}
@@ -1011,6 +1029,7 @@ political_decisions = {
 	prussian_settlement_commission = {
 		picture = prussian_settlement_commission
 		potential = {
+			exists = yes
 			is_culture_group = germanic
 			is_greater_power = yes
 			NOT = { tag = KUK }
@@ -1059,7 +1078,7 @@ political_decisions = {
 					OR = {
 						region = PRU_682 #Lower Silesia
 						region = PRU_701 #Posen
-						region = PRU_690 #Westpreußen
+						region = PRU_690 #Westpreu??en
 						
 					}
 				}

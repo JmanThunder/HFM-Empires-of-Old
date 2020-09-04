@@ -2,6 +2,7 @@ political_decisions = {
 	USA_CAN_Expansion = { 
 		picture = apply_for_USA_statehood
 		potential = {
+			exists = yes
 			has_global_flag = USA_claimoregon
 			tag = USA
 			FRA = {
@@ -74,6 +75,7 @@ political_decisions = {
 	USA_CAN_denied = { 
 		picture = canadian_dominion
 		potential = {
+			exists = yes
 			tag = ENG
 			USA = {
 				has_country_flag = USA_CAN_Expansion
@@ -158,6 +160,7 @@ political_decisions = {
 	USA_CAN_achieved = {
 		picture = apply_for_USA_statehood
 		potential = {
+			exists = yes
 			tag = USA
 			USA = {
 				has_country_flag = USA_CAN_Expansion
@@ -249,6 +252,7 @@ political_decisions = {
 	FRA_USA_QUE = {
 		picture = quebec_question
 		potential = {
+			exists = yes
 			tag = FRA
 			has_global_flag = USA_CAN_achieved
 			NOT = {
@@ -291,6 +295,7 @@ political_decisions = {
 	USA_french = {
 		picture = quebec_question
 		potential = {
+			exists = yes
 			tag = USA
 			owns = 58
 			owns = 65
@@ -318,7 +323,8 @@ political_decisions = {
 	
 	USA_canadian = {
 		picture = canadian_dominion
-		potential = { 
+		potential = {
+			exists = yes 
 			owns = 57
 			tag = USA
 			NOT = { accepted_culture = anglo_canadian }
@@ -337,6 +343,7 @@ political_decisions = {
 	shield_NW = {
 		picture = switch_to_liberty
 		potential = {
+			exists = yes
 			tag = USA
 			government = democracy
 			NOT = { exists = CSA }
@@ -395,6 +402,7 @@ political_decisions = {
 	NW_hegemony = {
 		picture = form_union_nation
 		potential = {
+			exists = yes
 			tag = USA
 			government = democracy
 			NOT = { exists = CSA }
@@ -834,6 +842,7 @@ political_decisions = {
 	outside_form_FRCA = {
 		picture = map_central_america
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { has_global_flag = FRCA_outside }
@@ -992,6 +1001,7 @@ political_decisions = {
 	outside_UCA_YUC = {
 		picture = map_central_america
 		potential = {
+			exists = yes
 			OR = {
 				UCA = { vassal_of = THIS }
 				tag = UCA
@@ -1057,6 +1067,7 @@ political_decisions = {
 	mexican_monarch = {
 		picture = restore_mexican_empire
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { has_global_flag = mexican_monarch }
@@ -1086,6 +1097,7 @@ political_decisions = {
 	
 	YUC_MMwar = { 
 		potential = {
+			exists = yes
 			tag = USA
 			NOT = { exists = YUC }
 			war_with = MEX
@@ -1134,6 +1146,7 @@ political_decisions = {
 	
 	GUA_MMWar = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = GUA
 				tag = UCA
@@ -1186,6 +1199,7 @@ political_decisions = {
 	form_CRB_USA = {
 		picture = claim_the_caribbean
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { exists = CRB }
@@ -1316,6 +1330,7 @@ political_decisions = {
 	
 	LSK_form = {
 		potential = {
+			exists = yes
 			tag = USA
 			LSK = { 
 				all_core = { 
@@ -1340,7 +1355,8 @@ political_decisions = {
 	
 	andean_congress = {
 		picture = peru_bolivia
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { has_country_flag = andean_congress }
@@ -1498,7 +1514,8 @@ political_decisions = {
 	}
 	CHL_andean = {
 		picture = chile_bolivia_peru_borders
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = USA
 			government = democracy
 			has_country_flag = andean_congress
@@ -1540,6 +1557,7 @@ political_decisions = {
 	CHL_andean_force = {
 		picture = chile_bolivia_peru_borders
 		potential = {
+			exists = yes
 			tag = USA
 			exists = PBC
 			NOT = { has_country_flag = CHL_andean_force }
@@ -1564,6 +1582,7 @@ political_decisions = {
 	panama_compromise = {
 		picture = colombia_map
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { has_country_flag = panama_compromise }
@@ -1590,6 +1609,7 @@ political_decisions = {
 	
 	BRZ_USA = {
 		potential = {
+			exists = yes
 			tag = USA
 			government = democracy
 			has_country_flag = NW_hegemony
@@ -1623,6 +1643,7 @@ political_decisions = {
 	
 	LPL_USA = {
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = NW_hegemony
 			NOT = { has_country_flag = LPL_USA }
@@ -1729,6 +1750,7 @@ political_decisions = {
 	}	
 	NEN_rename = {
 		potential = {
+			exists = yes
 			has_global_flag = new_england_rename
 			USA_247 = { owned_by = THIS }
 			NOT = { has_country_flag = NW_hegemony } 

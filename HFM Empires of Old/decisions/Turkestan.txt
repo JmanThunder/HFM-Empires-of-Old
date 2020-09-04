@@ -2,6 +2,7 @@ political_decisions = {
 	become_uzbekistan_khiva = {
 		picture = become_uzbekistan
 		potential = {
+			exists = yes
 			tag = KHI
 			NOT = { exists = UZB }
 		}
@@ -45,6 +46,7 @@ political_decisions = {
 	become_uzbekistan_bukkhara = {
 		picture = become_uzbekistan
 		potential = {
+			exists = yes
 			tag = BUK
 			NOT = { exists = UZB }
 		}
@@ -88,6 +90,7 @@ political_decisions = {
 	become_kyrgyzstan = {
 	picture = become_kyrgyzstan
 		potential = {
+			exists = yes
 			tag = KOK
 			NOT = { exists = KYR }
 		}
@@ -124,6 +127,7 @@ political_decisions = {
 	unite_turkestan = {
 	picture = unite_turkestan
 		potential = {
+			exists = yes
 			OR = {
 				tag = TKM
 				tag = UZB
@@ -233,6 +237,7 @@ political_decisions = {
 	form_turkestan = {
 	picture = unite_turkestan
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
 			NOT = { has_country_flag = post_colonial_country }

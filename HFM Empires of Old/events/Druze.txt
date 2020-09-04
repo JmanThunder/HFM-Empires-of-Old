@@ -6,6 +6,7 @@ country_event = {
 	picture = "demolished_mosque"
 
 	trigger = {
+			exists = yes
 		tag = EGY
 		owns = 912
 		owns = 916
@@ -62,6 +63,7 @@ country_event = {
 	picture = "demolished_church"
 
 	trigger = {
+			exists = yes
 		tag = TUR
 		owns = 902
 		owns = 912
@@ -315,6 +317,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+			exists = yes
 		OR = {
 				tag = TUR
 				AND = {

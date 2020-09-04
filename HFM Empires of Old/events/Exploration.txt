@@ -8,6 +8,7 @@ country_event = {
 	id =  23200 # First attempt
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = NileDiscovered }
 		NOT = { has_country_flag = NoGoToNile }
 		NOT = { has_country_flag = YesGoToNileAgain }
@@ -82,6 +83,7 @@ country_event = {
 	id = 23201 # First attempt fails, try again?
 	
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToNile
 		NOT = { has_global_flag = NileDiscovered }
 		NOT = { has_country_flag = NoGoToNile }
@@ -143,6 +145,7 @@ country_event = {
 	id = 23202 # Our Mission to the Nile is lost
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToNileAgain
 		NOT = { has_global_flag = NileDiscovered }
 		NOT = { has_country_flag = NoGoToNile }
@@ -207,6 +210,7 @@ country_event = {
 	news_desc_short = "EVTDESC23203_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		or = {
 			has_country_flag = YesGoToNileAgain
 			has_country_flag = YesGoToNileThird
@@ -253,6 +257,7 @@ country_event = {
 	id = 23204 # First attempt
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = NorthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToNorthPole }
 		NOT = { has_country_flag = YesGoToNorthPole }
@@ -325,6 +330,7 @@ country_event = {
 	id = 23205 # First attempt fails, try again?
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToNorthPole
 		NOT = { has_global_flag = NorthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToNorthPole }
@@ -384,6 +390,7 @@ country_event = {
 	id = 23206 # Our Mission to the North Pole is lost
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToNorthPoleAgain
 		NOT = { has_global_flag = NorthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToNorthPole }
@@ -448,6 +455,7 @@ country_event = {
 	news_desc_short = "EVTDESC23207_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		or = {
 			has_country_flag = YesGoToNorthPoleAgain
 			has_country_flag = YesGoToNorthPoleThird
@@ -493,6 +501,7 @@ country_event = {
 	id = 23208 # First attempt
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = SouthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToSouthPole }
 		NOT = { has_country_flag = YesGoToSouthPoleAgain }
@@ -565,6 +574,7 @@ country_event = {
 	id = 23209 # First attempt fails, try again?
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToSouthPole
 		NOT = { has_global_flag = SouthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToSouthPole }
@@ -625,6 +635,7 @@ country_event = {
 	id = 23210 # Our Mission to the South Pole is lost
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToSouthPoleAgain
 		NOT = { has_global_flag = SouthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToSouthPole }
@@ -689,6 +700,7 @@ country_event = {
 	news_desc_short = "EVTDESC23211_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		or = {
 			has_country_flag = YesGoToSouthPoleAgain
 			has_country_flag = YesGoToSouthPoleThird
@@ -733,7 +745,8 @@ country_event = {
 
 	id = 23212
 
-	trigger = { 
+	trigger = {
+			exists = yes 
 		civilized = yes
 	}
 
@@ -768,6 +781,7 @@ country_event = {
 	news_desc_short = "EVTDESC23213_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		has_country_flag = YesGoToSouthPole
 		NOT = { has_global_flag = SouthPoleDiscovered }
 		NOT = { has_country_flag = NoGoToSouthPole }
@@ -802,6 +816,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = lake_victoria_discovered }
 		NOT = { has_country_flag = NoGoToNile }
 		OR = {
@@ -915,7 +930,7 @@ country_event = {
 		random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Mehmed" } }
 		random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Nassau" } }
 		random_owned = { limit = { owner = { primary_culture = south_italian } } 3102 = { change_province_name = "Lake Ferdinando" } }
-		random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Bragança" } }
+		random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Bragan?a" } }
 		random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Vasa" } }
 		random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Reventlow" } }
 		random_owned = { limit = { owner = { primary_culture = wallonian } } 3102 = { change_province_name = "Lake Saxe-Cobourg" } }
@@ -940,7 +955,7 @@ country_event = {
 		random_owned = { limit = { owner = { primary_culture = french } } 3102 = { change_province_name = "Lake Descartes" } }
 		random_owned = { limit = { owner = { primary_culture = turkish } } 3102 = { change_province_name = "Lake Arslan" } }
 		random_owned = { limit = { owner = { primary_culture = dutch } } 3102 = { change_province_name = "Lake Willem" } }
-		random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Sebastião" } }
+		random_owned = { limit = { owner = { primary_culture = portuguese } } 3102 = { change_province_name = "Lake Sebasti?o" } }
 		random_owned = { limit = { owner = { primary_culture = swedish } } 3102 = { change_province_name = "Lake Eric" } }
 		random_owned = { limit = { owner = { primary_culture = danish } } 3102 = { change_province_name = "Lake Harthacnut" } }
 		random_owned = { limit = { owner = { primary_culture = wallonian } } 3102 = { change_province_name = "Lake Mercator" } }
@@ -955,7 +970,7 @@ country_event = {
 		prestige = 40
 		random_owned = { limit = { owner = { primary_culture = british } } 3102 = { change_province_name = "Lake Britannia" } }
 		random_owned = { limit = { owner = { primary_culture = north_german } } 3102 = { change_province_name = "Lake Germania" } }
-		random_owned = { limit = { owner = { capital = 619 } } 3102 = { change_province_name = "Lake Österreich" } }
+		random_owned = { limit = { owner = { capital = 619 } } 3102 = { change_province_name = "Lake ?sterreich" } }
 		random_owned = {
 			limit = { owner = { OR = { primary_culture = north_italian primary_culture = south_italian } } } 
 			3102 = { change_province_name = "Lake Italia" }
@@ -1012,6 +1027,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = lake_victoria_discovered }
 		NOT = { has_country_flag = NoGoToNile }
 		OR = {

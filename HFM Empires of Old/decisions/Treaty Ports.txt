@@ -2,6 +2,7 @@ political_decisions = {
 	ifni_treaty_port = {
 		picture = laghouat_algiers
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1695 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -20,6 +21,7 @@ political_decisions = {
 	qeshm_treaty_port = {
 		picture = qeshm_iran
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1071 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_global_flag = qeshm_treaty_port_alternate }
@@ -38,6 +40,7 @@ political_decisions = {
 	qeshm_treaty_port_alternate = {
 		picture = qeshm_iran
 		potential = {
+			exists = yes
 			civilized = yes
 			#ai = yes
 			NOT = { primary_culture = persian }
@@ -76,6 +79,7 @@ political_decisions = {
 	macao_treaty_port = {
 		picture = macao_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1498 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -126,6 +130,7 @@ political_decisions = {
 	hong_kong_treaty_port = {
 		picture = hong_kong_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1496 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -163,6 +168,7 @@ political_decisions = {
 		picture = shanghai_china
 		
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty	
 			1538 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -213,6 +219,7 @@ political_decisions = {
 	qingdao_treaty_port = {
 		picture = qingdao_china
 		potential = {
+			exists = yes
 			OR = { 
 				tag = NGF
 				tag = GER
@@ -275,6 +282,7 @@ political_decisions = {
 	lushun_treaty_port = {
 		picture = port_arthur
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1481 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -324,6 +332,7 @@ political_decisions = {
 	weihaiwei_treaty_port = {
 		picture = weihaiwei_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1569 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -377,6 +386,7 @@ political_decisions = {
 	jiaxing_treaty_port = {
 		picture = jiaxing_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1606 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -434,6 +444,7 @@ political_decisions = {
 	taipei_treaty_port = {
 		picture = taipei_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			2406 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			1485 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
@@ -492,6 +503,7 @@ political_decisions = {
 	hainan_treaty_port = {
 		picture = hainan_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1499 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -549,6 +561,7 @@ political_decisions = {
 	kwangchowan_treaty_port = {
 		picture = kwangchowan_china
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -609,6 +622,7 @@ political_decisions = {
 	ningbo_treaty_port = {
 		picture = ningbo_china
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1608 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -660,6 +674,7 @@ political_decisions = {
 	tianjin_treaty_port = {
 		picture = tianjin_china
 		potential = {
+			exists = yes
 			year = 1895
 			has_country_modifier = negotiating_treaty
 			3249 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
@@ -718,6 +733,7 @@ political_decisions = {
 	gwadar_treaty_port = {
 		picture = gwadar_pakistan
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			2640 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -736,6 +752,7 @@ political_decisions = {
 	socotra_treaty_port = {
 		picture = socotra_yemen
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1177 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -754,6 +771,7 @@ political_decisions = {
 	zanzibar_treaty_port = {
 		picture = zanzibar_oman
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			2048 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -772,6 +790,7 @@ political_decisions = {
 	cheju_treaty_port = {
 		picture = cheju_korea
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			1637 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -790,6 +809,7 @@ political_decisions = {
 	tsushima_treaty_port = {
 		picture = tsushima_japan
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			2589 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
@@ -807,6 +827,7 @@ political_decisions = {
 	sado_treaty_port = {
 		picture = sado_japan
 		potential = {
+			exists = yes
 			has_country_modifier = negotiating_treaty
 			3260 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}

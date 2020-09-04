@@ -13,6 +13,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		year = 1908
 		owns = 2694
 	}
@@ -44,6 +45,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		year = 1883
 		owns = 1414
 	}
@@ -76,6 +78,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		year = 1906
 		owns = 104
 	}
@@ -104,6 +107,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1877
 		owns = 2307
 	}
@@ -131,6 +135,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1868
 		owns = 2308
 	}
@@ -160,6 +165,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1896
 		owns = 1670
 	}
@@ -186,6 +192,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1855
 		owns = 1649
 	}
@@ -228,6 +235,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1857
 		owns = 761
 	}
@@ -284,6 +292,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1908
 		owns = 763
 		owns = 759
@@ -355,6 +364,7 @@ country_event = {
 #	allow_multiple_instances = no
 #	
 #	trigger = {
+			exists = yes
 #		AND = {
 #			province_id = 843
 #			#year = 1881

@@ -11,6 +11,7 @@ country_event = {
 	picture = "rosas_urquiza"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_country_flag = urquiza_statement }
 		tag = ENT
 		exists = yes
@@ -91,6 +92,7 @@ country_event = {
 	picture = "rosas_urquiza"
 	
 	trigger = {
+			exists = yes
 		ENT = {
 			exists = yes
 			has_country_flag = urquiza_statement
@@ -409,6 +411,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENT
 		has_country_flag = rosas_refused_to_step_down
 	}
@@ -478,6 +481,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			AND = {
 				tag = ARC
@@ -626,6 +630,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ARC
 		owns = 2356
 		owns = 2360
@@ -707,6 +712,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ARC
 			tag = ARG
@@ -1070,6 +1076,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ARC
 		ENT = { exists = no }
 		CRT = { exists = no }
@@ -1140,6 +1147,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = SBA
 		war = no
 		is_vassal = no
@@ -1200,6 +1208,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = SBA
 		is_vassal = no
 		ai = no
@@ -1246,6 +1255,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ARC
 		ai = no
 		SBA = {
@@ -1291,6 +1301,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ARC
 		ai = yes
 		SBA = {
@@ -1336,6 +1347,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = SBA
 		is_vassal = no
 		ARC = { exists = no }
@@ -1430,6 +1442,7 @@ country_event = {
 	picture = "san_nicolas"
 		
 	trigger = {
+			exists = yes
 		year = 1885
 		OR = {
 			tag = SBA

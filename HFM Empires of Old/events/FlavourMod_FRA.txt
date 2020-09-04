@@ -6,6 +6,7 @@ country_event = {
 	picture = "henri_riviere"
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -327,6 +328,7 @@ country_event = {
 	picture = "jewish_persecution"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = FRA
 			tag = BOR
@@ -481,6 +483,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		tag = FRA
 		government = french_bourbon
 		civilized = yes	

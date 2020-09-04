@@ -4,6 +4,7 @@ political_decisions = {
 		alert = yes
 		picture = national_value
 		potential = {
+			exists = yes
 			nationalvalue = nv_tradition
 			NOT = {	has_country_flag = nv_change }
 			civilized = no
@@ -35,6 +36,7 @@ political_decisions = {
 		alert = no
 		picture = national_value
 		potential = {
+			exists = yes
 			has_country_flag = nv_change
 		}
 		
@@ -48,6 +50,7 @@ political_decisions = {
 	switch_to_order = {
 		picture = switch_to_order
 		potential = {
+			exists = yes
 			civilized = no
 			nationalvalue = nv_tradition
 			NOT = { has_country_flag = switched_nv }
@@ -90,6 +93,7 @@ political_decisions = {
 	switch_to_production = {
 		picture = switch_to_productivity
 		potential = {
+			exists = yes
 			civilized = no
 			nationalvalue = nv_tradition
 			NOT = { has_country_flag = switched_nv }
@@ -132,6 +136,7 @@ political_decisions = {
 	switch_to_autocracy = {
 		picture = switch_to_autocracy
 		potential = {
+			exists = yes
 			civilized = no
 			nationalvalue = nv_tradition
 			NOT = { has_country_flag = switched_nv }
@@ -173,6 +178,7 @@ political_decisions = {
 	switch_to_equality = {
 		picture = switch_to_equality
 		potential = {
+			exists = yes
 			civilized = no
 			nationalvalue = nv_tradition
 			NOT = { has_country_flag = switched_nv }
@@ -215,6 +221,7 @@ political_decisions = {
 	switch_to_liberty = {
 		picture = switch_to_liberty
 		potential = {
+			exists = yes
 			civilized = no
 			nationalvalue = nv_tradition
 			NOT = { has_country_flag = switched_nv }

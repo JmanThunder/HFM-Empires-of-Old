@@ -7,6 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC36400_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1895
 		impressionism = 1
@@ -58,6 +59,7 @@ country_event = {
 	news_desc_short = "EVTDESC36401_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1890
 		NOT = {
@@ -101,6 +103,7 @@ country_event = {
 	id = 36402
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1880
 		NOT = {
@@ -144,6 +147,7 @@ country_event = {
 	id = 36403
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1884
 		vassal_of = SWE
@@ -184,6 +188,7 @@ country_event = {
 	id = 36405
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1850
 		NOT = {

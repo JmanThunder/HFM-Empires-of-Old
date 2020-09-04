@@ -2,6 +2,7 @@ political_decisions = {
 	become_guatemala = {
 	picture = become_guatemala
 		potential = {
+			exists = yes
 			tag = UCA
 			NOT = { exists = GUA }
 		} 
@@ -50,6 +51,7 @@ political_decisions = {
 	reform_the_USCA = {
 		picture = form_USCA
 		potential = {
+			exists = yes
 			OR = {
 				tag = GUA
 				tag = NIC
@@ -129,6 +131,7 @@ political_decisions = {
 	reform_the_USCA_outside = {
 		picture = form_USCA
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			is_culture_group = latin_american_cultures
 			NOT = { has_country_flag = post_colonial_country }
@@ -226,6 +229,7 @@ political_decisions = {
 	belize_purchase = {
 		picture = map_central_america
 		potential = {
+			exists = yes
 			2190 = { NOT = { owned_by = THIS } owner = { NOT = { capital_scope = { continent = north_america } } } }
 			2189 = { 
 				OR = {
@@ -274,6 +278,7 @@ political_decisions = {
 	apply_for_USCA_statehood = {
 		picture = form_USCA
 		potential = {
+			exists = yes
 			NOT = { tag = UCA }
 			exists = UCA
 			is_vassal = no
@@ -349,6 +354,7 @@ political_decisions = {
 	treaty_of_managua = {
 		picture = moskito_coast_reserve
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -414,6 +420,7 @@ political_decisions = {
 	occupy_miskito = {
 		picture = moskito_coast_reserve
 		potential = {
+			exists = yes
 			has_global_flag = treaty_of_managua_success
 			2200 = { NOT = { owned_by = THIS } }
 			MSK = { exists = yes }
@@ -472,6 +479,7 @@ political_decisions = {
 	restore_miskito = {
 		picture = moskito_coast_reserve
 		potential = {
+			exists = yes
 			has_country_flag = bluefields_will_be_ours
 			NOT = { owns = 2200 }
 		}

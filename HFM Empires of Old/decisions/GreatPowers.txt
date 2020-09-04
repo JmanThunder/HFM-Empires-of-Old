@@ -2,6 +2,7 @@ political_decisions = {
 	egyptological_excavations = {
 		picture = egyptological_excavations
 		potential = {
+			exists = yes
 			civilized = yes
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
@@ -32,6 +33,7 @@ political_decisions = {
 	forced_egyptological_excavations = {
 		picture = forced_egyptological_excavations
 		potential = {
+			exists = yes
 			civilized = yes
 			nationalism_n_imperialism = 1
 			OR = {
@@ -60,6 +62,7 @@ political_decisions = {
 	build_titanic = {
 		picture = titanic
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			exists = yes
 			NOT = { has_global_flag = titanic_built }
@@ -87,6 +90,7 @@ political_decisions = {
 	copenhagen_convention = {
 		picture = sound_dues
 		potential = {
+			exists = yes
 			372 = { trade_goods = precious_goods NOT = { owned_by = THIS } }
 			is_greater_power = yes
 			capital_scope = { continent = europe }
@@ -122,6 +126,7 @@ political_decisions = {
 	abolish_sound_dues = {
 		picture = sound_dues
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			capital_scope = { continent = europe }
 			372 = { trade_goods = precious_goods NOT = { owned_by = THIS } }

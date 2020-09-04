@@ -42,6 +42,7 @@ province_event = {
 	desc = "EVTDESC20100"
 	picture = "crisis"
 	trigger = {
+			exists = yes
 		has_global_flag = revolution_n_counter_researched
 		owner = { is_greater_power = yes }
 		state_scope = {
@@ -98,6 +99,7 @@ province_event = {
 	picture = "crisis"
 	
 	trigger = {
+			exists = yes
 		has_global_flag = revolution_n_counter_researched
 		owner = { is_greater_power = no }
 		state_scope = {
@@ -153,6 +155,7 @@ country_event = {
 	desc = "EVTDESC20102"
 	picture = "crisis"
 	trigger = {
+			exists = yes
 		crisis_exist = yes
 		involved_in_crisis = yes
 		is_greater_power = yes
@@ -203,6 +206,7 @@ country_event = {
 	desc = "EVTDESC20103"
 	picture = "crisis"
 	trigger = {
+			exists = yes
 		crisis_exist = yes
 		involved_in_crisis = yes
 		is_greater_power = yes
@@ -253,6 +257,7 @@ country_event = {
 	desc = "EVTDESC20104" 
 	picture = "crisis"
 	trigger = {
+			exists = yes
 		crisis_exist = yes
 		involved_in_crisis = yes
 		is_greater_power = no
@@ -304,6 +309,7 @@ country_event = {
 	picture = "crisis"
 	
 	trigger = {
+			exists = yes
 		crisis_exist = yes
 		involved_in_crisis = yes
 		is_greater_power = no
@@ -361,6 +367,7 @@ province_event = {
 	desc = "EVTDESC20110"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			crisis_exist = no
 			NOT = { is_culture_group = native_american }
@@ -472,6 +479,7 @@ province_event = {
 	desc = "EVTDESC20111"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			crisis_exist = no
 			has_global_flag = revolution_n_counter_researched
@@ -529,6 +537,7 @@ province_event = {
 	desc = "EVTDESC20112"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			crisis_exist = no
 			has_global_flag = revolution_n_counter_researched
@@ -577,6 +586,7 @@ province_event = {
 	desc = "EVTDESC20115"
 	
 	trigger = {
+			exists = yes
 		is_colonial = no
 		is_primary_culture = no
 		is_accepted_culture = no

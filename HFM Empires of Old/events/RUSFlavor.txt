@@ -9,6 +9,7 @@ country_event = {
 	news_desc_short = "EVTDESC32500_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1837
 		war = no
@@ -44,6 +45,7 @@ country_event = {
 	id = 32502
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1849
 		war = no
@@ -91,6 +93,7 @@ country_event = {
 	id = 32503
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1852
 		NOT = {
@@ -129,6 +132,7 @@ country_event = {
 	id = 32504
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1874
 		NOT = {
@@ -175,6 +179,7 @@ country_event = {
 	news_desc_short = "EVTDESC32505_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1880
 		NOT = {
@@ -216,6 +221,7 @@ country_event = {
 
 	id = 32506
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1837
 		experimental_railroad = 1
@@ -259,6 +265,7 @@ country_event = {
 	id = 32508
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		year = 1899
 		NOT = {
@@ -300,6 +307,7 @@ country_event = {
 	picture = "alaska"
 	
 	trigger = {
+			exists = yes
 		RUS = {
 			war = no
 			any_owned_province = { region = USA_1 }
@@ -954,6 +962,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = RUS
 		war = no
 		has_global_flag = hungarian_revolution_occurred
@@ -1190,6 +1199,7 @@ country_event = {
 	picture = "Southpole3"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		war = no
 		year = 1845
@@ -1265,6 +1275,7 @@ country_event = {
 	picture = "kurils"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		war = no
 		owns = 1086 #Pogobi
@@ -1782,6 +1793,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = fought_for_sakhalin
 		1087 = { #Otomari
@@ -1847,6 +1859,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = fought_for_sakhalin
 		owns = 1087 #Otomari
@@ -1918,6 +1931,7 @@ country_event = {
 	picture = "vladivostok_manchu"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = country_trying_to_expel_the_manchus
 		owns = 1082
 		owns = 1083
@@ -2199,6 +2213,7 @@ country_event = {
 	picture = "ambush_army"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = country_trying_to_expel_the_manchus
 		owns = 1082
 		owns = 1083
@@ -2227,6 +2242,7 @@ country_event = {
 	picture = "finnish_diet"
 	
 	trigger = {
+			exists = yes
 		tag = FIN
 		is_vassal = no
 		war = no
@@ -2262,6 +2278,7 @@ province_event = {
 	desc = "EVTDESC32535"
 	
 	trigger = {
+			exists = yes
 		NOT = { owner = { tag = TUR } }
 		is_core = GEO
 		year = 1840
@@ -2297,6 +2314,7 @@ country_event = {
 	picture = "storm_of_samarkand"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		owns = 1186
 		owns = 1187
@@ -2338,6 +2356,7 @@ country_event = {
 	picture = "mysticism_in_russia"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		OR = {
 			government = absolute_monarchy
@@ -2408,6 +2427,7 @@ country_event = {
 	picture = "orthodox_priests"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = come_see_me_grigori
 		OR = {
@@ -2441,6 +2461,7 @@ country_event = {
 	picture = "grigori_in_court"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = grigori_arrived
 		OR = {
@@ -2482,6 +2503,7 @@ country_event = {
 	picture = "look_into_my_eyes_child"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = grigori_will_be_exiled
 		OR = {
@@ -2513,6 +2535,7 @@ country_event = {
 	picture = "grigori_cartoons"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = grigori_in_power
 		OR = {
@@ -2547,6 +2570,7 @@ country_event = {
 	picture = "look_into_my_eyes_child"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = tsar_in_the_front
 		OR = {
@@ -2592,6 +2616,7 @@ country_event = {
 	picture = "yusupov_palace"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = rasputin_killed_by_nobles
 		OR = {
@@ -2624,6 +2649,7 @@ country_event = {
 	picture = "grigori_blessing"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = rasputin_killed_by_peasants
 		OR = {
@@ -2670,6 +2696,7 @@ country_event = {
 	picture = "grigori_hospital"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = rasputin_survived
 		OR = {

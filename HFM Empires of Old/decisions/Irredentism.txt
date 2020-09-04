@@ -3,6 +3,7 @@ political_decisions = {
 	greater_norway = {
 		picture = iceland_map
 		potential = {
+			exists = yes
 			tag = NOR
 			NOT = { has_country_flag = greater_norway }			
 		}
@@ -31,6 +32,7 @@ political_decisions = {
 	greater_finland = {
 		picture = greater_finland
 		potential = {
+			exists = yes
 			tag = FIN
 			prestige = 15
 			NOT = { 994 = { is_core = FIN } }
@@ -118,6 +120,7 @@ political_decisions = {
 	claim_santa_catarina = {
 	picture = claim_santa_catarina
 		potential = {
+			exists = yes
 			tag = RGS
 			NOT = { has_country_flag = claim_santa_catarina }
 		}
@@ -150,6 +153,7 @@ political_decisions = {
 	claim_greater_albania = {
 	picture = claim_greater_albania
 		potential = {
+			exists = yes
 			tag = ALB
 			NOT = { has_country_flag = claim_greater_albania }
 		}
@@ -188,6 +192,7 @@ political_decisions = {
 	claim_greater_mongolia = {
 	picture = claim_greater_mongolia
 		potential = {
+			exists = yes
 			tag = MGL
 			NOT = { has_country_flag = claim_greater_mongolia }
 		}
@@ -258,6 +263,7 @@ political_decisions = {
 	greater_afghanistan = {
 		picture = form_durrani_empire
 		potential = {
+			exists = yes
 			tag = AFG
 			owns = 1209
 			prestige = 5
@@ -339,6 +345,7 @@ political_decisions = {
 	greater_nepal = {
 		picture = greater_nepal
 		potential = {
+			exists = yes
 			tag = NEP
 			NOT = { has_country_flag = claimed_greater_nepal }
 		}
@@ -383,6 +390,7 @@ political_decisions = {
 	greater_serbia = {
 	picture = greater_serbia
 		potential = {
+			exists = yes
 			tag = SER
 			NOT = { has_country_flag = claimed_greater_serbia }
 		}
@@ -418,6 +426,7 @@ political_decisions = {
 	reclaim_croatia = {
 	picture = reclaim_croatia
 		potential = {
+			exists = yes
 			tag = HUN
 			771 = {
 				NOT = { is_core = HUN }
@@ -455,6 +464,7 @@ political_decisions = {
 	greater_macedonia = {
 	picture = greater_macedonia
 		potential = {
+			exists = yes
 			tag = MCD
 			NOT = { has_country_flag = claimed_greater_macedonia }
 		}
@@ -490,6 +500,7 @@ political_decisions = {
 	
 	greater_ukraine = {
 		potential = {
+			exists = yes
 			tag = UKR
 			NOT = { has_country_flag = claimed_greater_ukraine }
 		}
@@ -534,6 +545,7 @@ political_decisions = {
 	unite_with_ukraine = {
 		picture = greater_ukraine
 		potential = {
+			exists = yes
 			tag = RUT
 			exists = UKR
 			NOT = { has_country_flag = unite_with_ukraine }
@@ -603,6 +615,7 @@ political_decisions = {
 	greater_assyria = {
 	picture = greater_assyria
 		potential = {
+			exists = yes
 			tag = ASY
 			NOT = { has_country_flag = claimed_greater_assyria }
 		}
@@ -645,6 +658,7 @@ political_decisions = {
 	reclaim_palestine = {
 		picture = form_the_ikhwan
 		potential = {
+			exists = yes
 			tag = PLS
 			has_country_flag = israel_received_cores
 			NOT = { has_country_flag = palestine_reclaimed_cores }
@@ -663,6 +677,7 @@ political_decisions = {
 	provincia_cisplatina = {
 		picture = banda_oriental
 		potential = {
+			exists = yes
 			tag = BRZ
 			NOT = { has_country_flag = cisplatina_is_ours  }
 			is_greater_power = yes
@@ -700,6 +715,7 @@ political_decisions = {
 	rio_da_prata = {
 		picture = rhodesia_charter
 		potential = {
+			exists = yes
 			tag = BRZ
 			NOT = { has_country_flag = prata_is_ours }
 			is_greater_power = yes
@@ -743,6 +759,7 @@ political_decisions = {
 	rename_uruguay = {
 		picture = banda_oriental
 		potential = {
+			exists = yes
 			tag = BRZ
 			owns = 2344
 			owns = 2345
@@ -777,6 +794,7 @@ political_decisions = {
 	restore_uruguay = {
 		picture = banda_oriental
 		potential = {
+			exists = yes
 			OR = {
 				tag = URU
 				tag = ARG
@@ -815,6 +833,7 @@ political_decisions = {
 		alert = yes
 		picture = begin_line_of_advantage
 		potential = {
+			exists = yes
 			NOT = { has_country_modifier = small_country_draft }
 			NOT = { has_country_flag = rgs_draft_happened }
 			tag = RGS
@@ -845,6 +864,7 @@ political_decisions = {
 		alert = yes
 		picture = begin_line_of_advantage
 		potential = {
+			exists = yes
 			NOT = { has_country_modifier = small_country_draft }
 			NOT = { has_country_flag = rgr_draft_happened }
 			tag = RGR
@@ -875,6 +895,7 @@ political_decisions = {
 		alert = yes
 		picture = begin_line_of_advantage
 		potential = {
+			exists = yes
 			NOT = { has_country_modifier = small_country_draft }
 			NOT = { has_country_flag = yucatan_draft_happened }
 			tag = YUC
@@ -905,6 +926,7 @@ political_decisions = {
 		alert = yes
 		picture = deseret_complete_cores
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = deseret_claims }
 			tag = DES
 			NOT = { is_core = 88 }
@@ -942,6 +964,7 @@ political_decisions = {
 		alert = yes
 		picture = greater_syria
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = claimed_greater_syria }
 			tag = SYR
 			government = fascist_dictatorship
@@ -979,6 +1002,7 @@ political_decisions = {
 		alert = yes
 		picture = greater_croatia_map
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = claimed_greater_croatia }
 			tag = CRO
 		}
@@ -1009,6 +1033,7 @@ political_decisions = {
 		alert = yes
 		picture = tibet_capital
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = claimed_greater_tibet }
 			tag = TIB
 		}
@@ -1040,6 +1065,7 @@ political_decisions = {
 	establish_banatia = {
 		picture = banatia_map
 		potential = {
+			exists = yes
 			tag = BAN
 			2538 = { NOT = { is_core = BAN } }
 			exists = yes
@@ -1066,6 +1092,7 @@ political_decisions = {
 	claim_transnitria = {
 		picture = transnistria_stamp
 		potential = {
+			exists = yes
 			tag = ROM
 			government = fascist_dictatorship
 			NOT = { has_country_flag = claimed_transnitria }
@@ -1093,6 +1120,7 @@ political_decisions = {
 	claim_aragon = {
 		picture = fueros
 		potential = {
+			exists = yes
 			tag = CAT
 			NOT = { has_country_flag = claimed_aragon }
 		}
@@ -1124,6 +1152,7 @@ political_decisions = {
 	claim_tisza = {
 		picture = romanians_marching
 		potential = {
+			exists = yes
 			tag = ROM
 			NOT = { has_country_flag = claimed_tisza }
 		}
@@ -1165,6 +1194,7 @@ political_decisions = {
 	claim_the_caribbean = {
 		picture = claim_the_caribbean
 		potential = {
+			exists = yes
 			tag = ATC
 			NOT = { has_country_flag = claimed_the_caribbean }
 			is_vassal = no
@@ -1206,6 +1236,7 @@ political_decisions = {
 	greater_bulgaria = {
 		picture = greater_bulgaria
 		potential = {
+			exists = yes
 			tag = BUL
 			NOT = { has_country_flag = greater_bulgaria_claimed }
 		}
@@ -1235,6 +1266,7 @@ political_decisions = {
 	claim_ulster = {
 		picture = ulster_scot
 		potential = {
+			exists = yes
 			tag = SCO
 			is_vassal = no
 			NOT = { has_country_flag = ulster_scot }

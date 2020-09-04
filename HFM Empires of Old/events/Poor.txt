@@ -5,6 +5,7 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
+			exists = yes
 		money = 300000
 		ai = yes
 		}

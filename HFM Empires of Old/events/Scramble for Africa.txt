@@ -18,6 +18,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			is_greater_power = yes
 			AND = {
@@ -79,6 +80,7 @@ country_event = {
 	picture = "scramble_for_africa"
 
 	trigger = {
+			exists = yes
 		civilized = no
 		OR = {
 			capital_scope = { continent = africa }
@@ -133,6 +135,7 @@ country_event = {
 	picture = "zulu"
 	
 	trigger = {
+			exists = yes
 		war = no
 		civilized = no
 		OR = {
@@ -187,6 +190,7 @@ country_event = {
 	picture = "arab_revolt"
 	
 	trigger = {
+			exists = yes
 		primary_culture = fulbe
 		war = no
 		civilized = no
@@ -276,6 +280,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+			exists = yes
 		has_global_flag = berlin_conference
 		OR = {
 			capital_scope = { continent = africa }
@@ -536,6 +541,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		is_vassal = no
 		has_global_flag = berlin_conference
@@ -697,6 +703,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = EGY
 		civilized = no
 		OR = {
@@ -785,6 +792,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+			exists = yes
 		has_global_flag = berlin_conference
 		capital_scope = { continent = europe }
 		OR = {
@@ -907,6 +915,7 @@ country_event = {
 	picture = "sudan_question"
 	
 	trigger = {
+			exists = yes
 		war = no
 		is_sphere_leader_of = EGY
 		capital_scope = { continent = europe }
@@ -1095,6 +1104,7 @@ country_event = {
 	picture = "mfecane"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		owns = 2076
 		2084 = { empty = no }

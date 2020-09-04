@@ -13,6 +13,7 @@ country_event = {
 	news_desc_short = "EVTDESC23400_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		NOT = { has_country_flag = IOCMember }
 		year = 1893
 		war = no # Nation can NOT be at war at the time of invite
@@ -74,6 +75,7 @@ country_event = {
 	id = 23401 
 
 	trigger = {
+			exists = yes
 		tag = GRE # Greece hosted 1896 Olympics
 		has_country_flag = IOCMember
 		NOT = {
@@ -126,6 +128,7 @@ country_event = {
 	id = 23402 
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host1Olympiad }
 		OR = {
 			has_global_flag = GRENoHost1Olympiad
@@ -207,6 +210,7 @@ country_event = {
 	id = 23403 # Attend 1896 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host1Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -273,6 +277,7 @@ country_event = {
 	id = 23404 # 1st games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host1Olympiad
 		has_country_flag = Attend1Olympiad
 		NOT = { has_global_flag = Hold1Olympiad }
@@ -312,6 +317,7 @@ country_event = {
 	id = 23405 # Win medal at 1896 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold1Olympiad
 		has_country_flag = Attend1Olympiad
 		NOT = { has_country_flag = 1OlympiadWinner }
@@ -349,6 +355,7 @@ country_event = {
 	id = 23406 
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host2Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -431,6 +438,7 @@ country_event = {
 	id = 23407 # Attend 2 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host2Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -495,6 +503,7 @@ country_event = {
 	id = 23408 # 2 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host2Olympiad
 		has_country_flag = Attend2Olympiad
 		NOT = { has_global_flag = Hold2Olympiad }
@@ -534,6 +543,7 @@ country_event = {
 	id = 23409 # Win medal at 2 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold2Olympiad
 		has_country_flag = Attend2Olympiad
 		NOT = { has_country_flag = 2OlympiadWinner }
@@ -572,6 +582,7 @@ country_event = {
 	id = 23410
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host3Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -653,6 +664,7 @@ country_event = {
 	id = 23411 # Attend 3 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host3Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -719,6 +731,7 @@ country_event = {
 	id = 23412 # 1st games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host3Olympiad
 		has_country_flag = Attend3Olympiad
 		NOT = { has_global_flag = Hold3Olympiad }
@@ -758,6 +771,7 @@ country_event = {
 	id = 23413 # Win medal at 3 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold3Olympiad
 		has_country_flag = Attend3Olympiad
 		NOT = { has_country_flag = 3OlympiadWinner }
@@ -795,6 +809,7 @@ country_event = {
 	id = 23414
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host4Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -877,6 +892,7 @@ country_event = {
 	id = 23415 # Attend 4 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host4Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -943,6 +959,7 @@ country_event = {
 	id = 23416 # 4 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host4Olympiad
 		has_country_flag = Attend4Olympiad
 		NOT = {
@@ -984,6 +1001,7 @@ country_event = {
 	id = 23417 # Win medal at 4 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold4Olympiad
 		has_country_flag = Attend4Olympiad
 		NOT = { has_country_flag = 4OlympiadWinner }
@@ -1021,6 +1039,7 @@ country_event = {
 	id = 23418
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host5Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -1102,6 +1121,7 @@ country_event = {
 	id = 23419 # Attend 5 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host5Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -1168,6 +1188,7 @@ country_event = {
 	id = 23420 # 5 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host5Olympiad
 		has_country_flag = Attend5Olympiad
 		NOT = { has_global_flag = Hold5Olympiad }
@@ -1207,6 +1228,7 @@ country_event = {
 	id = 23421 # Win medal at 5 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold5Olympiad
 		has_country_flag = Attend5Olympiad
 		NOT = { has_country_flag = 5OlympiadWinner }
@@ -1244,6 +1266,7 @@ country_event = {
 	id = 23422
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host6Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -1326,6 +1349,7 @@ country_event = {
 	id = 23423 # Attend 6 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host6Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -1392,6 +1416,7 @@ country_event = {
 	id = 23424 # 6 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host6Olympiad
 		has_country_flag = Attend6Olympiad
 		NOT = { has_global_flag = Hold6Olympiad }
@@ -1431,6 +1456,7 @@ country_event = {
 	id = 23425 # Win medal at 6 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold6Olympiad
 		has_country_flag = Attend6Olympiad
 		NOT = { has_country_flag = 6OlympiadWinner }
@@ -1468,6 +1494,7 @@ country_event = {
 	id = 23426
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host7Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -1549,6 +1576,7 @@ country_event = {
 	id = 23427 # Attend 7 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host7Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -1615,6 +1643,7 @@ country_event = {
 	id = 23428 #7 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host7Olympiad
 		has_country_flag = Attend7Olympiad
 		NOT = { has_global_flag = Hold7Olympiad }
@@ -1654,6 +1683,7 @@ country_event = {
 	id = 23429 # Win medal at 7 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold7Olympiad
 		has_country_flag = Attend7Olympiad
 		NOT = { has_country_flag = 7OlympiadWinner }
@@ -1692,6 +1722,7 @@ country_event = {
 	id = 23430
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host8Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -1773,6 +1804,7 @@ country_event = {
 	id = 23431 # Attend 8 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host8Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -1839,6 +1871,7 @@ country_event = {
 	id = 23432 # 7 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host8Olympiad
 		has_country_flag = Attend8Olympiad
 		NOT = { has_global_flag = Hold8Olympiad }
@@ -1878,6 +1911,7 @@ country_event = {
 	id = 23433 # Win medal at 8 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold8Olympiad
 		has_country_flag = Attend8Olympiad
 		NOT = { has_country_flag = 8OlympiadWinner }
@@ -1915,6 +1949,7 @@ country_event = {
 	id = 23434
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host9Olympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -1996,6 +2031,7 @@ country_event = {
 	id = 23435 # Attend 9 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host9Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -2062,6 +2098,7 @@ country_event = {
 	id = 23436 # 9 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host9Olympiad
 		has_country_flag = Attend9Olympiad
 		NOT = { has_global_flag = Hold9Olympiad }
@@ -2101,6 +2138,7 @@ country_event = {
 	id = 23437 # Win medal at 9 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold9Olympiad
 		has_country_flag = Attend9Olympiad
 		NOT = { has_country_flag = 9OlympiadWinner }
@@ -2138,6 +2176,7 @@ country_event = {
 	id = 23438
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = Host1O0lympiad }
 		has_country_flag = IOCMember
 		NOT = {
@@ -2219,6 +2258,7 @@ country_event = {
 	id = 23439 # Attend 10 Games 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Host10Olympiad
 		has_country_flag = IOCMember
 		NOT = {
@@ -2285,6 +2325,7 @@ country_event = {
 	id = 23440 # 10 games are held 
 
 	trigger = {
+			exists = yes
 		has_country_flag = Host10Olympiad
 		has_country_flag = Attend10Olympiad
 		NOT = { has_global_flag = Hold10Olympiad }
@@ -2324,6 +2365,7 @@ country_event = {
 	id = 23441 # Win medal at 10 Olympics 
 
 	trigger = {
+			exists = yes
 		has_global_flag = Hold10Olympiad
 		has_country_flag = Attend10Olympiad
 		NOT = { has_country_flag = 10OlympiadWinner }

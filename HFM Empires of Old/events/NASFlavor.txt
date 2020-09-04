@@ -3,6 +3,7 @@ country_event = {
 	id = 34103
 
 	trigger = {
+			exists = yes
 		tag = NAS
 		year = 1838
 		war = no

@@ -12,6 +12,7 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
+			exists = yes
 		war = no
 		is_vassal = yes
 		civilized = yes
@@ -497,6 +498,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		war = no
 		is_vassal = yes
 		has_country_flag = refused_independence_request

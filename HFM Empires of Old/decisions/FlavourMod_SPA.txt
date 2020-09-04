@@ -2,6 +2,7 @@ political_decisions = {
 	colonial_reconquista = {
 		picture = spain_reconquest
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -68,6 +69,7 @@ political_decisions = {
 	colonial_reconquista_frca = {
 		picture = map_central_america
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -110,6 +112,7 @@ political_decisions = {
 	return_cores_CGC = { 
 		picture = return_cores_img
 		potential = {
+			exists = yes
 			primary_culture = spanish
 			CGC = { vassal_of = THIS} 
 			any_owned_province = { is_core = CGC NOT = { is_core = THIS } } 
@@ -120,7 +123,8 @@ political_decisions = {
 	
 	return_cores_VNG = { 
 		picture = return_cores_img
-		potential = { 
+		potential = {
+			exists = yes 
 			primary_culture = spanish
 			VNG = { vassal_of = THIS }
 			any_owned_province = { is_core = VNG NOT = { is_core = THIS } } 
@@ -131,7 +135,8 @@ political_decisions = {
 	
 	return_cores_VLP = { 
 		picture = return_cores_img
-		potential = { 
+		potential = {
+			exists = yes 
 			primary_culture = spanish
 			VLP = { vassal_of = THIS } 
 			any_owned_province = { is_core = VLP NOT = { is_core = THIS } } 
@@ -142,7 +147,8 @@ political_decisions = {
 	
 	return_cores_VOP = { 
 		picture = return_cores_img
-		potential = { 
+		potential = {
+			exists = yes 
 			primary_culture = spanish
 			VOP = { vassal_of = THIS }
 			any_owned_province = { is_core = VOP NOT = { is_core = THIS } } 
@@ -153,7 +159,8 @@ political_decisions = {
 	
 	return_cores_VNS = { 
 		picture = return_cores_img
-		potential = { 
+		potential = {
+			exists = yes 
 			primary_culture = spanish
 			VNS = { vassal_of = THIS } 
 			any_owned_province = { is_core = VNS NOT = { is_core = THIS } } 
@@ -165,6 +172,7 @@ political_decisions = {
 	spanish_reconquest_vns = {
 		picture = spain_reconquest_vns
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -320,6 +328,7 @@ political_decisions = {
 	spanish_reconquest_vng = {
 		picture = spain_reconquest_vng
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -434,6 +443,7 @@ political_decisions = {
 	spanish_reconquest_vop = {
 		picture = spain_reconquest_vop
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -524,6 +534,7 @@ political_decisions = {
 	spanish_reconquest_cgc = {
 		picture = spain_reconquest_cgc
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -590,6 +601,7 @@ political_decisions = {
 	spanish_reconquest_vlp = {
 		picture = spain_reconquest_vlp
 		potential = {
+			exists = yes
 			OR = {
 				tag = IBR
 				tag = SPC
@@ -727,6 +739,7 @@ political_decisions = {
 	colony_rebel_again = {
 		picture = spain_reconquest
 		potential = {
+			exists = yes
 			OR = {
 				tag = UCA
 				tag = ARG

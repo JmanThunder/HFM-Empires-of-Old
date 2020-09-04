@@ -10,6 +10,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NEW }
@@ -219,6 +220,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		tag = NEW
 		war = no
 		OR = {
@@ -263,6 +265,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		war = no
 		year = 1901
 		any_owned_province = { is_core = AST }
@@ -467,6 +470,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NZL }
@@ -679,6 +683,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		war = no
 		year = 1909
 		any_owned_province = { is_core = SAF }
@@ -922,6 +927,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		war = no
 		is_vassal = yes
 		is_substate = no
@@ -1041,6 +1047,7 @@ country_event = {
 	picture = "Southpole3"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = CAN
 			tag = ENG
@@ -1331,6 +1338,7 @@ country_event = {
 	picture = "alaska"
 		
 	trigger = {
+			exists = yes
 		war = no
 		CAN = { war = no }
 		is_our_vassal = CAN
@@ -1454,6 +1462,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL

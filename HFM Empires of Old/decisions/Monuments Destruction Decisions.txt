@@ -3,6 +3,7 @@ political_decisions = {
 	destroy_eiffel_tower = {
 		picture = build_the_eiffel_tower
 			potential = {
+			exists = yes
 			OR = { 
 				FRA = { has_country_flag = eiffel_tower_built }
 				BOR = { has_country_flag = eiffel_tower_built }
@@ -61,6 +62,7 @@ political_decisions = {
 	destroy_westminster = {
 	picture = destroy_westminster
 		potential = {
+			exists = yes
 			ENG = { has_country_flag = big_ben_construction }
 			is_greater_power = yes
 			300 = {

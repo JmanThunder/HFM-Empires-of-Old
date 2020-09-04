@@ -1,6 +1,7 @@
 political_decisions = {
 	boer_republic = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = NAL
 				tag = TRN
@@ -64,6 +65,7 @@ political_decisions = {
 
 	sand_river_convention = {
 		potential = {
+			exists = yes
 			is_our_vassal = TRN
 			TRN = { NOT = { any_owned_province = { is_core = THIS } } }
 			NOT = { has_country_flag = had_sand_river_convention }
@@ -84,6 +86,7 @@ political_decisions = {
 	
 	orange_river_convention = {
 		potential = {
+			exists = yes
 			is_our_vassal = ORA
 			NOT = { has_country_flag = boer_accepted }
 			ORA = {
@@ -108,6 +111,7 @@ political_decisions = {
 	
 	claim_transvaal = {
 		potential = {
+			exists = yes
 			primary_culture = boer
 			NOT = { 
 				tag = TRN
@@ -153,6 +157,7 @@ political_decisions = {
 	claim_oranje = {
 		picture = claim_transvaal
 		potential = {
+			exists = yes
 			primary_culture = boer
 			NOT = {
 				tag = ORA
@@ -198,6 +203,7 @@ political_decisions = {
 	claim_natalia = {
 		picture = claim_transvaal
 		potential = {
+			exists = yes
 			primary_culture = boer
 			NOT = {
 				tag = NAL
@@ -241,6 +247,7 @@ political_decisions = {
 	
 	#form_south_africa = {
 		#potential = {
+			exists = yes
 			#primary_culture = boer
 			#SAF = { exists = no }
 			#NOT = { has_global_flag = south_africa_formed }
@@ -318,6 +325,7 @@ political_decisions = {
 	reorganize_south_africa = {
 		picture = form_south_africa
 		potential = {
+			exists = yes
 			civilized = yes
 			owns = 2087
 			SAF = {
@@ -368,6 +376,7 @@ political_decisions = {
 	appeal_to_the_british = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			OR = {
 				tag = ORA
 				tag = TRN
@@ -419,6 +428,7 @@ political_decisions = {
 	treaty_of_vereeniging = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			primary_culture = boer
 			2087 = {
 				owner = {
@@ -472,6 +482,7 @@ political_decisions = {
 	claim_north_cape_colony = {
 		picture = map_africa
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -534,6 +545,7 @@ political_decisions = {
 	claim_xhosa_lands = {
 		picture = map_africa
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -651,6 +663,7 @@ political_decisions = {
 	treaty_of_umtata = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			owns = 2087
 			XHO = {
 				OR = {

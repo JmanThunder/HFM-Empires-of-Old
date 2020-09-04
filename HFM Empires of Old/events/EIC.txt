@@ -6,6 +6,7 @@ country_event = {
 	picture = "confederation"
 
 	trigger = {
+			exists = yes
 		tag = EIC
 		is_vassal = yes
 		OR = {
@@ -176,6 +177,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = EIC
 		has_global_flag = war_with_EIC
 		war = no
@@ -426,6 +428,7 @@ country_event = {
 	picture = Artillery
 	
 	trigger = {
+			exists = yes
 		tag = EIC
 		substate_of = ENG
 		OR = {
@@ -698,6 +701,7 @@ country_event = {
 	picture = Artillery
 	
 	trigger = {
+			exists = yes
 		tag = EIC
 		substate_of = ENG
 		OR = {
@@ -1104,6 +1108,7 @@ country_event = {
 	picture = "confederation"
 
 	trigger = {
+			exists = yes
 		ENG = {  NOT = { has_country_flag = oregon_war } }
 		tag = RPL
 		is_vassal = yes

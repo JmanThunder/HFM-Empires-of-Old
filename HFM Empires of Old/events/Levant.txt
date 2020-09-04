@@ -6,6 +6,7 @@ country_event = {
 	picture = "beirut_silk"
 
 	trigger = {
+			exists = yes
 		year = 1860
 		owns = 913
 		OR = {
@@ -66,6 +67,7 @@ country_event = {
 	picture = "food_shortage"
 
 	trigger = {
+			exists = yes
 		year = 1872
 		owns = 913
 	}
@@ -93,6 +95,7 @@ country_event = {
 	picture = "baalbek_excavations"
 
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		social_science = 1
 		year = 1895
@@ -124,6 +127,7 @@ country_event = {
 	picture = "missionaries"
 
 	trigger = {
+			exists = yes
 		year = 1836
 		owns = 913
 	}

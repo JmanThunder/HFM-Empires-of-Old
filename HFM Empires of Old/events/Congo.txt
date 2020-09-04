@@ -55,6 +55,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			check_variable = { which = yes_to_congo value = 3.99 }
 			AND = {
@@ -119,6 +120,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			check_variable = { which = no_to_congo value = 3.99 }
 			AND = {
@@ -215,6 +217,7 @@ country_event = {
 	picture = "partition_of_africa"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = congo_master
 		CNG = { exists = yes vassal_of = THIS }
 		NOT = { has_global_flag = congo_free_state_over }
@@ -402,6 +405,7 @@ country_event = {
 	picture = "boma_congo"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = historical_congo
 		CNG = {
 			exists = yes
@@ -588,6 +592,7 @@ country_event = {
 	picture = "congo_atrocities"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = historical_congo
 		NOT = { has_global_flag = congo_free_state_over }
 		CNG = {
@@ -688,6 +693,7 @@ country_event = {
 	picture = "congo_station"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = historical_congo
 		NOT = { has_global_flag = congo_free_state_over }
 		CNG = {
@@ -740,6 +746,7 @@ country_event = {
 	picture = "congo_ship"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = historical_congo
 		NOT = { has_global_flag = historical_congo }
 		NOT = { has_country_flag = historical_congo }
@@ -789,6 +796,7 @@ country_event = {
 	picture = "congo_station"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			has_country_flag = historical_congo
 			has_country_flag = congo_master

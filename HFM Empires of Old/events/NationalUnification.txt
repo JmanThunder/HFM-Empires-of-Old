@@ -7,6 +7,7 @@ country_event = {
 	id = 11100
 	
 	trigger = {
+			exists = yes
 		war = no
 		has_country_flag = crown_from_the_gutter
 		NOT = { tag = LIE }
@@ -722,6 +723,7 @@ country_event = {
 	id = 11107
 	
 	trigger = {
+			exists = yes
 		war = no
 		NOT = { tag = UBD }
 		NOT = { tag = LIE }
@@ -978,6 +980,7 @@ country_event = {
 	picture = "threehurrahs"
 	
 	trigger = {
+			exists = yes
 		primary_culture = north_german
 		war = no
 		is_vassal = no
@@ -1147,6 +1150,7 @@ country_event = {
 	picture = "Celebration"
 	
 	trigger = {
+			exists = yes
 		is_culture_group = south_slavic
 		war = no
 		is_vassal = no
@@ -1623,6 +1627,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		part_of_sphere = yes

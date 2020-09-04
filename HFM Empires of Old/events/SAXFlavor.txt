@@ -7,6 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC34700_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = SAX
 		year = 1837
 		war = no
@@ -50,6 +51,7 @@ country_event = {
 	news_desc_short = "EVTDESC34701_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = SAX
 		year = 1841
 		war = no

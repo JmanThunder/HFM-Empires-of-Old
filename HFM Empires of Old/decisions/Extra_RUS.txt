@@ -2,6 +2,7 @@ political_decisions = {
 	
 	release_moldovia_russia = {
 		potential = {
+			exists = yes
 			tag = RUS
 			owns = 676
 			ai = no
@@ -40,6 +41,7 @@ political_decisions = {
 
 	rus_claim_lodermia = {
 		potential = {
+			exists = yes
 			tag = RUS
 			NOT = {
 				has_country_flag = rus_claim_lodermia

@@ -4,6 +4,7 @@ political_decisions = {
 	enact_liquor_prohibition = {
 		picture = enact_liquor_prohibition
 		potential = {
+			exists = yes
 			social_science = 1
 			has_country_modifier = temperance_league
 			NOT = {
@@ -45,6 +46,7 @@ political_decisions = {
 	abolish_prohibition = {
 		picture = abolish_prohibition
 		potential = {
+			exists = yes
 			has_country_modifier = liquor_prohibition
 		}
 		allow = {
@@ -70,6 +72,7 @@ political_decisions = {
 	institute_central_bank = {
 		picture = institute_central_bank
 		potential = {
+			exists = yes
 			NOT = {
 				has_country_modifier = central_bank_established
 			}
@@ -93,6 +96,7 @@ political_decisions = {
 	enact_female_suffrage = {
 		picture = enact_female_suffrage
 		potential = {
+			exists = yes
 			year = 1870
 			civilized = yes
 			NOT = { has_country_modifier = female_suffrage }
@@ -150,6 +154,7 @@ political_decisions = {
 		alert = no
 		picture = sign_the_geneva_convention
 		potential = {
+			exists = yes
 			part_of_sphere = yes
 			is_vassal = no
 		}
@@ -194,6 +199,7 @@ political_decisions = {
 		picture = nationalize
 			
 		potential = {
+			exists = yes
 			can_nationalize = yes
 			civilized = yes
 		}
@@ -254,6 +260,7 @@ political_decisions = {
 		picture = port_arthur
 			
 		potential = {
+			exists = yes
 			owns = 1481
 			OR = {
 				AND = {
@@ -342,6 +349,7 @@ political_decisions = {
 	genocide_minorities = {
 		picture = genocide_minorities
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = preparations_to_kill }
 			OR = {
 				government = absolute_monarchy
@@ -493,6 +501,7 @@ political_decisions = {
 		alert = no
 		picture = enslave_the_serfs_image
 		potential = {
+			exists = yes
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -548,6 +557,7 @@ political_decisions = {
 	the_red_terror = {
 		picture = the_red_terror
 		potential = {
+			exists = yes
 			government = proletarian_dictatorship
 			NOT = { has_country_modifier = the_terror }
 			NOT = { has_country_modifier = totalitarian_system }
@@ -675,6 +685,7 @@ political_decisions = {
 	the_fascist_terror = {
 		picture = the_red_terror
 		potential = {
+			exists = yes
 			government = fascist_dictatorship
 			NOT = { has_country_modifier = the_terror }
 			NOT = { has_country_modifier = totalitarian_system }
@@ -785,6 +796,7 @@ political_decisions = {
 	the_cult_of_personality = {
 		picture = switch_to_autocracy
 		potential = {
+			exists = yes
 			OR = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
@@ -819,6 +831,7 @@ political_decisions = {
 	ideological_indoctrination_communist = {
 		picture = indoctrinal_education_communist
 		potential = {
+			exists = yes
 			government = proletarian_dictatorship
 			NOT = { has_country_modifier = political_education }
 			NOT = { has_country_modifier = totalitarian_system }
@@ -851,6 +864,7 @@ political_decisions = {
 	ideological_indoctrination_fascist = {
 		picture = indoctrinal_education
 		potential = {
+			exists = yes
 			government = fascist_dictatorship
 			NOT = { has_country_modifier = political_education }
 			NOT = { has_country_modifier = totalitarian_system }
@@ -883,6 +897,7 @@ political_decisions = {
 	the_totalitarian_regime = {
 		picture = mussolini_hq
 		potential = {
+			exists = yes
 			OR = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
@@ -918,6 +933,7 @@ political_decisions = {
 	abolish_slavery = {
 		picture = enslave_the_serfs_image
 		potential = {
+			exists = yes
 			NOT = { slavery = no_slavery }
 			OR = {
 				government = hms_government
@@ -972,6 +988,7 @@ political_decisions = {
 	move_capital_to_historical_capital = {
 		picture = budapest_city
 		potential = {
+			exists = yes
 			exists = yes
 			OR = {
 				AND = { tag = GLM owns = 375 NOT = { capital = 702 } }
@@ -1079,6 +1096,7 @@ political_decisions = {
 	population_exchanges = {
 		picture = population_to_turkey
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = greece_has_got_a_brand_new_bag }
 			NOT = { has_country_flag = greater_bulgaria_claimed }
 			NOT = { tag = TUR }
@@ -1676,6 +1694,7 @@ political_decisions = {
 		picture = change_border_policy
 		alert = no
 		potential = {
+			exists = yes
 			civilized = yes
 			NOT = { has_country_flag = change_border_policy }
 			NOT = { has_country_modifier = law_changed_by_force }
@@ -1697,6 +1716,7 @@ political_decisions = {
 		picture = change_border_policy
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = change_border_policy
 		}
 		
@@ -1714,6 +1734,7 @@ political_decisions = {
 		picture = closed_border
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = change_border_policy
 			NOT = { border_policy = closed_borders }
 		}
@@ -1760,6 +1781,7 @@ political_decisions = {
 		picture = immigration_quotas
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = change_border_policy
 			NOT = { border_policy = quota_immigration }
 			OR = {
@@ -1809,6 +1831,7 @@ political_decisions = {
 		picture = immigrants_arriving
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = change_border_policy
 			NOT = { border_policy = open_borders }
 		}
@@ -1829,6 +1852,7 @@ political_decisions = {
 	state_of_emergency = {
 		picture = state_of_emergency
 		potential = {
+			exists = yes
 			state_n_government = 1
 			NOT = { has_country_flag = state_of_emergency }
 			NOT = { has_country_modifier = law_changed_by_force }
@@ -1882,6 +1906,7 @@ political_decisions = {
 	renovate_capital = {
 		picture = budapest_city
 		potential = {
+			exists = yes
 			OR = {
 				794 = { #Belgrade
 					owned_by = THIS
@@ -2023,6 +2048,7 @@ political_decisions = {
 suspend_political_powers = {
 	
 		potential = {
+			exists = yes
         always = yes
 		}
 		

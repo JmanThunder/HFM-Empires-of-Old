@@ -2,6 +2,7 @@ political_decisions = {
 	occupation_of_araucania = {
 		picture = conquest_of_the_desert
 		potential = {
+			exists = yes
 			tag = CHL
 			OR = {
 				2333 = { empty = yes }
@@ -53,6 +54,7 @@ political_decisions = {
 	annex_easter_island = {
 		picture = annex_easter_island
 		potential = {
+			exists = yes
 			civilized = yes
 			owns = 2332
 			2336 = { empty = yes }
@@ -76,6 +78,7 @@ political_decisions = {
 	valparaiso_harbor = {
 		picture = valparaiso_harbor
 			potential = {
+			exists = yes
 				NOT = { is_canal_enabled = 3 }
 				NOT = { has_country_flag = valpariasoharbor_built }
 				tag = CHL
@@ -104,6 +107,7 @@ political_decisions = {
 	repudiate_the_treaty_of_paucarpata = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = CHL
 			truce_with = PBC
 			PBC = { exists = yes war_with = PEU has_recently_lost_war = yes }

@@ -3,6 +3,7 @@ country_event = {
 	id = 31300
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		year = 1837
 		NOT = {
@@ -46,6 +47,7 @@ country_event = {
 	id = 31301
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		has_global_flag = LouisNapoleonExtradite
 		year = 1837
@@ -98,6 +100,7 @@ country_event = {
 	id = 31302
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		year = 1852
 		NOT = {
@@ -136,6 +139,7 @@ country_event = {
 	id = 31303
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		government = democracy
 		year = 1898
@@ -176,6 +180,7 @@ country_event = {
 	id = 31304
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		government = democracy
 		year = 1866
@@ -222,6 +227,7 @@ country_event = {
 	id = 31305
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		government = democracy
 		year = 1887
@@ -261,6 +267,7 @@ country_event = {
 	id = 31306
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		owns = 2568 #Lugano Ticino
 		year = 1890
@@ -317,6 +324,7 @@ country_event = {
 	news_desc_short = "EVTDESC31307_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		year = 1898
 		exists = AUS
@@ -370,6 +378,7 @@ country_event = {
 	news_desc_short = "EVTDESC31308_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		government = democracy
 		war = no
@@ -418,6 +427,7 @@ country_event = {
 	id = 31309
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		government = democracy
 		war = no
@@ -478,6 +488,7 @@ country_event = {
 	news_desc_short = "EVTDESC31310_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = SWI
 		has_global_flag = geneva_convention_held
 		war = no		

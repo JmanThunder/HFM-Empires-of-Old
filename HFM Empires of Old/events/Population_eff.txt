@@ -5,6 +5,7 @@ province_event = {
     desc = "EVTDESC169000"
 
     trigger = {
+			exists = yes
         owner = { has_country_modifier = interment_camps }
         NOT = { has_province_modifier = mass_graves }
         owned_by = THIS
@@ -8318,6 +8319,7 @@ country_event = {
     picture = "armenian_grave"
 
     trigger = {
+			exists = yes
         NOT = { has_country_modifier = evidence_of_massacre }
         any_owned_province = { has_province_modifier = mass_graves }
     }
@@ -8421,6 +8423,7 @@ country_event = {
     picture = "armenian_grave"
 
     trigger = {
+			exists = yes
         has_country_modifier = interment_camps
         OR = {
             has_recently_lost_war = yes

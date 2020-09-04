@@ -6,6 +6,7 @@ country_event = {
 	picture = "krakow_uprising"
 
 	trigger = {
+			exists = yes
 		tag = KRA
 		year = 1846
 		month = 1

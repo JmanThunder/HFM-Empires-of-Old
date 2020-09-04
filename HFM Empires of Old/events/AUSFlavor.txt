@@ -3,6 +3,7 @@ country_event = {
 	id = 31501
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -45,6 +46,7 @@ country_event = {
 	news_desc_short = "EVTDESC31502_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -110,6 +112,7 @@ country_event = {
 	id = 31503
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -172,6 +175,7 @@ country_event = {
 	news_desc_short = "EVTDESC31504_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -256,6 +260,7 @@ country_event = {
 	news_desc_short = "EVTDESC31505_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -314,6 +319,7 @@ country_event = {
 	id = 31506
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -357,6 +363,7 @@ country_event = {
 	id = 31507 #see 35400 for LOM parallel event
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -407,6 +414,7 @@ country_event = {
 
 	id = 31508 # Committee for Polish Independance
 	trigger = {
+			exists = yes
 		OR = {
 			owns = 699 # Posen
 			owns = 706 # Warsaw
@@ -463,6 +471,7 @@ country_event = {
 	picture = "revolution"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -572,6 +581,7 @@ country_event = {
 	picture = "revolution"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -631,6 +641,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		year = 1914
 		OR = {
 			tag = AUS
@@ -775,6 +786,7 @@ country_event = {
 	picture = "krakow_uprising"
 
 	trigger = {
+			exists = yes
 		tag = AUS
 		has_global_flag = krakow_uprising 
 	}
@@ -895,6 +907,7 @@ country_event = {
 	picture = "polish_uprising_aus"
 
 	trigger = {
+			exists = yes
 		tag = AUS
 		has_global_flag = krakow_uprising
 		has_global_flag = prussia_agrees
@@ -938,6 +951,7 @@ country_event = {
 	picture = "polish_uprising_aus"
 
 	trigger = {
+			exists = yes
 		tag = AUS
 		OR = {
 			AND = {
@@ -1013,6 +1027,7 @@ country_event = {
 	picture = "krakow_uprising"
 	
 	trigger = {
+			exists = yes
 		KRA = { war = no exists = yes }
 		has_global_flag = krakow_succeeded
 		exists = yes
@@ -1045,6 +1060,7 @@ country_event = {
 	picture = "polish_uprising_aus"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -1190,6 +1206,7 @@ country_event = {
 	picture = "croatian_settlement"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		any_owned_province = { is_core = CRO }
 	}

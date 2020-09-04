@@ -202,6 +202,7 @@ country_event = {
 	picture = "french_on_crimean_war"
 	
 	trigger = {
+			exists = yes
 		tag = TUR
 		has_country_flag = refused_french_claim
 		NOT = { has_global_flag = france_protector_of_eastern_christians }
@@ -251,6 +252,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_greater_power = yes
 		has_global_flag = france_protector_of_eastern_christians
@@ -315,6 +317,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = TUR
 		RUS = { war_with = TUR }
 		has_global_flag = crimea_has_happened
@@ -846,6 +849,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = ROM
 		war = no
 		owns = 678
@@ -1052,6 +1056,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ROM
 		has_country_flag = romanian_war_of_independence
 		war = no
@@ -1101,6 +1106,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ROM
 		has_country_flag = romanian_war_of_independence
 		war = no

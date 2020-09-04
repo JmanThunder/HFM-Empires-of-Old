@@ -1,7 +1,8 @@
 political_decisions = {
 	constantinople_conference = {
 		picture = "constantinople_conference"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = RUS
 			#has_global_flag = treaty_of_paris_1856
 			has_global_flag = great_eastern_crisis
@@ -81,7 +82,8 @@ political_decisions = {
 	
 	eastern_crisis_dismantle_ottomans = {
 		picture = "eastern_crisis_dismantle_ottomans"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = RUS
 			has_global_flag = treaty_of_paris_russia
 			has_global_flag = great_eastern_crisis
@@ -159,7 +161,8 @@ political_decisions = {
 	
 	the_reichstadt_agreement = {
 		picture = "congress_of_berlin"
-		potential = { 
+		potential = {
+			exists = yes 
 			OR = {
 				tag = GER
 				tag = GCF
@@ -209,7 +212,8 @@ political_decisions = {
 	
 	the_treaty_of_san_stefano_const = {
 		picture = "congress_of_berlin"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = RUS
 			has_global_flag = constantinople_conference
 			TUR = { has_country_flag = lost_russo_turkish_war }
@@ -259,7 +263,8 @@ political_decisions = {
 	
 	call_the_congress_of_berlin = {
 		picture = "congress_of_berlin"
-		potential = { 
+		potential = {
+			exists = yes 
 			NOT = { tag = RUS }
 			has_global_flag = the_treaty_of_san_stefano_const
 			OR = {
@@ -325,7 +330,8 @@ political_decisions = {
 	
 	turks_defy_congress = {
 		picture = "eastern_crisis_dismantle_ottomans"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = RUS
 			has_global_flag = constantinople_conference
 			has_country_flag = oe_refused_congress
@@ -357,7 +363,8 @@ political_decisions = {
 	
 	dismantle_ottomans = {
 		picture = "eastern_crisis_dismantle_ottomans"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = RUS
 			TUR = { has_country_flag = lost_russo_turkish_war }
 			truce_with = TUR

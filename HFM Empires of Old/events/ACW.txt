@@ -6,6 +6,7 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -146,6 +147,7 @@ country_event = {
 	picture = "Slaves"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -215,6 +217,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		NOT = {
@@ -272,6 +275,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -417,6 +421,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		NOT = {
@@ -487,6 +492,7 @@ country_event = {
 	picture = "southern_belle"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -662,6 +668,7 @@ country_event = {
 	picture = "dixie_mansion"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -895,6 +902,7 @@ country_event = {
 	picture = "dixie"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -1084,6 +1092,7 @@ country_event = {
 	picture = "yankee"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -1368,6 +1377,7 @@ country_event = {
 	picture = "fire_eaters"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -1533,6 +1543,7 @@ country_event = {
 	picture = "prisonworkers"
 		
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -1706,6 +1717,7 @@ country_event = {
 	
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -1890,6 +1902,7 @@ country_event = {
 	picture = "anti_slavery_society"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -2158,6 +2171,7 @@ country_event = {
 	picture = "Slaves"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -2330,6 +2344,7 @@ country_event = {
 	picture = "abolitionist_pamphlets"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -2626,6 +2641,7 @@ country_event = {
 	picture = "fugitive_slave"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -2752,6 +2768,7 @@ country_event = {
 	picture = "underground_railroad"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			slavery = yes_slavery
@@ -2886,6 +2903,7 @@ country_event = {
 	picture = "copperheards"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		any_state = {
@@ -3039,6 +3057,7 @@ country_event = {
 	picture = "Liberator"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		any_state = { is_slave = yes }
@@ -3099,6 +3118,7 @@ country_event = {
 	picture = "Slavepower"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		any_state = { is_slave = yes }
@@ -3164,6 +3184,7 @@ country_event = {
 	picture = "free_staters"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		has_country_flag = kansas_nebraska_act_acting
@@ -3288,6 +3309,7 @@ country_event = {
 	picture = "border_ruffians"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		has_country_flag = kansas_nebraska_act_acting
@@ -3396,6 +3418,7 @@ province_event = {
 	desc = "EVTDESC16200"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = USA
 			slavery = yes_slavery
@@ -3445,6 +3468,7 @@ province_event = {
 	desc = "EVTDESC16210"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = USA
 			slavery = yes_slavery
@@ -3488,6 +3512,7 @@ province_event = {
 	desc = "EVTDESC16220"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = USA
 			slavery = yes_slavery
@@ -3546,6 +3571,7 @@ province_event = {
 	desc = "EVTDESC16230"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = USA
 			slavery = yes_slavery
@@ -3602,6 +3628,7 @@ province_event = {
 	desc = "EVTDESC16240"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = USA
 			slavery = yes_slavery
@@ -3657,6 +3684,7 @@ province_event = {
 	desc = "EVTDESC16250"
 	
 	trigger = {
+			exists = yes
 		continent = north_america
 		NOT = { is_core = CSA }
 		OR = {
@@ -3741,6 +3769,7 @@ country_event = {
 	picture = "Uncletom"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		year = 1852
@@ -3794,6 +3823,7 @@ country_event = {
 	picture = "Amistad"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1841
 		OR = {
@@ -3876,6 +3906,7 @@ country_event = {
 	picture = "Anaconda"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = anaconda_plan
 		OR = {
 			NOT = {
@@ -3903,6 +3934,7 @@ country_event = {
 	picture = "kkk"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		has_global_flag = american_civil_war_has_happened
 		has_country_flag = has_used_radical_reconstruction
@@ -3944,6 +3976,7 @@ country_event = {
 	picture = "Sioux"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = custers_expedition_sent
 		owns = 122
 		122 = { trade_goods = precious_metal }
@@ -3972,6 +4005,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_country_flag = sioux_wars
 		NOT = { has_country_flag = sioux_wars_over }
 	}
@@ -4000,6 +4034,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_country_flag = sioux_wars
 		num_of_revolts = 0
 	}
@@ -4028,6 +4063,7 @@ country_event = {
 	picture = "Sioux"
 	
 	trigger = {
+			exists = yes
 		owns = 105
 		year = 1840
 		tag = USA
@@ -4071,6 +4107,7 @@ province_event = {
 	picture = "Sioux"
 	
 	trigger = {
+			exists = yes
 		is_colonial = yes
 		has_country_flag = apache_wars
 		has_pop_culture = native_american_minor
@@ -4106,6 +4143,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1886
 		has_country_flag = apache_wars
@@ -4145,6 +4183,7 @@ country_event = {
 	major = yes
 	
  	trigger = {
+			exists = yes
 		tag = USA
 		NOT = { CSA = { all_core = { has_province_modifier = reconstruction } } }
 		has_country_flag = has_used_radical_reconstruction

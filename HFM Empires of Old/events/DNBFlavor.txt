@@ -11,6 +11,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -48,6 +49,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -124,6 +126,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -193,6 +196,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -240,6 +244,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -326,6 +331,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -401,6 +407,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -448,6 +455,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -534,6 +542,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -609,6 +618,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -656,6 +666,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -742,6 +753,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -817,6 +829,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -864,6 +877,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -950,6 +964,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1025,6 +1040,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1068,6 +1084,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1150,6 +1167,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1225,6 +1243,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1272,6 +1291,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1359,6 +1379,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		tag = KUK
 		war = no
 		has_country_flag = danube_proposal_in_progress
@@ -1441,6 +1462,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_czech_approval
@@ -1472,6 +1494,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_romanian_approval
@@ -1505,6 +1528,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_croatian_approval
@@ -1544,6 +1568,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_slovene_approval
@@ -1575,6 +1600,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_slovakian_approval
@@ -1614,6 +1640,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		has_global_flag = full_polish_approval
@@ -1646,6 +1673,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = HUN
@@ -1697,6 +1725,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = BOH
@@ -1739,6 +1768,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = SIE
@@ -1785,6 +1815,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = CRO
@@ -1839,6 +1870,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = SLO
@@ -1881,6 +1913,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = SLV
@@ -1931,6 +1964,7 @@ country_event = {
 	picture = "celebration"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		is_possible_vassal = GLM
@@ -1978,6 +2012,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = HUN }
 		has_global_flag = no_hungarian_approval
@@ -2022,6 +2057,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = BOH }
 		has_global_flag = no_czech_approval
@@ -2059,6 +2095,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = ROM }
 		has_global_flag = no_romanian_approval
@@ -2096,6 +2133,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = CRO }
 		has_global_flag = no_croatian_approval
@@ -2133,6 +2171,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = SLO }
 		has_global_flag = no_slovene_approval
@@ -2170,6 +2209,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = SLV }
 		has_global_flag = no_slovakian_approval
@@ -2207,6 +2247,7 @@ country_event = {
 	picture = "nationalists"
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		any_owned_province = { is_core = POL }
 		has_global_flag = no_polish_approval
@@ -2250,6 +2291,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		HUN = {
@@ -2427,6 +2469,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = DNB
 		war = no
 		NOT = {

@@ -7,6 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC33300_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = BAD
 		year = 1846
 		NOT = {
@@ -46,6 +47,7 @@ country_event = {
 	id = 33301
 
 	trigger = {
+			exists = yes
 		tag = BAD
 		year = 1838
 		war = no

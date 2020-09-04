@@ -3,6 +3,7 @@ country_event = {
 	id = 43800
 
 	trigger = {
+			exists = yes
 		tag = AST  
 		year = 1844
 		NOT = {
@@ -47,6 +48,7 @@ country_event = {
 	id = 43801
 
 	trigger = {
+			exists = yes
 		tag = AST  
 		year = 1859
 		NOT = {
@@ -92,6 +94,7 @@ country_event = {
 	id = 43802
 
 	trigger = {
+			exists = yes
 		tag = AST  
 		year = 1901
 		NOT = {
@@ -137,6 +140,7 @@ country_event = {
 	id = 43803
 
 	trigger = {
+			exists = yes
 		tag = AST  
 		year = 1900
 		NOT = {

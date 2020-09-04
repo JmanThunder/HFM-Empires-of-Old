@@ -1,6 +1,7 @@
 political_decisions = {
 	declare_neutrality = {
 		potential = {
+			exists = yes
 			tag = SWI
 			NOT = {
 				has_country_modifier = neutrality
@@ -31,6 +32,7 @@ political_decisions = {
 	abandon_neutrality = {
 		picture = declare_neutrality
 		potential = {
+			exists = yes
 			has_country_modifier = neutrality
 			NOT = { has_country_flag = abandoned_neutrality }
 		}
@@ -65,6 +67,7 @@ political_decisions = {
 		picture = declare_neutrality
 		alert = no
 		potential = {
+			exists = yes
 			ai = no
 			SWI = {
 				neighbour = THIS
@@ -141,6 +144,7 @@ political_decisions = {
 	enforce_neutrality = {
 		picture = declare_neutrality
 		potential = {
+			exists = yes
 			has_country_modifier = neutrality
 			ai = yes
 		}
@@ -176,6 +180,7 @@ political_decisions = {
 	enforce_neutrality_on_player = {
 		picture = declare_neutrality
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			SWI = {
@@ -218,6 +223,7 @@ political_decisions = {
 	swiss_partition = {
 		picture = declare_neutrality
 		potential = {
+			exists = yes
 			SWI = {
 				all_core = {
 					OR = {

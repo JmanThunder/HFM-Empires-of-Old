@@ -16,6 +16,7 @@ country_event = {
 	picture = "white_rajah"
 
 	trigger = {
+			exists = yes
 		tag = BRU
 		war = no
 		part_of_sphere = no
@@ -120,6 +121,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		tag = NET
 		war = no
 		is_disarmed = no
@@ -546,6 +548,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			region = BAL_1438 #Bali
 			region = NET_1398 #Djambi
@@ -630,6 +633,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			region = NET_1446 #Flores
 			region = NET_1449 #Sulawesi
@@ -705,6 +709,7 @@ province_event = {
 	desc = "EVTDESC97130"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			region = NET_1451 #West New Guinea
 			region = AST_2528 #Southeast New Guinea
@@ -889,6 +894,7 @@ country_event = {
 	picture = "lan_xang"
 	
 	trigger = {
+			exists = yes
 		owns = 2575
 		owns = 1390
 		nationalism_n_imperialism = 1
@@ -1052,6 +1058,7 @@ country_event = {
 	picture = "aceh_jihad"
 	
 	trigger = {
+			exists = yes
 		tag = NET
 		truce_with = ATJ
 		NOT = { year = 1845 }

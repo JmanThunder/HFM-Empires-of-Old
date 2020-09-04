@@ -12,6 +12,7 @@ country_event = {
 	picture = "sepoy"
 
 	trigger = {
+			exists = yes
 		tag = EIC
 		OR = {
 			breech_loaded_rifles = 1

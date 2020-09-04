@@ -8,6 +8,7 @@ country_event = {
 	news_desc_short = "EVTDESC48300_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = ANH #only for Anhalt
 		year = 1862
 		NOT = {

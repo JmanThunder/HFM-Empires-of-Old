@@ -11,6 +11,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -57,6 +58,7 @@ country_event = {
 	id = 36900  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -107,6 +109,7 @@ country_event = {
 	news_desc_short = "EVTDESC36901_NEWS_SHORT"	
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -164,6 +167,7 @@ country_event = {
 	id = 36902  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -219,6 +223,7 @@ country_event = {
 	news_desc_short = "EVTDESC36903_NEWS_SHORT"	
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -266,6 +271,7 @@ country_event = {
 	id = 36904  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -320,6 +326,7 @@ country_event = {
 	id = 36905  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -368,6 +375,7 @@ country_event = {
 	id = 36907  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -425,6 +433,7 @@ country_event = {
 	id = 36908  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -467,6 +476,7 @@ country_event = {
 	id = 36909
 
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_global_flag = PlanWorldFair
 		year = 1849
@@ -510,6 +520,7 @@ country_event = {
 	id = 36910  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -556,6 +567,7 @@ country_event = {
 	news_desc_short = "EVTDESC36911_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -604,6 +616,7 @@ country_event = {
 	news_desc_short = "EVTDESC36912_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -649,6 +662,7 @@ country_event = {
 	id = 36913 
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -694,6 +708,7 @@ country_event = {
 	picture = "ssgreatbritan"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -734,6 +749,7 @@ country_event = {
 	id = 36915 
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -784,6 +800,7 @@ country_event = {
 	id = 36917  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -825,6 +842,7 @@ country_event = {
 	id = 36918  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -884,6 +902,7 @@ country_event = {
 	news_desc_short = "EVTDESC36919_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -928,6 +947,7 @@ country_event = {
 	id = 36921
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -993,6 +1013,7 @@ country_event = {
 	news_desc_short = "EVTDESC36922_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1048,6 +1069,7 @@ country_event = {
 	news_desc_short = "EVTDESC36923_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1101,6 +1123,7 @@ country_event = {
 	id = 36924  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1147,6 +1170,7 @@ country_event = {
 	news_desc_short = "EVTDESC36925_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1203,6 +1227,7 @@ country_event = {
 	id = 36926  
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1246,6 +1271,7 @@ country_event = {
 	id = 36927 
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1288,6 +1314,7 @@ country_event = {
 	id = 36928 
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1334,6 +1361,7 @@ country_event = {
 	news_desc_short = "EVTDESC36929_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1379,6 +1407,7 @@ country_event = {
 	id = 36930
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1424,6 +1453,7 @@ country_event = {
 	id = 36932
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1467,6 +1497,7 @@ country_event = {
 	id = 36933
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1511,6 +1542,7 @@ country_event = {
 	id = 36935 #parallel to AST43800, ENG more often than not will own AST directly at this point, so needs own event.
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1561,6 +1593,7 @@ country_event = {
 	id = 36936 #parallel to AST43801, ENG more often than not will own AST directly at this point, so needs own event.
 
 	trigger = {
+			exists = yes
 		tag = AST  
 		year = 1859
 		owns = 2468 #Sydney
@@ -1610,6 +1643,7 @@ country_event = {
 	id = 36937 #sets up COB35000
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1670,6 +1704,7 @@ province_event = {
 	id = 36938
 
 	trigger = {
+			exists = yes
 		province_id = 1251 #Calcutta
 		year = 1864
 		NOT = {
@@ -1722,6 +1757,7 @@ country_event = {
 	news_desc_short = "EVTDESC36939_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1815,6 +1851,7 @@ country_event = {
 	picture = "Waitangi"
 
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = treaty_of_waitangi }
 		owns = 2509 #Auckland
 		year = 1840
@@ -1871,6 +1908,7 @@ country_event = {
 	picture = "flagstaffwar"
 
 	trigger = {
+			exists = yes
 		owns = 2509 #Auckland
 		has_global_flag = treaty_of_waitangi
 		year = 1845
@@ -1925,6 +1963,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		2509 = {
 			owned_by = THIS
@@ -2005,6 +2044,7 @@ country_event = {
 	picture = "Opiumwar"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_greater_power = yes
 		nationalism_n_imperialism = 1
@@ -2275,6 +2315,7 @@ province_event = {
 	desc = "EVTDESC36963"
 	
 	trigger = {
+			exists = yes
 		province_id = 1909
 		owner = {
 			OR = {
@@ -2318,6 +2359,7 @@ country_event = {
 	picture = "slaves"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		war = no
 		slavery = no_slavery
@@ -2434,6 +2476,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		war = no
 		NOT = { owns = 1412 }
@@ -2565,6 +2608,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 	OR = {
 		tag = ENG
 		tag = ENL
@@ -2595,6 +2639,7 @@ country_event = {
 #	fire_only_once = yes
 #	
 #	trigger = {
+			exists = yes
 #		civilized = yes
 #		2599 = { NOT = { owned_by = THIS } empty = no }
 #		2630 = { NOT = { owned_by = THIS } empty = no }
@@ -2621,6 +2666,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			AND = {
 				2068 = { empty = yes }
@@ -2667,6 +2713,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		CAN = { 
 			exists = yes 
@@ -2722,6 +2769,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		CAN = { 
 			exists = yes 
@@ -2772,6 +2820,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		OR = {
 			ENG = {
@@ -2891,6 +2940,7 @@ country_event = {
 	picture = "sikkim_dalai_lama"
 
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		civilized = yes
 		SIK = {
@@ -2966,6 +3016,7 @@ country_event = {
 	picture = "bahrain_city"
 
 	trigger = {
+			exists = yes
 		tag = BHR
 		year = 1860
 		QAT = { exists = yes vassal_of = THIS }
@@ -3077,6 +3128,7 @@ country_event = {
 	picture = "bahrain_city"
 
 	trigger = {
+			exists = yes
 		owns = 1173
 		owns = 1175
 		is_greater_power = yes
@@ -3107,6 +3159,7 @@ country_event = {
 	picture = "welcome_stranger_nugget"
 
 	trigger = {
+			exists = yes
 		owns = 2478
 		year = 1850
 		2478 = { NOT = { trade_goods = precious_metal } }
@@ -3146,6 +3199,7 @@ province_event = {
 	desc = "EVTDESC315001"
 	
 	trigger = {
+			exists = yes
 		trade_goods = precious_metal
 		OR = {
 			province_id = 2478
@@ -3280,6 +3334,7 @@ country_event = {
 	picture = "anglo_ashanti_war"
 	
 	trigger = {
+			exists = yes
 		owns = 1908
 		nationalism_n_imperialism = 1
 		ASH = { civilized = no exists = yes neighbour = THIS owns = 1907 ai = yes }
@@ -3327,6 +3382,7 @@ country_event = {
 	picture = "glasgow_bridge"
 	
 	trigger = {
+			exists = yes
 		tag = SCO
 		NOT = { any_pop = { has_pop_culture = scottish } }
 	}
@@ -3358,6 +3414,7 @@ country_event = {
 	picture = "dr_livingstone"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		exists = yes
 		has_global_flag = american_civil_war_has_happened
@@ -3394,6 +3451,7 @@ country_event = {
 	picture = "ENG_paulet_affair"
 
 	trigger = {
+			exists = yes
 		tag = ENG
 		year = 1843
 		nationalism_n_imperialism = 1
@@ -3470,6 +3528,7 @@ country_event = {
 	news_desc_short = "EVTDESC110078_NEWS_SHORT"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -3505,6 +3564,7 @@ country_event = {
 	picture = "ENG_from_hell"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL

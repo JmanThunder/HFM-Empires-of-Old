@@ -3,6 +3,7 @@ political_decisions = {
 		picture = kruger_national_park
 		
 		potential = {
+			exists = yes
 			OR = {
 				tag = TRN
 				tag = SAF
@@ -77,6 +78,7 @@ political_decisions = {
 	adopt_die_stem = {
 		picture = adopt_die_stem
 		potential = {
+			exists = yes
 			OR = { 
 				tag = SAF
 				tag = VLK
@@ -101,6 +103,7 @@ political_decisions = {
 		picture = form_south_africa
 		alert = no
 		potential = {
+			exists = yes
 			any_owned_province = { is_core = SAF }
 			SAF = { exists = no }
 			NOT = { has_global_flag = south_africa_formed }
@@ -189,6 +192,7 @@ political_decisions = {
 		picture = tea_production
 		
 		potential = {
+			exists = yes
 			OR = {
 				owns = 2111
 				owns = 2112
@@ -232,6 +236,7 @@ political_decisions = {
 	form_south_africa_diplomatically = { #Forming Volkstaat
 		picture = embrace_the_boer
 		potential = {
+			exists = yes
 			primary_culture = boer
 			NOT = { has_global_flag = volkstaat_formed }
 		}
@@ -398,6 +403,7 @@ political_decisions = {
 	move_capital = {
 		picture = map_africa
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAF
 				tag = VLK
@@ -429,6 +435,7 @@ political_decisions = {
 	claim_namibia = {
 		picture = map_africa
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAF
 				tag = VLK
@@ -450,9 +457,9 @@ political_decisions = {
 		
 		effect = { 
 			prestige = 5
-			2084 = { add_core = THIS secede_province = THIS change_province_name = "Lüderitz" any_pop = { literacy = -0.99 } life_rating = 5 }
+			2084 = { add_core = THIS secede_province = THIS change_province_name = "L?deritz" any_pop = { literacy = -0.99 } life_rating = 5 }
 			2086 = { add_core = THIS secede_province = THIS change_province_name = "Keetmanshoop" any_pop = { literacy = -0.99 } life_rating = 5 }
-			2085 = { add_core = THIS secede_province = THIS change_province_name = "Maltahöe" any_pop = { literacy = -0.99 } life_rating = 5 }
+			2085 = { add_core = THIS secede_province = THIS change_province_name = "Maltah?e" any_pop = { literacy = -0.99 } life_rating = 5 }
 			set_country_flag = claimed_namibia
 		}
 		
@@ -464,6 +471,7 @@ political_decisions = {
 	open_the_frontiers = {
 		picture = die_groot_trek
 		potential = {
+			exists = yes
 			OR = {
 				tag = VLK
 				tag = SAF
@@ -507,6 +515,7 @@ political_decisions = {
 	greater_south_africa = {
 		picture = cape_map
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = greater_south_africa }	
 			primary_culture = boer
 			owns = 2105
@@ -549,6 +558,7 @@ political_decisions = {
 	#	picture = vaal_painting
 	#	
 	#	potential = {
+			exists = yes
 	#		AND = {
 	#			owns = 2105
 	#			owns = 2106
@@ -594,6 +604,7 @@ political_decisions = {
 	unite_with_transvaal = {
 		picture = "claim_transvaal"
 			potential = {
+			exists = yes
 				tag = ZOU
 				exists = TRN
 				ai = no
@@ -920,6 +931,7 @@ political_decisions = {
 		picture = embrace_minority
 		
 		potential = {
+			exists = yes
 			primary_culture = boer
 			nationalism_n_imperialism = 1
 			NOT = { has_country_flag = natives_educated }
@@ -958,6 +970,7 @@ political_decisions = {
 	boer_south_africa = {
 		picture = form_south_africa
 		potential = {
+			exists = yes
 			primary_culture = boer
 			nationalism_n_imperialism = 1
 			SAF = {
@@ -1000,6 +1013,7 @@ political_decisions = {
 	unified_south_africa = {
 		picture = form_south_africa
 		potential = {
+			exists = yes
 			tag = VLK
 			SAF = {
 				exists = no 

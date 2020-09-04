@@ -12,6 +12,7 @@ province_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1868
 		continent = europe
 		pop_majority_culture = british
@@ -51,6 +52,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = URU
 		year = 1930
 		month = 6
@@ -83,6 +85,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = CAN
 		year = 1892
 	}

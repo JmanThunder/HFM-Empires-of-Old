@@ -5,6 +5,7 @@ country_event = {
 	picture = "Waitangi"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425

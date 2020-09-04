@@ -10,6 +10,7 @@ country_event = {
 	picture = "communist_crowd"
 	
 	trigger = {
+			exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = proletarian_dictatorship }
@@ -78,6 +79,7 @@ country_event = {
 	picture = "Fascist"
 	
 	trigger = {
+			exists = yes
 		is_vassal = no
 		civilized = yes
 		government = democracy
@@ -163,6 +165,7 @@ country_event = {
 	picture = "election"
 	
 	trigger = {
+			exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = bourgeois_dictatorship }
@@ -234,6 +237,7 @@ country_event = {
 	picture = "Fascist"
 	
 	trigger = {
+			exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = fascist_dictatorship }
@@ -299,6 +303,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -346,6 +351,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			government = hms_government
 			government = prussian_constitutionalism
@@ -389,6 +395,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		government = absolute_monarchy
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
@@ -430,6 +437,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		government = prussian_constitutionalism
 		OR = {
 			political_parties = secret_ballots
@@ -478,6 +486,7 @@ country_event = {
 	picture = "communist_crowd"
 	
 	trigger = {
+			exists = yes
 		government = democracy
 		vote_franschise = none_voting		
 		OR = {
@@ -524,6 +533,7 @@ country_event = {
 	picture = "communist_crowd"
 	
 	trigger = {
+			exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = anarcho_liberal
@@ -565,6 +575,7 @@ country_event = {
 	picture = "communist_crowd"
 	
 	trigger = {
+			exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = communist
@@ -606,6 +617,7 @@ country_event = {
 	picture = "communist_crowd"
 	
 	trigger = {
+			exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = fascist
@@ -644,6 +656,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		part_of_sphere = yes
@@ -772,6 +785,7 @@ country_event = {
 	picture = "Administration"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		upper_house_composition = party_appointed
 		OR = {
@@ -797,6 +811,7 @@ country_event = {
 	picture = "communist_congress"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		trade_unions = no_trade_unions
 		revolution_n_counterrevolution = 1
@@ -826,6 +841,7 @@ country_event = {
 	picture = "Unite"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = female_suffrage
 		NOT = { vote_franschise = universal_weighted_voting }
 		NOT = {	vote_franschise = universal_voting }
@@ -851,6 +867,7 @@ country_event = {
 	picture = "bankruptcy"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		civilized = yes
 		OR = {
@@ -888,6 +905,7 @@ country_event = {
 	picture = "bankruptcy"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		civilized = yes
 		has_country_modifier = emergency_tax_measures1
@@ -915,6 +933,7 @@ country_event = {
 	picture = "bankruptcy"	
 	
 	trigger = {
+			exists = yes
 		OR = {
 			has_country_modifier = emergency_tax_measures1
 			has_country_modifier = emergency_tax_measures2
@@ -981,6 +1000,7 @@ country_event = {
 	picture = "greatpowers"
 		
 	trigger = {
+			exists = yes
 		NOT = { government = fascist_dictatorship }
 		NOT = { government = proletarian_dictatorship }
 		OR = {
@@ -1011,6 +1031,7 @@ country_event = {
 	picture = "deliberation"
 		
 	trigger = {
+			exists = yes
 		year = 1890
 		OR = {
 			has_country_modifier = international_zone_modifier
@@ -1061,6 +1082,7 @@ country_event = {
 	picture = "communist_crowd"
 		
 	trigger = {
+			exists = yes
 		government = theocracy
 		NOT = { tag = MON }
 		NOT = { tag = ITA }
@@ -2744,6 +2766,7 @@ country_event = {
 	major = yes
 		
 	trigger = {
+			exists = yes
 		ai = no
 		NOT = { has_global_flag = isolation_setup }
 	}

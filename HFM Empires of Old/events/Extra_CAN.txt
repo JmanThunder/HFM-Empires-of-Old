@@ -6,6 +6,7 @@ country_event = {
 	picture = "mcgeefuneral"
 
 	trigger = {
+			exists = yes
 		tag = CAN 
 		year = 1866
 		owns = 57
@@ -55,6 +56,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 
 	trigger = {
+			exists = yes
 		owns = 17
 		year = 1880
 	}
@@ -88,6 +90,7 @@ country_event = {
 	picture = "diamonds_in_kimberley"
 
 	trigger = {
+			exists = yes
 		tag = CAN
 		owns = 7
 		has_global_flag = klondike_gold_rush

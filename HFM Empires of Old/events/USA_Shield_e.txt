@@ -70,6 +70,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_global_flag = USA_CAN_denied
 		war = no
@@ -1012,6 +1013,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		USA = { has_country_flag = USA_demcoup  }
 		tag = BRZ
 		is_vassal = no
@@ -1802,6 +1804,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_country_flag = NW_hegemony
 		tag = USA
 		OR = {
@@ -1872,6 +1875,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = no_NWHeg
 		has_country_flag = hegpuppet
 		tag = GCO
@@ -1948,6 +1952,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = no_NWHeg
 		has_country_flag = hegpuppet
 		tag = UCA
@@ -2028,6 +2033,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = no_NWHeg
 		has_country_flag = hegpuppet
 		tag = PBC
@@ -2105,6 +2111,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = no_NWHeg
 		has_country_flag = hegpuppet
 		tag = LPL
@@ -2181,6 +2188,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = no_NWHeg
 		has_country_flag = hegpuppet
 		tag = CRB 
@@ -2269,6 +2277,7 @@ country_event = {
 	desc = EVTDESC8870778
 		
 	trigger = {
+			exists = yes
 		has_country_flag = unstable_union
 		NOT = { has_country_modifier = nationalist_agitation }
 	}
@@ -2312,6 +2321,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_country_flag = NW_hegemony
 		USA_247 = { owned_by = THIS }
 	}

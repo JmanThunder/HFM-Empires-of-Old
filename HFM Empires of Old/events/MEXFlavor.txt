@@ -13,6 +13,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = MEX
 		year = 1909
 		war = no
@@ -97,6 +98,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = MEX
 		year = 1911
 		war = no
@@ -156,6 +158,7 @@ country_event = {
 	 fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		year = 1911
 		has_country_flag = MaderoRevolt
@@ -203,6 +206,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		has_country_flag = MaderoRevolt
 		year = 1911
@@ -250,6 +254,7 @@ country_event = {
 	picture = "antonio_lopez_de_santa_ana"
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		government = presidential_dictatorship
 		NOT = {
@@ -322,6 +327,7 @@ province_event = {
 	desc = "EVTDESC44810"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = MEX
 			government = presidential_dictatorship
@@ -436,6 +442,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		war = no
 		government = presidential_dictatorship
@@ -487,6 +494,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		is_vassal = no
 		has_country_modifier = fight_the_power
@@ -577,6 +585,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		is_vassal = no
 		NOT = {
@@ -654,6 +663,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = YUC
 		government = democracy
 		is_vassal = no
@@ -916,6 +926,7 @@ country_event = {
 	picture = "execution_of_emperor_maximillian"
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		government = hms_government
 		has_country_flag = we_have_tried_this_once
@@ -981,6 +992,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		war = no
 		ai = yes
@@ -1050,6 +1062,7 @@ country_event = {
 	picture = "surrender_of_santanna"
 	
 	trigger = {
+			exists = yes
 		tag = TEX
 		war_with = MEX
 		national_provinces_occupied = 0.25
@@ -1257,6 +1270,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+			exists = yes
 		tag = TEX
 		has_country_modifier = treaties_of_velasco
 		part_of_sphere = no
@@ -1323,6 +1337,7 @@ country_event = {
 	picture = "MEX_victorio"
 
 	trigger = {
+			exists = yes
 		tag = MEX
 		year = 1880
 		owns = 2400

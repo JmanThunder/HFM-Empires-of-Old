@@ -2,6 +2,7 @@ political_decisions = {
 	international_african_association = {
 		picture = the_congo_conference
 		potential = {
+			exists = yes
 			year = 1870
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
@@ -105,6 +106,7 @@ political_decisions = {
 	force_publique = {
 	picture = force_publique
 		potential = {
+			exists = yes
 			tag = BEL
 			OR = {
 				government = hms_government
@@ -171,6 +173,7 @@ political_decisions = {
 	
 	rename_the_congo = {
 		potential = {
+			exists = yes
 			tag = BEL
 			exists = yes
 			OR = {
@@ -211,6 +214,7 @@ political_decisions = {
 	become_flanders = {
 		picture = become_belgium
 		potential = {
+			exists = yes
 			tag = BEL
 			NOT = {
 				exists = FLA
@@ -254,6 +258,7 @@ political_decisions = {
 	become_wallonia = {
 	picture = become_wallonia
 		potential = {
+			exists = yes
 			tag = BEL
 			exists = BEL
 			NOT = {
@@ -297,6 +302,7 @@ political_decisions = {
 	become_belgium_FLA = {
 		picture = become_belgium
 		potential = {
+			exists = yes
 			tag = FLA
 			NOT = { exists = BEL }
 		}
@@ -366,6 +372,7 @@ political_decisions = {
 	become_belgium_WLL = {
 		picture = become_belgium
 		potential = {
+			exists = yes
 			tag = WLL
 			NOT = { exists = BEL }
 		}
@@ -434,6 +441,7 @@ political_decisions = {
 	congo_mining_company = {
 		picture = mining_union_upper_katanga
 		potential = {
+			exists = yes
 			exists = yes
 			civilized = yes
 			any_owned_province = { is_core = CNG }
@@ -523,6 +531,7 @@ political_decisions = {
 	law_of_equality = {
 		picture = law_of_equality
 		potential = {
+			exists = yes
 			tag = BEL
 			owns = 390
 			NOT = { accepted_culture = flemish }

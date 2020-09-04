@@ -9,6 +9,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_disarmed = no
 		is_greater_power = yes
@@ -397,6 +398,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		is_disarmed = no
 		is_greater_power = yes
@@ -579,6 +581,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SIN
 			tag = KAL
@@ -900,6 +903,7 @@ country_event = {
 	picture = "Rebellion"
 	
 	trigger = {
+			exists = yes
 		vassal_of = RUS
 		ai = yes
 		civilized = no

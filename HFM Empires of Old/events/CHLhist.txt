@@ -5,6 +5,7 @@ country_event = {
 	picture = "occupation_of_araucania"
 	
 	trigger = {
+			exists = yes
 		tag = CHL
 		OR = {
 			2332 = { empty = yes }
@@ -207,6 +208,7 @@ country_event = {
 		picture = "chilean_silver_rush"
 		
 		trigger = {
+			exists = yes
 			2323 = { owned_by = THIS trade_goods = precious_metal }
 			year = 1880
 		}
@@ -249,6 +251,7 @@ country_event = {
 	picture = "sinking_of_the_esmeralda"
 	
 	trigger = {
+			exists = yes
 		tag = CHL
 		is_vassal = no
 		has_recently_lost_war = no

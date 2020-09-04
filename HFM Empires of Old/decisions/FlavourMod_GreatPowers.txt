@@ -1,7 +1,8 @@
 political_decisions = {
 	request_military_aid = {
 		picture = "military_aid"
-		potential = { 
+		potential = {
+			exists = yes 
 			is_greater_power = no
 			part_of_sphere = yes
 			civilized = yes
@@ -56,6 +57,7 @@ political_decisions = {
 	restore_republic_south_america = {
 		picture = "switch_to_liberty"
 		potential = {
+			exists = yes
 			OR = {
 				AND = {
 					capital_scope = { continent = south_america }	

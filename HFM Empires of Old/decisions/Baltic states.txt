@@ -2,6 +2,7 @@ political_decisions = {
 	
 	form_baltic_states = {
 		potential = {
+			exists = yes
 			is_culture_group = baltic
 			NOT = { exists = UBD }
 			NOT = { has_global_flag = baltic_states_formed }
@@ -84,6 +85,7 @@ political_decisions = {
 	create_baltic_states = {
 		picture = form_baltic_states
 		potential = {
+			exists = yes
 			NOT = {
 				tag = RUS
 				tag = PLC
@@ -190,6 +192,7 @@ political_decisions = {
 	add_lithuania_baltic_states = {
 		picture = old_vilnius
 		potential = {
+			exists = yes
 			UBD = { exists = yes }
 			NOT = { tag = RUS }
 			OR = {

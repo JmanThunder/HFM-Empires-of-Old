@@ -752,6 +752,7 @@ country_event = {
 	desc = "EVTDESC91708"
 
 	trigger = {
+			exists = yes
 		has_country_flag = recruitment_drive
 		NOT = { has_country_modifier = recruitment_drive }
 	}
@@ -772,6 +773,7 @@ country_event = {
 	desc = "EVTDESC91709"
 
 	trigger = {
+			exists = yes
 		has_country_flag = province_migration
 		NOT = {
 			any_owned_province = { has_province_modifier = province_attract_immigrants }

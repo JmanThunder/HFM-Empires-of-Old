@@ -19,6 +19,7 @@ country_event = {
 	picture = "greatpowers"
 
 	trigger = {
+			exists = yes
 		ai = no
 		badboy = 1.5
 		is_disarmed = no
@@ -66,6 +67,7 @@ country_event = {
 	picture = "greatpowers"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = international_pariah
 		NOT = { has_country_modifier = punitive_effects }
 		NOT = { badboy = 1 }
@@ -89,6 +91,7 @@ country_event = {
 	desc = "EVTDESC96135"
 
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		is_greater_power = yes
@@ -226,6 +229,7 @@ country_event = {
 	desc = "EVTDESC96140"
 
 	trigger = {
+			exists = yes
 		has_global_flag = ultimatum_refused
 		NOT = { has_country_flag = coalition_member }
 		NOT = { has_country_modifier = punitive_effects }
@@ -413,6 +417,7 @@ country_event = {
 	desc = "EVTDESC96145"
 
 	trigger = {
+			exists = yes
 		has_country_flag = coalition_member
 		OR = {
 			has_country_modifier = great_war
@@ -455,6 +460,7 @@ country_event = {
 	desc = "EVTDESC96146"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = coalition_member
 		NOT = { has_global_flag = ultimatum_refused }
 		NOT = {
@@ -484,6 +490,7 @@ country_event = {
 	picture = "Unite"
 
 	trigger = {
+			exists = yes
 		has_global_flag = ultimatum_refused
 		has_country_modifier = international_pariah
 		NOT = { has_country_modifier = punitive_effects }

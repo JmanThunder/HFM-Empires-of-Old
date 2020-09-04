@@ -3,6 +3,7 @@ country_event = {
 	id = 35400 #see 31507 for AUS parallel event
 
 	trigger = {
+			exists = yes
 		tag = LOM
 		year = 1842
 		NOT = {

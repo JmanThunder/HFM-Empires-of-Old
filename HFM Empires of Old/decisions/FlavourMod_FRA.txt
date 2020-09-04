@@ -2,6 +2,7 @@ political_decisions = {
 	notre_dame_afrique = {
 		picture = notre_dame_afrique
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -27,6 +28,7 @@ political_decisions = {
 	claim_monaco = {
 	picture = establish_panfrenchism
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -83,6 +85,7 @@ political_decisions = {
 	tonkin_campaign = {
 	picture = tonkin_campaign
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -116,6 +119,7 @@ political_decisions = {
 	claim_luxembourg = {
 	picture = luxembourg_crisis
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -188,6 +192,7 @@ political_decisions = {
 	claim_wallonia = {
 	picture = become_wallonia
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -256,6 +261,7 @@ political_decisions = {
 	establish_panfrenchism = {
 	picture = establish_panfrenchism
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -282,6 +288,7 @@ political_decisions = {
 	integrate_guyana = {
 		picture = french_guyane
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -312,6 +319,7 @@ political_decisions = {
 	haitian_integration = {
 		picture = map_caribbean
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -357,6 +365,7 @@ political_decisions = {
 	walloon_autonomy = {
 		picture = become_wallonia
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			WLL = { all_core = { owned_by = THIS } }
 			primary_culture = french
@@ -404,6 +413,7 @@ political_decisions = {
 	claim_catalonia = {
 		picture = french_catalonia
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -463,6 +473,7 @@ political_decisions = {
 	claim_andorra = {
 	picture = establish_panfrenchism
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -507,6 +518,7 @@ political_decisions = {
 	clean_up_fra_vassal = {
 		picture = become_wallonia
 		potential = {
+			exists = yes
 			government = french_bourbon
 			NOT = { tag = FRA tag = BOR }
 			NOT = { has_country_flag = french_bourbon_fixed }
@@ -526,6 +538,7 @@ political_decisions = {
 	clean_up_fra_rhineland = {
 		picture = adolphe_thiers
 		potential = {
+			exists = yes
 			tag = RHI
 			RHI = { 
 				exists = yes
@@ -566,6 +579,7 @@ political_decisions = {
 	clean_up_france_lost_rhine_crisis = {
 		picture = adolphe_thiers
 		potential = {
+			exists = yes
 			ai = yes
 			NOT = { has_global_flag = clean_up_france_lost_rhine_crisis }
 			OR = { 
@@ -598,6 +612,7 @@ political_decisions = {
 	take_the_channel_islands = {
 		picture = channel_islands
 		potential = {
+			exists = yes
 			OR = {
 				419 = { owner = { war_with = THIS } }
 				419 = { owner = { truce_with = THIS } }
@@ -635,6 +650,7 @@ political_decisions = {
 	annex_rhineland = {
 	picture = rhineland
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -675,6 +691,7 @@ political_decisions = {
 	picture = black_stain
 		alert = no
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -739,6 +756,7 @@ political_decisions = {
 	the_treaty_of_milan = {
 	picture = establish_panfrenchism
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -794,6 +812,7 @@ political_decisions = {
 	france_rename_rhine = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			OR = {
 				primary_culture = french
 				primary_culture = wallonian
@@ -821,12 +840,12 @@ political_decisions = {
 				limit = { province_id = 575 }
 				575 = { 
 					change_province_name = "Cologne"
-					state_scope = { change_region_name = "Rhénanie"  }
+					state_scope = { change_region_name = "Rh?nanie"  }
 				}
-				396 = { change_province_name = "Eupen-Malmédy" }
+				396 = { change_province_name = "Eupen-Malm?dy" }
 				576 = { change_province_name = "Aix-la-Chapelle" }
-				572 = { change_province_name = "Trèves" }
-				577 = { change_province_name = "Clèves" }
+				572 = { change_province_name = "Tr?ves" }
+				577 = { change_province_name = "Cl?ves" }
 				owner = { set_global_flag = france_rename_rhine }
 			}
 			
@@ -861,7 +880,7 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 395 }
-				395 = { change_province_name = "Liège" }
+				395 = { change_province_name = "Li?ge" }
 				owner = { 
 					set_global_flag = france_rename_liege
 					clr_global_flag = dutch_rename_liege
@@ -910,6 +929,7 @@ political_decisions = {
 	german_rename_rhine = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			is_culture_group = germanic
 			OR = {
 				AND = { owns = 575 has_global_flag = france_rename_rhine }
@@ -938,7 +958,7 @@ political_decisions = {
 			random_owned = {
 				limit = { province_id = 575 }
 				575 = { 
-					change_province_name = "Köln"
+					change_province_name = "K?ln"
 					state_scope = { change_region_name = "Rheinland" }
 				}
 				396 = { change_province_name = "Eupen-Malmedy" }
@@ -954,7 +974,7 @@ political_decisions = {
 					change_province_name = "Koblenz"
 					state_scope = { change_region_name = "Pfalz" }
 				}
-				573 = { change_province_name = "Saarbrücken" }
+				573 = { change_province_name = "Saarbr?cken" }
 				owner = { clr_global_flag = france_rename_prussian_pfalz }
 			}
 			
@@ -979,7 +999,7 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 395 }
-				395 = { change_province_name = "Lüttich" }
+				395 = { change_province_name = "L?ttich" }
 				owner = { 
 					set_global_flag = german_rename_liege
 					clr_global_flag = dutch_rename_liege
@@ -994,6 +1014,7 @@ political_decisions = {
 	the_roman_question = {
 	picture = the_roman_question
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1058,6 +1079,7 @@ political_decisions = {
 	
 	switch_bor_back_to_fra = {
 		potential = {
+			exists = yes
 			ai = yes
 			NOT = { neighbour = BOR }
 			BOR = {
@@ -1076,6 +1098,7 @@ political_decisions = {
 	
 	remove_any_french_cores = {
 		potential = {
+			exists = yes
 			ai = yes
 			OR = {
 				any_owned_province = { is_core = BOR }
@@ -1123,6 +1146,7 @@ political_decisions = {
 	jules_ferry_laws = {
 		picture = jules_ferry
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
@@ -1162,6 +1186,7 @@ political_decisions = {
 	purchase_annam = {
 		picture = dreams_of_empire
 		potential = {
+			exists = yes
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			NOT = { has_country_flag = purchase_annam }
@@ -1214,6 +1239,7 @@ political_decisions = {
 	support_troupes_de_marine = {
 		picture = troupes_de_marine
 		potential = {
+			exists = yes
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425

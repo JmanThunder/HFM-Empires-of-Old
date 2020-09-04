@@ -7,6 +7,7 @@ country_event = {
 	picture = "ethiopian_soldiers_marching"
 	
 	trigger = {
+			exists = yes
 		owns = 1855
 		OR = {
 			tag = GON
@@ -82,6 +83,7 @@ country_event = {
 	picture = "tewodros"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = tewodros_rules
 		owns = 1852
 		owns = 1853
@@ -144,6 +146,7 @@ country_event = {
 	picture = "tewodros"
 	
 	trigger = {
+			exists = yes
 		tag = ETH
 		ENG = { 
 			is_greater_power = yes
@@ -236,6 +239,7 @@ country_event = {
 	picture = "battle_of_magdala"
 	
 	trigger = {
+			exists = yes
 		tag = ETH
 		has_country_flag = abyssinian_captives
 		OR = {

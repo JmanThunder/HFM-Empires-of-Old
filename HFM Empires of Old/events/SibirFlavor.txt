@@ -5,6 +5,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = build_the_tsr
 		owns = 1059
@@ -60,6 +61,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = build_the_tsr1
 		owns = 2686
@@ -115,6 +117,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = build_the_tsr2
 		owns = 1075
 		owns = 1078
@@ -167,6 +170,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = build_the_tsr3
 		owns = 1082
@@ -229,6 +233,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = RUS
 		has_country_flag = build_the_manchurian_railway
 		owns = 1481

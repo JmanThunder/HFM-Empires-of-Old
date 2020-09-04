@@ -5,6 +5,7 @@ political_decisions = {
 	travel_to_europe = {
 		picture = dreams_of_empire
 		potential = {
+			exists = yes
 			tag = PER 
 			NOT = {	has_country_flag = travel_to_europe }
 		}
@@ -31,7 +32,8 @@ political_decisions = {
 	persian_cinema = {
 		picture = fatherland_altar
 		
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = PER
 			NOT = { has_country_flag = persian_cinema }
 			NOT = { has_country_modifier = silver_age }
@@ -61,7 +63,8 @@ political_decisions = {
 greater_iran = {
 	picture = greater_iran
 	
-	potential = { 
+	potential = {
+			exists = yes 
 		tag = PER
 		civilized = yes
 		NOT = { has_country_flag = greater_iran }
@@ -99,6 +102,7 @@ greater_iran = {
 establish_the_dar_al_funun = {
 		picture = suezcanalcompany
 		potential = {
+			exists = yes
 			tag = PER
 			civilized = no
 			has_country_modifier = silver_age
@@ -146,6 +150,7 @@ establish_the_dar_al_funun = {
 revoke_kurdish_autonomy = {
 		picture = old_kurdistan_map
 		potential = {
+			exists = yes
 			tag = PER
 			NOT = { has_country_flag = kurdish_states_integrated }
 			OR = {
@@ -185,6 +190,7 @@ revoke_kurdish_autonomy = {
 establish_the_majles = {
 	picture = caucasus_viceroyalty
 	potential = {
+			exists = yes
 		tag = PER
 		year = 1900
 		NOT = { has_country_flag = majles_established }
@@ -212,6 +218,7 @@ establish_the_majles = {
 end_bazaari_strike = {
 	picture = PER_bazaari_strike
 	potential = {
+			exists = yes
 		has_country_modifier = bazaari_strike
 	}
 			
@@ -244,6 +251,7 @@ end_bazaari_strike = {
 appoint_amir_kabir = {
 	picture = amir_kabir
 	potential = {
+			exists = yes
 		tag = PER
 		NOT = { year = 1852 }
 		NOT = {	has_country_flag = amir_kabir }
@@ -281,6 +289,7 @@ appoint_amir_kabir = {
 bring_tea_to_iran = {
 		picture = prince_mirza
 		potential = {
+			exists = yes
 			tag = PER
 			NOT = { has_country_flag = tea_in_iran }
 			OR = {

@@ -5,6 +5,7 @@ country_event = {
 	desc = "EVTDESC70000"
 	#picture = "Slaves"
 	trigger = {
+			exists = yes
 		country = {
 			OR = {
 				slavery = yes_slavery
@@ -196,6 +197,7 @@ country_event = {
 	desc = "EVTDESC70001"
 	#picture = "Western"
 	trigger = {
+			exists = yes
 		country = {
 			slavery = no_slavery
 			capital_scope = { NOT = { continent = europe }}
@@ -218,6 +220,7 @@ country_event = {
 	picture = "Bankruptcy"
 	
 	trigger = {
+			exists = yes
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
 		NOT = { has_country_flag = bankruptcy_events_disabled }
@@ -258,6 +261,7 @@ country_event = {
 	desc = "EVTDESC70003"
 	picture = "Bankruptcy"
 	trigger = {
+			exists = yes
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
 		NOT = { has_country_flag = bankruptcy_events_disabled }
@@ -302,6 +306,7 @@ country_event = {
 	desc = "EVTDESC70004"
 	picture = "stock_crash"
 	trigger = {
+			exists = yes
 		NOT = { tag = FROM }
 		NOT = { has_country_modifier = neutrality }
 		NOT = { has_country_flag = bankruptcy_events_disabled }
@@ -363,6 +368,7 @@ country_event = {
 	picture = "partition_of_africa"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = being_dismantled
 		num_of_vassals_no_substates = 1
 	}
@@ -392,6 +398,7 @@ country_event = {
 	picture = "partition_of_africa"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = being_dismantled
 		any_owned_province = {
 			OR = {

@@ -7,6 +7,7 @@ political_decisions = {
 		news_desc_short = "kiel_canal_NEWS_SHORT"
 		
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = kiel_under_construction }
 			NOT = { is_canal_enabled = 1 }
 			owns = 369
@@ -42,6 +43,7 @@ political_decisions = {
 		
 		picture = suezcanal
 		potential = {
+			exists = yes
 			NOT = { is_canal_enabled = 2 }
 			NOT = { has_global_flag = suez_canal_built }
 			is_greater_power = yes
@@ -97,6 +99,7 @@ political_decisions = {
 	found_suez_canal_company = {
 		picture = suezcanalcompany
 		potential = {
+			exists = yes
 			NOT = { is_canal_enabled = 2 }
 			NOT = { has_global_flag = suez_canal_built }
 			NOT = { has_global_flag = suez_canal_company_founded }
@@ -164,6 +167,7 @@ political_decisions = {
 		picture = suezcanalcompany
 		
 		potential = {
+			exists = yes
 			is_canal_enabled = 2
 			NOT = { owns = 1755 }
 			is_greater_power = yes
@@ -229,6 +233,7 @@ political_decisions = {
 		news_desc_medium = "panama_canal_NEWS_MEDIUM"
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = panama_under_construction }
 			NOT = { is_canal_enabled = 3 }
 			is_greater_power = yes
@@ -270,6 +275,7 @@ political_decisions = {
 		picture = build_panama_canal
 		
 		potential = {
+			exists = yes
 			is_canal_enabled = 3
 			NOT = { owns = 1723 }
 			is_greater_power = yes

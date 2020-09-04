@@ -11,6 +11,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = { tag = KUK }
 		NOT = {
@@ -284,6 +285,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = LOM
@@ -542,6 +544,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = CRO
@@ -804,6 +807,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = SLO
@@ -1064,6 +1068,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = BOH
@@ -1315,6 +1320,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = SLV
@@ -1576,6 +1582,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		tag = TUR
 		war = no
 		TUN = { vassal_of = TUR }
@@ -1678,6 +1685,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = BUL
@@ -1913,6 +1921,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = ALB
@@ -2150,6 +2159,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = BOS
@@ -2390,6 +2400,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = IRQ
@@ -2619,6 +2630,7 @@ country_event = {
 	picture = "Ottoman"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = CRE
@@ -2855,6 +2867,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		war = no
 		tag = SWE
 		any_state = {
@@ -2962,6 +2975,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		war = no
 		tag = SWE
 		any_state = {
@@ -3074,6 +3088,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		war = no
 		NOT = {
 			exists = FIN
@@ -3194,6 +3209,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		war = no
 		year = 1900
 		tag = SWE
@@ -3280,6 +3296,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		war = no
 		tag = RUS
 		NOT = { has_country_flag = no_grand_duchy_finland }
@@ -3461,6 +3478,7 @@ country_event = {
 	picture = "danishgovernment"
 
 	trigger = {
+			exists = yes
 		war = no
 		owns = 252
 		OR = {
@@ -3632,6 +3650,7 @@ country_event = {
 	picture = "norwegian_storting"
 
 	trigger = {
+			exists = yes
 		NOT = { tag = SCA }
 		war = no
 		is_our_vassal = NOR

@@ -12,6 +12,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		year = 1844
 		any_owned_province = {
@@ -193,6 +194,7 @@ province_event = {
 	picture = "famine"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		owner = { has_country_flag = no_help_for_the_irish }
 		any_neighbor_province = { has_province_modifier = irish_potato_blight }
@@ -232,6 +234,7 @@ province_event = {
 	picture = "famine"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		owner = { has_country_flag = little_help_for_the_irish }
 		any_neighbor_province = { has_province_modifier = irish_potato_blight }
@@ -271,6 +274,7 @@ province_event = {
 	picture = "famine"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		owner = { has_country_flag = help_for_the_irish }
 		any_neighbor_province = { has_province_modifier = irish_potato_blight }
@@ -311,6 +315,7 @@ country_event = {
 	picture = "yound_irelander_rebellion"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		any_owned_province = { is_core = IRE }
 		has_country_flag = great_irish_famine
@@ -370,6 +375,7 @@ province_event = {
 	desc = "EVTDESC1010016"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		controlled_by = THIS
 		NOT = { has_province_modifier = nationalist_agitation }
@@ -425,6 +431,7 @@ country_event = {
 	picture = "irish_republican_brotherhood"
 	
 	trigger = {
+			exists = yes
 		any_owned_province = {
 			is_core = IRE
 			culture = irish
@@ -499,6 +506,7 @@ province_event = {
 	picture = "fenian_raid"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		culture = irish
 		NOT = { has_province_modifier = irish_republicans }
@@ -605,6 +613,7 @@ province_event = {
 	picture = "fenian_raid"
 
 	trigger = {
+			exists = yes
 		is_core = IRE
 		has_province_modifier = irish_republicans
 		NOT = { has_province_modifier = nationalist_agitation }
@@ -637,6 +646,7 @@ province_event = {
 	picture = "fenian_easter_rising"
 	
 	trigger = {
+			exists = yes
 		has_province_modifier = irish_republicans
 		has_global_flag = great_wars_enabled
 		owner = {
@@ -798,7 +808,7 @@ province_event = {
 	
 country_event = {
 	id = 1010024
-	title = "EVTNAME1010024" #The Sinn Féin Demand
+	title = "EVTNAME1010024" #The Sinn F?in Demand
 	desc = "EVTDESC1010024"
 	news = yes
 	news_desc_long = "EVTDESC1010024_NEWS_LONG"
@@ -808,6 +818,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		owns = 263
 		war = no
 		election = no
@@ -944,6 +955,7 @@ country_event = {
 	picture = "irish_home_rule"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		war = no
 		has_global_flag = irish_war_of_independence
@@ -1052,6 +1064,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		year = 1875
 		any_owned_province = { is_core = IRE }
@@ -1105,6 +1118,7 @@ province_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		is_core = IRE
 		NOT = { has_province_modifier = irish_republicans }
 		NOT = { has_province_modifier = irish_unionists }
@@ -1168,6 +1182,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		war = no
 		is_possible_vassal = IRE
@@ -1414,6 +1429,7 @@ country_event = {
 	picture = "Bovary"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = IRE_independence_refused
 		OR = {
 			has_country_flag = parnell_discouraged
@@ -1450,6 +1466,7 @@ country_event = {
 	picture = "ireland_poverty"
 	
 	trigger = {
+			exists = yes
 		any_owned_province = { 
 			OR = {
 				province_id = 254

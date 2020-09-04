@@ -4,6 +4,7 @@ province_event = { #Kota Bahru founded
 	desc = "EVTDESC95658"
 	
 	trigger = {
+			exists = yes
 		province_id = 1391
 		year = 1843
 	}
@@ -30,6 +31,7 @@ country_event = {
 	picture = "exemplar_colony"
 	
 	trigger = {
+			exists = yes
 		owns = 1385
 		year = 1848
 	}
@@ -73,6 +75,7 @@ country_event = {
 	picture = "Assassination"
 	
 	trigger = {
+			exists = yes
 		tag = PRK
 		part_of_sphere = yes
 		sphere_owner = { NOT = { truce_with = THIS } }

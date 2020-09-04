@@ -19,6 +19,7 @@ country_event = {
 
 
 	trigger = {
+			exists = yes
 		year = 1851
 		tag = QNG
 		NOT = { has_global_flag = taiping_has_happened }
@@ -504,6 +505,7 @@ country_event = {
 	picture = "taiping_defeated"
 
 	trigger = {
+			exists = yes
 		has_global_flag = taiping_has_happened
 		tag = QNG
 		NOT = { exists = TPG }
@@ -605,6 +607,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = taiping_has_happened
 		tag = QNG
 		exists = TPG
@@ -655,6 +658,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = taiping_has_happened
 		tag = TPG
 		exists = QNG
@@ -701,6 +705,7 @@ country_event = {
 	picture = "taiping_attack"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		war = no
 		has_global_flag = truce_with_taiping
@@ -792,6 +797,7 @@ country_event = {
 	picture = "taiping_attack"
 	
 	trigger = {
+			exists = yes
 		tag = TPG
 		war = no
 		has_global_flag = truce_with_taiping
@@ -885,6 +891,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = taiping_has_happened
 		tag = TPG
 		NOT = { exists = QNG }
@@ -1034,6 +1041,7 @@ country_event = {
 	picture = "taiping"
 
 	trigger = {
+			exists = yes
 		tag = QNG
 		owns = 2221
 		2221 = { is_core = TPG }
@@ -1069,6 +1077,7 @@ country_event = {
 	picture = "shortage_of_women"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = QNG
 			tag = TPG
@@ -1101,6 +1110,7 @@ province_event = {
 	desc = "EVTDESC160012"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			has_country_flag = heavenly_kingdom
 			tag = QNG
@@ -1214,6 +1224,7 @@ province_event = {
 	desc = "EVTDESC160013"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			has_country_flag = heavenly_kingdom
 			tag = QNG
@@ -1307,6 +1318,7 @@ country_event = {
 	picture = "hong_xiuquan"
 
 	trigger = {
+			exists = yes
 		tag = QNG
 		year = 1840
 		has_country_flag = heavenly_kingdom
@@ -1360,6 +1372,7 @@ country_event = {
 	picture = "yang_xiuqing"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		year = 1845
 		has_country_flag = heavenly_kingdom
@@ -1427,6 +1440,7 @@ province_event = {
 	desc = "EVTDESC160017"
 	
 	trigger = {
+			exists = yes
 		owner = { tag = QNG }
 		is_core = TPG
 		NOT = {
@@ -1500,6 +1514,7 @@ province_event = {
 	desc = "EVTDESC160020"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = QNG
 			has_country_flag = heavenly_kingdom
@@ -1647,6 +1662,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = TPG
 		civilized = no
 		government = theocracy
@@ -1875,6 +1891,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		NOT = { tag = KMT }
 		is_culture_group = east_asian
 		war = yes

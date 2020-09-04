@@ -2,6 +2,7 @@ political_decisions = {
 	minas_gerais = {
 		picture = "minas_gerais"
 		potential = {
+			exists = yes
 			tag = BRZ
 			year = 1900
 			NOT = {

@@ -8,6 +8,7 @@ country_event = {
 	picture = "australia1st"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		year = 1843
 		NOT = { has_country_flag = 	australian_migration }
@@ -44,6 +45,7 @@ country_event = {
 	picture = "australia2nd"
 	
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = ENG
 			tag = FRA
@@ -93,6 +95,7 @@ country_event = {
 	picture = "Melbourne1850"
 	
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = ENG
 			tag = FRA

@@ -2,6 +2,7 @@ political_decisions = {
 	NAF_selfdetermination = {
 		picture = black_belt	
 		potential = {
+			exists = yes
 			NOT = { 
 				has_global_flag = NAF_selfdetermination
 				exists = NAF
@@ -59,6 +60,7 @@ political_decisions = {
 	NAF_greater = {
 		picture = form_union_nation
 		potential = {
+			exists = yes
 			tag = NAF
 			has_country_flag = NAF_constituion
 			NOT = { has_country_flag = NAF_greater }
@@ -85,6 +87,7 @@ political_decisions = {
 	NAF_HAI = {
 		picture = map_caribbean 
 		potential = {
+			exists = yes
 			tag = NAF
 			has_country_flag = NAF_constituion	
 			NOT = { has_country_flag = NAF_HAI }
@@ -141,6 +144,7 @@ political_decisions = {
 	NAF_Tuskgee = {
 		picture = switch_to_traditional_academic
 		potential = {
+			exists = yes
 			tag = NAF
 			NOT = { has_country_flag = NAF_Tuskgee }
 		}
@@ -175,6 +179,7 @@ political_decisions = {
 	
 	NAF_Native_American = {
 		potential = {
+			exists = yes
 			tag = NAF
 			citizens_rights = culture_voting_only
 			USA_200 = { owned_by = THIS } #Florida
@@ -203,6 +208,7 @@ political_decisions = {
 	
 	NAF_racialdebate = {
 		potential = {
+			exists = yes
 			tag = NAF
 			NOT = {
 				OR = { 
@@ -231,6 +237,7 @@ political_decisions = {
 	
 	NAF_start = {
 		potential = {
+			exists = yes
 			tag = USA
 			ai = no
 			NOT = { exists = NAF }
@@ -252,6 +259,7 @@ political_decisions = {
 	
 	NAF_undo_integration = {
 		potential = {
+			exists = yes
 			tag = NAF
 			OR = {
 				government = fascist_dictatorship
@@ -277,6 +285,7 @@ political_decisions = {
 	FSA_NAF_revolt_USA = {
 		picture = military_aid
 		potential = {
+			exists = yes
 			tag = FSA
 			NOT = { exists = NAF }
 			NOT = { exists = CSA }
@@ -340,6 +349,7 @@ political_decisions = {
 	FSA_NAF_revolt_CSA = {
 		picture = military_aid
 		potential = {
+			exists = yes
 			tag = FSA
 			NOT = { exists = NAF }
 			exists = CSA
@@ -396,6 +406,7 @@ political_decisions = {
 	
 	NAF_capital = {
 		potential = {
+			exists = yes
 			tag = NAF
 			USA_139 = { owned_by = THIS } #Louisiana
 			USA_194 = { owned_by = THIS } #Mississippi

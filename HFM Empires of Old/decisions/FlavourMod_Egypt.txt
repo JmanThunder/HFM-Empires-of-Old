@@ -1,7 +1,8 @@
 political_decisions = {
 	eng_ai_annex_egypt = {
 		picture = "suezcanal"
-		potential = { 
+		potential = {
+			exists = yes 
 			capital_scope = { continent = europe }
 			is_greater_power = yes
 			owns = 1755
@@ -57,6 +58,7 @@ political_decisions = {
 	form_kingdom_of_egypt = {
 		picture = "egyptian_constitution"
 		potential = {
+			exists = yes
 			capital_scope = { continent = europe }
 			NOT = { tag = TUR }
 			is_greater_power = yes
@@ -148,6 +150,7 @@ political_decisions = {
 	enact_ismail_pasha_reforms = {
 		picture = ismail_pasha
 		potential = {
+			exists = yes
 			tag = EGY
 			civilized = no
 			TUR = { ai = yes }
@@ -188,6 +191,7 @@ political_decisions = {
 	establish_the_egyptian_railways = {
 		picture = robert_stephenson
 		potential = {
+			exists = yes
 			tag = EGY
 			civilized = no
 			year = 1851
@@ -216,6 +220,7 @@ political_decisions = {
 	reclaim_hejaz = {
 		picture = the_holy_city
 		potential = {
+			exists = yes
 			war = no
 			has_global_flag = oriental_crisis
 			OR = { 

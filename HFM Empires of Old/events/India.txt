@@ -11,6 +11,7 @@ province_event = {
 	desc = "EVTDESC97100"
 	
 	trigger = {
+			exists = yes
 		is_core = HND
 		controlled_by = THIS
 		OR = {
@@ -151,6 +152,7 @@ country_event = {
 	picture = "sepoy"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			is_culture_group = south_asian
 			is_culture_group = indo_iranian
@@ -246,6 +248,7 @@ country_event = {
 	picture = "national_congress"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			is_culture_group = south_asian
 			any_owned_province = { is_core = HND any_pop = { is_culture_group = south_asian } }
@@ -447,6 +450,7 @@ country_event = {
 	picture = "ranjit_singh_death"
 	
 	trigger = {
+			exists = yes
 		tag = PNJ
 		has_country_flag = singh
 		NOT = { has_leader = "Ranjit Singh" }
@@ -482,6 +486,7 @@ country_event = {
 	picture = "ranjit_singh_death"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_global_flag = ranjit_singh_dead
 		NOT = { 
@@ -575,6 +580,7 @@ country_event = {
 #	picture = "afghan_tribes"
 #	
 #	trigger = {
+			exists = yes
 #		NOT = { has_country_modifier = afghan_tribal_warfare }
 #		tag = AFG
 #		war = yes
@@ -601,6 +607,7 @@ country_event = {
 	picture = "death_of_zafar"
 	
 	trigger = {
+			exists = yes
 		war = no
 		owns = 1236
 		MUG = { exists = no }
@@ -631,6 +638,7 @@ province_event = {
 	desc = "EVTDESC971200"
 	
 	trigger = {
+			exists = yes
 		year = 1867
 		trade_goods = coffee
 		OR = {
@@ -694,6 +702,7 @@ province_event = {
 	desc = "EVTDESC97121"
 	
 	trigger = {
+			exists = yes
 		owner = { has_country_flag = sepoy_rebellion }
 		is_core = HND 
 		any_pop = { is_primary_culture = yes }
@@ -740,6 +749,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+			exists = yes
 		war = no
 		OR = {
 			AND = {

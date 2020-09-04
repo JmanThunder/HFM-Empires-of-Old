@@ -7,6 +7,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+			exists = yes
 		OR = {
 			primary_culture = north_italian
 			primary_culture = south_italian
@@ -46,6 +47,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+			exists = yes
 		OR = {
 			primary_culture = north_italian
 			primary_culture = south_italian

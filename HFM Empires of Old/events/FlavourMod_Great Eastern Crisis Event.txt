@@ -7,6 +7,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		AND = {
 			tag = RUS
 			is_disarmed = no
@@ -164,6 +165,7 @@ country_event = {
 	picture = "ottoman"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = great_eastern_crisis
 	}
 	
@@ -484,6 +486,7 @@ country_event = {
 	picture = "berlin_congress_htm"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = started_the_great_eastern_crisis
 		NOT = { has_country_flag = ottomans_were_supported }
 		TUR = {

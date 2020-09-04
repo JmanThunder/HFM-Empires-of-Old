@@ -7,6 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC37700_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -126,6 +127,7 @@ country_event = {
 	news_desc_short = "EVTDESC37701_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -171,6 +173,7 @@ country_event = {
 	id = 37702
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -244,6 +247,7 @@ country_event = {
 	news_desc_short = "EVTDESC37706_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -292,6 +296,7 @@ country_event = {
 	picture = "charity_home_spain"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -348,6 +353,7 @@ country_event = {
 	id = 37708
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -429,6 +435,7 @@ country_event = {
 #	picture = "Administration"
 #	
 #	trigger = {
+			exists = yes
 #		OR = {
 #			tag = SPA
 #			tag = SPC
@@ -600,6 +607,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 	}
 	
@@ -758,7 +766,7 @@ country_event = {
 			}
 		}
 		define_general = {
-			name = "Tomás de Zumalacárregui"
+			name = "Tom?s de Zumalac?rregui"
 			personality = deeply_religious
 			background = innovative_tactician
 		}
@@ -776,6 +784,7 @@ country_event = {
 	picture = "carlist_defeat"
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 		has_country_flag = carlist_war
 		NOT = { any_core = { country_units_in_province = REB } }
@@ -825,6 +834,7 @@ country_event = {
 	picture = "carlists"
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 		NOT = { has_global_flag = carlists_pacified }
 		OR = {
@@ -1012,6 +1022,7 @@ province_event = {
 	desc = "EVTDESC37743"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = SPA
 			OR = {
@@ -1202,6 +1213,7 @@ province_event = {
 	desc = "EVTDESC37714"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = carlists_pacified }
 		owner = {
 			tag = SPA
@@ -1371,6 +1383,7 @@ province_event = {
 	desc = "EVTDESC37715"
 	
 	trigger = {
+			exists = yes
 		owner = { tag = SPA }
 		has_province_modifier = carlist_sympathies
 		controlled_by = SPA
@@ -1569,6 +1582,7 @@ country_event = {
 	picture = "carlists"
 	
 	trigger = {
+			exists = yes
 		tag = SPC
 		NOT = { has_global_flag = carlists_pacified }
 		OR = {
@@ -1720,6 +1734,7 @@ province_event = {
 	desc = "EVTDESC37744"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = carlists_pacified }
 		owner = {
 			tag = SPC
@@ -1887,6 +1902,7 @@ province_event = {
 	desc = "EVTDESC37718"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = carlists_pacified }
 		owner = {
 			tag = SPC
@@ -2032,6 +2048,7 @@ province_event = {
 	desc = "EVTDESC37719"
 	
 	trigger = {
+			exists = yes
 		owner = { tag = SPC }
 		has_province_modifier = christino_sympathies
 		controlled_by = SPC
@@ -2162,6 +2179,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 		year = 1865
 		OR = {
@@ -2504,6 +2522,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 		has_country_flag = king_leopold_rules
 		OR = {
@@ -2665,6 +2684,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = SPA
 		has_country_flag = king_amadeo_rules
 		OR = {
@@ -2815,6 +2835,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+			exists = yes
 		tag = SPA
 		has_global_flag = spain_glorious_revolution
 		government = democracy
@@ -3196,6 +3217,7 @@ country_event = {
 	picture = "senate_debate"
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			truce_with = SPA
@@ -3395,11 +3417,12 @@ country_event = {
 #events regarding the Chincha Islands War
 country_event = {
 	id = 97150
-	title = "EVTNAME97150" #The Talambó Incident
+	title = "EVTNAME97150" #The Talamb? Incident
 	desc = "EVTDESC97150"
 	picture = "arrested"
 	
 	trigger = {
+			exists = yes
 		capital_scope = { continent = south_america }
 		owns = 2297
 		war = no
@@ -3494,7 +3517,7 @@ country_event = {
 
 country_event = {
 	id = 97151
-	title = "EVTNAME97150" #The Talambó Incident - Peru Apologizes
+	title = "EVTNAME97150" #The Talamb? Incident - Peru Apologizes
 	desc = "EVTDESC97151"
 	news = yes
 	news_desc_long = "EVTDESC97151_NEWS_LONG"
@@ -3556,7 +3579,7 @@ country_event = {
 
 country_event = {
 	id = 97152
-	title = "EVTNAME97150" #The Talambó Incident - Peru Refuses to Apologize
+	title = "EVTNAME97150" #The Talamb? Incident - Peru Refuses to Apologize
 	desc = "EVTDESC97152"
 	news = yes
 	news_desc_long = "EVTDESC97152_NEWS_LONG"
@@ -3629,6 +3652,7 @@ country_event = {
 	picture = "treaty"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = resisting_spanish_rule
 		war = no
 		OR = {
@@ -3706,6 +3730,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = resisting_spanish_rule
 		war = no
 		NOT = { any_core = { country_units_in_province = REB } }
@@ -3799,6 +3824,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = resisting_spanish_rule
 		OR = {
 			war = no
@@ -3964,6 +3990,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -4273,6 +4300,7 @@ country_event = {
 	picture = "carlistas_en_miranda"
 
 	trigger = {
+			exists = yes
 		has_country_flag = fueros_abolished
 		OR = {
 			has_global_flag = spain_glorious_revolution

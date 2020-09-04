@@ -7,6 +7,7 @@ country_event = {
 	picture = "guinea_coast"
 
 	trigger = {
+			exists = yes
 		owns = 1887
 		owns = 1888
 		1889 = { empty = yes }

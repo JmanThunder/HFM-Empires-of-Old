@@ -53,6 +53,7 @@ country_event = {
 	picture = "queenvictoria"
 
 	trigger = {
+			exists = yes
 		NOT = { vassal_of = ENG }
 		tag = HAN
                 owns = 537
@@ -147,6 +148,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		tag = HAN
 			has_country_flag = han_constitution_revoked
 		NOT = { has_global_flag = die_goettinger_sieben }
@@ -383,6 +385,7 @@ country_event = {
 	picture = "Revolution"
 
 	trigger = {
+			exists = yes
                     NOT = { has_country_flag = goettingen_student_propaganda }
                     NOT = { has_country_flag = liberal_revolution_fired }
                             has_country_flag = goettinger_sieben_bad
@@ -428,6 +431,7 @@ country_event = {
 	picture = "diesieben"
 
 	trigger = {
+			exists = yes
 		has_country_flag = goettinger_sieben_good
 		NOT = { has_global_flag = goettingen_seven_here }
 		NOT = { has_country_flag = no_goettingen_seven_here }
@@ -518,6 +522,7 @@ country_event = {
 	picture = "diesieben"
 
 	trigger = {
+			exists = yes
 	   NOT = { has_country_flag = die_goettinger_sieben_honoured }
 	   has_global_flag = die_goettinger_sieben
 	   OR = { 
@@ -574,6 +579,7 @@ country_event = {
 	picture = "Vormaerz"
 
 	trigger = {
+			exists = yes
 		NOT = { year = 1848 }
 		is_culture_group = germanic
 		NOT = { has_country_flag = liberal_revolution_fired }
@@ -601,6 +607,7 @@ country_event = {
 	picture = "bayern"
 
 	trigger = {
+			exists = yes
 		tag = BAV
 		year = 1838 
 		NOT = { year = 1845 }
@@ -651,6 +658,7 @@ country_event = {
 	id = 200016
 
 	trigger = {
+			exists = yes
 		tag = BAD
 		year = 1838 
 		NOT = { year = 1843 }
@@ -774,6 +782,7 @@ country_event = {
 	id = 200018
 
 	trigger = {
+			exists = yes
 		tag = BAD
 		has_country_flag = free_press_in_baden
 		PRU = { has_country_flag = against_baden_press }
@@ -837,6 +846,7 @@ country_event = {
 	id = 200019
 
 	trigger = {
+			exists = yes
 		owns = 559
 		year = 1854
 	}
@@ -898,6 +908,7 @@ country_event = {
 	id = 200021
 
 	trigger = {
+			exists = yes
 		owns = 528
 		year = 1844
 	}
@@ -1109,6 +1120,7 @@ country_event = {
 	id = 200023
 
 	trigger = {
+			exists = yes
 		has_global_flag = heines_wintermaerchen 
 		has_country_flag = dombau_beginn
 		NOT = { has_country_flag = heines_mocking }
@@ -1199,6 +1211,7 @@ country_event = {
 	id = 200025
 
 	trigger = {
+			exists = yes
 		owns = 575 
 		has_country_flag = beethovenfest
 		ENG = { has_country_flag = beethovenfest }
@@ -1308,6 +1321,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		owns = 564       
 		year = 1846
 		NOT = { year = 1847 }
@@ -1377,6 +1391,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		owns = 564       
 		year = 1847
 		NOT = { year = 1848 }
@@ -1490,6 +1505,7 @@ country_event = {
 	picture = "Monarchy"
 
 	trigger = {
+			exists = yes
 		tag = HEK      
 		year = 1850
 		OR = { 
@@ -1545,7 +1561,8 @@ country_event = {
 	desc = "EVTDESC200035"
 	picture = "Kosmos"
 	
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1845
 		owns = 549
 	}
@@ -1572,7 +1589,8 @@ country_event = {
 
 	id = 200036
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1851
 		NOT = { year = 1857 }
 		owns = 578
@@ -1602,7 +1620,8 @@ country_event = {
 
 	id = 200037
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1845
 		NOT = { year = 1848 }
 		owns = 559
@@ -1631,7 +1650,8 @@ country_event = {
 
 	id = 200038
 
-	trigger = {       
+	trigger = {
+			exists = yes       
                         year = 1851
                         NOT = { year = 1864 }
                         owns = 561
@@ -1660,7 +1680,8 @@ country_event = {
 
 	id = 200039
 
-	trigger = {       
+	trigger = {
+			exists = yes       
                         year = 1868
                         NOT = { year = 1897 }
                         owns = 619
@@ -1689,7 +1710,8 @@ country_event = {
 
 	id = 200040
 
-	trigger = {       
+	trigger = {
+			exists = yes       
                         year = 1865
                         NOT = { year = 1867 }
                         owns = 619
@@ -1718,7 +1740,8 @@ country_event = {
 
 	id = 200041
 
-	trigger = {       
+	trigger = {
+			exists = yes       
                         year = 1874
                         NOT = { year = 1900 }
                         owns = 619
@@ -1747,7 +1770,8 @@ country_event = {
 
 	id = 200042
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1897
 		NOT = { year = 1911 }
 		owns = 619
@@ -1776,7 +1800,8 @@ country_event = {
 
 	id = 200043
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1909
 		owns = 558
 		realism = 1 # I know that this is debateable, but someone who wants prestige, should invest research points in culture technology
@@ -1804,7 +1829,8 @@ country_event = {
 
 	id = 200044
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1896
 		NOT = { year = 1898 }
 		owns = 619
@@ -1833,7 +1859,8 @@ country_event = {
 
 	id = 200045
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1920
 		owns = 619
 		expressionism = 1
@@ -1869,7 +1896,8 @@ country_event = {
 
 	id = 200046
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1837
 		NOT = { year = 1848 }
 		NOT = { has_country_flag = mondnacht }
@@ -1908,7 +1936,8 @@ country_event = {
 
 	id = 200047
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1839
 		NOT = { year = 1886 }
 		NOT = { has_country_flag = spitzweg }
@@ -1952,7 +1981,8 @@ country_event = {
 
 	id = 200048
 
-	trigger = {       
+	trigger = {
+			exists = yes       
 		year = 1838
 		NOT = { year = 1843 }
 		NOT = { has_country_flag = brentano }
@@ -1999,6 +2029,7 @@ province_event = {
 	picture = "Weberaufstand"
 
 	trigger = {
+			exists = yes
 		year = 1840
 		NOT = { year = 1848 }
 		owner = {
@@ -2080,6 +2111,7 @@ country_event = {
 	id = 200050
 
 	trigger = {
+			exists = yes
 
 			has_country_flag = weber_aufstand
 	}
@@ -2227,6 +2259,7 @@ country_event = {
 	picture = "Weberaufstand"
 
 	trigger = {
+			exists = yes
 		has_global_flag = weber_aufstand
 		OR = { 
 			tag = GER

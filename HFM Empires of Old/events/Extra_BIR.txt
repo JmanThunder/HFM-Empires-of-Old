@@ -6,6 +6,7 @@
 country_event = {
 	id = 811100
 	trigger = {
+			exists = yes
 		OR = {
 			is_culture_group = british
 			is_culture_group = neo_european_cultures
@@ -128,6 +129,7 @@ country_event = {
 country_event = {
 	id = 811102
 	trigger = {
+			exists = yes
 		NOT = { 
 			has_global_flag = a_dominion_is_declaring_independence 
 			has_country_flag = accepts_reform_ultimatum
@@ -238,6 +240,7 @@ country_event = {
 country_event = {
 	id = 811103
 	trigger = {
+			exists = yes
 		tag = ENG
 		NOT = { has_global_flag = british_monarchy_overthrown }
 		NOT = {
@@ -263,6 +266,7 @@ country_event = {
 country_event = {
 	id = 811104
 	trigger = {
+			exists = yes
 		has_global_flag = british_monarchy_overthrown
 		has_country_flag = british_loyalist_state
 		NOT = {
@@ -342,6 +346,7 @@ country_event = {
 country_event = {
 	id = 811105
 	trigger = {
+			exists = yes
 		has_global_flag = british_monarchy_overthrown
 		is_greater_power = yes
 		OR = {
@@ -410,6 +415,7 @@ country_event = {
 country_event = {
 	id = 811106
 	trigger = {
+			exists = yes
 		has_global_flag = british_monarchy_overthrown
 		has_country_flag = british_monarchical_dominion
 		NOT = {
@@ -474,6 +480,7 @@ country_event = {
 country_event = {
 	id = 811107
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_global_flag = british_monarchy_overthrown
 		has_global_flag = british_monarchy_gone_into_exile
@@ -524,6 +531,7 @@ country_event = {
 country_event = {
 	id = 811109
 	trigger = {
+			exists = yes
 		OR = {
 			has_country_flag = british_loyalist_state
 			has_country_flag = british_republican_dominion
@@ -587,6 +595,7 @@ country_event = {
 country_event = {
 	id = 811110
 	trigger = {
+			exists = yes
 		has_country_flag = british_republican_dominion
 		vassal_of = ENG
 		OR = {
@@ -707,6 +716,7 @@ country_event = {
 country_event = {
 	id = 811111
 	trigger = {
+			exists = yes
 		is_vassal = no
 		OR = {
 			has_country_flag = left_british_empire
@@ -754,6 +764,7 @@ country_event = {
 country_event = {
 	id = 811113
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_global_flag = balfour_declaration_1926_made
 		NOT = { has_global_flag = british_monarchy_overthrown }
@@ -773,6 +784,7 @@ country_event = {
 country_event = {
 	id = 811114
 	trigger = {
+			exists = yes
 		OR = {
 			is_culture_group = british
 			is_culture_group = neo_european_cultures
@@ -915,6 +927,7 @@ country_event = {
 country_event = {
 	id = 811150
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = fascist_dictatorship }
 	}
@@ -936,6 +949,7 @@ country_event = {
 country_event = {
 	id = 811151
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = bourgeois_dictatorship }
 	}
@@ -957,6 +971,7 @@ country_event = {
 country_event = {
 	id = 811152
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = presidential_dictatorship }
 	}
@@ -978,6 +993,7 @@ country_event = {
 country_event = {
 	id = 811153
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = proletarian_dictatorship }
 	}
@@ -999,6 +1015,7 @@ country_event = {
 country_event = {
 	id = 811154
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = democracy }
 	}
@@ -1019,6 +1036,7 @@ country_event = {
 country_event = {
 	id = 811155
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = hms_government }
 	}
@@ -1038,6 +1056,7 @@ country_event = {
 country_event = {
 	id = 811156
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = prussian_constitutionalism }
 	}
@@ -1057,6 +1076,7 @@ country_event = {
 country_event = {
 	id = 811157
 	trigger = {
+			exists = yes
 		has_country_flag = accepts_reform_ultimatum
 		ENG = { government = absolute_monarchy }
 	}

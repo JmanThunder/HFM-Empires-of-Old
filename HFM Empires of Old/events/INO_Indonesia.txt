@@ -6,6 +6,7 @@ country_event = {
 	picture = "INO_guided_democracy"
 	
 	trigger = {
+			exists = yes
 		tag = INO
 		NOT = { has_country_modifier = pancasila }
 		has_country_flag = pancasila
@@ -46,6 +47,7 @@ country_event = {
 	picture = "conscription_marching"
 	
 	trigger = {
+			exists = yes
 		tag = INO
 		civilized = yes
 		is_independant = yes

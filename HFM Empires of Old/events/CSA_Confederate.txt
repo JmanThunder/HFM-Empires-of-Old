@@ -6,6 +6,7 @@ country_event = {
 	picture = "CSA_hunley"
 	
 	trigger = {
+			exists = yes
 		tag = CSA
 		has_global_flag = american_civil_war_has_happened
 		war = yes

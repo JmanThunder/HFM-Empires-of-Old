@@ -169,6 +169,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		NOT = { 
 			OR = {
@@ -452,6 +453,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_country_flag = USS_threat
 		exists = USS
 		USA = { 
@@ -543,6 +545,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USS
 		MEX = { 
 			has_country_flag = USS_threat 
@@ -574,6 +577,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USS
 		is_greater_power = yes
 		USS = {
@@ -633,6 +637,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USS
 		primary_culture = brazilian
 		OR = {
@@ -817,6 +822,7 @@ country_event = {
 	picture = pbc_argentina_border_treaty
 		
 	trigger = {
+			exists = yes
 		OR = {
 			tag = GCO
 			tag = LPL
@@ -886,6 +892,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = USS
 		OR = {
 			primary_culture = north_andean
@@ -980,6 +987,7 @@ country_event = {
 	picture = pbc_argentina_border_treaty
 		
 	trigger = {
+			exists = yes
 		tag = BRZ
 		OR = {
 			vassal_of = USS
@@ -1262,7 +1270,8 @@ country_event = {
 	desc = EVTDESC1033676
 	picture = treaty_of_versailles
 	
-	trigger = { 
+	trigger = {
+			exists = yes 
 		tag = USA
 		has_global_flag = USS_USA_win
 		war = no

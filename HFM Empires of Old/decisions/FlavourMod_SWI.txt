@@ -1,7 +1,8 @@
 political_decisions = {
 	swiss_federation = {
 		picture = "swiss_federation"
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = SWI
 			war = no
 			NOT = { exists = SDB }

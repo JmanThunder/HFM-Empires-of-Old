@@ -1,6 +1,7 @@
 political_decisions = {
 	end_of_the_UK = {
 		potential = {
+			exists = yes
 			tag = ENG
 			NOT = { has_global_flag = united_kingdom_no_more }
 			NOT = { has_country_flag = dismantling_treaty }
@@ -48,6 +49,7 @@ political_decisions = {
 	reclaim_the_UK = {
 		picture = reform_the_UK
 		potential = {
+			exists = yes
 			tag = ENL
 			NOT = { has_country_flag = reclaimed_the_uk }
 		}
@@ -92,6 +94,7 @@ political_decisions = {
 	
 	reform_the_UK = {
 		potential = {
+			exists = yes
 			tag = ENL
 			has_country_flag = reclaimed_the_uk
 			NOT = { exists = ENG }
@@ -185,6 +188,7 @@ political_decisions = {
 	
 	declaration_of_independence = {
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = full_independence_achieved }
 			OR = {
 				AND = {

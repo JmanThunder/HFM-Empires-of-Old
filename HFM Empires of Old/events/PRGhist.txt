@@ -48,6 +48,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 	tag = PRG
 	year = 1840
 	has_country_modifier = francia_utopia
@@ -81,6 +82,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = PRG
 		year = 1839
 		NOT = {
@@ -119,6 +121,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = PRG
 		year = 1844
 		has_country_flag = carlos_lopez_elected
@@ -192,6 +195,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 	tag = PRG
 	year = 1855
 	has_country_flag = carlos_lopez_dictator
@@ -244,6 +248,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1857
 		tag = USA
 		has_country_flag = lopez_insult
@@ -344,6 +349,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1855
 		tag = USA
 		war = no
@@ -380,6 +386,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1855
 		tag = USA
 		war = no
@@ -414,6 +421,7 @@ country_event = {
 	picture = "usa_ship"
 	
 	trigger = {
+			exists = yes
 		year = 1855
 		tag = PRG
 		has_country_flag = usa_expedition
@@ -558,6 +566,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1835
 		tag = PRG
 		NOT = { has_country_modifier = francia_utopia }
@@ -639,6 +648,7 @@ country_event = {
 	picture = "solano_lopez"
 	
 	trigger = {
+			exists = yes
 		year = 1862
 		tag = PRG
 		has_country_modifier = solano_lopez_industrialization
@@ -670,6 +680,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		tag = PRG
 		year = 1850
 		NOT = { owns = 2554 }
@@ -707,6 +718,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		tag = PRG
 		NOT = { owns = 2420 }
 	}

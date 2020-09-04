@@ -3,6 +3,7 @@ country_event = {
 	id = 34500
 
 	trigger = {
+			exists = yes
 		tag = OLD
 		year = 1853
 		government = absolute_monarchy

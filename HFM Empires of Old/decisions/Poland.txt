@@ -3,6 +3,7 @@ political_decisions = {
 	become_poland = {
 
 		potential = {
+			exists = yes
 			primary_culture = polish
 			NOT = { exists = POL }
 			NOT = { has_country_flag = post_colonial_country }
@@ -56,6 +57,7 @@ political_decisions = {
 		picture = become_poland_lithuania
 
 		potential = {
+			exists = yes
 			OR = {
 				primary_culture = polish
 				primary_culture = lithuanian
@@ -183,6 +185,7 @@ political_decisions = {
 		picture = become_poland_lithuania
 		alert = no
 		potential = {
+			exists = yes
 			tag = PLC
 			NOT = { exists = POL }
 		}
@@ -254,6 +257,7 @@ political_decisions = {
 	unite_with_poland = {
 
 		potential = {
+			exists = yes
 			primary_culture = polish
 			NOT = { owns = 706 }
 			NOT = { tag = PLC }
@@ -435,6 +439,7 @@ political_decisions = {
 	galicia_annex_krakow = {
 		picture = unite_with_poland
 		potential = {
+			exists = yes
 			tag = KRA
 			exists = GLM
 			NOT = { has_country_flag = galicia_annex_krakow }
@@ -496,6 +501,7 @@ political_decisions = {
 	krakow_form_galicia = {
 		picture = become_poland
 		potential = {
+			exists = yes
 			tag = KRA
 			is_subject = no
 			not = { exists = GLM }
@@ -523,6 +529,7 @@ political_decisions = {
 	claim_eastern_poland = {
 		picture = become_poland
 		potential = {
+			exists = yes
 			tag = POL
 			NOT = { has_country_flag = claimed_eastern_poland }
 		}
@@ -554,6 +561,7 @@ political_decisions = {
 	january_uprising_victory = {
 		picture = become_poland
 		potential = {
+			exists = yes
 			tag = CPL
 			owns = 706
 			has_global_flag = january_uprising_happened
@@ -583,6 +591,7 @@ political_decisions = {
 	revoke_germanization = {
 		picture = become_poland
 		potential = {
+			exists = yes
 			primary_culture = polish
 			owns = 685
 			owns = 699

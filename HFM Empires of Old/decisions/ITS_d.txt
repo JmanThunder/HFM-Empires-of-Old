@@ -2,6 +2,7 @@ political_decisions = {
 	form_ITS = {
 		picture = form_italy
 		potential = {
+			exists = yes
 			tag = ITA
 			primary_culture = south_italian
 			NOT = { has_global_flag = ITS_form }
@@ -23,6 +24,7 @@ political_decisions = {
 	
 	ITA_annex_ITS = {
 		potential = {
+			exists = yes
 			ai = no
 			tag = ITA
 			exists = yes

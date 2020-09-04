@@ -1,6 +1,7 @@
 political_decisions = {
 	ottoman_oppression_mil_gain = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -41,6 +42,7 @@ political_decisions = {
 	
 	sanctions_lifted = {
 		potential = {
+			exists = yes
 			is_disarmed = yes
 			has_recently_lost_war = yes
 			OR = {
@@ -61,6 +63,7 @@ political_decisions = {
 	
 	medicine_flags = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -189,6 +192,7 @@ political_decisions = {
 
 	abolishing_serfs = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -263,6 +267,7 @@ political_decisions = {
 	
 	missing_government_flags = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			year = 1837
@@ -514,6 +519,7 @@ political_decisions = {
 	
 	enabling_crisis = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			NOT = { has_global_flag = revolution_n_counter_researched }
@@ -535,6 +541,7 @@ political_decisions = {
 	
 	slave_pop_growth = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			year = 1838
@@ -647,6 +654,7 @@ political_decisions = {
 	
 	release_bukovina = {
 		potential = {
+			exists = yes
 			owns = 662
 			owns = 663
 			OR = {
@@ -675,6 +683,7 @@ political_decisions = {
 
 	clean_up_crisis_tension = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -750,6 +759,7 @@ political_decisions = {
 	native_assimilation_act_ended = {
 		picture = native_assimilation_act
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -798,6 +808,7 @@ political_decisions = {
 	
 	modern_central_banking_system_flag = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {
@@ -838,6 +849,7 @@ political_decisions = {
 	
 	pay_owed_steamers = {
 		potential = {
+			exists = yes
 			ai = yes
 			OR = {
 				check_variable = { which = owed_steamers value = 1 }
@@ -1004,6 +1016,7 @@ political_decisions = {
 	
 	monthly_substate_payment = {
 		potential = {
+			exists = yes
 			ai = yes
 			NOT = { has_country_flag = exempt_from_vassal_contribution }
 			OR = {
@@ -1162,6 +1175,7 @@ political_decisions = {
 	
 	player_owes_money = {
 		potential = {
+			exists = yes
 			ai = yes
 			OR = {
 				any_neighbor_country = {
@@ -1552,6 +1566,7 @@ political_decisions = {
 	
 	silver_mines_without_modifier = {
 		potential = {
+			exists = yes
 			ai = yes
 			any_neighbor_country = {
 				OR = {
@@ -1609,6 +1624,7 @@ political_decisions = {
 		picture = vassal_payment
 		alert = no
 		potential = {
+			exists = yes
 			# HPM 0.4.5.2 port: government decisions
 			has_country_flag = government_decisions_on
 			any_neighbor_country = {
@@ -1639,6 +1655,7 @@ political_decisions = {
 		picture = vassal_payment
 		alert = no
 		potential = {
+			exists = yes
 			ai = no
 			has_country_flag = vassals_dont_need_to_pay
 			num_of_vassals_no_substates = 1
@@ -1663,6 +1680,7 @@ political_decisions = {
 	vassal_stop_paying_vassal_payments = {
 		picture = vassal_payment
 		potential = {
+			exists = yes
 			is_vassal = yes
 			overlord = { has_country_flag = vassals_dont_need_to_pay }
 			NOT = { has_country_flag = exempt_from_vassal_contribution }
@@ -1682,6 +1700,7 @@ political_decisions = {
 	
 	clean_up_crisis_tension_unciv = {
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			civilized = no
@@ -1705,6 +1724,7 @@ political_decisions = {
 	release_colonies_that_werent_annexed = {
 		potential = {
 			exists = yes
+			exists = yes
 			is_vassal = yes
 			has_country_flag = colony_to_be_annexed_flag
 			NOT = { has_country_modifier = colony_to_be_annexed }
@@ -1724,6 +1744,7 @@ political_decisions = {
 	
 	new_round_of_dismantlement = {
 		potential = {
+			exists = yes
 			exists = yes
 			is_vassal = yes
 			has_country_modifier = colony_to_be_annexed
@@ -1757,6 +1778,7 @@ political_decisions = {
 	cleanup_colonial_cores = {
 		picture = map_nigeria
 		potential = {
+			exists = yes
 			ai = yes
 			any_neighbor_country = {
 				civilized = yes

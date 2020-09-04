@@ -6,6 +6,7 @@ country_event = {
 	picture = "TemperanceLeague"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		OR = {
 			has_country_flag = catholic_country
@@ -93,6 +94,7 @@ country_event = {
 	picture = "Prohibition"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		OR = {
 			has_country_flag = catholic_country
@@ -164,6 +166,7 @@ province_event = {
 	desc = "EVTDESC120"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = beer_halls
 	}
 
@@ -205,6 +208,7 @@ province_event = {
 	desc = "EVTDESC130"
 	
 	trigger = {
+			exists = yes
 		has_province_modifier = beer_halls
 		state_scope = {
 			any_owned_province = {
@@ -278,6 +282,7 @@ province_event = {
 	desc = "EVTDESC140"
 		
 	trigger = {
+			exists = yes
 		has_province_modifier = beer_halls
 	}
 
@@ -358,6 +363,7 @@ country_event = {
 	picture = "god"
 
 	trigger = {
+			exists = yes
 		civilized = yes
 		OR = {
 			has_country_flag = catholic_country
@@ -429,6 +435,7 @@ country_event = {
 	picture = "liquor"
 		
 	trigger = {
+			exists = yes
 		civilized = yes
 		OR = {
 			has_country_flag = catholic_country
@@ -502,6 +509,7 @@ country_event = {
 	picture = "Demonstration"	
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		OR = {
 			has_country_flag = catholic_country
@@ -571,6 +579,7 @@ country_event = {
 	picture = "Spies"
 		
 	trigger = {
+			exists = yes
 		has_country_modifier = liquor_prohibition
 	}
 
@@ -625,6 +634,7 @@ country_event = {
 	picture = "TemperanceLeague"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = temperance_league
 		biologism = 1
 		NOT = {
@@ -712,6 +722,7 @@ country_event = {
 	picture = "TemperanceLeague"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = libertine_culture
 	}
 	
@@ -795,6 +806,7 @@ country_event = {
 	picture = "meeting3"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = temperance_league
 		liberal = 20
 		any_owned_province = {

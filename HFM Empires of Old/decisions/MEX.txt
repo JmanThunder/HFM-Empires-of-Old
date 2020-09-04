@@ -1,6 +1,7 @@
 political_decisions = {
 	restore_mexican_empire = {
 		potential = {
+			exists = yes
 			tag = MEX
 			government = democracy
 			NOT = { has_country_flag = we_have_tried_this_once }
@@ -61,6 +62,7 @@ political_decisions = {
 	treaty_of_guadalupe_hidalgo = {
 		picture = treaty_of_guadalupe_hidalgo
 		potential = {
+			exists = yes
 			tag = USA
 			has_country_flag = hasmanifestdestiny
 			NOT = { has_country_flag = treaty_of_guadalupe_hidalgo }
@@ -115,6 +117,7 @@ political_decisions = {
 	refute_manifest_destiny = {
 		picture = manifest_destiny
 		potential = {
+			exists = yes
 			exists = yes
 			OR = {
 				tag = MEX

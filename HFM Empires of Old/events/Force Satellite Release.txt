@@ -561,6 +561,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
+			exists = yes
 		is_vassal = yes
 		has_country_flag = freedom_attempt_made
 		has_country_flag = foreign_intervention
@@ -608,6 +609,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
+			exists = yes
 		is_vassal = yes
 		has_country_flag = freedom_attempt_made
 		has_country_flag = foreign_intervention
@@ -664,6 +666,7 @@ country_event = {
 	picture = "unite"
 
 	trigger = {
+			exists = yes
 		is_vassal = yes
 		has_country_flag = freedom_attempt_made
 		has_country_flag = foreign_intervention

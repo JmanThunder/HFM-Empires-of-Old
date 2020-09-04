@@ -3,6 +3,7 @@ country_event = {
 	id = 34100
 
 	trigger = {
+			exists = yes
 		tag = FRM
 		year = 1838
 		war = no

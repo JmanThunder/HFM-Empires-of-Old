@@ -16,6 +16,7 @@ country_event = {
 	picture = "senate_debate"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1865
 		NOT = { exists = CSA }
@@ -203,6 +204,7 @@ country_event = {
 	picture = "senate_debate"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1865
 		NOT = { exists = CSA }
@@ -292,6 +294,7 @@ province_event = {
 	desc = "EVTDESC16505"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_core = CSA }
 		NOT = { is_core = FSA }
 		is_core = USA
@@ -354,6 +357,7 @@ province_event = {
 	desc = "EVTDESC16506"
 
 	trigger = {
+			exists = yes
 		NOT = { is_core = CSA }
 		NOT = { is_core = FSA }
 		is_core = USA
@@ -418,6 +422,7 @@ province_event = {
 	desc = "EVTDESC16506"
 
 	trigger = {
+			exists = yes
 		NOT = { is_core = CSA }
 		NOT = { is_core = FSA }
 		is_core = USA
@@ -489,6 +494,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		tag = USA
 		slavery = yes_slavery
 		has_country_flag = second_constitutional_convention
@@ -680,6 +686,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = USA
 		war = no
 		has_global_flag = alt_american_civil_war_has_happened

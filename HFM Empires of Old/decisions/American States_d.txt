@@ -2,6 +2,7 @@ political_decisions = {
 	CSA_aoc = {
 		picture = reform_csa
 		potential = {
+			exists = yes
 			tag = CSA
 			has_country_flag = 36_or_fight
 			has_unclaimed_cores = no
@@ -67,6 +68,7 @@ political_decisions = {
 	}
 	CSA_columbia = {
 		potential = {
+			exists = yes
 			tag = CSA
 			CAN_13 = { owned_by = CSA }
 			has_global_flag = CSA_aoc
@@ -92,6 +94,7 @@ political_decisions = {
 	
 	NEN_NY = {
 		potential = {
+			exists = yes
 			tag = NEN
 			is_vassal = no
 			USA_232 = {
@@ -131,6 +134,7 @@ political_decisions = {
 	
 	NEN_maritimes_conquest = {
 		potential = {
+			exists = yes
 			is_vassal = no
 			tag = NEN
 			ENG_68 = { NOT = { is_core = NEN } }
@@ -177,6 +181,7 @@ political_decisions = {
 	}
 	NEN_maritimes_purchase = {
 		potential = {
+			exists = yes
 			tag = NEN
 			NOT = { has_country_flag = NEN_maritimes_purchase }
 			OR = {
@@ -214,6 +219,7 @@ political_decisions = {
 	
 	NEN_lawrence_purchase = {
 		potential = {
+			exists = yes
 			tag = NEN
 			OR = {
 				is_vassal = no
@@ -271,6 +277,7 @@ political_decisions = {
 	}
 	NEN_lawrence_conquest = {
 		potential = {
+			exists = yes
 			is_vassal = no
 			tag = NEN
 			ENG_68 = {
@@ -344,6 +351,7 @@ political_decisions = {
 	NEN_french = {
 		picture = organize_acadia
 		potential = {
+			exists = yes
 			tag = NEN
 			is_vassal = no
 		}
@@ -363,6 +371,7 @@ political_decisions = {
 	ULA_greater = {
 		picture = establish_panfrenchism
 		potential = {
+			exists = yes
 			tag = ULA
 			is_vassal = no
 			NOT = { has_country_flag = ULA_greater }
@@ -432,6 +441,7 @@ political_decisions = {
 	
 	ULA_buyout = {
 		potential = {
+			exists = yes
 			tag = ULA
 			has_unclaimed_cores = no
 			NOT = { has_country_flag = ULA_buyout }
@@ -457,6 +467,7 @@ political_decisions = {
 	CSA_ULA_friendship = {
 		picture = reform_csa
 		potential = {
+			exists = yes
 			tag = ULA
 			has_country_flag = ULA_greater
 			NOT = {
@@ -502,6 +513,7 @@ political_decisions = {
 	
 	ULA_Dixie = {
 		potential = {
+			exists = yes
 			is_vassal = no
 			tag = ULA
 			NOT = { accepted_culture = dixie }
@@ -528,6 +540,7 @@ political_decisions = {
 	ULA_HAI = {
 		picture = map_caribbean 
 		potential = {
+			exists = yes
 			tag = ULA
 			OR = {
 				is_greater_power = yes
@@ -566,6 +579,7 @@ political_decisions = {
 	
 	ULA_afro = {
 		potential = {
+			exists = yes
 			tag = ULA
 			slavery = no_slavery 
 			HAI = { 

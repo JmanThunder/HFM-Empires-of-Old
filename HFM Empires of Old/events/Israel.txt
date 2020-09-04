@@ -12,6 +12,7 @@ country_event = {
 	picture = "jews"
 	
 	trigger = {
+			exists = yes
 		tag = ISR
 		war = no
 		NOT = { has_country_flag = jewish_diaspora }
@@ -94,6 +95,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = jewish_diaspora
 		owner = {
 			NOT = { border_policy = closed_borders }
@@ -204,6 +206,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = jewish_diaspora
 		owner = {
 			NOT = { border_policy = closed_borders }
@@ -315,6 +318,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = jewish_diaspora
 		owner = {
 			NOT = { border_policy = closed_borders }
@@ -425,6 +429,7 @@ province_event = {
 	desc = "EVTDESC98405"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = jewish_diaspora
 		owner = {
 			NOT = { border_policy = closed_borders }
@@ -536,6 +541,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {
@@ -627,6 +633,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {
@@ -718,6 +725,7 @@ province_event = {
 	desc = "EVTDESC30089"
 
 	trigger = {
+			exists = yes
 		has_province_modifier = armenian_diaspora
 		NOT = { is_core = ARM }
 		owner = {

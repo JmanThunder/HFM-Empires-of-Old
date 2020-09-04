@@ -3,6 +3,7 @@ country_event = {
 	id = 37200
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -59,6 +60,7 @@ country_event = {
 	news_desc_short = "EVTDESC37201_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -108,6 +110,7 @@ country_event = {
 	id = 37202
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -148,6 +151,7 @@ country_event = {
 	id = 37203
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -211,6 +215,7 @@ country_event = {
 	news_desc_short = "EVTDESC37204_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -252,6 +257,7 @@ country_event = {
 	id = 37205
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -293,6 +299,7 @@ country_event = {
 	id = 37206
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -334,6 +341,7 @@ country_event = {
 	id = 37207
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -396,6 +404,7 @@ country_event = {
 	id = 37209
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -437,6 +446,7 @@ country_event = {
 	id = 37210
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -476,6 +486,7 @@ country_event = {
 	id = 37211
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -522,6 +533,7 @@ country_event = {
 	news_desc_short = "EVTDESC37213_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -569,6 +581,7 @@ country_event = {
 	id = 37215
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -614,6 +627,7 @@ country_event = {
 	news_desc_short = "EVTDESC37216_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -690,6 +704,7 @@ country_event = {
 	news_desc_short = "EVTDESC37217_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -770,6 +785,7 @@ country_event = {
 	news_desc_short = "EVTDESC37218_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -838,6 +854,7 @@ country_event = {
 	news_desc_short = "EVTDESC37220_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -878,6 +895,7 @@ country_event = {
 	id = 37221
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -919,6 +937,7 @@ country_event = {
 	id = 37222
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -960,6 +979,7 @@ country_event = {
 	id = 37223
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1001,6 +1021,7 @@ country_event = {
 	id = 37224
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1042,6 +1063,7 @@ country_event = {
 	id = 37225
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1097,6 +1119,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		473 = {
 			owned_by = THIS
 			controlled_by = REB
@@ -1131,6 +1154,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		847 = {
 			owned_by = THIS
 			controlled_by = REB
@@ -1177,6 +1201,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		855 = {
 			owned_by = THIS
 			controlled_by = REB
@@ -1223,6 +1248,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1289,6 +1315,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1459,6 +1486,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1492,6 +1520,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1542,6 +1571,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1614,6 +1644,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		owns = 1711
 		owns = 1712
@@ -1655,7 +1686,7 @@ country_event = {
 	}
 }
 
-#Battle of Logandème
+#Battle of Logand?me
 country_event = {
 
 	id = 37241
@@ -1666,6 +1697,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425

@@ -12,6 +12,7 @@ country_event = {
 	picture = "slaves"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -110,6 +111,7 @@ country_event = {
 	picture = "Cubanrebels"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -231,6 +233,7 @@ country_event = {
 	picture = "colonial_uprising"	
 		
 	trigger = {
+			exists = yes
 		year = 1890
 		OR = {
 			AND = {
@@ -314,6 +317,7 @@ country_event = {
 	picture = "ship_attacked"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		OR = {
 			exists = SPA
@@ -679,6 +683,7 @@ country_event = {
 	picture = "finepeople"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SPA
 			tag = SPC
@@ -769,6 +774,7 @@ country_event = {
 	picture = "Cubanrebels"
 
 	trigger = {
+			exists = yes
 		year = 1880
 		NOT = {
 			exists = PHL
@@ -1187,6 +1193,7 @@ country_event = {
 	picture = "colonial_uprising"
 
 	trigger = {
+			exists = yes
 		owns = 2222
 		year = 1865
 		2222 = {
@@ -1226,6 +1233,7 @@ country_event = {
 	picture = "Cubanrebels"
 
 	trigger = {
+			exists = yes
 		year = 1890
 		NOT = {
 			exists = PRI

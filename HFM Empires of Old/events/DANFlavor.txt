@@ -2,6 +2,7 @@ country_event = {
 
 	id = 36201
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1870
 		NOT = {
@@ -61,6 +62,7 @@ country_event = {
 
 	id = 36202
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1871
 		has_country_flag = LouisPioFirst
@@ -149,6 +151,7 @@ country_event = {
 
 	id = 36203
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1874
 		has_country_flag = LouisPioSecond
@@ -233,6 +236,7 @@ country_event = {
 	news_desc_short = "EVTDESC36204_NEWS_SHORT"
 	
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1848
 		owns = 2223 #St Thomas, Virgin Islands 
@@ -298,6 +302,7 @@ country_event = {
 	id = 36205
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1885
 		capital = 372 #copenhagen
@@ -380,6 +385,7 @@ country_event = {
 	id = 36206
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1896
 		OR = { 
@@ -436,6 +442,7 @@ country_event = {
 
 	id = 36207
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1898
 		NOT = {
@@ -502,6 +509,7 @@ country_event = {
 
 	id = 36208
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1908
 		war = no
@@ -554,6 +562,7 @@ country_event = {
 	id = 36210
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1882
 		war = no
@@ -607,6 +616,7 @@ country_event = {
 	id = 36211
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1865
 		war = no
@@ -659,6 +669,7 @@ country_event = {
 	id = 36212
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1884
 		capital = 372 #copenhagen
@@ -711,6 +722,7 @@ country_event = {
 	id = 36213
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1891
 		capital = 372 #copenhagen
@@ -759,6 +771,7 @@ country_event = {
 	id = 36214
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1884
 		ruling_party_ideology = conservative
@@ -819,6 +832,7 @@ country_event = {
 	news_desc_short = "EVTDESC36217_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1840
 		invention = proto_existentialism
@@ -865,6 +879,7 @@ country_event = {
 	id = 36218
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1842
 		capital = 372 #copenhagen
@@ -916,6 +931,7 @@ country_event = {
 	id = 36219
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1843
 		owns = 368 #ribe (province where Rodding is located)
@@ -968,6 +984,7 @@ country_event = {
 	id = 36220
 
 	trigger = {
+			exists = yes
 		tag = DEN 
 		year = 1870
 		public_meetings = yes_meeting
@@ -1019,6 +1036,7 @@ country_event = {
 	id = 36223 #see SWE36622 for parallel event
 
 	trigger = {
+			exists = yes
 		tag = DEN
 		year = 1856
 		war = no
@@ -1137,6 +1155,7 @@ country_event = { #Faroese Nationalism - Christmas Meeting
 	id = 120013
 	
 	trigger = {
+			exists = yes
 		owns = 253
 		253 = { is_colonial = yes }
 		year = 1888

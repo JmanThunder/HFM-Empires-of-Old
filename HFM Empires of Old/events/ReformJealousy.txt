@@ -3,6 +3,7 @@ country_event = {
 	id = 90100 
 
 	trigger = {
+			exists = yes
 			ai = no
 			OR = {
 				press_rights = state_press
@@ -65,6 +66,7 @@ country_event = {
 	id = 90101 
 
 	trigger = {
+			exists = yes
 			OR = {
 				press_rights = state_press
 				press_rights = censored_press
@@ -119,6 +121,7 @@ country_event = {
 	id = 90102 
 
 	trigger = {
+			exists = yes
 			ai = no
 			public_meetings = no_meeting
 			consciousness = 5
@@ -178,6 +181,7 @@ country_event = {
 	id = 90103
 
 	trigger = {
+			exists = yes
 			public_meetings = no_meeting
 			consciousness = 5
 			literacy = 0.40
@@ -227,6 +231,7 @@ country_event = {
 	id = 90104
 
 	trigger = {
+			exists = yes
 			ai = no
 			trade_unions = no_trade_unions
 			consciousness = 5
@@ -306,6 +311,7 @@ country_event = {
 	id = 90105
 
 	trigger = {
+			exists = yes
 			trade_unions = no_trade_unions
 			consciousness = 5
 			literacy = 0.40

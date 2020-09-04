@@ -3,6 +3,7 @@ country_event = {
 	id = 35300
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -46,6 +47,7 @@ country_event = {
 	id = 35301
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -91,6 +93,7 @@ country_event = {
 	picture = "pope"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -148,6 +151,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -715,6 +719,7 @@ country_event = {
 	desc = "EVTDESC96160"
 
 	trigger = {
+			exists = yes
 		primary_culture = north_italian
 		war = no
 		is_vassal = no
@@ -817,6 +822,7 @@ country_event = {
 	picture = "pact_of_piombieres"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = SAR
 			tag = SVY
@@ -1018,6 +1024,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		is_culture_group = italian
 		war = no
 		is_vassal = no
@@ -1232,6 +1239,7 @@ country_event = {
 	picture = "theatre"
 
 	trigger = {
+			exists = yes
 		year = 1847
 		OR = {
 		AND = {
@@ -1276,6 +1284,7 @@ country_event = {
 	picture = "vittoriano"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -1304,6 +1313,7 @@ country_event = {
 	picture = "sicilian_revolution"
 
 	trigger = {
+			exists = yes
 		tag = SIC
 		government = absolute_monarchy
 		year = 1844
@@ -1420,6 +1430,7 @@ country_event = {
 	picture = "ITA_pinocchio"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS

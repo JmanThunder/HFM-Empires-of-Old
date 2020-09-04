@@ -8,6 +8,7 @@ country_event = {
 	picture = "italoturk"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ITA
 			tag = ITS
@@ -457,6 +458,7 @@ country_event = {
 	picture = "italoturk2"
 
 	trigger = {
+			exists = yes
 		tag = TUR
 		owns = 1731
 		has_global_flag = italy_fights_turk

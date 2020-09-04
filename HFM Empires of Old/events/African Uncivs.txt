@@ -85,6 +85,7 @@ country_event = { #The Mfecane
 	picture = "mfecane"
 	
 	trigger = {
+			exists = yes
 		tag = MAT
 		war = no
 		year = 1836
@@ -135,6 +136,7 @@ country_event = {
 	picture = "toucouleur"
 	
 	trigger = {
+			exists = yes
 		tag = SEG
 		war = no
 		year = 1845

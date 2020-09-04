@@ -3,6 +3,7 @@ political_decisions = {
 	form_israel = {
 		picture = form_israel
 		potential = {
+			exists = yes
 			civilized = yes
 			NOT = { has_country_flag = sunni_country }
 			NOT = { has_country_flag = shiite_country }
@@ -80,6 +81,7 @@ political_decisions = {
 	 law_of_return = {
 	 picture = law_of_return
 	 	potential = {
+			exists = yes
 			OR = {
 				AND = {
 					tag = ISR
@@ -148,6 +150,7 @@ political_decisions = {
 	greater_israel = {
 	 picture = greater_israel
 	 	potential = {
+			exists = yes
 			tag = ISR
 	 		NOT = { has_country_flag = greater_israel }
 	 	}

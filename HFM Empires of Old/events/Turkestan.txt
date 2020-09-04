@@ -13,6 +13,7 @@ country_event = {
 	picture = "central_asian_tribes"
 	
 	trigger = {
+			exists = yes
 		civilized = yes
 		NOT = { is_culture_group = iranian_turanian }
 		NOT = { exists = TKM }
@@ -64,6 +65,7 @@ country_event = {
 	picture = "central_asian_tribes"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_culture_group = iranian_turanian }
 		NOT = { exists = KAZ }
 		KAZ = { all_core = { owned_by = THIS } }
@@ -108,6 +110,7 @@ country_event = {
 	picture = "central_asian_tribes"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		NOT = { is_culture_group = iranian_turanian }
 		NOT = { exists = UZB }
@@ -170,6 +173,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = KHI
 			tag = BUK
@@ -289,6 +293,7 @@ country_event = {
 	picture = "central_asian_tribes"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_culture_group = iranian_turanian }
 		NOT = { exists = TAJ }
 		OR = {
@@ -333,6 +338,7 @@ country_event = {
 	picture = "central_asian_tribes"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		NOT = { is_culture_group = iranian_turanian }
 		NOT = { exists = KYR }
@@ -380,6 +386,7 @@ country_event = {
 	picture = "arab_revolt"
 
 	trigger = {
+			exists = yes
 		tag = KOK
 		post_napoleonic_thought = 1
 		any_neighbor_country = {

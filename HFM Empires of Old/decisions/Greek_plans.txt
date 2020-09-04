@@ -3,6 +3,7 @@ political_decisions = {
 	french_crusade = {
 		picture = constantinople
 		potential = {
+			exists = yes
 			ai = no
 			tag = FRA
 			NOT = { has_country_flag = french_crusade }
@@ -86,6 +87,7 @@ political_decisions = {
 	treaty_of_lyon = {
 		picture = constantinople
 		potential = {
+			exists = yes
 			tag = FRA
 			has_country_flag = french_crusade
 			NOT = { has_country_flag = treaty_of_lyon }
@@ -159,6 +161,7 @@ political_decisions = {
 	russian_greek_plan = {
 		picture = constantinople
 		potential = {
+			exists = yes
 			ai = no
 			tag = RUS
 			NOT = { has_country_flag = greek_plan }
@@ -201,6 +204,7 @@ political_decisions = {
 	treaty_of_kiev = {
 		picture = constantinople
 		potential = {
+			exists = yes
 			tag = RUS
 			has_country_flag = greek_plan
 			NOT = { has_country_flag = treaty_of_kiev }

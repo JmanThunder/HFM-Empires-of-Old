@@ -15,6 +15,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		is_colonial = no
 		owner = {
@@ -84,6 +85,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		is_colonial = no
 		unemployment = 0.05
@@ -152,6 +154,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		is_colonial = no
 		owner = {
@@ -226,6 +229,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		is_colonial = no
 		owner = {
@@ -289,6 +293,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		has_national_minority = yes
 		is_colonial = no
@@ -358,6 +363,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		has_national_minority = yes
 		is_colonial = no
@@ -439,6 +445,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		is_colonial = no
@@ -508,6 +515,7 @@ province_event = {
 	is_triggered_only = yes
 
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		is_colonial = no
@@ -566,6 +574,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		is_colonial = no
@@ -642,6 +651,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		is_colonial = no
@@ -712,6 +722,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		is_colonial = yes
@@ -769,6 +780,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		owner = {
@@ -825,6 +837,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_national_minority = yes
 		has_recent_imigration = 30
 		owner = {
@@ -893,6 +906,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		has_recent_imigration = 30
 		has_national_minority = yes
 		owner = {

@@ -234,6 +234,7 @@ country_event = {
 	picture = "sonno_joi"
 
 	trigger = {
+			exists = yes
 		primary_culture = japanese
 		OR = {
 			tag = TKG
@@ -279,6 +280,7 @@ province_event = {
 	desc = "EVTDESC97616"
 
 	trigger = {
+			exists = yes
 		owner = {
 			has_country_flag = sonno_joi
 			war = no
@@ -466,6 +468,7 @@ country_event = {
 	picture = "emperor_funeral"
 
 	trigger = {
+			exists = yes
 		tag = TKG
 		year = 1858
 		OR = {
@@ -659,6 +662,7 @@ country_event = {
 	picture = "sakuradamon"
 
 	trigger = {
+			exists = yes
 		tag = TKG
 		has_country_modifier = ansei_purge
 		OR = {
@@ -786,6 +790,7 @@ country_event = {
 	picture = "emperor_funeral"
 
 	trigger = {
+			exists = yes
 		tag = TKG
 		year = 1860
 		OR = {
@@ -856,6 +861,7 @@ country_event = {
 	picture = "meiji_parliament"
 
 	trigger = {
+			exists = yes
 		tag = TKG
 		OR = {
 			government = absolute_monarchy
@@ -1256,6 +1262,7 @@ country_event = {
 	picture = "boshin_war"
 
 	trigger = {
+			exists = yes
 		tag = TKG
 		has_global_flag = boshin_war
 		war = yes
@@ -1308,6 +1315,7 @@ country_event = {
 	picture = "boshin_war"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = imperial_war_leader
 		has_global_flag = boshin_war
 		OR = {
@@ -1468,6 +1476,7 @@ country_event = {
 	picture = "emperor_move_capital"
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		war = no
 		owns = 1649
@@ -1595,6 +1604,7 @@ country_event = {
 	picture = "boshin_war"
 
 	trigger = {
+			exists = yes
 		has_country_flag = imperial_war_leader
 		has_global_flag = boshin_war
 		war = yes
@@ -1640,6 +1650,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = TKG
 		war = no
 		has_global_flag = boshin_war
@@ -1813,6 +1824,7 @@ country_event = {
 	picture = "demonstration"
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		war = no
 		OR = {
@@ -1890,6 +1902,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+			exists = yes
 		civilized = no
 		OR = {
 			tag = KAG
@@ -1928,6 +1941,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		war = no
 		OR = {
 			tag = TKG
@@ -2049,6 +2063,7 @@ country_event = {
 	picture = "satsuma_rebellion"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = JAP
 			tag = TKG
@@ -2093,6 +2108,7 @@ country_event = {
 	picture = "Southpole3"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = TKG
 			tag = JAP
@@ -2165,6 +2181,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = JAP
 			tag = TKG
@@ -2212,6 +2229,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = JAP
 			tag = TKG
@@ -2257,6 +2275,7 @@ country_event = {
 	picture = "warlords"
 	
 	trigger = {
+			exists = yes
 		war = no
 		is_disarmed = no
 		has_global_flag = warlord_era_has_begun
@@ -2516,6 +2535,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+			exists = yes
 		has_country_modifier = line_of_advantage
 		is_disarmed = no
 		war = no
@@ -2647,6 +2667,7 @@ country_event = {
 	picture = "ship_attacked"
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		is_greater_power = yes
 		has_country_modifier = line_of_advantage
@@ -2847,6 +2868,7 @@ country_event = {
 	picture = "kurils"
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		crisis_exist = no
 		has_country_modifier = line_of_advantage
@@ -3078,6 +3100,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		has_global_flag = boshin_war_has_happened
 		civilized = yes
@@ -3132,6 +3155,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = JAP
 		owns = 1642
 		TKG = { exists = no }
@@ -3192,6 +3216,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = JAP
 			tag = TKG

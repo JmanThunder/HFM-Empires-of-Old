@@ -3,6 +3,7 @@ political_decisions = {
 	specific_trade_policy = {
 		picture = specific_trade_policy
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = trade_policy_choosing_disabled }
 			exists = yes
 			OR = {
@@ -86,6 +87,7 @@ political_decisions = {
 	rescind_trade_policy = {
 		picture = specific_trade_policy
 		potential = {
+			exists = yes
 			ai = yes
 			exists = yes
 			OR = {

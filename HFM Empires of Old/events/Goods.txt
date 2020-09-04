@@ -6,6 +6,7 @@ province_event = {
 	id = 1100
 
 	trigger = {
+			exists = yes
 		year = 1836
 		NOT = { year = 1890 }
 		or = {
@@ -66,6 +67,7 @@ province_event = {
 	id = 1101
 
 	trigger = {
+			exists = yes
 		year = 1848
 		NOT = { year = 1900 }
 		or = {
@@ -139,6 +141,7 @@ province_event = {
 	id = 1103
 
 	trigger = {
+			exists = yes
 		year = 1861
 		OR = {
 			province_id = 93			# Pocatello
@@ -205,6 +208,7 @@ province_event = {
 	id = 1139
 	
 	trigger = {
+			exists = yes
 		year = 1886
 		province_id = 2106
 		NOT = { trade_goods = precious_metal }
@@ -250,6 +254,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		year = 1874
 		has_country_flag = custers_expedition_sent
 	}
@@ -288,6 +293,7 @@ province_event = {
 	id = 1104
 
 	trigger = {
+			exists = yes
 		year = 1893
 		or = {
 			province_id = 6			# Whitehorse
@@ -339,6 +345,7 @@ province_event = {
 	id = 1105
 
 	trigger = {
+			exists = yes
 		year = 1836
 		NOT = { year = 1910 }
 		or = {
@@ -372,6 +379,7 @@ province_event = {
 	id = 1106
 
 	trigger = {
+			exists = yes
 		year = 1867
 		NOT = { year = 1920 }
 		or = {
@@ -409,6 +417,7 @@ province_event = {
 	id = 1107
 
 	trigger = {
+			exists = yes
 		year = 1880
 		NOT = { has_province_modifier = switched_production }
 		or = {
@@ -485,6 +494,7 @@ province_event = {
 	id = 1108
 
 	trigger = {
+			exists = yes
 		year = 1890
 		NOT = { has_province_modifier = switched_production }
 		or = {
@@ -552,6 +562,7 @@ province_event = {
 	id = 1109
 
 	trigger = {
+			exists = yes
 		year = 1870
 		NOT = { has_province_modifier = switched_production }
 		or = {
@@ -587,6 +598,7 @@ province_event = {
 	id = 1110
 
 	trigger = {
+			exists = yes
 		year = 1871
 		province_id = 1104		# Sheki
 		not = { trade_goods = oil }
@@ -619,6 +631,7 @@ province_event = {
 	id = 1111
 
 	trigger = {
+			exists = yes
 		year = 1872
 		province_id = 1186		# Alma Ata
 		not = { trade_goods = oil }
@@ -651,6 +664,7 @@ province_event = {
 	id = 1112
 
 	trigger = {
+			exists = yes
 		year = 1873
 		province_id = 1202		# Kokand
 		not = { trade_goods = oil }
@@ -683,6 +697,7 @@ province_event = {
 	id = 1113
 
 	trigger = {
+			exists = yes
 		year = 1874
 		province_id = 1107		# Lankaran
 		not = { trade_goods = oil }
@@ -715,6 +730,7 @@ province_event = {
 	id = 1114
 
 	trigger = {
+			exists = yes
 		year = 1875
 		province_id = 132		# Houston
 		not = { trade_goods = oil }
@@ -747,6 +763,7 @@ province_event = {
 	id = 1115
 
 	trigger = {
+			exists = yes
 		year = 1876
 		province_id = 667		# Tirgoviste
 		not = { trade_goods = oil }
@@ -779,6 +796,7 @@ province_event = {
 	id = 1116
 
 	trigger = {
+			exists = yes
 		year = 1877
 		province_id = 672		# Bacau
 		not = { trade_goods = oil }
@@ -811,6 +829,7 @@ province_event = {
 	id = 1117
 
 	trigger = {
+			exists = yes
 		year = 1879
 		province_id = 1168		# Dubai
 		not = { trade_goods = oil }
@@ -843,6 +862,7 @@ province_event = {
 	id = 1118
 
 	trigger = {
+			exists = yes
 		year = 1881
 		province_id = 112		# Cheyenne
 		not = { trade_goods = oil }
@@ -875,6 +895,7 @@ province_event = {
 	id = 1119
 
 	trigger = {
+			exists = yes
 		year = 1882
 		or = {
 			province_id = 90		# San Diego
@@ -910,6 +931,7 @@ province_event = {
 	id = 1120
 
 	trigger = {
+			exists = yes
 		year = 1883
 		or = {
 			province_id = 1399		# Palembang
@@ -946,6 +968,7 @@ province_event = {
 	id = 1121
 
 	trigger = {
+			exists = yes
 		year = 1885
 		or = {
 			province_id = 1393		# Brunei
@@ -984,6 +1007,7 @@ province_event = {
 	id = 1122
 
 	trigger = {
+			exists = yes
 		year = 1886
 		or = {
 			province_id = 1335		# Kyaukse
@@ -1019,6 +1043,7 @@ province_event = {
 	id = 1123
 
 	trigger = {
+			exists = yes
 		year = 1889
 		province_id = 1260		# Dibrugarh
 		not = { trade_goods = oil }
@@ -1051,6 +1076,7 @@ province_event = {
 	id = 1124
 
 	trigger = {
+			exists = yes
 		year = 1892
 		province_id = 1086		# Pogobi
 		not = { trade_goods = oil }
@@ -1083,6 +1109,7 @@ province_event = {
 	id = 1125
 
 	trigger = {
+			exists = yes
 		year = 1893
 		or = {
 			province_id = 131		# Oklahoma City
@@ -1118,6 +1145,7 @@ province_event = {
 	id = 1126
 
 	trigger = {
+			exists = yes
 		year = 1894
 		province_id = 2173		# Queretaro
 		not = { trade_goods = oil }
@@ -1150,6 +1178,7 @@ province_event = {
 	id = 1127
 
 	trigger = {
+			exists = yes
 		year = 1896
 		or = {
 			province_id = 87		# Monterey
@@ -1187,6 +1216,7 @@ province_event = {
 	id = 1128
 
 	trigger = {
+			exists = yes
 		year = 1897
 		province_id = 1397		# Sandakan
 		not = { trade_goods = oil }
@@ -1219,6 +1249,7 @@ province_event = {
 	id = 1129
 
 	trigger = {
+			exists = yes
 		year = 1902
 		province_id = 2237		# Trinidad
 		not = { trade_goods = oil }
@@ -1251,6 +1282,7 @@ province_event = {
 	id = 1130
 
 	trigger = {
+			exists = yes
 		year = 1907
 		province_id = 2396		# Rawson
 		not = { trade_goods = oil }
@@ -1283,6 +1315,7 @@ province_event = {
 	id = 1131
 
 	trigger = {
+			exists = yes
 		year = 1908
 		province_id = 1131		# Ahvaz
 		not = { trade_goods = oil }
@@ -1315,6 +1348,7 @@ province_event = {
 	id = 1132
 
 	trigger = {
+			exists = yes
 		year = 1910
 		or = {
 			province_id = 1732		# Ghayran
@@ -1354,6 +1388,7 @@ province_event = {
 	id = 1133
 
 	trigger = {
+			exists = yes
 		year = 1912
 		province_id = 1132		# Abadan
 		not = { trade_goods = oil }
@@ -1386,6 +1421,7 @@ province_event = {
 	id = 1134
 
 	trigger = {
+			exists = yes
 		year = 1913
 		province_id = 26		# Calgary
 		not = { trade_goods = oil }
@@ -1418,6 +1454,7 @@ province_event = {
 	id = 1135
 
 	trigger = {
+			exists = yes
 		year = 1915
 		province_id = 2291		# Piura
 		not = { trade_goods = oil }
@@ -1450,6 +1487,7 @@ province_event = {
 	id = 1136
 
 	trigger = {
+			exists = yes
 		year = 1917
 		OR = {
 			province_id = 849		# Tirana
@@ -1485,6 +1523,7 @@ province_event = {
 	id = 1137
 
 	trigger = {
+			exists = yes
 		year = 1923
 		province_id = 928		# Mendeli
 		not = { trade_goods = oil }
@@ -1517,6 +1556,7 @@ province_event = {
 	id = 1138
 
 	trigger = {
+			exists = yes
 		year = 1927
 		province_id = 923		# Mosul
 		not = { trade_goods = oil }

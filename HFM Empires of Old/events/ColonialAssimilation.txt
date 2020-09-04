@@ -3,6 +3,7 @@ country_event = {
 	title = "French Colonial Assimilation"
 	desc = "EVTDESC1836"
 	trigger = {
+			exists = yes
 		primary_culture = french
 		colonial_nation = yes
 		year = 1860

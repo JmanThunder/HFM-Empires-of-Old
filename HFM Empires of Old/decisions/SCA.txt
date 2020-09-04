@@ -3,6 +3,7 @@ political_decisions = {
 	abandon_the_finnish = {
 		picture = old_finnish_map
 		potential = {
+			exists = yes
 			NOT = { tag = SCA }
 			accepted_culture = finnish
 			has_country_modifier = leader_of_kalmar
@@ -27,6 +28,7 @@ political_decisions = {
 	claim_finland = {
 		picture = old_finnish_map
 		potential = {
+			exists = yes
 			tag = SCA
 			343 = { NOT = { is_core = THIS } }
 		}
@@ -49,6 +51,7 @@ political_decisions = {
 	embrace_the_finns = {
 		picture = form_scandinavia
 		potential = {
+			exists = yes
 			tag = SCA
 			NOT = { accepted_culture = finnish }
 		}
@@ -92,6 +95,7 @@ political_decisions = {
 		picture = declare_republic_of_neuchatel
 		alert = no
 		potential = {
+			exists = yes
 			tag = SCA
 			owns = 329 # Gothenburg
 			NOT = { capital = 329 }
@@ -118,6 +122,7 @@ political_decisions = {
 		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
 		news_desc_short = "form_scandinavia_NEWS_SHORT"
 		potential = {
+			exists = yes
 			NOT = { exists = SCA }
 			has_country_modifier = leader_of_kalmar
 			has_global_flag = scandinavian_political_union
@@ -222,6 +227,7 @@ political_decisions = {
 
 	reform_kalmar = {
 		potential = {
+			exists = yes
 			is_culture_group = scandinavian
 			capital_scope = { continent = europe }
 			NOT = { exists = SCA }
@@ -306,6 +312,7 @@ political_decisions = {
 	SCA_customs_union = {
 	picture = SCA_customs_union
 		potential = {
+			exists = yes
 			NOT = { exists = SCA }
 			has_global_flag = kalmar_reformed
 			capital_scope = { continent = europe }
@@ -369,6 +376,7 @@ political_decisions = {
 	SCA_political_union = {
 	picture = SCA_political_union
 		potential = {
+			exists = yes
 			NOT = { exists = SCA }
 			has_global_flag = scandinavian_customs_union
 			capital_scope = { continent = europe }
@@ -434,6 +442,7 @@ political_decisions = {
 	usurp_kalmar = {
 		picture = reform_kalmar
 		potential = {
+			exists = yes
 			has_country_modifier = kalmar_union
 			capital_scope = { continent = europe }
 			NOT = { exists = SCA }
@@ -486,6 +495,7 @@ political_decisions = {
 	join_kalmar_union = {
 		picture = reform_kalmar
 		potential = {
+			exists = yes
 			is_culture_group = scandinavian
 			is_greater_power = no
 			NOT = { has_country_modifier = kalmar_union }
@@ -568,6 +578,7 @@ political_decisions = {
 	name_oslo = {
 		picture = declare_republic_of_neuchatel
 		potential = {
+			exists = yes
 			is_culture_group = scandinavian
 			owns = 313
 			NOT = { has_global_flag = oslo_is_back }

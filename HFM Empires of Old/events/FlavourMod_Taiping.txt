@@ -5,6 +5,7 @@ country_event = {
 	desc = "EVTDESC99912"
 	fire_only_once = yes	
 	trigger = {
+			exists = yes
 		has_global_flag = the_xiang_army
 		ai = yes
 		tag = QNG
@@ -43,6 +44,7 @@ country_event = {
 	title = "EVTNAME99912"
 	desc = "EVTDESC99912"
 	trigger = {
+			exists = yes
 		has_global_flag = the_xiang_army
 		tag = QNG
 		ai = yes
@@ -70,6 +72,7 @@ country_event = {
 	fire_only_once = yes	
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		war = yes
 		tag = TPG
@@ -170,6 +173,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		OR = {
 			has_global_flag = tpg_war_started
@@ -232,6 +236,7 @@ country_event = {
 	picture = "miao_rebellion"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = QNG
 			tag = TPG
@@ -303,6 +308,7 @@ country_event = {
 	picture = "destroyed_forest"
 
 	trigger = {
+			exists = yes
 		tag = QNG
 		has_global_flag = huang1
 		owns = 1512
@@ -333,6 +339,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		has_global_flag = huang2
 		has_global_flag = tpg_war_started
@@ -434,6 +441,7 @@ country_event = {
 	picture = "nien_rebellion"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		has_global_flag = nien_rebellion
 		owns = 1508

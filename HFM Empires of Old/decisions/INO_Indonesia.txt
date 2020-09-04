@@ -4,6 +4,7 @@ political_decisions = {
 pancasila = {	
 	picture = indoctrinal_education_communist
 	potential = {
+			exists = yes
 		NOT = { has_country_flag = pancasila }
 		tag = INO
 	}
@@ -28,6 +29,7 @@ pancasila = {
 indonesia_raya = {	
 	picture = map_east_indies
 	potential = {
+			exists = yes
 		NOT = {	has_country_flag = indonesia_raya }
 		tag = INO
 		OR = {
@@ -86,6 +88,7 @@ indonesia_raya = {
 melayu_raya = {	
 	picture = map_east_indies
 	potential = {
+			exists = yes
 		NOT = {	has_country_flag = melayu_raya	}
 		tag = MLY
 		OR = {

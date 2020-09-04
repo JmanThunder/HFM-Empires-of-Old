@@ -2,6 +2,7 @@ political_decisions = {
 
 	dreadnoughts_from_the_empire = {
 		potential = {
+			exists = yes
 			tag = ENG
 			ai = no
 			any_greater_power = {

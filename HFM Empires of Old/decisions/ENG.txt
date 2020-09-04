@@ -1,6 +1,7 @@
 political_decisions = {
 	repeal_the_corn_laws = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -33,6 +34,7 @@ political_decisions = {
 		news_desc_medium = "empress_of_india_NEWS_MEDIUM"
 		news_desc_short = "empress_of_india_NEWS_SHORT"
 		potential = {
+			exists = yes
 			tag = ENG
 			OR = {
 				government = hms_government
@@ -69,6 +71,7 @@ political_decisions = {
 	found_the_bbc = {
 		picture = found_the_bbc
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -99,6 +102,7 @@ political_decisions = {
 	}
 	the_scotland_yard = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -124,6 +128,7 @@ political_decisions = {
 	ionian_islands_question = {
 		picture = ionian_islands_question
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -187,6 +192,7 @@ political_decisions = {
 		picture = rhodesia_charter
 		alert = no
 		potential = {
+			exists = yes
 			any_owned_province = { is_core = RHO }
 			RHO = { exists = no }
 			NOT = {
@@ -240,6 +246,7 @@ political_decisions = {
 	
 	rhodesia_charter = {
 		potential = {
+			exists = yes
 			tag = ENG
 			owns = 2068
 			owns = 2069
@@ -307,6 +314,7 @@ political_decisions = {
 	treaty_of_heligoland = {
 		picture = the_heligoland_question
 		potential = {
+			exists = yes
 			tag = ENG
 			533 = { owned_by = ENG }
 			year = 1881
@@ -398,6 +406,7 @@ political_decisions = {
 	treaty_of_nanking = {
 	picture = treaty_of_nanking
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -451,6 +460,7 @@ political_decisions = {
 	simla_convention = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -483,6 +493,7 @@ political_decisions = {
 	trucial_protectorate = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			ABU = {
 				ai = yes
 				in_sphere = THIS
@@ -512,6 +523,7 @@ political_decisions = {
 	aden_protectorate = {
 		picture = aden_protectorate
 		potential = {
+			exists = yes
 			NOT = { is_culture_group = arab }
 			OR = {
 				any_owned_province = { is_core = LHJ }
@@ -629,6 +641,7 @@ political_decisions = {
 	gold_coast_treaty = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			NOT = { tag = NET }
 			owns = 1908
@@ -676,6 +689,7 @@ political_decisions = {
 	annex_fiji = {
 		picture = dreams_of_empire
 		potential = {
+			exists = yes
 			tag = ENG
 			is_greater_power = yes
 			state_n_government = 1
@@ -708,6 +722,7 @@ political_decisions = {
 	invest_in_irish = {
 		picture = ireland
 		potential = {
+			exists = yes
 			tag = ENG
 			NOT = {
 				exists = IRE
@@ -763,6 +778,7 @@ political_decisions = {
 	#irish_integration = {
 	#	picture = embrace_minority
 	#	potential = {
+			exists = yes
 	#		tag = ENG
 	#		accepted_culture = irish
 	#		any_owned_province = {
@@ -793,6 +809,7 @@ political_decisions = {
 	the_great_game_makran = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -827,6 +844,7 @@ political_decisions = {
 	the_great_game_kalat = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -861,6 +879,7 @@ political_decisions = {
 	the_great_game_panjab = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -889,6 +908,7 @@ political_decisions = {
 	the_great_game_sindh = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -923,6 +943,7 @@ political_decisions = {
 	build_the_big_ben = {
 		picture = bigben
 		potential = {
+			exists = yes
 			OR = {
 			tag = ENG
 			tag = ENL
@@ -956,6 +977,7 @@ political_decisions = {
 	rhodesia_renaminc_act = {
 		picture = rhodesia_renaminc_act
 		potential = {
+			exists = yes
 			tag = RHO
 			owns = 2068
 			owns = 2070
@@ -979,6 +1001,7 @@ political_decisions = {
 	durand_line = {
 		picture = mortimer_durand
 		potential = {
+			exists = yes
 			tag = ENG
 			is_greater_power = yes
 			neighbour = AFG
@@ -1011,6 +1034,7 @@ political_decisions = {
 	unite_north_yemen_existing = {
 		picture = aden_protectorate
 		potential = {
+			exists = yes
 			OR = {
 				NOT = { 1178 = { is_core = YEM } }
 				NOT = { 1179 = { is_core = YEM } }
@@ -1069,6 +1093,7 @@ political_decisions = {
 	unite_yemeni_colonies = {
 		picture = aden_protectorate
 		potential = {
+			exists = yes
 			has_global_flag = created_aden_protectorate
 			OR = {
 				NOT = { 1178 = { is_core = YEM } }
@@ -1122,7 +1147,8 @@ political_decisions = {
 	anglo_persian_oil_company = { 
 		picture = map_arabia
 		
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = ENG
 			year = 1900
 			NOT = {	has_country_flag = apoc	}
@@ -1156,6 +1182,7 @@ political_decisions = {
 		picture = map_east_indies
 		
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = integrated_johore }
 			OR = {
 				is_sphere_leader_of = JOH
@@ -1217,6 +1244,7 @@ political_decisions = {
 		picture = map_east_indies
 		
 		potential = {
+			exists = yes
 			is_sphere_leader_of = PHG
 			NOT = { has_country_flag = integrated_pahang }
 			PHG = {
@@ -1261,6 +1289,7 @@ political_decisions = {
 		picture = map_east_indies
 		
 		potential = {
+			exists = yes
 			is_sphere_leader_of = SLG
 			NOT = { has_country_flag = integrated_selangor }
 			SLG = {
@@ -1304,6 +1333,7 @@ political_decisions = {
 		picture = map_east_indies
 		
 		potential = {
+			exists = yes
 			is_sphere_leader_of = PRK
 			NOT = { has_country_flag = integrated_perak }
 			PRK = {
@@ -1347,6 +1377,7 @@ political_decisions = {
 		picture = canadian_dominion
 		alert = no
 		potential = {
+			exists = yes
 			OR = {
 				tag = ENG
 				tag = ENL
@@ -1412,6 +1443,7 @@ political_decisions = {
 		picture = drain_the_pinsk_marshes
 		
 		potential = {
+			exists = yes
 			owns = 2482
 			OR = {
 				2482 = { has_province_modifier = penal_colony }	
@@ -1444,6 +1476,7 @@ political_decisions = {
 		alert = no
 		
 		potential = {
+			exists = yes
 			has_global_flag = created_aden_protectorate
 			OR = {
 				owns = 1412
@@ -1519,6 +1552,7 @@ political_decisions = {
 		picture = dreams_of_empire
 		
 		potential = {
+			exists = yes
 			owns = 2244
 			OR = {
 				tag = AST
@@ -1591,6 +1625,7 @@ political_decisions = {
 	the_foster_act = {
 		picture = william_foster
 		potential = {
+			exists = yes
 			tag = ENG
 			NOT = { school_reforms = good_schools}
 			NOT = { has_country_flag = foster_act_enacted }
@@ -1632,6 +1667,7 @@ political_decisions = {
 		picture = londonderry_quay
 		
 		potential = {
+			exists = yes
 			OR = {
 				AND = {
 					primary_culture = irish

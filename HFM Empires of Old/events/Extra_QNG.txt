@@ -5,6 +5,7 @@ country_event = {
 	picture = "ferdinand"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		year = 1836
 	}

@@ -6,6 +6,7 @@ country_event = {
 	picture = "prisonworkers"
 
 	trigger = {
+			exists = yes
 		crime_fighting = 0.5
 		civilized = yes
 		NOT = {
@@ -76,6 +77,7 @@ country_event = {
 	picture = "penal_colony"
 	
 	trigger = {
+			exists = yes
 		colonial_nation = yes
 		civilized = yes
 		NOT = {
@@ -137,6 +139,7 @@ country_event = {
 	picture = "penal_colony"
 		
 	trigger = {
+			exists = yes
 		has_country_modifier = penal_colonies
 		OR = {
 			colonial_nation = no
@@ -162,6 +165,7 @@ country_event = {
 	picture = "prisoners"
 	
 	trigger = {
+			exists = yes
 		NOT = { penal_system = rehabilitation }
 		civilized = yes
 		NOT = {
@@ -228,6 +232,7 @@ country_event = {
 	picture = "jacktheripper"
 	
 	trigger = {
+			exists = yes
 		NOT = {
 			poor_strata_life_needs = 0.9
 		}
@@ -296,6 +301,7 @@ country_event = {
 	picture = "prisoners"
 	
 	trigger = {
+			exists = yes
 		penal_system = colonial_transportation
 		crime_fighting = 0.5
 		NOT = {
@@ -356,6 +362,7 @@ country_event = {
 	picture = "wanted"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_country_flag = spectator }
 		NOT = {
 			poor_strata_everyday_needs = 0.8
@@ -412,6 +419,7 @@ country_event = {
 	picture = "prisoners"
 	
 	trigger = {
+			exists = yes
 		penal_system = incarceration
 		NOT = {
 			rich_strata_life_needs = 0.9
@@ -468,6 +476,7 @@ country_event = {
 	picture = "prisoners"
 	
 	trigger = {
+			exists = yes
 		debt_law = debtors_prisons
 		NOT = {
 			poor_strata_life_needs = 0.95
@@ -527,6 +536,7 @@ country_event = {
 	picture = "Execution"
 	
 	trigger = {
+			exists = yes
 		penal_system = capital_punishment
 		liberal = 0.1
 		capital_scope = {

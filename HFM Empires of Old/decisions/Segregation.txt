@@ -4,6 +4,7 @@ political_decisions = {
 		picture = native_integration_status
 		alert = no
 		potential = {
+			exists = yes
 			is_substate = no
 			NOT = { has_country_flag = native_integration_status_on }
 			NOT = { has_country_flag = native_protection_act_enacted }
@@ -51,6 +52,7 @@ political_decisions = {
 		picture = native_integration_status
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = native_integration_status_on
 		}
 	
@@ -68,6 +70,7 @@ political_decisions = {
 	native_protection_act = {
 		picture = native_protection_act
 		potential = {
+			exists = yes
 			has_country_flag = native_integration_status_on
 			NOT = { has_country_flag = native_protection_act_enacted }
 		}
@@ -250,6 +253,7 @@ political_decisions = {
 	native_assimilation_act = {
 		picture = native_assimilation_act
 		potential = {
+			exists = yes
 			has_country_flag = native_integration_status_on
 			NOT = { has_country_flag = native_assimilation_enacted }
 		}
@@ -362,6 +366,7 @@ political_decisions = {
 	native_removal_act = {
 		picture = native_removal_act
 		potential = {
+			exists = yes
 			has_country_flag = native_integration_status_on
 			NOT = { has_country_modifier = native_removal_act_policy }
 		}

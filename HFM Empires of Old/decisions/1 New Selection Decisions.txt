@@ -3,6 +3,7 @@ political_decisions = {
 	turn_off_ps = {
 		picture = disable_ps
 		potential = {
+			exists = yes
 			ai = no
 			ENG = { ai = yes }
 			NOT = {
@@ -27,6 +28,7 @@ political_decisions = {
 	turn_off_ps_eng = {
 		picture = disable_ps
 		potential = {
+			exists = yes
 			ai = no
 			tag = ENG
 			NOT = {
@@ -47,6 +49,7 @@ political_decisions = {
 	country_attract_immigrants = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -77,6 +80,7 @@ political_decisions = {
 	country_early_change_ideology = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }			
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -97,6 +101,7 @@ political_decisions = {
 	country_mid_change_ideology = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -118,6 +123,7 @@ political_decisions = {
 	country_late_change_ideology = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -139,6 +145,7 @@ political_decisions = {
 	country_endgame_change_ideology = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_modifier = political_propaganda }
 			NOT = { has_country_flag = deciding }
@@ -159,6 +166,7 @@ political_decisions = {
 	country_early_change_ideology_ps_disabled = {
 		picture = province_selector
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off		
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -178,6 +186,7 @@ political_decisions = {
 	country_mid_change_ideology_ps_disabled = {
 		picture = province_selector
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -198,6 +207,7 @@ political_decisions = {
 	country_late_change_ideology_ps_disabled = {
 		picture = province_selector
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = political_propaganda }
@@ -218,6 +228,7 @@ political_decisions = {
 	country_endgame_change_ideology_ps_disabled = {
 		picture = province_selector
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off
 			NOT = { has_country_modifier = political_propaganda }
 			NOT = { has_country_flag = deciding }
@@ -238,6 +249,7 @@ political_decisions = {
 		picture = country_scope
 		alert = no
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -299,6 +311,7 @@ political_decisions = {
 		picture = province_selector
 		alert = no
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -343,6 +356,7 @@ political_decisions = {
 		picture = country_scope
 		alert = no
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -393,6 +407,7 @@ political_decisions = {
 		picture = marching_soldiers
 		alert = no
 		potential = {
+			exists = yes
 			has_global_flag = ps_turned_off
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -431,6 +446,7 @@ political_decisions = {
 	country_recruitment_drive = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = recruitment_drive }
@@ -462,6 +478,7 @@ political_decisions = {
 	country_recruit_general = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = recruited_leader }
@@ -480,28 +497,28 @@ political_decisions = {
 			random_list = {
 				30 = {
 					define_general = {
-						name = "§RSkilled Commander"
+						name = "?RSkilled Commander"
 						personality = defence_3.1
 						background = attack_4.1
 					}
 				}
 				30 = {
 					define_general = {
-						name = "§RSkilled Commander"
+						name = "?RSkilled Commander"
 						personality = defence_4.1
 						background = attack_3.1
 					}
 				}
 				30 = {
 					define_general = {
-						name = "§RLegendary Commander"
+						name = "?RLegendary Commander"
 						personality = defence_4.1
 						background = attack_4.1
 					}
 				}
 				10 = {
 					define_general = {
-						name = "§RGod Commander"
+						name = "?RGod Commander"
 						personality = defence_5.1
 						background = attack_5.1
 					}
@@ -523,6 +540,7 @@ political_decisions = {
 	country_reduce_infamy = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -551,6 +569,7 @@ political_decisions = {
 	country_suppression = {
 		picture = country_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -579,6 +598,7 @@ political_decisions = {
 	state_assimilation = {
 		picture = state_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -609,6 +629,7 @@ political_decisions = {
 	state_baby_boom = {
 		picture = state_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -786,6 +807,7 @@ political_decisions = {
 	state_literacy_campaign = {
 		picture = state_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -867,6 +889,7 @@ political_decisions = {
 	state_rgo_expansion = {
 		picture = state_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -894,6 +917,7 @@ political_decisions = {
 	state_suppression = {
 		picture = state_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -923,6 +947,7 @@ political_decisions = {
 	province_blood_and_iron = {
 		picture = province_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -974,6 +999,7 @@ political_decisions = {
 	province_rgo_change_mining = {
 		picture = province_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = rgo_changed }
@@ -993,6 +1019,7 @@ political_decisions = {
 	province_rgo_change_agriculture = {
 		picture = province_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			NOT = { has_country_modifier = rgo_changed }
@@ -1012,6 +1039,7 @@ political_decisions = {
 	province_migration = {
 		picture = province_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no
@@ -1038,6 +1066,7 @@ political_decisions = {
 	reset_province_selector = {
 		picture = province_scope
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = ps_turned_off }
 			NOT = { has_country_flag = deciding }
 			ai = no

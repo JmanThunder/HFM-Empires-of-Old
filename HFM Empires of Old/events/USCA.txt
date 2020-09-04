@@ -11,7 +11,8 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = { tag = UCA }
+	trigger = {
+			exists = yes tag = UCA }
 	
 	mean_time_to_happen = { days = 1 }
 	
@@ -54,6 +55,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		owns = 2201
@@ -109,6 +111,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		owns = 2197
@@ -164,6 +167,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		owns = 2193
@@ -217,6 +221,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		owns = 2191
@@ -269,6 +274,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		2191 = {
@@ -306,6 +312,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		2193 = {
@@ -357,6 +364,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		2197 = {
@@ -402,6 +410,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		2201 = {
@@ -446,6 +455,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		exists = ELS
 		any_owned_province = {
@@ -541,6 +551,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		exists = HON
 		any_owned_province = {
@@ -636,6 +647,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		NOT = { has_country_flag = nicaragua_independence }
 		exists = NIC
@@ -732,6 +744,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		NOT = { has_country_flag = costa_rica_independence }
 		exists = COS
@@ -832,6 +845,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		war = no
 		OR = {
@@ -1102,6 +1116,7 @@ country_event = {
 	desc = "EVTDESC975600"
 	
 	trigger = {
+			exists = yes
 		tag = UCA
 		ai = yes
 		OR = {
@@ -1450,6 +1465,7 @@ country_event = {
 	picture = "moskito_coast"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		is_vassal = no

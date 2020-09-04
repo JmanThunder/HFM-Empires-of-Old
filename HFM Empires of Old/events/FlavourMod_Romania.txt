@@ -6,6 +6,7 @@
 		desc = "EVTDESC97530"
 			
 		trigger = {
+			exists = yes
 			tag = WAL
 			vassal_of = TUR
 			has_global_flag = liberal_revolutions_should_now_fire
@@ -151,6 +152,7 @@
 		major = yes
 			
 		trigger = {
+			exists = yes
 			tag = WAL
 			has_global_flag = wallachian_revolution
 			truce_with = TUR
@@ -215,6 +217,7 @@
 		desc = "EVTDESC97532"
 			
 		trigger = {
+			exists = yes
 			tag = MOL
 			has_global_flag = wallachian_revolution
 			WAL = { war_with = TUR } 
@@ -250,6 +253,7 @@
 		picture = "bucharest_fire"
 		
 		trigger = {
+			exists = yes
 			year = 1845
 			owns = 664
 		}

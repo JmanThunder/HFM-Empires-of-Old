@@ -6,6 +6,7 @@ province_event = {
 	allow_multiple_instances = no
 	
 	trigger = {
+			exists = yes
 		OR = {
 			unit_in_battle = yes
 			country_units_in_province = REB
@@ -29,6 +30,7 @@ province_event = {
 	allow_multiple_instances = no
 	
 	trigger = {
+			exists = yes
 		OR = {
 			unit_in_battle = yes
 			country_units_in_province = REB
@@ -52,6 +54,7 @@ province_event = {
 #	allow_multiple_instances = no
 #	
 #	trigger = {
+			exists = yes
 #		unit_in_battle = yes
 #		has_building = public_illumination
 #	}

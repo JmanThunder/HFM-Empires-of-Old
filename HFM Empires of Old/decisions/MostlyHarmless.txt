@@ -1,6 +1,7 @@
 political_decisions = {
 	miskatonic_university = {
 		potential = {
+			exists = yes
 			tag = NEN
 			owns = 245
 			NOT = {
@@ -30,6 +31,7 @@ political_decisions = {
 	
 	build_the_tower_of_babylon = {
 		potential = {
+			exists = yes
 			tag = IRQ
 			is_greater_power = yes
 			has_global_flag = fantasy_countries_enabled

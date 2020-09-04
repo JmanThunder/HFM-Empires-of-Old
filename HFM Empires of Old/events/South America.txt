@@ -11,6 +11,7 @@ country_event = {
 	picture = "rebellion"
 
 	trigger = {
+			exists = yes
 		tag = BRZ
 		owns = 2463
 		NOT = { year = 1845 }
@@ -55,6 +56,7 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
+			exists = yes
 		exists = yes
 		OR = {
 			AND = {
@@ -209,6 +211,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = PBC
 		war = no
 		has_recently_lost_war = yes
@@ -410,6 +413,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = ECU
 		government = democracy
 		year = 1842
@@ -477,6 +481,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = ECU
 		government = democracy
 		year = 1860
@@ -545,6 +550,7 @@ country_event = {
 	picture = "BurkeandWills"
 	
 	trigger = {
+			exists = yes
 		war = no
 		2549 = {
 			empty = yes
@@ -621,6 +627,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = BOL
 		is_vassal = no
 		year = 1838
@@ -644,6 +651,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		war = no
 		OR = {
 			tag = BOL
@@ -756,6 +764,7 @@ country_event = {
 	picture = "sucre"
 
 	trigger = {
+			exists = yes
 		tag = PBC
 		is_independant = yes			  
 		owns = 2295 #Lima
@@ -809,7 +818,7 @@ country_event = {
 	}
 }
 
-#García Ortiz-Mangabeira Treaty
+#Garc?a Ortiz-Mangabeira Treaty
 country_event = {
 	id = 46610100
 	title = "EVTNAME46610100"

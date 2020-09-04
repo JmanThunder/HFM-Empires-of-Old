@@ -9,6 +9,7 @@ country_event = {
 	picture = "missionaries"
 	
 	trigger = {
+			exists = yes
 		owns = 1380
 		civilized = no
 		is_vassal = no
@@ -211,6 +212,7 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
+			exists = yes
 		tag = CAM
 		civilized = no
 		DAI = {
@@ -419,6 +421,7 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
+			exists = yes
 		owns = 1380 #Saigon
 		war = no
 		is_disarmed = no
@@ -978,6 +981,7 @@ country_event = {
 	picture = "black_flag_army"
 	
 	trigger = {
+			exists = yes
 		LUA = {
 			exists = yes
 			part_of_sphere = no
@@ -1016,6 +1020,7 @@ country_event = {
 	picture = "ships_to_bangkok"
 	
 	trigger = {
+			exists = yes
 		owns = 1356
 		1356 = { is_colonial = yes }
 		is_greater_power = yes
@@ -1074,6 +1079,7 @@ country_event = {
 	picture = "ships_to_bangkok"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		war = no
 		has_country_flag = take_laos

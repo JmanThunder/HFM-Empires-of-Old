@@ -6,6 +6,7 @@ country_event = {
 	id = 36407
 
 	trigger = {
+			exists = yes
 		tag = NOR
 		year = 1850
 		NOT = {

@@ -4,6 +4,7 @@ country_event = {
 	desc = "Replace Northern Italian cores with Southern Italian Cores."
 	
 	trigger = {
+			exists = yes
 		tag = ITS
 		ITA = { exists = no }
 		has_global_flag = ITS_form

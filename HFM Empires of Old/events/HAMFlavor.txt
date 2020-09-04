@@ -3,6 +3,7 @@ country_event = {
 	id = 33800
 
 	trigger = {
+			exists = yes
 		tag = HAM
 		year = 1842
 		NOT = {
@@ -49,6 +50,7 @@ country_event = {
 	picture = "ss_austria"
 
 	trigger = {
+			exists = yes
 		owns = 528
 		year = 1858
 	}
@@ -86,6 +88,7 @@ province_event = {
 	picture = "cityfire"
 
 	trigger = {
+			exists = yes
 		province_id = 528 #Hamburg
 		year = 1850
 		NOT = {

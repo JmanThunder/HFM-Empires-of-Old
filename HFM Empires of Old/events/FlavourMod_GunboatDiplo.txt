@@ -16,6 +16,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		year = 1847
 		month = 4

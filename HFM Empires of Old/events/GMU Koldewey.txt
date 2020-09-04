@@ -41,6 +41,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		war = no
         owns = 1723 #Panama
 		1723 = { has_province_modifier = panama_canal_construction }
@@ -506,6 +507,7 @@ country_event = {
 	picture = "Archaeological_exhibition"
 
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		NOT = { has_country_flag = had_arch_exhibition }
 		has_country_flag = museum_build
@@ -620,6 +622,7 @@ country_event = {
 	picture = "Local_excavation"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		NOT = { has_country_flag = local_excavation }
 		has_country_flag = blamed_by_other_archaeologists
@@ -674,6 +677,7 @@ country_event = {
 	picture = "Local_excavation"
 
 	trigger = {
+			exists = yes
 		is_greater_power = yes
 		NOT = { has_country_flag = local_excavation_end }
 		has_country_flag = local_excavation
@@ -706,6 +710,7 @@ country_event = {
 	picture = "Administration"
 
 	trigger = {
+			exists = yes
 		NOT = { has_country_flag = archaeological_society }
 		invention = early_archaeology
 		has_country_flag = museum_build
@@ -758,6 +763,7 @@ country_event = {
 	picture = "Western_education"
 
 	trigger = {
+			exists = yes
 		has_country_flag = archaeological_society
 		invention = modern_archaeology
 		has_country_flag = museum_build
@@ -974,6 +980,7 @@ country_event = {
 	picture = "Maya_stele"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
 	}
 
@@ -1012,6 +1019,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
                 NOT = { tag = FRA }
                 NOT = { has_country_flag = belloq_wins }
@@ -1054,6 +1062,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
                 tag = FRA
 	}
@@ -1093,6 +1102,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
                 NOT = { tag = FRA }
                 OR = { has_country_flag = belloq_wins
@@ -1134,6 +1144,7 @@ country_event = {
 	picture = "lost_world"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
 	}
 
@@ -1174,6 +1185,7 @@ country_event = {
 	picture = "Mirador"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = maya_excavations
 		NOT = {
 			has_global_flag = mirador_found
@@ -1243,6 +1255,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_flag = pyramid_found
                 NOT = { has_country_flag = pyramid_riddle }
 	}
@@ -1265,6 +1278,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
                 has_country_flag = pyramid_riddle 
                 fertilizer = 1
                 NOT = { has_country_flag = pyramid_riddle_solved_artefact_scene }
@@ -1296,6 +1310,7 @@ country_event = {
 	picture = "Maya_trap"
 
 	trigger = {
+			exists = yes
 		has_country_flag = pyramid_riddle_solved_artefact_scene
                 NOT = { has_country_flag = pyramid_riddle_solved_escape_1 }
 	}
@@ -1318,6 +1333,7 @@ country_event = {
 	picture = "Maya_trap"
 
 	trigger = {
+			exists = yes
 		has_country_flag = pyramid_riddle_solved_escape
                 NOT = { has_country_flag = pyramid_riddle_solved_escape_2 }
 	}
@@ -1340,6 +1356,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_flag = pyramid_riddle_solved_escape_1
                 NOT = { has_country_flag = belloq_wins }
 	}
@@ -1365,6 +1382,7 @@ country_event = {
 	picture = "Maya_pyramid"
 
 	trigger = {
+			exists = yes
 		has_country_flag = pyramid_riddle_solved_escape_2
                 NOT = { has_country_flag = belloq_loses }
 	}
@@ -1394,6 +1412,7 @@ country_event = {
 	picture = "cuneiform_tablet"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = mesopotamian_excavations
 	}
 
@@ -1428,6 +1447,7 @@ country_event = {
 	picture = "mesopotamia"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = mesopotamian_excavations
 	}
 
@@ -1462,6 +1482,7 @@ country_event = {
 	picture = "mesopotamia2"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = mesopotamian_excavations
 	}
 
@@ -1493,6 +1514,7 @@ country_event = {
 	picture = "Babel"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = mesopotamian_excavations
 		NOT = {
 			has_global_flag = tower_of_babel_found
@@ -1548,6 +1570,7 @@ country_event = {
 	picture = "Andes1"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		NOT = {
 			has_country_flag = inca_expedition_preparations
@@ -1577,6 +1600,7 @@ country_event = {
 	picture = "Andes1"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_preparations
                 ai = no
@@ -1632,6 +1656,7 @@ country_event = {
 	picture = "Inca_bridge"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_car
 		NOT = {
@@ -1667,6 +1692,7 @@ country_event = {
 	picture = "Inca_bridge"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_bridge_yes
 	}
@@ -1696,6 +1722,7 @@ country_event = {
 	picture = "Andes2"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_bridge_no
 	}
@@ -1729,6 +1756,7 @@ country_event = {
 	picture = "Inca_airplane"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_airplane
                 NOT = { has_country_flag = inca_expedition_fly_higher }
@@ -1761,6 +1789,7 @@ country_event = {
 	picture = "Inca_airplane"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_fly_lower
 	}
@@ -1789,6 +1818,7 @@ country_event = {
 	picture = "Inca_airplane"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_fly_higher
                 NOT = { has_country_flag = inca_expedition_landing }
@@ -1821,6 +1851,7 @@ country_event = {
 	picture = "Inca_airplane"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_better_place
 	}
@@ -1850,6 +1881,7 @@ country_event = {
 	picture = "Inca_temple"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_landing
                 NOT = { has_country_flag = temple_of_the_sun }
@@ -1885,6 +1917,7 @@ country_event = {
 	picture = "Lamas"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_lama
                 NOT = { has_country_flag = inca_expedition_lama_yes }
@@ -1916,6 +1949,7 @@ country_event = {
 	picture = "Andes2"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_lama
                 has_country_flag = inca_expedition_lama_yes
@@ -1945,6 +1979,7 @@ country_event = {
 	picture = "Andes2"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_lama
                 has_country_flag = inca_expedition_lama_no
@@ -1984,6 +2019,7 @@ country_event = {
 	picture = "Andes2"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_lama
                 has_country_flag = inca_expedition_false 
@@ -2015,6 +2051,7 @@ country_event = {
 	picture = "Inca_temple"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = inca_expedition_lama
                 has_country_flag = inca_expedition_ok 
@@ -2051,6 +2088,7 @@ country_event = {
 	picture = "patrol"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 war = yes
 	}
@@ -2080,6 +2118,7 @@ country_event = {
 	picture = "patrol"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations_interrupted
                 war = no
 	}
@@ -2113,6 +2152,7 @@ country_event = {
 	picture = "Inca_temple"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = temple_of_the_sun
 		NOT = {
@@ -2141,6 +2181,7 @@ country_event = {
 	picture = "Inca_corridors"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = temple_of_the_sun_sacrifice
 		NOT = {
@@ -2197,6 +2238,7 @@ country_event = {
 	picture = "Inca_corridors"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_begins
                 has_country_flag = temple_of_the_sun_downstairs
@@ -2226,6 +2268,7 @@ country_event = {
 	picture = "Inca_corridors"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_begins
                 has_country_flag = temple_of_the_sun_upstairs
@@ -2255,6 +2298,7 @@ country_event = {
 	picture = "Maya_trap"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_noise
                 has_country_flag = temple_of_the_sun_upstairs
@@ -2270,7 +2314,7 @@ country_event = {
 
 
 	option = {
-		name = "I've got a feeling of déjà vu!"
+		name = "I've got a feeling of d?j? vu!"
                 set_country_flag = temple_of_the_sun_corridor
 		clr_country_flag = temple_of_the_sun_noise
 		clr_country_flag = temple_of_the_sun_upstairs
@@ -2286,6 +2330,7 @@ country_event = {
 	picture = "Inca_corridors"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_corridor
 		NOT = {
@@ -2336,6 +2381,7 @@ country_event = {
 	picture = "Inca_corridors"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
                 has_country_flag = temple_of_the_sun_corridor_false
 	}
@@ -2366,6 +2412,7 @@ country_event = {
 	picture = "Inti"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_corridor_right
 		NOT = {
@@ -2394,6 +2441,7 @@ country_event = {
 	picture = "Inti"
 
 	trigger = {
+			exists = yes
 		has_country_modifier = inca_excavations
 		has_country_flag = temple_of_the_sun_guy
 		NOT = {

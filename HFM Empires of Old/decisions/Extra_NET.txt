@@ -3,6 +3,7 @@ political_decisions = {
 	embrace_francophonie = {
 		picture = become_wallonia
 		potential = {
+			exists = yes
 			tag = NET
 			owns = 387 #Brussels
 			any_owned_province = { is_core = WLL }
@@ -72,6 +73,7 @@ political_decisions = {
 	etna_expedition = {
 		picture = piracy
 		potential = {
+			exists = yes
 			owns = 1453
 			year = 1850
 			1454 = { empty = yes }

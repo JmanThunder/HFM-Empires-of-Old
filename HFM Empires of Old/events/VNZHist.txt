@@ -6,6 +6,7 @@ country_event = {
 	picture = "ccastro"
 
 	trigger = {
+			exists = yes
 		tag = VNZ
 		year = 1899
 		government = democracy

@@ -11,6 +11,7 @@ province_event = {
 	desc = "EVTDESC80120"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			owned_by = QNG
 			owner = { substate_of = QNG }
@@ -106,6 +107,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		war_with = TPG
 		YNN = {
@@ -175,6 +177,7 @@ country_event = {
 	picture = "panthay_rebellion"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		OR = { 
 			has_global_flag = panthay_rebellion
@@ -225,6 +228,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = PGG
 		has_global_flag = panthay_rebellion
 		is_vassal = no
@@ -253,6 +257,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		XIN = { 
 			substate_of = THIS
@@ -371,6 +376,7 @@ country_event = {
 	picture = "dungan_revolt_xinhai"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		has_global_flag = dungan_rebellion
 		is_our_vassal = UYG
@@ -421,6 +427,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = UYG
 		has_global_flag = dungan_rebellion
 		is_vassal = no
@@ -446,6 +453,7 @@ country_event = {
 	picture = "dungan_rebellion_qinghai"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = QNG
 			tag = TPG

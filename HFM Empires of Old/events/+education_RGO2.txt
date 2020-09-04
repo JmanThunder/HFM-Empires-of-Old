@@ -6,6 +6,7 @@
 #	id = 99958
 #
 #	trigger = {
+			exists = yes
 #		NOT = { has_global_flag = education_setup }
 #		ai = no
 #	}
@@ -289,6 +290,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.1
@@ -332,6 +334,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.2
@@ -375,6 +378,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.3
@@ -418,6 +422,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.4
@@ -461,6 +466,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.5
@@ -504,6 +510,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.6
@@ -547,6 +554,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.7
@@ -590,6 +598,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.8
@@ -633,6 +642,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0.9
@@ -676,6 +686,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 1
@@ -718,6 +729,7 @@
 #	desc = "Education in $STATENAME$ accelerates economic growth."
 #
 #	trigger = {
+			exists = yes
 #	has_global_flag = education_setup
 #      state_scope = {
 #	  literacy = 0

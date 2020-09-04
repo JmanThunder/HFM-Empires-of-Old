@@ -13,6 +13,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = POR
 		government = hms_government
 		has_global_flag = liberal_revolution_somewhere
@@ -77,6 +78,7 @@ province_event = {
 	desc = "EVTDESC97001"
 	
 	trigger = {
+			exists = yes
 		owner = {
 			tag = POR
 			has_country_flag = maria_de_fonte_revolution
@@ -120,6 +122,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
+			exists = yes
 		tag = POR
 		has_country_flag = maria_de_fonte_revolution
 	}
@@ -173,6 +176,7 @@ country_event = {
 	picture = "Lola"
 
 	trigger = {
+			exists = yes
 		tag = POR
 		has_country_flag = maria_de_fonte_revolution
 		any_owned_province = { has_province_modifier = peasant_revolt }
@@ -242,6 +246,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+			exists = yes
 		tag = POR
 		war = no
 		has_global_flag = berlin_conference
@@ -381,6 +386,7 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
+			exists = yes
 		tag = POR
 		war = no
 		has_global_flag = berlin_conference
@@ -707,6 +713,7 @@ country_event = {
 	picture = "carlos_i_regicide"
 
 	trigger = {
+			exists = yes
 		tag = POR
 		year = 1905
 			OR = {
@@ -790,6 +797,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			exists = yes
 		tag = POR
 		has_country_flag = regicide_king_carlos
 		NOT = { year = 1915 }
@@ -891,6 +899,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		has_global_flag = berlin_conference
 		OR = {
 			owns = 2065
@@ -919,7 +928,7 @@ country_event = {
 	}
 }
 
-#Getting Lourenço Marques
+#Getting Louren?o Marques
 country_event = {
 
 	id = 49516
@@ -928,6 +937,7 @@ country_event = {
 	picture = "portuguese_africa_company"
 	
 	trigger = {
+			exists = yes
 		tag = POR
 		year = 1850
 		2049 = { owner = { civilized = no ai = yes war = no } }
@@ -945,13 +955,13 @@ country_event = {
 		2049 = {
 			secede_province = THIS
 			any_pop = { reduce_pop = 0.9 }
-			change_province_name = "Lourenço Marques"
+			change_province_name = "Louren?o Marques"
 		}
 		2050 = {
 			secede_province = THIS
 			change_province_name = "Manjacaze"
 		}
-		2051 = { state_scope = { change_region_name = "Lourenço Marques" } }
+		2051 = { state_scope = { change_region_name = "Louren?o Marques" } }
 	}
 }
 
@@ -966,6 +976,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		owns = 2059
 		owns = 2053
 		GAZ = {

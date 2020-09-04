@@ -5,6 +5,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		government = dominion
 		is_vassal = yes
 		civilized = yes	
@@ -43,6 +44,7 @@ country_event = {
 	picture = "Monarchy"
 	
 	trigger = {
+			exists = yes
 		government = colonial_company
 		is_vassal = yes
 		NOT = { vote_franschise = none_voting }		

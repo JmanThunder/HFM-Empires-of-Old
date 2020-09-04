@@ -10,6 +10,7 @@ country_event = {
 	news_desc_short = "EVTDESC44100_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1885
 		NOT = { year = 1888 }
@@ -51,6 +52,7 @@ country_event = {
 	news_desc_short = "EVTDESC44101_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1893
 		NOT = { year = 1896 }
@@ -93,6 +95,7 @@ country_event = {
 	news_desc_short = "EVTDESC44102_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		government = democracy
 		invention = double_standard 
@@ -136,6 +139,7 @@ country_event = {
 	news_desc_short = "EVTDESC44103_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1856
 		war = no
@@ -177,6 +181,7 @@ country_event = {
 	news_desc_short = "EVTDESC44104_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		government = democracy
 		year = 1838
@@ -224,6 +229,7 @@ country_event = {
 	news_desc_short = "EVTDESC44105_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1846
 		NOT = { year = 1849 }
@@ -265,6 +271,7 @@ country_event = {
 	news_desc_short = "EVTDESC44106_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1841
 		NOT = {
@@ -314,6 +321,7 @@ country_event = {
 	news_desc_short = "EVTDESC44107_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		government = democracy
 		year = 1861
@@ -357,6 +365,7 @@ country_event = {
 	news_desc_short = "EVTDESC44108_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1885
 		has_global_flag = american_civil_war_has_happened
@@ -402,6 +411,7 @@ country_event = {
 	news_desc_short = "EVTDESC44109_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1890
 		is_greater_power = yes
@@ -447,6 +457,7 @@ country_event = {
 	news_desc_short = "EVTDESC44110_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1916
 		government = democracy
@@ -528,6 +539,7 @@ country_event = {
 	news_desc_short = "EVTDESC44111_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1865
 		war = no
@@ -573,6 +585,7 @@ country_event = {
 	news_desc_short = "EVTDESC44112_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1876
 		war = no
@@ -638,6 +651,7 @@ country_event = {
 	news_desc_short = "EVTDESC44113_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1871
 		owns = 163 #Chicago
@@ -682,6 +696,7 @@ country_event = {
 	news_desc_short = "EVTDESC44114_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1881
 		owns = 102 #S Arizona
@@ -723,6 +738,7 @@ country_event = {
 	id = 44115
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1846
 		NOT = {
@@ -767,6 +783,7 @@ country_event = {
 	news_desc_short = "EVTDESC44116_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1836
 		NOT = {
@@ -838,6 +855,7 @@ country_event = {
 	news_desc_short = "EVTDESC44117_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1837
 		NOT = {
@@ -886,6 +904,7 @@ country_event = {
 	news_desc_short = "EVTDESC44118_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1837
 		NOT = {
@@ -941,6 +960,7 @@ country_event = {
 	news_desc_short = "EVTDESC44119_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA
 		year = 1848
 		NOT = {
@@ -994,6 +1014,7 @@ country_event = {
 	news_desc_short = "EVTDESC44120_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA 
 		any_state = { moralism = 5 }
 		year = 1838
@@ -1066,6 +1087,7 @@ country_event = {
 	news_desc_short = "EVTDESC44121_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		year = 1838
 		NOT = { year = 1842 }
@@ -1112,6 +1134,7 @@ country_event = {
 	picture = "1843_GreatMigration"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		year = 1841
 		81 = { empty = yes }
@@ -1177,6 +1200,7 @@ country_event = {
 	picture = "prussian_child_labor_act"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		year = 1841
 		child_labor = child_labor_legal
@@ -1226,6 +1250,7 @@ country_event = {
 	picture = "seattle_1870"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		owns = 78
 		owns = 79
@@ -1266,6 +1291,7 @@ country_event = {
 	picture = "guinea_coast"
 
 	trigger = {
+			exists = yes
 		tag = USA  
 		war = no
 		owns = 1887
@@ -1335,6 +1361,7 @@ country_event = {
 	picture = "homesteading"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		has_country_modifier = the_homestead_act
 		OR = {
@@ -1414,6 +1441,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
+			exists = yes
 		tag = USA   
 		owns = 1
 		invention = manifest_destiny
@@ -1505,6 +1533,7 @@ country_event = {
 #	picture = "abraham_speech"
 #	
 #	trigger = {
+			exists = yes
 #		tag = USA
 #		has_global_flag = american_civil_war_has_happened
 #		NOT = { war_with = CSA }
@@ -1850,6 +1879,7 @@ country_event = {
 	picture = "dust_bowl"
 
 	trigger = {
+			exists = yes
 		year = 1929
 		any_owned_province = {
 			has_province_modifier = local_tractors

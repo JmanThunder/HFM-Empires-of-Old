@@ -17,6 +17,7 @@ country_event = {
 	picture = "rebellion"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -84,6 +85,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -206,6 +208,7 @@ country_event = {
 	picture = "confederation"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -320,6 +323,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -546,6 +550,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -766,6 +771,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -988,6 +994,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1243,6 +1250,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -1635,6 +1643,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
+			exists = yes
 		war = no
 		OR = {
 			tag = ENG
@@ -1760,6 +1769,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = CAN
 		war = no
 		has_country_flag = build_the_cnr1
@@ -1812,6 +1822,7 @@ country_event = {
 	picture = "bagdadrailway"
 	
 	trigger = {
+			exists = yes
 		tag = CAN
 		war = no
 		has_country_flag = build_the_cnr2
@@ -1865,6 +1876,7 @@ country_event = {
 	picture = "train"
 
 	trigger = {
+			exists = yes
 		tag = CAN 
 		year = 1872
 		has_country_flag = build_the_cnr
@@ -1913,7 +1925,7 @@ country_event = {
 	}
 }
 
-#Louis Riel and the 1st Métis Rebellion
+#Louis Riel and the 1st M?tis Rebellion
 country_event = {
 	id = 44301
 	title = "EVTNAME44301"
@@ -1921,6 +1933,7 @@ country_event = {
 	picture = "Metis"
 
 	trigger = {
+			exists = yes
 		tag = CAN 
 		year = 1868
 		owns = 36 #Winnipeg MB
@@ -2021,6 +2034,7 @@ country_event = {
 	picture = "Rebellion"	
 	
 	trigger = {
+			exists = yes
 		tag = CAN 
 		year = 1884
 		owns = 57 #Ottawa ON
@@ -2094,6 +2108,7 @@ country_event = {
 	picture = "Metis"
 	
 	trigger = {
+			exists = yes
 		tag = CAN
 		owns = 36
 		owns = 30

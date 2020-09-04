@@ -19,6 +19,7 @@ political_decisions = {
 	the_grunderzeit2 = {
 		picture = "the_grunderzeit2"
 		potential = {
+			exists = yes
 			is_culture_group = germanic
 			NOT = { tag = AUS }
 			NOT = { tag = KUK }
@@ -55,6 +56,7 @@ political_decisions = {
 	cologne_cathedral = {
 		picture = "cologne_cathedral"
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = cologne_cathedral_build }
 			owns = 575
 			has_global_flag = dombau_beginn
@@ -87,6 +89,7 @@ political_decisions = {
 	free_press_in_baden = {
 		picture = "free_press_in_baden"
 		potential = {
+			exists = yes
 		  tag = BAD
 		  NOT = { has_country_flag = free_press_in_baden }
 		  NOT = { has_country_flag = liberal_revolution_fired }
@@ -118,6 +121,7 @@ political_decisions = {
 	build_goethe_denkmal = {
 		picture = "build_goethe_denkmal"
 		potential = {
+			exists = yes
 		  owns = 564
 		  NOT = { has_global_flag = goethe_denkmal_build }
 		}
@@ -174,6 +178,7 @@ political_decisions = {
     build_schiller_denkmal = {
 		picture = "build_schiller_denkmal"
 		potential = {
+			exists = yes
 			owns = 589
 			NOT = { has_global_flag = schiller_denkmal_build }
 		}
@@ -221,6 +226,7 @@ political_decisions = {
 	build_maximilianstrasse = {
 		picture = "build_maximilianstrasse"
 		potential = {
+			exists = yes
 			OR = { 
 				tag = BAV
 				AND = {

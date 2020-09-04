@@ -1,7 +1,8 @@
 political_decisions = {
 
 	NOR_industralisation = {
-		potential = {	
+		potential = {
+			exists = yes	
 			exists = NOR
 			tag = NOR
 			tech_school = traditional_academic

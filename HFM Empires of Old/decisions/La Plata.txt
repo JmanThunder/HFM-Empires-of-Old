@@ -3,6 +3,7 @@ political_decisions = {
 	banda_oriental = {
 	picture = banda_oriental
 		potential = {
+			exists = yes
 			tag = ARG
 			NOT = {
 				has_country_flag = banda_oriental_is_ours
@@ -40,6 +41,7 @@ political_decisions = {
 	our_brothers_the_gauchos = {
 	picture = our_brothers_the_gauchos
 		potential = {
+			exists = yes
 			OR = {
 				tag = ARG
 				tag = LPL
@@ -81,6 +83,7 @@ political_decisions = {
 	unite_la_plata = {
 		picture = unite_la_plata
 		potential = {
+			exists = yes
 			primary_culture = platinean
 			NOT = { exists = LPL }
 		}

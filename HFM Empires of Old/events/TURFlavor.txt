@@ -11,6 +11,7 @@ country_event = {
 	picture = "troy"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = search_for_the_aegean_civilizations
 		year = 1872
 	}
@@ -62,6 +63,7 @@ country_event = {
 country_event = {
 	id = 31101 #setup by GER33005
 	trigger = {
+			exists = yes
 		tag = TUR 
 		war = no
 		year = 1903
@@ -121,6 +123,7 @@ country_event = {
 	id = 31102 # Flight to Ankara
 	
 	trigger = {
+			exists = yes
 		tag = TUR
 		NOT = { is_greater_power = yes }
 		capital = 860

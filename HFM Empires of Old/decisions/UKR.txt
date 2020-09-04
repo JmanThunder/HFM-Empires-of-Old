@@ -2,6 +2,7 @@ political_decisions = {
 	national_awakening = {
 		picture = names_of_the_rev
 		potential = {
+			exists = yes
 			OR = {
 				tag = UKR
 				tag = BYE

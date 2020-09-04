@@ -3,6 +3,7 @@ country_event = {
 	id = 34102
 
 	trigger = {
+			exists = yes
 		tag = HES
 		year = 1838
 		war = no

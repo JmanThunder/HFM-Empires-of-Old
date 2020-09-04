@@ -1,7 +1,8 @@
 political_decisions = {	
 	foreign_advisors = {
 		picture = foreign_consul
-		potential = { 
+		potential = {
+			exists = yes 
 			war = no
 			civilized = no
 			part_of_sphere = yes
@@ -157,7 +158,8 @@ political_decisions = {
 	
 	import_foreign_weapons = {
 		picture = begin_line_of_advantage
-		potential = { 
+		potential = {
+			exists = yes 
 			war = no
 			civilized = no
 			part_of_sphere = yes
@@ -314,7 +316,8 @@ political_decisions = {
 	
 	import_naval_technology = {
 		picture = ironclad_commissions
-		potential = { 
+		potential = {
+			exists = yes 
 			war = no
 			civilized = no
 			part_of_sphere = yes
@@ -473,7 +476,8 @@ political_decisions = {
 	
 	chinese_substate_reform = {
 		picture = ironclad_commissions
-		potential = { 
+		potential = {
+			exists = yes 
 			#ai = yes
 			civilized = no
 			is_substate = yes
@@ -595,7 +599,8 @@ political_decisions = {
 	
 	sarawak_rangers = {
 		picture = sarawak_rangers
-		potential = { 
+		potential = {
+			exists = yes 
 			tag = SWK
 			civilized = no
 			has_country_modifier = white_rajah

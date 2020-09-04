@@ -7,6 +7,7 @@ country_event = {
 	picture = "deputation_to_milos"
 	
 	trigger = {
+			exists = yes
 		tag = SER
 		in_sphere = TUR
 		year = 1838

@@ -6,6 +6,7 @@ country_event = {
 	picture = "disease"
 	
 	trigger = {
+			exists = yes
 		NOT = { poor_strata_everyday_needs = 0.8 }
 		total_pops = 50000
 		any_owned_province = {
@@ -60,6 +61,7 @@ country_event = {
 	picture = "starving"
 	
 	trigger = {
+			exists = yes
 		NOT = { poor_strata_life_needs = 0.8 }
 		NOT = { government = democracy }
 		total_pops = 50000
@@ -120,6 +122,7 @@ country_event = {
 	picture = "disease"
 	
 	trigger = {
+			exists = yes
 		NOT = { poor_strata_everyday_needs = 0.90 }
 		total_pops = 50000
 		any_owned_province = {
@@ -204,6 +207,7 @@ country_event = {
 	picture = "disease"
 	
 	trigger = {
+			exists = yes
 		NOT = { poor_strata_life_needs = 0.9 }
 		NOT = { has_country_modifier = pandemic_influenza }
 		total_pops = 50000
@@ -337,6 +341,7 @@ country_event = {
 	picture = "Cholera"
 
 	trigger = {
+			exists = yes
 		total_pops = 50000
 		OR = {
 			num_of_cities = 3
@@ -448,6 +453,7 @@ province_event = {
 	id = 10240
 
 	trigger = {
+			exists = yes
 		NOT = { AND = { continent = oceania owner = { civilized = no } } }
 		NOT = { terrain = arctic }
 		NOT = { terrain = desert }
@@ -525,6 +531,7 @@ country_event = {
 	picture = "smallpox"
 	
 	trigger = {
+			exists = yes
 		NOT = { poor_strata_everyday_needs = 0.5 }
 		total_pops = 50000
 		any_owned_province = {

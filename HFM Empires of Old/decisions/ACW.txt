@@ -3,6 +3,7 @@ political_decisions = {
 	apply_for_USA_statehood = {
 		picture = apply_for_usa_statehood
 		potential = {
+			exists = yes
 			exists = USA
 			USA = { government = democracy }
 			OR = {
@@ -62,6 +63,7 @@ political_decisions = {
 	king_cotton = {
 		picture = king_cotton
 		potential = {
+			exists = yes
 			tag = CSA
 			war_with = USA
 			not = {
@@ -98,6 +100,7 @@ political_decisions = {
 # USA	
 	trail_of_tears = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = USA
 				tag = CSA
@@ -143,6 +146,7 @@ political_decisions = {
 	organize_indian_territory = {
 		picture = organize_indian_territory
 		potential = {
+			exists = yes
 			OR = {
 				tag = USA
 				tag = CSA
@@ -210,6 +214,7 @@ political_decisions = {
 	custers_expedition = {
 		picture = custers_expedition
 		potential = {
+			exists = yes
 			tag = USA
 			NOT = {
 				has_country_flag = custers_expedition_sent
@@ -236,6 +241,7 @@ political_decisions = {
 	
 	enact_the_homestead_act = {
 		potential = {
+			exists = yes
 			tag = USA
 			government = democracy
 			NOT = { has_country_flag = homestead_act }
@@ -263,6 +269,7 @@ political_decisions = {
 	bixby_letter = {
 		picture = bixby_letter
 		potential = {
+			exists = yes
 			tag = USA
 			not = {
 				has_country_flag = bixby_letter_sent
@@ -284,6 +291,7 @@ political_decisions = {
 	
 	enact_anaconda_plan = {
 		potential = {
+			exists = yes
 			tag = USA
 			war_with = CSA
 			NOT = {
@@ -312,6 +320,7 @@ political_decisions = {
 	
 	shermans_march_to_the_sea = {
 		potential = {
+			exists = yes
 			tag = USA
 			war_with = CSA
 			NOT = {
@@ -357,6 +366,7 @@ political_decisions = {
 	emancipation_proclamation = {
 		picture = emancipation_proclamation
 		potential = {
+			exists = yes
 			tag = USA
 			NOT = {
 				has_country_flag = emancipation
@@ -398,6 +408,7 @@ political_decisions = {
 	}		
 	manifest_destiny = {
 		potential = {
+			exists = yes
 			tag = USA
 			is_greater_power = yes
 			NOT = { has_country_flag = hasmanifestdestiny }
@@ -545,6 +556,7 @@ political_decisions = {
 	gag_rule = {
 		picture = gag_rule
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 1
 			OR = {
@@ -574,6 +586,7 @@ political_decisions = {
 	corwin_amendment = {
 		picture = corwin_amendment
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 4
 			OR = {
@@ -603,6 +616,7 @@ political_decisions = {
 	fugitive_slave_act = {
 		picture = fugitive_slave_act
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 4
 			OR = {
@@ -632,6 +646,7 @@ political_decisions = {
 	
 	nashville_convention = {
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 5
 			OR = {
@@ -665,6 +680,7 @@ political_decisions = {
 	
 	ostend_manifesto = {
 		potential = {
+			exists = yes
 			tag = USA
 			SPA_2209 = { is_slave = yes }
 			OR = {
@@ -769,6 +785,7 @@ political_decisions = {
 	kansas_nebraska_act = {
 		picture = kansas_nebraska_act
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 1
 			OR = {
@@ -806,6 +823,7 @@ political_decisions = {
 	
 	wilmot_proviso = {
 		potential = {
+			exists = yes
 			tag = USA
 			average_consciousness = 1
 			OR = {
@@ -864,6 +882,7 @@ political_decisions = {
 	form_kellys_irish_brigade = {
 		picture = form_kellys_irish_brigade
 		potential = {
+			exists = yes
 			tag = CSA
 			war_with = USA
 			NOT = {
@@ -896,6 +915,7 @@ political_decisions = {
 	
 	raise_the_bonnie_blue_flag = {
 		potential = {
+			exists = yes
 			tag = CSA
 			NOT = {
 				OR = {
@@ -965,6 +985,7 @@ political_decisions = {
 
 	enact_radical_reconstruction = {
 		potential = {
+			exists = yes
 			tag = USA
 			war = no
 			has_global_flag = american_civil_war_has_happened
@@ -1038,6 +1059,7 @@ political_decisions = {
 	
 	annex_hawaii = {
 		potential = {
+			exists = yes
 			exists = HAW
 			is_sphere_leader_of = HAW
 			HAW = { ai = yes }
@@ -1139,6 +1161,7 @@ political_decisions = {
 	sell_alaska = {
 		picture = map_alaska
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = alaska_purchase_started }
 			NOT = { has_global_flag = alaska_purchase_completed }
 			OR = {
@@ -1202,6 +1225,7 @@ political_decisions = {
 	
 	webster_ashburton_treaty = {
 		potential = {
+			exists = yes
 			tag = ENG
 			NOT = { has_global_flag = webster_ashburton_signed }
 			OR = {
@@ -1250,6 +1274,7 @@ political_decisions = {
 	rio_grande_treaty = {
 	picture = rio_grande_treaty
 		potential = {
+			exists = yes
 			tag = USA
 			any_owned_province = { is_core = TEX }
 			RGR = {
@@ -1288,6 +1313,7 @@ political_decisions = {
 	demand_36_parallel = {
 	picture = CSA_36_parallel
 		potential = {
+			exists = yes
 			tag = CSA
 			is_vassal = no
 			NOT = { has_country_flag = 36_or_fight }
@@ -1346,6 +1372,7 @@ political_decisions = {
 	pass_the_fifteenth_amendment = {
 	picture = first_vote_usa
 		potential = {
+			exists = yes
 			tag = USA
 			NOT = { has_country_flag = fifteenth_amendment_enacted }
 			NOT = { citizens_rights = all_voting_pops }
@@ -1371,6 +1398,7 @@ political_decisions = {
 	texan_claims = {
 	picture = all_texas
 		potential = {
+			exists = yes
 			tag = TEX
 			NOT = { year = 1870 }
 			NOT = { has_country_flag = lone_star_state }
@@ -1408,6 +1436,7 @@ political_decisions = {
 	gadsden_purchase = {
 	picture = gadsden
 		potential = {
+			exists = yes
 			NOT = { owns = 102 }
 			102 = { NOT = { is_core = THIS } }
 			102 = { owner = { NOT = { OR = { primary_culture = yankee primary_culture = dixie primary_culture = texan } } } }
@@ -1449,6 +1478,7 @@ political_decisions = {
 	guantanamo_bay_lease = {
 	picture = guantanamo_bay
 		potential = {
+			exists = yes
 			is_culture_group = american_cultures
 			NOT = { has_global_flag = guantanamo_lease }
 			44 = { OR = { owned_by = THIS owner = { NOT = { is_culture_group = american_cultures } } } }
@@ -1502,6 +1532,7 @@ political_decisions = {
 	1850_compromise = {
 		picture = clay_and_douglas_draft
 		potential = {
+			exists = yes
 			tag = USA
 			OR = {
 				slavery = yes_slavery
@@ -1547,6 +1578,7 @@ political_decisions = {
 	offer_to_buy_cuba = {
 		picture = map_caribbean
 		potential = {
+			exists = yes
 			tag = USA
 			2209 = { owned_by = SPA }
 			NOT = {
@@ -1588,6 +1620,7 @@ political_decisions = {
 	annexation_santo_domingo = {
 	picture = annexation_santo_domingo
 		potential = {
+			exists = yes
 			OR = {
 				tag = USA
 				tag = CSA
@@ -1645,6 +1678,7 @@ political_decisions = {
 	guano_islands_act = {
 	picture = dreams_of_empire
 		potential = {
+			exists = yes
 			OR = {
 				owns = 2525
 				owns = 658
@@ -1679,6 +1713,7 @@ political_decisions = {
 	the_iron_range = {
 	picture = iron_range
 		potential = {
+			exists = yes
 			owns = 232
 			NOT = { has_country_flag = iron_ranges }
 			NOT = { 232 = { trade_goods = iron } }
@@ -1706,6 +1741,7 @@ political_decisions = {
 	the_mormon_exodus = {
 	picture = nauvoo_temple
 		potential = {
+			exists = yes
 			OR = {
 				tag = USA
 				tag = DES
@@ -1759,6 +1795,7 @@ political_decisions = {
 	the_american_frontier = {
 	picture = cowboy
 		potential = {
+			exists = yes
 			OR = {
 				primary_culture = texan
 				primary_culture = yankee

@@ -2,6 +2,7 @@ political_decisions = {
 	enable_options = {
 		alert = yes
 		potential = {
+			exists = yes
 			ai = no
 			NOT = { has_global_flag = looking_through_options }
 			NOT = { year = 1837 }
@@ -19,6 +20,7 @@ political_decisions = {
 	disable_options = {
 		alert = no
 		potential = {
+			exists = yes
 			ai = no
 			has_country_flag = country_looking_through_options
 			NOT = { year = 1837 }
@@ -37,6 +39,7 @@ political_decisions = {
 		picture = government_decisions
 		alert = no
 		potential = {
+			exists = yes
 			ai = no
 			NOT = { has_country_flag = government_decisions_on }
 			OR = {
@@ -219,6 +222,7 @@ political_decisions = {
 		picture = government_decisions
 		alert = no
 		potential = {
+			exists = yes
 			ai = no
 			has_country_flag = government_decisions_on
 		}
@@ -233,6 +237,7 @@ political_decisions = {
 		picture = map_africa
 		alert = no
 		potential = {
+			exists = yes
 			civilized = yes
 			NOT = {
 				ai = yes
@@ -838,6 +843,7 @@ political_decisions = {
 		picture = map_africa
 		alert = no
 		potential = {
+			exists = yes
 			has_country_flag = organize_colony_decisions
 		}
 		
@@ -853,6 +859,7 @@ political_decisions = {
 		alert = no
 		picture = switch_to_order
 		potential = {
+			exists = yes
 			tech_school = traditional_academic
 			ai = no
 			civilized = yes
@@ -871,6 +878,7 @@ political_decisions = {
 		picture = switch_to_productivity
 		alert = no
 		potential = {
+			exists = yes
 			tech_school = traditional_academic
 			ai = no
 			civilized = yes
@@ -889,6 +897,7 @@ political_decisions = {
 		picture = marching_soldiers
 		alert = no
 		potential = {
+			exists = yes
 			# OR = {
 				# has_country_flag = government_decisions_on
 				# ai = yes

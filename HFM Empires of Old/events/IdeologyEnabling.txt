@@ -12,6 +12,7 @@ country_event = {
 	picture = "Socialism"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_ideology_enabled = socialist  }
 		year = 1860
 		civilized = yes
@@ -68,6 +69,7 @@ country_event = {
 	picture = "Socialism"
 	
 	trigger = {
+			exists = yes
 		NOT = {
 			is_ideology_enabled = communist 
 		}
@@ -154,6 +156,7 @@ country_event = {
 	picture = "AnarchoLiberals"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_ideology_enabled = anarcho_liberal }
 		NOT = { has_global_flag = anarcho_liberals_disabled }
 		year = 1848
@@ -193,6 +196,7 @@ country_event = {
 	picture = "Fascist"
 	
 	trigger = {
+			exists = yes
 		NOT = { is_ideology_enabled = fascist }
 		OR = {
 			great_wars_enabled = yes

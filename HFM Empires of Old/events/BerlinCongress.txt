@@ -13,6 +13,7 @@ country_event = {
 	picture = "ottoman"
 
 	trigger = {
+			exists = yes
 		RUS = {
 			OR = {
 				is_disarmed = yes
@@ -200,6 +201,7 @@ country_event = {
 	picture = "berlin_congress_htm"
 
 	trigger = {
+			exists = yes
 		has_country_flag = hosting_berlin_congress
 		NOT = { has_country_flag = attending_berlin_congress }
 	}
@@ -491,6 +493,7 @@ country_event = {
 	picture = "cyprus_convention"
 	
 	trigger = {
+			exists = yes
 		TUR = { owns = 855 }
 		has_country_flag = attending_berlin_congress
 		OR = {
@@ -611,6 +614,7 @@ country_event = {
 	picture = "bosnia_issue"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = the_reichstadt_agreement }
 		OR = {
 			TUR = { owns = 783 }
@@ -672,6 +676,7 @@ country_event = {
 	picture = "croatia_issue"
 	
 	trigger = {
+			exists = yes
 		OR = {
 			TUR = { owns = 771 }
 			CRO = {
@@ -749,6 +754,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		TUR = {
 			exists = yes
 			OR = { 
@@ -835,6 +841,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		TUR = {
 			exists = yes
 			OR = { 
@@ -2356,6 +2363,7 @@ country_event = {
 	picture = "cyprus_convention_result"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = giving_up_cyprus
 		has_global_flag = berlin_congress_held
 		war = no
@@ -2507,6 +2515,7 @@ country_event = {
 	picture = "bosnia_issue"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = claimed_bosnia
 		OR = { 
 			has_global_flag = berlin_congress_held
@@ -2551,6 +2560,7 @@ country_event = {
 	picture = "croatia_issue"
 	
 	trigger = {
+			exists = yes
 		has_country_flag = claimed_croatia
 		has_global_flag = berlin_congress_held
 		is_greater_power = yes
@@ -2681,6 +2691,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = no
 		has_global_flag = berlin_congress_held
 		has_country_flag = received_congress_benefit
@@ -2769,6 +2780,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = no
 		has_global_flag = berlin_congress_held
 		has_country_flag = received_congress_benefit
@@ -2882,6 +2894,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = no
 		has_global_flag = berlin_congress_held
 		has_country_flag = received_congress_benefit
@@ -2985,6 +2998,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = no
 		has_global_flag = berlin_congress_held
 		has_country_flag = received_congress_benefit
@@ -3103,6 +3117,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		is_greater_power = no
 		has_global_flag = berlin_congress_held
 		has_country_flag = received_congress_benefit

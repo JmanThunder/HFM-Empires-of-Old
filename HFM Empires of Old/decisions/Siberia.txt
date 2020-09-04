@@ -2,6 +2,7 @@ political_decisions = {
 	build_the_tsr = { #Trans-Siberian railroad- mirrors CNR, but offers choice of route: Irkutsk-Yakutia-Okhotsk or Irkutsk-Chita-Vladivostok(if owned)
 		picture = whistlestop_tour
 		potential = {
+			exists = yes
 			tag = RUS
 			early_railroad = 1
 			NOT = { has_country_flag = build_the_tsr }
@@ -35,6 +36,7 @@ political_decisions = {
 	build_the_manchurian_railway = { #Railroad through Manchuria if they own Port Arthur
 		picture = eastern_china_railway
 		potential = {
+			exists = yes
 			tag = RUS
 			has_country_flag = build_the_tsr
 			NOT = { has_country_flag = build_the_manchurian_railway }

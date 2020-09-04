@@ -1,6 +1,7 @@
 political_decisions = {
 	accademia_della_crusca = {
         potential = {
+			exists = yes
            	tag = TUS
             NOT = { has_country_flag = accademia_della_crusca }
 		}
@@ -22,6 +23,7 @@ political_decisions = {
 	plombieres = {
 		picture = cavours_diplomacy
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAR
 				tag = SVY
@@ -150,6 +152,7 @@ political_decisions = {
 
 	cavours_diplomacy = {
 		potential = {
+			exists = yes
 			OR = {
 				AND = { 
 					OR = {
@@ -345,6 +348,7 @@ political_decisions = {
 	award_order_of_st_francis = {
 		picture = award_order_of_st_francis
 		potential = {
+			exists = yes
 			tag = SIC
 			government = absolute_monarchy
 			NOT = { has_country_flag = order_awarded }
@@ -363,6 +367,7 @@ political_decisions = {
 
 	statuto_albertino = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAR
 				tag = SVY
@@ -425,6 +430,7 @@ political_decisions = {
 
 	the_case_of_edgardo_mortara = {
 		potential = {
+			exists = yes
 			tag = PAP
 			government = theocracy
 			NOT = { has_country_flag = edgardo_mortara }
@@ -453,6 +459,7 @@ political_decisions = {
 	
 	the_first_vatican_council = {
 		potential = {
+			exists = yes
 			tag = PAP
 			government = theocracy
 			NOT = { has_country_flag = first_vatican_council_held }
@@ -483,6 +490,7 @@ political_decisions = {
 	garibaldi_redshirts = {
 	picture = garibaldi_redshirts
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAR
 				tag = ITA
@@ -563,6 +571,7 @@ political_decisions = {
 	law_of_guarantees = {
 		picture = law_of_guarantees
 		potential = {
+			exists = yes
 			OR = {
 				tag = ITA
 				tag = ITS
@@ -623,6 +632,7 @@ political_decisions = {
 	italia_irredenta = {
 		picture = italia_irredenta
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = AUS_ITA_treaty }
 			OR= {
 				tag = ITA
@@ -800,6 +810,7 @@ political_decisions = {
 
 	war_italian_independence = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = SAR
 				tag = SVY
@@ -941,6 +952,7 @@ political_decisions = {
 	italian_call_to_union = {
 		picture = form_italy
 		potential = {
+			exists = yes
 			is_culture_group = italian
 			NOT = {
 				exists = ITA
@@ -1022,6 +1034,7 @@ political_decisions = {
 	we_are_italian = {
 		picture = form_italy
 		potential = {
+			exists = yes
 			OR = {
 				tag = CRS
 				tag = TRE
@@ -1081,6 +1094,7 @@ political_decisions = {
 	unite_with_tuscany = {
 		picture = gtfo
 		potential = {
+			exists = yes
 			tag = LUC
 			exists = TUS
 			NOT = { has_country_flag = unite_with_tuscany }
@@ -1149,6 +1163,7 @@ political_decisions = {
 	treaty_of_ouchy = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			OR = {
 				tag = ITA
 				tag = ITS
@@ -1206,6 +1221,7 @@ political_decisions = {
 	perfect_fusion = {
 		picture = perfect_fusion
 		potential = {
+			exists = yes
 			tag = SAR
 			NOT = { has_country_flag = perfect_fusion }
 		}
@@ -1246,6 +1262,7 @@ political_decisions = {
 	
 	become_savoy = {
 		potential = {
+			exists = yes
 			tag = SAR
 			NOT = {
 				exists = SVY
@@ -1281,6 +1298,7 @@ political_decisions = {
 	become_piedmont = {
 		picture = become_savoy
 		potential = {
+			exists = yes
 			tag = SVY
 			NOT = { exists = SAR }
 			SRD = {
@@ -1340,6 +1358,7 @@ political_decisions = {
 	conquest_of_the_adriatic = {
 	picture = conquest_adriatic
 		potential = {
+			exists = yes
 			OR = {
 				tag = ITA
 				tag = ITS
@@ -1372,6 +1391,7 @@ political_decisions = {
 	reclaim_italian_lands = {
 	picture = reclaim_italian_lands
 		potential = {
+			exists = yes
 			OR = {
 				tag = ITA
 				tag = ITS
@@ -1411,6 +1431,7 @@ political_decisions = {
 	fatherland_altar = {
 	picture = build_vittoriano
 		potential = {
+			exists = yes
 			owns = 749
 			NOT = { has_country_flag = vittoriano_built }
 			OR = {
@@ -1471,6 +1492,7 @@ political_decisions = {
 	abolish_italian_minors = {
 		picture = law_of_guarantees
 		potential = {
+			exists = yes
 			OR = {
 				tag = ITA
 				tag = ITS
@@ -1549,6 +1571,7 @@ political_decisions = {
 	appoint_camillo_cavour = {
 		picture = SAR_appoint_camillo_cavour
 		potential = {
+			exists = yes
 			tag = SAR
 			year = 1850
 			OR = {

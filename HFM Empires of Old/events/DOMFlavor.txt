@@ -3,6 +3,7 @@ country_event = {
 	id = 45006
 
 	trigger = {
+			exists = yes
 		tag = DOM
 		year = 1898
 		war = no

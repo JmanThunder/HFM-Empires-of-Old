@@ -12,6 +12,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = CHI
 			tag = TPG
@@ -240,6 +241,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+			exists = yes
 		NOT = { has_global_flag = the_dragon_wakes }
 		OR = { 
 			tag = MCK
@@ -360,6 +362,7 @@ country_event = {
 	picture = "panthay_rebellion"
 
 	trigger = {
+			exists = yes
 		civilized = no
 		OR = {
 			owns = 1498 #Macao
@@ -421,6 +424,7 @@ country_event = {
 	picture = "panthay_rebellion"
 
 	trigger = {
+			exists = yes
 		ai = yes
 		NOT = { badboy = 0.8 }
 		num_of_ports = 1

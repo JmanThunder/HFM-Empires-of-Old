@@ -17,6 +17,7 @@ country_event = {
 	picture = "bad_badboy"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		any_greater_power = {
 			alliance_with = ENG
@@ -101,6 +102,7 @@ country_event = {
 
 	
 	trigger = {
+			exists = yes
 		OR = {
 			tag = ENG
 			tag = ENL
@@ -146,6 +148,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		has_country_modifier = pax_britannica
 		
@@ -222,6 +225,7 @@ country_event = {
 	picture = "third_burma_war"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		owns = 1330
 		is_greater_power = yes
@@ -306,6 +310,7 @@ country_event = {
 	picture = "big_ben_finished"
 
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_greater_power = yes
 		OR = {
@@ -357,6 +362,7 @@ country_event = {
 	#news_desc_short = "EVTDESC99101_NEWS_SHORT"
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		war_with = ZUL
 		2113 = { country_units_in_province = ENG }
@@ -391,6 +397,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_greater_power = yes
 		OR = {
@@ -687,6 +694,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		is_greater_power = yes
 		OR = {
@@ -759,6 +767,7 @@ country_event = {
 	fire_only_once = yes
 		
 	trigger = {
+			exists = yes
 		tag = ENG
 		NOT = { exists = EIC }
 		owns = 1251
@@ -837,6 +846,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		tag = ENG
 		NOT = { exists = EIC }
 		owns = 1251
@@ -921,6 +931,7 @@ province_event = {
 	fire_only_once = yes
 		
 	trigger = {
+			exists = yes
 		capital_scope = { continent = europe }
 		is_greater_power = yes
 		owns = 2033

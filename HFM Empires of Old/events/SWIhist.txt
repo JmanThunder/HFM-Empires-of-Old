@@ -6,6 +6,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
+			exists = yes
 		ai = no
 		badboy = 2
 		civilized = yes
@@ -48,6 +49,7 @@ country_event = {
 	picture = "bad_badboy"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_country_modifier = uncivilized_isolationism }
 		ai = no
 		badboy = 1.3

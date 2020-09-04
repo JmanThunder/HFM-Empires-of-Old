@@ -3,6 +3,7 @@ political_decisions = {
 	mobilize_tribesmen = {
 		picture = form_the_ikhwan
 		potential = {
+			exists = yes
 			OR = {
 				tag = CYR
 				tag = ALD
@@ -40,6 +41,7 @@ political_decisions = {
 	secularize_society = {
 		picture = the_holy_city
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = secularized_muslim_society }
 			civilized = yes
 			OR = {
@@ -115,6 +117,7 @@ political_decisions = {
 	exile_house_of_saud = {
 		picture = ibn_saud
 		potential = {
+			exists = yes
 			OR = {
 				tag = HAL
 				tag = HDJ
@@ -146,6 +149,7 @@ political_decisions = {
 	claim_nejd = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			tag = HAL
 			NOT = { has_country_flag = claimed_nejd }
 			NEJ = { exists = no }
@@ -188,6 +192,7 @@ political_decisions = {
 	exile_house_of_rashid = {
 	picture = exile_house_of_rashid
 		potential = {
+			exists = yes
 			OR = {
 				tag = NEJ
 				tag = HDJ
@@ -221,6 +226,7 @@ political_decisions = {
 	claim_hail = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			tag = NEJ
 			NOT = { has_country_flag = claimed_hail }
 			HAL = { exists = no }
@@ -257,6 +263,7 @@ political_decisions = {
 	claim_hedjaz_NEJ = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			tag = NEJ
 			NOT = { exists = ARA }
 			NOT = {
@@ -295,6 +302,7 @@ political_decisions = {
 	claim_hedjaz_HAL = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			tag = HAL
 			NOT = { exists = ARA }
 			NOT = {
@@ -333,6 +341,7 @@ political_decisions = {
 	claim_arabia_HDJ = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 			tag = HDJ
 			exists = yes
 			NOT = { exists = ARA }
@@ -392,6 +401,7 @@ political_decisions = {
 	encourage_arab_nationalism = {
 		picture = form_the_ikhwan
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			NOT = { has_global_flag = arab_nationalism_encouraged }
 			NOT = { tag = TUR }
@@ -452,6 +462,7 @@ political_decisions = {
 
 	ibn_saud = {
 		potential = {
+			exists = yes
 			has_global_flag = arab_revolt_has_begun
 			NOT = { has_country_flag = ibn_saud }
 			tag = NEJ
@@ -476,6 +487,7 @@ political_decisions = {
 
 	form_the_ikhwan = {
 		potential = {
+			exists = yes
 			OR = {
 				AND = {
 					tag = NEJ
@@ -532,6 +544,7 @@ political_decisions = {
 	the_holy_city = {
 	picture = the_holy_city
 		potential = {
+			exists = yes
 			1151 = {
 				NOT = { has_province_modifier = holy_city }
 			}
@@ -561,6 +574,7 @@ political_decisions = {
 	claim_arabian_peninsula = {
 		picture = map_arabia
 		potential = {
+			exists = yes
 
 			tag = ARA
 			NOT = { has_country_flag = claim_arabian_peninsula }
@@ -599,6 +613,7 @@ political_decisions = {
 	hedjaz_independent = {
 		picture = form_the_ikhwan
 		potential = {
+			exists = yes
 			tag = HDJ
 			vassal_of = EGY
 		}
@@ -630,6 +645,7 @@ political_decisions = {
 		picture = bahrain_trade
 		
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			is_sphere_leader_of = ABU
 			ABU = {
@@ -675,6 +691,7 @@ political_decisions = {
 	integrate_qatar_trucial_states = {
 		picture = doha_city
 		potential = {
+			exists = yes
 			is_greater_power = yes
 			is_sphere_leader_of = ABU
 			ABU = {
@@ -720,6 +737,7 @@ political_decisions = {
 	claim_bahrain_qatar_peninsula = {
 		picture = bahrain_trade
 		potential = {
+			exists = yes
 			OR = {
 				AND = {
 					tag = TUR
@@ -762,6 +780,7 @@ political_decisions = {
 	vassalize_trucial_states = {
 		picture = dubai_city
 		potential = {
+			exists = yes
 			NOT = { tag = ENG }
 			is_sphere_leader_of = ABU
 			ABU = {
@@ -804,6 +823,7 @@ political_decisions = {
 		picture = map_arabia
 		alert = no
 		potential = {
+			exists = yes
 			NOT = { has_global_flag = claimed_yemen }
 			civilized = yes
 			OR = {
@@ -1006,6 +1026,7 @@ political_decisions = {
 	found_dar_es_salaam = {
 		picture = tanzania_shop
 		potential = {
+			exists = yes
 			owns = 2036
 			capital_scope = {
 				OR = {

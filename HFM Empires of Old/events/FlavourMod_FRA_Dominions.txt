@@ -9,6 +9,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		war = no
@@ -201,6 +202,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		war = no
@@ -404,6 +406,7 @@ country_event = {
 	major = yes
 
 	trigger = {
+			exists = yes
 		primary_culture = french
 		war = no
 		year = 1870

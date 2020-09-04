@@ -10,6 +10,7 @@ province_event = {
 	desc = "EVTDESC199005"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -177,6 +178,7 @@ province_event = {
 	desc = "EVTDESC199007"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -340,6 +342,7 @@ province_event = {
 	desc = "EVTDESC199009"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -510,6 +513,7 @@ province_event = {
 	desc = "EVTDESC199015"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -742,6 +746,7 @@ province_event = {
 	desc = "EVTDESC199016"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -913,6 +918,7 @@ province_event = {
 	desc = "EVTDESC199018"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1133,6 +1139,7 @@ province_event = {
 	desc = "EVTDESC199019"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1311,6 +1318,7 @@ province_event = {
 	desc = "EVTDESC199020"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1458,6 +1466,7 @@ province_event = {
 	desc = "EVTDESC199021"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1608,6 +1617,7 @@ province_event = {
 	desc = "EVTDESC199022"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1773,6 +1783,7 @@ province_event = {
 	desc = "EVTDESC199030"
 
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -1856,6 +1867,7 @@ province_event = {
 	desc = "EVTDESC199031"
 
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -2032,6 +2044,7 @@ province_event = {
 	desc = "EVTDESC199032"
 
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -2121,6 +2134,7 @@ province_event = {
 	desc = "EVTDESC199033"
 
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -2409,6 +2423,7 @@ province_event = {
 	desc = "EVTDESC199034"
 
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		province_control_days = 1095
@@ -2698,6 +2713,7 @@ province_event = {
 	desc = "EVTDESC199036"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		owner = {
@@ -2749,8 +2765,8 @@ province_event = {
 					province_id = 2147  #Ciudad Acuna
 					province_id = 2152  #Monclova
 					province_id = 2155  #Torreon
-					province_id = 2255  #Barranquilla (El Cerrejón mines)
-					province_id = 2399  #Rio Gallegos (Río Turbio mines)
+					province_id = 2255  #Barranquilla (El Cerrej??n mines)
+					province_id = 2399  #Rio Gallegos (R??o Turbio mines)
 					province_id = 2561  #Siegburg
 					province_id = 595   #Nuremberg (Waldenburg)
 					province_id = 598   #Bayreuth (Waldenburg)
@@ -2885,6 +2901,7 @@ province_event = {
 	desc = "EVTDESC199035"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		year = 1860
@@ -3048,6 +3065,7 @@ province_event = {
 	desc = "EVTDESC199037"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		year = 1840
@@ -7506,6 +7524,7 @@ province_event = {
 	desc = "EVTDESC199073"
 	
 	trigger = {
+			exists = yes
 		owned_by = THIS
 		controlled_by = THIS
 		NOT = { trade_goods = tea } 
@@ -7656,6 +7675,7 @@ province_event = {
 	desc = "EVTDESC199444"
 	
 	trigger = {
+			exists = yes
 		is_colonial = yes
 		owned_by = THIS
 		controlled_by = THIS

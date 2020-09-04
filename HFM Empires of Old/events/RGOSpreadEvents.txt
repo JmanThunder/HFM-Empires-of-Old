@@ -5,6 +5,7 @@ province_event = {
 	desc = "EVTDESC29900"
 	
 	trigger = {
+			exists = yes
 		owner = { invention = tractors }
 		NOT = { has_province_modifier = local_tractors }
 		NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
@@ -3879,6 +3880,7 @@ province_event = {
 	desc = "EVTDESC29904"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_province_modifier = local_nitroglycerin_and_machine_tools }
 		owner = { invention = machine_tools invention = nitroglycerin }
 		NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
@@ -4279,6 +4281,7 @@ province_event = {
 	desc = "EVTDESC29903"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_province_modifier = local_distribution_channels_und_electricity }
 		owner = { invention = distribution_channels invention = electrical_lighting }
 		NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
@@ -4537,6 +4540,7 @@ province_event = {
 	desc = "EVTDESC29901"
 	
 	trigger = {
+			exists = yes
 		NOT = { has_province_modifier = local_conveyors_and_excavators }
 		owner = {
 			invention = electric_rolling_techniques

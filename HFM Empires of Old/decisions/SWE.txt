@@ -3,6 +3,7 @@ political_decisions = {
 	concede_finland = {
 		picture = concede_finland
 		potential = {
+			exists = yes
 			NOT = { has_country_flag = Conceded_Finland }
 			tag = SWE
 			NOT = { tag = FIN }
@@ -37,6 +38,7 @@ political_decisions = {
 
 	svenska_pansarbats_foreningen = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = SWE
 				AND = {
@@ -74,6 +76,7 @@ political_decisions = {
 	}
 	pass_folkskolereformen = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = SWE
 				AND = {
@@ -100,6 +103,7 @@ political_decisions = {
 	
 	the_vega_expedition = {
 		potential = {
+			exists = yes
 			OR = {
 				tag = SWE
 				AND = {
@@ -129,6 +133,7 @@ political_decisions = {
 	expand_motala_verkstad = {
 		picture = expand_motala_verkstad
 		potential = {
+			exists = yes
 			OR = {
 				tag = SWE
 				AND = {
@@ -166,6 +171,7 @@ political_decisions = {
 	court_yard_speech = {
 		picture = court_yard_speech
 		potential = {
+			exists = yes
 			OR = {
 				tag = SWE
 				AND = {

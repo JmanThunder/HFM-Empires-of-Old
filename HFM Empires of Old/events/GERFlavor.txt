@@ -8,6 +8,7 @@ country_event = {
 	news_desc_short = "EVTDESC33403_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF
@@ -57,6 +58,7 @@ province_event = {
 	news_desc_short = "EVTDESC33004_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		province_id = 371 #Aabenra/North Schleswig
 		OR = { 
 			owned_by = GER
@@ -122,6 +124,7 @@ country_event = {
 	news_desc_short = "EVTDESC33000_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF
@@ -169,6 +172,7 @@ country_event = {
 	news_desc_short = "EVTDESC33001_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF
@@ -218,6 +222,7 @@ country_event = {
 	news_desc_short = "EVTDESC33002_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF
@@ -265,6 +270,7 @@ country_event = {
 	news_desc_short = "EVTDESC33005_NEWS_SHORT"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF
@@ -516,6 +522,7 @@ country_event = {
 	picture = "threehurrahs"
 	
 	trigger = {
+			exists = yes
 		tag = NGF
 		war = no
 		is_greater_power = yes
@@ -645,6 +652,7 @@ country_event = {
 	
 	fire_only_once = yes
 	trigger = {
+			exists = yes
 		tag = NGF
 		war = no
 		has_country_flag = glory_of_germany_al
@@ -687,6 +695,7 @@ country_event = {
 	desc = "EVTDESC33015"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		OR = {
 			tag = AUS
@@ -731,6 +740,7 @@ country_event = {
 	desc = "EVTNDESC33016"
 
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		has_country_flag = called_german_allies
@@ -1043,6 +1053,7 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
+			exists = yes
 		ai = yes
 		war = no
 		is_culture_group = germanic
@@ -1096,6 +1107,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+			exists = yes
 		primary_culture = french
 		is_greater_power = yes
 		capital = 425
@@ -1298,6 +1310,7 @@ country_event = {
 	major = yes
 		
 	trigger = {
+			exists = yes
 		tag = PRU
 		is_vassal = no
 		ai = yes
@@ -1483,6 +1496,7 @@ country_event = {
 	picture = "german_rhine"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = GER
 			tag = GCF
@@ -1545,6 +1559,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+			exists = yes
 		OR = {
 			tag = AUS
 			tag = KUK
@@ -1593,6 +1608,7 @@ country_event = {
 	picture = "german_rhine"
 
 	trigger = {
+			exists = yes
 		OR = { 
 			tag = GER
 			tag = GCF

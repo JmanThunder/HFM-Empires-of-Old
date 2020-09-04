@@ -3,6 +3,7 @@ political_decisions = {
 	pbc_in_chaos = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = PEU
 			exists = PBC
 			vassal_of = PBC
@@ -56,6 +57,7 @@ political_decisions = {
 	end_of_confederation_PEU = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = PBC
 			owns = 2295
 			OR = {
@@ -113,6 +115,7 @@ political_decisions = {
 	end_of_confederation_SPU = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = PBC
 			owns = 2304
 			NOT = { owns = 2295 }
@@ -175,6 +178,7 @@ political_decisions = {
 	end_of_confederation_BOL = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = PBC
 			NOT = { owns = 2295 }
 			NOT = { owns = 2304 }
@@ -236,6 +240,7 @@ political_decisions = {
 	treaty_of_la_paz = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			tag = PBC
 			NOT = { has_country_flag = the_confederation_is_legitime }
 			NOT = { has_country_flag = pbc_reunited }
@@ -264,6 +269,7 @@ political_decisions = {
 	centralizer_act_huayna_capac = {
 		picture = treaty_signing
 		potential = {
+			exists = yes
 			tag = PBC
 			has_country_flag = the_confederation_is_legitime
 			NOT = { has_country_flag = pbc_united }
@@ -339,6 +345,7 @@ political_decisions = {
 	the_new_pbc = {
 		picture = peru_bolivia
 		potential = {
+			exists = yes
 			OR = {
 				tag = PEU
 				tag = SPU
@@ -397,6 +404,7 @@ political_decisions = {
 	reunite_peru = {
 	picture = reunite_peru
 		potential = {
+			exists = yes
 			tag = PEU
 			SPU = {
 				exists = yes
@@ -457,6 +465,7 @@ political_decisions = {
 	declare_la_paz_capital = {
 		picture = la_paz_capital
 		potential = {
+			exists = yes
 			tag = BOL
 			year = 1898
 			2310 = { is_capital = no }
@@ -486,6 +495,7 @@ political_decisions = {
 	remove_spu_cores = {
 		picture = la_paz_capital
 		potential = {
+			exists = yes
 			tag = PEU
 			any_owned_province = { is_core = SPU }
 			SPU = { exists = no }

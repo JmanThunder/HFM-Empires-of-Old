@@ -18,6 +18,7 @@ country_event = {
 	picture = "boxers"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		civilized = no
 		OR = {
@@ -149,6 +150,7 @@ province_event = {
 	desc = "EVTDESC99001"
 	
 	trigger = {
+			exists = yes
 		is_core = CHI
 		controlled_by = THIS
 		NOT = {
@@ -223,6 +225,7 @@ province_event = {
 	desc = "EVTDESC99005"
 	
 	trigger = {
+			exists = yes
 		has_province_modifier = boxer_presence
 		controlled_by = THIS
 		OR = {
@@ -362,6 +365,7 @@ country_event = {
 	news_desc_short = "EVTDESC99010_NEWS_SHORT"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		has_country_flag = boxers_appeared
 		1616 = {
@@ -734,6 +738,7 @@ country_event = {
 	picture = "boxers"
 	
 	trigger = {
+			exists = yes
 		tag = QNG
 		any_neighbor_country = {
 			any_owned_province = {

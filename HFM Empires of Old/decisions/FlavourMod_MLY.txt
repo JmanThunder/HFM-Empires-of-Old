@@ -2,6 +2,7 @@ political_decisions = {
 	pahang_declare_independence = {
 		picture = map_east_indies
 		potential = {
+			exists = yes
 			tag = PHG
 			vassal_of = JOH
 			year = 1853
