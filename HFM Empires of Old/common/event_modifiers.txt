@@ -3804,3 +3804,8 @@ province_small_immigration_boom = {
     immigrant_attract = 1.5
     icon = 9
 }
+rights_suspended = { 
+	global_pop_consciousness_modifier = -0.05
+	global_pop_militancy_modifier = -0.05
+	icon = 3
+}
