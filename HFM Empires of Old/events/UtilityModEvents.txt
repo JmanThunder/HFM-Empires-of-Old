@@ -589,9 +589,9 @@ country_event = {
 		any_owned = {
 			province_selector = -3
 			immigrator = -3
-			remove_province_modifier = power_immigrant
-			remove_province_modifier = power_noimmigrant
-			remove_province_modifier = power_oof
+			
+
+			
 		}		
 	}
 	option = {
