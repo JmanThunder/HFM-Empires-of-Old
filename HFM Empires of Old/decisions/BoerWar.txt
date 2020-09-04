@@ -247,7 +247,7 @@ political_decisions = {
 	
 	#form_south_africa = {
 		#potential = {
-			exists = yes
+			#exists = yes
 			#primary_culture = boer
 			#SAF = { exists = no }
 			#NOT = { has_global_flag = south_africa_formed }

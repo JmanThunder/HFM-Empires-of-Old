@@ -558,7 +558,7 @@ political_decisions = {
 	#	picture = vaal_painting
 	#	
 	#	potential = {
-			exists = yes
+	#		exists = yes
 	#		AND = {
 	#			owns = 2105
 	#			owns = 2106

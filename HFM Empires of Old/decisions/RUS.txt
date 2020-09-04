@@ -1701,7 +1701,6 @@ political_decisions = {
 			owns = 1082
 			1481 = { NOT = { owned_by = THIS } owner = { is_culture_group = east_asian civilized = no } }
 			NOT = { has_country_flag = demanded_port_arthur }
-			exists = yes
 			NOT = { is_culture_group = east_asian }
 		}
 		

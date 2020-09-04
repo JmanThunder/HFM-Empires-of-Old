@@ -45,7 +45,6 @@ political_decisions = {
         alert = no
         potential = {
 			exists = yes
-            exists = yes
             NOT = { has_global_flag = revolution_n_counter_researched }
             OR = {
                 AND = {
@@ -1882,7 +1881,6 @@ political_decisions = {
         potential = {
 			exists = yes
             ai = yes
-            exists = yes
             civilized = yes
             NOT = { rank = 17 }
             NOT = { year = 1838 }

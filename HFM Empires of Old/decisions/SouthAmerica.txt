@@ -553,7 +553,6 @@ political_decisions = {
 			exists = yes
 			tag = SPU
 			neighbour = PEU
-			exists = yes
 			ai = yes
 		}
 		

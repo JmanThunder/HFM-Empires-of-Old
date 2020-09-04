@@ -1339,7 +1339,7 @@ political_decisions = {
 	#invite_greece_to_YUG = {
 		#picture = form_yugoslavia
 		#potential = {
-			exists = yes
+			#exists = yes
 			#tag = YUG
 			#GRE = {
 				#exists = yes
@@ -1469,7 +1469,7 @@ political_decisions = {
 	#embrace_greeks_YUG = {
 		#picture = embrace_minority
 		#potential = {
-			exists = yes
+			#exists = yes
 			#tag = YUG
 			#any_owned_province = { culture = greek }
 			#NOT = {
@@ -1917,7 +1917,7 @@ political_decisions = {
 	#end_of_yugoslavia_greece = {
 		#picture = form_yugoslavia
 		#potential = {
-			exists = yes
+			#exists = yes
 			#tag = YUG
 			#NOT = { exists = GRE any_owned_province = { NOT = { is_core = GRE } } }
 		#}
@@ -2073,7 +2073,7 @@ political_decisions = {
 #	abolish_transylvania = {
 #		picture = create_romania
 #		potential = {
-			exists = yes
+#			exists = yes
 #			tag = ROM
 #			SIE = { exists = no }
 #			exists = yes

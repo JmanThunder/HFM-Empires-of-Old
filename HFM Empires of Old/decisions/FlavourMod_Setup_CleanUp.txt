@@ -1211,7 +1211,7 @@ political_decisions = {
 	#test_end_really_long_wars = {
 		#picture = "reichstag"
 		#potential = {
-			exists = yes 
+			#exists = yes 
 			#tag = FRA
 			#war_with = RUS
 		#}

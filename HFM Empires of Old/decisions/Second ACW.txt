@@ -109,7 +109,6 @@ political_decisions = {
 			is_vassal = no
 			NOT = { has_country_flag = asked_to_join_california }
 			neighbour = CAL
-			exists = yes
 				
 		}
 

@@ -16,7 +16,7 @@
 #	picture = "election_polls"
 #	
 #	trigger = {
-			exists = yes
+#			exists = yes
 #	election = yes
 #	NOT = {
 #		OR = {
@@ -281,8 +281,7 @@ country_event = {
 	election = yes
 	issue_group = trade_policy
 	is_triggered_only = yes
-	#trigger = {
-			exists = yes country = { has_country_modifier = will_influence_elections } }
+	trigger = { exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	
 	option = {
@@ -373,8 +372,7 @@ country_event = {
 	election = yes
 	issue_group = economic_policy
 	is_triggered_only = yes
-	#trigger = {
-			exists = yes country = { has_country_modifier = will_influence_elections } }
+	trigger = { exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
 		name = "EVTOPTA14010"
@@ -443,6 +441,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -512,6 +511,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -567,6 +567,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -636,6 +637,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -707,6 +709,7 @@ country_event = {
 	issue_group = trade_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -778,6 +781,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -849,6 +853,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -920,6 +925,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -991,6 +997,7 @@ country_event = {
 	issue_group = economic_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1062,6 +1069,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1133,6 +1141,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1204,6 +1213,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1275,6 +1285,7 @@ country_event = {
 	issue_group = religious_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1346,6 +1357,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1417,6 +1429,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1488,6 +1501,7 @@ country_event = {
 	issue_group = citizenship_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1559,6 +1573,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1630,6 +1645,7 @@ country_event = {
 	issue_group = war_policy
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1701,6 +1717,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {
@@ -1773,6 +1790,7 @@ country_event = {
 	election = yes
 	is_triggered_only = yes
 	#trigger = {
+			#exists = yes
 			exists = yes country = { has_country_modifier = will_influence_elections } }
 	
 	option = {

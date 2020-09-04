@@ -343,7 +343,6 @@ political_decisions = {
 		potential = {
 			exists = yes
 			tag = HDJ
-			exists = yes
 			NOT = { exists = ARA }
 			NOT = {
 				1157 = { is_core = HDJ }

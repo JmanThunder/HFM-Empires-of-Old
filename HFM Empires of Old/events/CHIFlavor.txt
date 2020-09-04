@@ -3948,7 +3948,6 @@ country_event = {
 			tag = XIN
 			tag = YNN
 		}
-		exists = yes
 		has_global_flag = warlord_era_has_begun
 		is_ideology_enabled = communist
 		NOT = { is_ideology_enabled = fascist }
@@ -4331,7 +4330,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
-			exists = yes
+		exists = yes
 		OR = {
 			tag = FJN
 			tag = GMJ
@@ -4347,7 +4346,6 @@ country_event = {
 			tag = XIN
 			tag = YNN
 		}
-		exists = yes
 		has_global_flag = warlord_era_has_begun
 		is_ideology_enabled = communist
 		is_ideology_enabled = fascist

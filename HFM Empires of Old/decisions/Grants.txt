@@ -23,7 +23,7 @@ political_decisions = {
 #	will_not_receive = {
 #		alert = no
 #		potential = {
-			exists = yes
+#			exists = yes
 #			ai = no
 #			has_country_flag = will_receive_grants
 #			}

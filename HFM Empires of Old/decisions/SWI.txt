@@ -5,7 +5,6 @@ political_decisions = {
 		potential = {
 			exists = yes
 			tag = SWI
-			exists = yes
 			NCT = { exists = yes vassal_of = SWI }
 			OR = {
 				has_country_flag = neuchatel_crisis_escalated
@@ -341,7 +340,6 @@ political_decisions = {
 	removing_neuchatel_cores = {
 		picture = declare_republic_of_neuchatel
 		potential = {
-			exists = yes
 			tag = SWI
 			exists = yes
 			owns = 608

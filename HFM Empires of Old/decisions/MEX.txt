@@ -118,7 +118,6 @@ political_decisions = {
 		picture = manifest_destiny
 		potential = {
 			exists = yes
-			exists = yes
 			OR = {
 				tag = MEX
 				tag = TEX
