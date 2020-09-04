@@ -1,0 +1,2481 @@
+country_event = {
+	
+	id = 979999
+	title = "Choose an option for culture selection"
+	desc = " Immigrants can be managed with one of several options  "
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Allow culture selection"
+		set_country_flag = culture_select
+	}
+	option = {
+		name = "Remove culture selection"
+		clr_country_flag = culture_select
+	}
+	option = {
+		name = "Remove all culture select"
+		clr_country_flag = yankee_select
+		clr_country_flag = dixie_select
+		clr_country_flag = texan_select
+		clr_country_flag = mexican_select
+		clr_country_flag = afro_american_select
+		clr_country_flag = anglo_canadian_select
+		clr_country_flag = swiss_french_select
+		clr_country_flag = swiss_german_select
+		clr_country_flag = swiss_italian_select
+		clr_country_flag = romansh_select
+		clr_country_flag = ashkenazi_select
+		clr_country_flag = sephardic_select
+		clr_country_flag = north_german_select
+		clr_country_flag = south_german_select
+		clr_country_flag = volga_german_select
+		clr_country_flag = siebenburger_select
+		clr_country_flag = dutch_select
+		clr_country_flag = flemish_select
+		clr_country_flag = french_select
+		clr_country_flag = breton_select
+		clr_country_flag = occitan_select
+		clr_country_flag = picard_select
+		clr_country_flag = rhinelander_select
+		clr_country_flag = arpitan_select
+		clr_country_flag = serb_select
+		clr_country_flag = croat_select
+		clr_country_flag = bulgarian_select
+		clr_country_flag = montenegrin_select
+		clr_country_flag = slovene_select
+		clr_country_flag = bosniak_select
+		clr_country_flag = albanian_select
+		clr_country_flag = hungarian_select
+		clr_country_flag = turkish_select
+		clr_country_flag = greek_select
+		clr_country_flag = romanian_select
+		clr_country_flag = gypsy_select
+		clr_country_flag = galician_select
+		clr_country_flag = spanish_select
+		clr_country_flag = basque_select
+		clr_country_flag = catalan_select
+		clr_country_flag = portuguese_select
+		clr_country_flag = brazilian_select
+		clr_country_flag = russian_select
+		clr_country_flag = byelorussian_select
+		clr_country_flag = ukrainian_select
+		clr_country_flag = ugrian_select
+		clr_country_flag = polish_select
+		clr_country_flag = western_slavic_select
+		clr_country_flag = misri_select
+		clr_country_flag = maghrebi_select
+		clr_country_flag = mashriqi_select
+		clr_country_flag = bedouin_select
+		clr_country_flag = berber_select
+		clr_country_flag = sudanese_select
+		clr_country_flag = swedish_select
+		clr_country_flag = danish_select
+		clr_country_flag = finnish_select
+		clr_country_flag = icelandic_select
+		clr_country_flag = sami_select
+		clr_country_flag = norwegian_select
+		clr_country_flag = british_select
+		clr_country_flag = irish_select
+		clr_country_flag = scottish_select
+		clr_country_flag = welsh_select
+		clr_country_flag = maltese_select
+		clr_country_flag = anglo_indian_select
+		clr_country_flag = central_american_select
+		clr_country_flag = caribeno_select
+		clr_country_flag = north_andean_select
+		clr_country_flag = south_andean_select
+		clr_country_flag = platinean_select
+		clr_country_flag = french_canadian_select
+		clr_country_flag = north_italian_select
+		clr_country_flag = south_italian_select
+		clr_country_flag = wallonian_select
+		clr_country_flag = czech_select
+		clr_country_flag = slovak_select
+		clr_country_flag = lithuanian_select
+		clr_country_flag = estonian_select
+		clr_country_flag = latvian_select
+		clr_country_flag = mayan_select
+		clr_country_flag = nahua_select
+		clr_country_flag = quechua_select
+		clr_country_flag = guarani_select
+		clr_country_flag = aimara_select
+		clr_country_flag = amazonian_select
+		clr_country_flag = patagonian_select
+		clr_country_flag = tupinamba_select
+		clr_country_flag = metis_select
+		clr_country_flag = dakota_select
+		clr_country_flag = cherokee_select
+		clr_country_flag = pueblo_select
+		clr_country_flag = inuit_select
+		clr_country_flag = cree_select
+		clr_country_flag = navajo_select
+		clr_country_flag = native_american_minor_select
+		clr_country_flag = manchu_select
+		clr_country_flag = beifaren_select
+		clr_country_flag = nanfaren_select
+		clr_country_flag = hanhui_select
+		clr_country_flag = hakka_select
+		clr_country_flag = miao_select
+		clr_country_flag = min_select
+		clr_country_flag = zhuang_select
+		clr_country_flag = yi_select
+		clr_country_flag = yue_select
+		clr_country_flag = tibetan_select
+		clr_country_flag = uighur_select
+		clr_country_flag = georgian_select
+		clr_country_flag = armenian_select
+		clr_country_flag = azerbaijani_select
+		clr_country_flag = dagestani_select
+		clr_country_flag = chechen_select
+		clr_country_flag = circassian_select
+		clr_country_flag = korean_select
+		clr_country_flag = japanese_select
+		clr_country_flag = ainu_select
+		clr_country_flag = mongol_select
+		clr_country_flag = vietnamese_select
+		clr_country_flag = siberian_select
+		clr_country_flag = persian_select
+		clr_country_flag = uzbek_select
+		clr_country_flag = kazak_select
+		clr_country_flag = kirgiz_select
+		clr_country_flag = tajik_select
+		clr_country_flag = pashtun_select
+		clr_country_flag = baluchi_select
+		clr_country_flag = hazara_select
+		clr_country_flag = turkmen_select
+		clr_country_flag = tatar_select
+		clr_country_flag = kurdish_select
+		clr_country_flag = assyrian_select
+		clr_country_flag = nepali_select
+		clr_country_flag = bihari_select
+		clr_country_flag = manipuri_select
+		clr_country_flag = oriya_select
+		clr_country_flag = sinhala_select
+		clr_country_flag = avadhi_select
+		clr_country_flag = kanauji_select
+		clr_country_flag = kashmiri_select
+		clr_country_flag = gujarati_select
+		clr_country_flag = marathi_select
+		clr_country_flag = rajput_select
+		clr_country_flag = kannada_select
+		clr_country_flag = malayalam_select
+		clr_country_flag = tamil_select
+		clr_country_flag = telegu_select
+		clr_country_flag = bengali_select
+		clr_country_flag = panjabi_select
+		clr_country_flag = sindi_select
+		clr_country_flag = khmer_select
+		clr_country_flag = malay_select
+		clr_country_flag = filipino_select
+		clr_country_flag = javan_select
+		clr_country_flag = moluccan_select
+		clr_country_flag = thai_select
+		clr_country_flag = lao_select
+		clr_country_flag = shan_select
+		clr_country_flag = burmese_select
+		clr_country_flag = asian_minor_select
+		clr_country_flag = kachin_select
+		clr_country_flag = karen_select
+		clr_country_flag = assamese_select
+		clr_country_flag = yakut_select
+		clr_country_flag = polynesian_select
+		clr_country_flag = hawaiian_select
+		clr_country_flag = maori_select
+		clr_country_flag = aborigine_select
+		clr_country_flag = melanesian_select
+		clr_country_flag = micronesian_select
+		clr_country_flag = afro_caribbean_select
+		clr_country_flag = afro_caribeno_select
+		clr_country_flag = afro_brazilian_select
+		clr_country_flag = afro_antillean_select
+		clr_country_flag = kreol_select
+		clr_country_flag = griqua_select
+		clr_country_flag = boer_select
+		clr_country_flag = australian_select
+		clr_country_flag = alaskan_select
+		clr_country_flag = neo_zelandais_select
+		clr_country_flag = louisianan_select
+		clr_country_flag = cajun_select
+		clr_country_flag = french_australian_select
+		clr_country_flag = akan_select
+		clr_country_flag = bambara_select
+		clr_country_flag = dyula_select
+		clr_country_flag = edo_select
+		clr_country_flag = ewe_select
+		clr_country_flag = fon_select
+		clr_country_flag = fulbe_select
+		clr_country_flag = hausa_select
+		clr_country_flag = ibibio_select
+		clr_country_flag = itsekari_select
+		clr_country_flag = ibo_select
+		clr_country_flag = kru_select
+		clr_country_flag = mande_select
+		clr_country_flag = western_nigritic_select
+		clr_country_flag = mossi_select
+		clr_country_flag = gur_select
+		clr_country_flag = senufo_select
+		clr_country_flag = songhai_select
+		clr_country_flag = tiv_select
+		clr_country_flag = tuareg_select
+		clr_country_flag = wolof_select
+		clr_country_flag = yoruba_select
+		clr_country_flag = east_kwa_select
+		clr_country_flag = bakongo_select
+		clr_country_flag = kuba_select
+		clr_country_flag = baguirmi_select
+		clr_country_flag = fang_select
+		clr_country_flag = kanuri_select
+		clr_country_flag = luba_select
+		clr_country_flag = lunda_select
+		clr_country_flag = lendu_select
+		clr_country_flag = kingwana_select
+		clr_country_flag = chokwe_select
+		clr_country_flag = kavango_select
+		clr_country_flag = mongo_select
+		clr_country_flag = sara_select
+		clr_country_flag = teda_select
+		clr_country_flag = ubangian_select
+		clr_country_flag = forest_bantu_select
+		clr_country_flag = south_forest_bantu_select
+		clr_country_flag = maures_select
+		clr_country_flag = amhara_select
+		clr_country_flag = afar_select
+		clr_country_flag = azande_select
+		clr_country_flag = baganda_select
+		clr_country_flag = beja_select
+		clr_country_flag = dinka_select
+		clr_country_flag = fur_select
+		clr_country_flag = harari_select
+		clr_country_flag = kefficho_select
+		clr_country_flag = kikuyu_select
+		clr_country_flag = luo_select
+		clr_country_flag = maasai_select
+		clr_country_flag = nuer_select
+		clr_country_flag = nuba_select
+		clr_country_flag = oromo_select
+		clr_country_flag = ruanda_select
+		clr_country_flag = somali_select
+		clr_country_flag = sukuma_select
+		clr_country_flag = swahili_select
+		clr_country_flag = tigray_select
+		clr_country_flag = unyamwezi_select
+		clr_country_flag = kilombero_select
+		clr_country_flag = lacustrine_bantu_select
+		clr_country_flag = cushitic_select
+		clr_country_flag = nilotic_select
+		clr_country_flag = chewa_select
+		clr_country_flag = nyasa_select
+		clr_country_flag = herero_select
+		clr_country_flag = khoisan_select
+		clr_country_flag = lomwe_select
+		clr_country_flag = makua_select
+		clr_country_flag = malagasy_select
+		clr_country_flag = nguni_select
+		clr_country_flag = southern_bantu_select
+		clr_country_flag = ovimbundu_select
+		clr_country_flag = sena_select
+		clr_country_flag = shona_select
+		clr_country_flag = sotho_select
+		clr_country_flag = tonga_select
+		clr_country_flag = tswana_select
+		clr_country_flag = xhosa_select
+		clr_country_flag = yao_select
+		clr_country_flag = zulu_select
+		remove_country_modifier = yankee_select
+		remove_country_modifier = dixie_select
+		remove_country_modifier = texan_select
+		remove_country_modifier = mexican_select
+		remove_country_modifier = afro_american_select
+		remove_country_modifier = anglo_canadian_select
+		remove_country_modifier = swiss_french_select
+		remove_country_modifier = swiss_german_select
+		remove_country_modifier = swiss_italian_select
+		remove_country_modifier = romansh_select
+		remove_country_modifier = ashkenazi_select
+		remove_country_modifier = sephardic_select
+		remove_country_modifier = north_german_select
+		remove_country_modifier = south_german_select
+		remove_country_modifier = volga_german_select
+		remove_country_modifier = siebenburger_select
+		remove_country_modifier = dutch_select
+		remove_country_modifier = flemish_select
+		remove_country_modifier = french_select
+		remove_country_modifier = breton_select
+		remove_country_modifier = occitan_select
+		remove_country_modifier = picard_select
+		remove_country_modifier = rhinelander_select
+		remove_country_modifier = arpitan_select
+		remove_country_modifier = serb_select
+		remove_country_modifier = croat_select
+		remove_country_modifier = bulgarian_select
+		remove_country_modifier = montenegrin_select
+		remove_country_modifier = slovene_select
+		remove_country_modifier = bosniak_select
+		remove_country_modifier = albanian_select
+		remove_country_modifier = hungarian_select
+		remove_country_modifier = turkish_select
+		remove_country_modifier = greek_select
+		remove_country_modifier = romanian_select
+		remove_country_modifier = gypsy_select
+		remove_country_modifier = galician_select
+		remove_country_modifier = spanish_select
+		remove_country_modifier = basque_select
+		remove_country_modifier = catalan_select
+		remove_country_modifier = portuguese_select
+		remove_country_modifier = brazilian_select
+		remove_country_modifier = russian_select
+		remove_country_modifier = byelorussian_select
+		remove_country_modifier = ukrainian_select
+		remove_country_modifier = ugrian_select
+		remove_country_modifier = polish_select
+		remove_country_modifier = western_slavic_select
+		remove_country_modifier = misri_select
+		remove_country_modifier = maghrebi_select
+		remove_country_modifier = mashriqi_select
+		remove_country_modifier = bedouin_select
+		remove_country_modifier = berber_select
+		remove_country_modifier = sudanese_select
+		remove_country_modifier = swedish_select
+		remove_country_modifier = danish_select
+		remove_country_modifier = finnish_select
+		remove_country_modifier = icelandic_select
+		remove_country_modifier = sami_select
+		remove_country_modifier = norwegian_select
+		remove_country_modifier = british_select
+		remove_country_modifier = irish_select
+		remove_country_modifier = scottish_select
+		remove_country_modifier = welsh_select
+		remove_country_modifier = maltese_select
+		remove_country_modifier = anglo_indian_select
+		remove_country_modifier = central_american_select
+		remove_country_modifier = caribeno_select
+		remove_country_modifier = north_andean_select
+		remove_country_modifier = south_andean_select
+		remove_country_modifier = platinean_select
+		remove_country_modifier = french_canadian_select
+		remove_country_modifier = north_italian_select
+		remove_country_modifier = south_italian_select
+		remove_country_modifier = wallonian_select
+		remove_country_modifier = czech_select
+		remove_country_modifier = slovak_select
+		remove_country_modifier = lithuanian_select
+		remove_country_modifier = estonian_select
+		remove_country_modifier = latvian_select
+		remove_country_modifier = mayan_select
+		remove_country_modifier = nahua_select
+		remove_country_modifier = quechua_select
+		remove_country_modifier = guarani_select
+		remove_country_modifier = aimara_select
+		remove_country_modifier = amazonian_select
+		remove_country_modifier = patagonian_select
+		remove_country_modifier = tupinamba_select
+		remove_country_modifier = metis_select
+		remove_country_modifier = dakota_select
+		remove_country_modifier = cherokee_select
+		remove_country_modifier = pueblo_select
+		remove_country_modifier = inuit_select
+		remove_country_modifier = cree_select
+		remove_country_modifier = navajo_select
+		remove_country_modifier = native_american_minor_select
+		remove_country_modifier = manchu_select
+		remove_country_modifier = beifaren_select
+		remove_country_modifier = nanfaren_select
+		remove_country_modifier = hanhui_select
+		remove_country_modifier = hakka_select
+		remove_country_modifier = miao_select
+		remove_country_modifier = min_select
+		remove_country_modifier = zhuang_select
+		remove_country_modifier = yi_select
+		remove_country_modifier = yue_select
+		remove_country_modifier = tibetan_select
+		remove_country_modifier = uighur_select
+		remove_country_modifier = georgian_select
+		remove_country_modifier = armenian_select
+		remove_country_modifier = azerbaijani_select
+		remove_country_modifier = dagestani_select
+		remove_country_modifier = chechen_select
+		remove_country_modifier = circassian_select
+		remove_country_modifier = korean_select
+		remove_country_modifier = japanese_select
+		remove_country_modifier = ainu_select
+		remove_country_modifier = mongol_select
+		remove_country_modifier = vietnamese_select
+		remove_country_modifier = siberian_select
+		remove_country_modifier = persian_select
+		remove_country_modifier = uzbek_select
+		remove_country_modifier = kazak_select
+		remove_country_modifier = kirgiz_select
+		remove_country_modifier = tajik_select
+		remove_country_modifier = pashtun_select
+		remove_country_modifier = baluchi_select
+		remove_country_modifier = hazara_select
+		remove_country_modifier = turkmen_select
+		remove_country_modifier = tatar_select
+		remove_country_modifier = kurdish_select
+		remove_country_modifier = assyrian_select
+		remove_country_modifier = nepali_select
+		remove_country_modifier = bihari_select
+		remove_country_modifier = manipuri_select
+		remove_country_modifier = oriya_select
+		remove_country_modifier = sinhala_select
+		remove_country_modifier = avadhi_select
+		remove_country_modifier = kanauji_select
+		remove_country_modifier = kashmiri_select
+		remove_country_modifier = gujarati_select
+		remove_country_modifier = marathi_select
+		remove_country_modifier = rajput_select
+		remove_country_modifier = kannada_select
+		remove_country_modifier = malayalam_select
+		remove_country_modifier = tamil_select
+		remove_country_modifier = telegu_select
+		remove_country_modifier = bengali_select
+		remove_country_modifier = panjabi_select
+		remove_country_modifier = sindi_select
+		remove_country_modifier = khmer_select
+		remove_country_modifier = malay_select
+		remove_country_modifier = filipino_select
+		remove_country_modifier = javan_select
+		remove_country_modifier = moluccan_select
+		remove_country_modifier = thai_select
+		remove_country_modifier = lao_select
+		remove_country_modifier = shan_select
+		remove_country_modifier = burmese_select
+		remove_country_modifier = asian_minor_select
+		remove_country_modifier = kachin_select
+		remove_country_modifier = karen_select
+		remove_country_modifier = assamese_select
+		remove_country_modifier = yakut_select
+		remove_country_modifier = polynesian_select
+		remove_country_modifier = hawaiian_select
+		remove_country_modifier = maori_select
+		remove_country_modifier = aborigine_select
+		remove_country_modifier = melanesian_select
+		remove_country_modifier = micronesian_select
+		remove_country_modifier = afro_caribbean_select
+		remove_country_modifier = afro_caribeno_select
+		remove_country_modifier = afro_brazilian_select
+		remove_country_modifier = afro_antillean_select
+		remove_country_modifier = kreol_select
+		remove_country_modifier = griqua_select
+		remove_country_modifier = boer_select
+		remove_country_modifier = australian_select
+		remove_country_modifier = alaskan_select
+		remove_country_modifier = neo_zelandais_select
+		remove_country_modifier = louisianan_select
+		remove_country_modifier = cajun_select
+		remove_country_modifier = french_australian_select
+		remove_country_modifier = akan_select
+		remove_country_modifier = bambara_select
+		remove_country_modifier = dyula_select
+		remove_country_modifier = edo_select
+		remove_country_modifier = ewe_select
+		remove_country_modifier = fon_select
+		remove_country_modifier = fulbe_select
+		remove_country_modifier = hausa_select
+		remove_country_modifier = ibibio_select
+		remove_country_modifier = itsekari_select
+		remove_country_modifier = ibo_select
+		remove_country_modifier = kru_select
+		remove_country_modifier = mande_select
+		remove_country_modifier = western_nigritic_select
+		remove_country_modifier = mossi_select
+		remove_country_modifier = gur_select
+		remove_country_modifier = senufo_select
+		remove_country_modifier = songhai_select
+		remove_country_modifier = tiv_select
+		remove_country_modifier = tuareg_select
+		remove_country_modifier = wolof_select
+		remove_country_modifier = yoruba_select
+		remove_country_modifier = east_kwa_select
+		remove_country_modifier = bakongo_select
+		remove_country_modifier = kuba_select
+		remove_country_modifier = baguirmi_select
+		remove_country_modifier = fang_select
+		remove_country_modifier = kanuri_select
+		remove_country_modifier = luba_select
+		remove_country_modifier = lunda_select
+		remove_country_modifier = lendu_select
+		remove_country_modifier = kingwana_select
+		remove_country_modifier = chokwe_select
+		remove_country_modifier = kavango_select
+		remove_country_modifier = mongo_select
+		remove_country_modifier = sara_select
+		remove_country_modifier = teda_select
+		remove_country_modifier = ubangian_select
+		remove_country_modifier = forest_bantu_select
+		remove_country_modifier = south_forest_bantu_select
+		remove_country_modifier = maures_select
+		remove_country_modifier = amhara_select
+		remove_country_modifier = afar_select
+		remove_country_modifier = azande_select
+		remove_country_modifier = baganda_select
+		remove_country_modifier = beja_select
+		remove_country_modifier = dinka_select
+		remove_country_modifier = fur_select
+		remove_country_modifier = harari_select
+		remove_country_modifier = kefficho_select
+		remove_country_modifier = kikuyu_select
+		remove_country_modifier = luo_select
+		remove_country_modifier = maasai_select
+		remove_country_modifier = nuer_select
+		remove_country_modifier = nuba_select
+		remove_country_modifier = oromo_select
+		remove_country_modifier = ruanda_select
+		remove_country_modifier = somali_select
+		remove_country_modifier = sukuma_select
+		remove_country_modifier = swahili_select
+		remove_country_modifier = tigray_select
+		remove_country_modifier = unyamwezi_select
+		remove_country_modifier = kilombero_select
+		remove_country_modifier = lacustrine_bantu_select
+		remove_country_modifier = cushitic_select
+		remove_country_modifier = nilotic_select
+		remove_country_modifier = chewa_select
+		remove_country_modifier = nyasa_select
+		remove_country_modifier = herero_select
+		remove_country_modifier = khoisan_select
+		remove_country_modifier = lomwe_select
+		remove_country_modifier = makua_select
+		remove_country_modifier = malagasy_select
+		remove_country_modifier = nguni_select
+		remove_country_modifier = southern_bantu_select
+		remove_country_modifier = ovimbundu_select
+		remove_country_modifier = sena_select
+		remove_country_modifier = shona_select
+		remove_country_modifier = sotho_select
+		remove_country_modifier = tonga_select
+		remove_country_modifier = tswana_select
+		remove_country_modifier = xhosa_select
+		remove_country_modifier = yao_select
+		remove_country_modifier = zulu_select
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+		
+	}
+}
+
+country_event = {
+	
+	id = 980000
+	title = "Choose an option for the immigrants"
+	desc = " Immigrants can be managed with one of several options  "
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Activate the buildings"
+		set_country_flag = activated_buildings
+		activate_technology = mutual_funds
+	}
+	option = {
+		name = "Add cores"
+		any_owned = {
+			limit = { has_building = province_selector }
+			add_core = THIS
+		}		
+	}
+	option = {
+		name = "Remove immigrators"
+		any_owned = {
+			immigrator = -3
+		}
+	}
+	option = {
+		name = "Remove all buildings"
+		any_owned = {
+			province_selector = -3
+			immigrator = -3
+			remove_province_modifier = power_immigrant
+			remove_province_modifier = power_noimmigrant
+			remove_province_modifier = power_oof
+		}		
+	}
+	option = {
+		name = "Add buildings to 100k provinces"
+		any_owned = {
+			limit = { total_pops = 100000 }
+			province_selector = 1
+		}		
+	}
+	option = {
+		name = "Add buildings to all provinces"
+		any_owned = {
+			province_selector = 1
+		}		
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+		
+	}
+}
+	
+country_event = {
+	id = 980001
+	title = "American Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yankee"
+		set_country_flag = yankee_select
+		add_country_modifier = { name = yankee_select duration = -1 }
+	}
+	option = {
+		name = "Dixie"
+		set_country_flag = dixie_select
+		add_country_modifier = { name = dixie_select duration = -1 }
+	}
+	option = {
+		name = "Texan"
+		set_country_flag = texan_select
+		add_country_modifier = { name = texan_select duration = -1 }
+	}
+	option = {
+		name = "Mexican"
+		set_country_flag = mexican_select
+		add_country_modifier = { name = mexican_select duration = -1 }
+	}
+	option = {
+		name = "Afro-American"
+		set_country_flag = afro_american_select
+		add_country_modifier = { name = afro_american_select duration = -1 }
+	}
+	option = {
+		name = "Anglo-Canadian"
+		set_country_flag = anglo_canadian_select
+		add_country_modifier = { name = anglo_canadian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980002
+	title = "Swiss Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Swiss French"
+		set_country_flag = swiss_french_select
+		add_country_modifier = { name = swiss_french_select duration = -1 }
+	}
+	option = {
+		name = "Swiss German"
+		set_country_flag = swiss_german_select
+		add_country_modifier = { name = swiss_german_select duration = -1 }
+	}
+	option = {
+		name = "Swiss Italian"
+		set_country_flag = swiss_italian_select
+		add_country_modifier = { name = swiss_italian_select duration = -1 }
+	}
+	option = {
+		name = "Romansh"
+		set_country_flag = romansh_select
+		add_country_modifier = { name = romansh_select duration = -1 }
+	}
+	option = {
+		name = "Ashkenazi"
+		set_country_flag = ashkenazi_select
+		add_country_modifier = { name = ashkenazi_select duration = -1 }
+	}
+	option = {
+		name = "Sephardic"
+		set_country_flag = sephardic_select
+		add_country_modifier = { name = sephardic_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980003
+	title = "German Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "North German"
+		set_country_flag = north_german_select
+		add_country_modifier = { name = north_german_select duration = -1 }
+	}
+	option = {
+		name = "South German"
+		set_country_flag = south_german_select
+		add_country_modifier = { name = south_german_select duration = -1 }
+	}
+	option = {
+		name = "Volga German"
+		set_country_flag = volga_german_select
+		add_country_modifier = { name = volga_german_select duration = -1 }
+	}
+	option = {
+		name = "Siebenburger"
+		set_country_flag = siebenburger_select
+		add_country_modifier = { name = siebenburger_select duration = -1 }
+	}
+	option = {
+		name = "Dutch"
+		set_country_flag = dutch_select
+		add_country_modifier = { name = dutch_select duration = -1 }
+	}
+	option = {
+		name = "Flemish"
+		set_country_flag = flemish_select
+		add_country_modifier = { name = flemish_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980004
+	title = "French Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "French"
+		set_country_flag = french_select
+		add_country_modifier = { name = french_select duration = -1 }
+	}
+	option = {
+		name = "Breton"
+		set_country_flag = breton_select
+		add_country_modifier = { name = breton_select duration = -1 }
+	}
+	option = {
+		name = "Occitan"
+		set_country_flag = occitan_select
+		add_country_modifier = { name = occitan_select duration = -1 }
+	}
+	option = {
+		name = "Picard"
+		set_country_flag = picard_select
+		add_country_modifier = { name = picard_select duration = -1 }
+	}
+	option = {
+		name = "Rhinelander"
+		set_country_flag = rhinelander_select
+		add_country_modifier = { name = rhinelander_select duration = -1 }
+	}
+	option = {
+		name = "Arpitan"
+		set_country_flag = arpitan_select
+		add_country_modifier = { name = arpitan_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980005
+	title = "South Slav Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Serb"
+		set_country_flag = serb_select
+		add_country_modifier = { name = serb_select duration = -1 }
+	}
+	option = {
+		name = "Croat"
+		set_country_flag = croat_select
+		add_country_modifier = { name = croat_select duration = -1 }
+	}
+	option = {
+		name = "Bulgarian"
+		set_country_flag = bulgarian_select
+		add_country_modifier = { name = bulgarian_select duration = -1 }
+	}
+	option = {
+		name = "Montenegrin"
+		set_country_flag = montenegrin_select
+		add_country_modifier = { name = montenegrin_select duration = -1 }
+	}
+	option = {
+		name = "Slovene"
+		set_country_flag = slovene_select
+		add_country_modifier = { name = slovene_select duration = -1 }
+	}
+	option = {
+		name = "Bosniak"
+		set_country_flag = bosniak_select
+		add_country_modifier = { name = bosniak_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980006
+	title = "Non-Slav Balkan Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Albanian"
+		set_country_flag = albanian_select
+		add_country_modifier = { name = albanian_select duration = -1 }
+	}
+	option = {
+		name = "Hungarian"
+		set_country_flag = hungarian_select
+		add_country_modifier = { name = hungarian_select duration = -1 }
+	}
+	option = {
+		name = "Turkish"
+		set_country_flag = turkish_select
+		add_country_modifier = { name = turkish_select duration = -1 }
+	}
+	option = {
+		name = "Greek"
+		set_country_flag = greek_select
+		add_country_modifier = { name = greek_select duration = -1 }
+	}
+	option = {
+		name = "Romanian"
+		set_country_flag = romanian_select
+		add_country_modifier = { name = romanian_select duration = -1 }
+	}
+	option = {
+		name = "Gypsy"
+		set_country_flag = gypsy_select
+		add_country_modifier = { name = gypsy_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980007
+	title = "Iberian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Galician"
+		set_country_flag = galician_select
+		add_country_modifier = { name = galician_select duration = -1 }
+	}
+	option = {
+		name = "Spanish"
+		set_country_flag = spanish_select
+		add_country_modifier = { name = spanish_select duration = -1 }
+	}
+	option = {
+		name = "Basque"
+		set_country_flag = basque_select
+		add_country_modifier = { name = basque_select duration = -1 }
+	}
+	option = {
+		name = "Catalan"
+		set_country_flag = catalan_select
+		add_country_modifier = { name = catalan_select duration = -1 }
+	}
+	option = {
+		name = "Portuguese"
+		set_country_flag = portuguese_select
+		add_country_modifier = { name = portuguese_select duration = -1 }
+	}
+	option = {
+		name = "Brazilian"
+		set_country_flag = brazilian_select
+		add_country_modifier = { name = brazilian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980008
+	title = "East Slavic Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Russian"
+		set_country_flag = russian_select
+		add_country_modifier = { name = russian_select duration = -1 }
+	}
+	option = {
+		name = "Byelorussian"
+		set_country_flag = byelorussian_select
+		add_country_modifier = { name = byelorussian_select duration = -1 }
+	}
+	option = {
+		name = "Ukrainian"
+		set_country_flag = ukrainian_select
+		add_country_modifier = { name = ukrainian_select duration = -1 }
+	}
+	option = {
+		name = "Ugrian"
+		set_country_flag = ugrian_select
+		add_country_modifier = { name = ugrian_select duration = -1 }
+	}
+	option = {
+		name = "Polish"
+		set_country_flag = polish_select
+		add_country_modifier = { name = polish_select duration = -1 }
+	}
+	option = {
+		name = "Western Slavic"
+		set_country_flag = western_slavic_select
+		add_country_modifier = { name = western_slavic_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980009
+	title = "Arab Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Misri"
+		set_country_flag = misri_select
+		add_country_modifier = { name = misri_select duration = -1 }
+	}
+	option = {
+		name = "Maghrebi"
+		set_country_flag = maghrebi_select
+		add_country_modifier = { name = maghrebi_select duration = -1 }
+	}
+	option = {
+		name = "Mashriqi"
+		set_country_flag = mashriqi_select
+		add_country_modifier = { name = mashriqi_select duration = -1 }
+	}
+	option = {
+		name = "Bedouin"
+		set_country_flag = bedouin_select
+		add_country_modifier = { name = bedouin_select duration = -1 }
+	}
+	option = {
+		name = "Berber"
+		set_country_flag = berber_select
+		add_country_modifier = { name = berber_select duration = -1 }
+	}
+	option = {
+		name = "Sudanese"
+		set_country_flag = sudanese_select
+		add_country_modifier = { name = sudanese_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980010
+	title = "Scandinavian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Swedish"
+		set_country_flag = swedish_select
+		add_country_modifier = { name = swedish_select duration = -1 }
+	}
+	option = {
+		name = "Danish"
+		set_country_flag = danish_select
+		add_country_modifier = { name = danish_select duration = -1 }
+	}
+	option = {
+		name = "Finnish"
+		set_country_flag = finnish_select
+		add_country_modifier = { name = finnish_select duration = -1 }
+	}
+	option = {
+		name = "Icelandic"
+		set_country_flag = icelandic_select
+		add_country_modifier = { name = icelandic_select duration = -1 }
+	}
+	option = {
+		name = "Sami"
+		set_country_flag = sami_select
+		add_country_modifier = { name = sami_select duration = -1 }
+	}
+	option = {
+		name = "Norwegian"
+		set_country_flag = norwegian_select
+		add_country_modifier = { name = norwegian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980011
+	title = "British Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "British"
+		set_country_flag = british_select
+		add_country_modifier = { name = british_select duration = -1 }
+	}
+	option = {
+		name = "Irish"
+		set_country_flag = irish_select
+		add_country_modifier = { name = irish_select duration = -1 }
+	}
+	option = {
+		name = "Scottish"
+		set_country_flag = scottish_select
+		add_country_modifier = { name = scottish_select duration = -1 }
+	}
+	option = {
+		name = "Welsh"
+		set_country_flag = welsh_select
+		add_country_modifier = { name = welsh_select duration = -1 }
+	}
+	option = {
+		name = "Maltese"
+		set_country_flag = maltese_select
+		add_country_modifier = { name = maltese_select duration = -1 }
+	}
+	option = {
+		name = "Anglo Indian"
+		set_country_flag = anglo_indian_select
+		add_country_modifier = { name = anglo_indian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980012
+	title = "Latin American Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Central American"
+		set_country_flag = central_american_select
+		add_country_modifier = { name = central_american_select duration = -1 }
+	}
+	option = {
+		name = "Caribeno"
+		set_country_flag = caribeno_select
+		add_country_modifier = { name = caribeno_select duration = -1 }
+	}
+	option = {
+		name = "North Andean"
+		set_country_flag = north_andean_select
+		add_country_modifier = { name = north_andean_select duration = -1 }
+	}
+	option = {
+		name = "South Andean"
+		set_country_flag = south_andean_select
+		add_country_modifier = { name = south_andean_select duration = -1 }
+	}
+	option = {
+		name = "Platinean"
+		set_country_flag = platinean_select
+		add_country_modifier = { name = platinean_select duration = -1 }
+	}
+	option = {
+		name = "French Canadian"
+		set_country_flag = french_canadian_select
+		add_country_modifier = { name = french_canadian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980013
+	title = "Italian,Baltics,Czechs Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "North Italian"
+		set_country_flag = north_italian_select
+		add_country_modifier = { name = north_italian_select duration = -1 }
+	}
+	option = {
+		name = "South Italian"
+		set_country_flag = south_italian_select
+		add_country_modifier = { name = south_italian_select duration = -1 }
+	}
+	option = {
+		name = "Wallonian"
+		set_country_flag = wallonian_select
+		add_country_modifier = { name = wallonian_select duration = -1 }
+	}
+	option = {
+		name = "Czech"
+		set_country_flag = czech_select
+		add_country_modifier = { name = czech_select duration = -1 }
+	}
+	option = {
+		name = "Slovak"
+		set_country_flag = slovak_select
+		add_country_modifier = { name = slovak_select duration = -1 }
+	}
+	option = {
+		name = "Next (Baltics)"
+		country_event = 980014
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980014
+	title = "Baltics Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Lithuanian"
+		set_country_flag = lithuanian_select
+		add_country_modifier = { name = lithuanian_select duration = -1 }
+	}
+	option = {
+		name = "Estonian"
+		set_country_flag = estonian_select
+		add_country_modifier = { name = estonian_select duration = -1 }
+	}
+	option = {
+		name = "Latvian"
+		set_country_flag = latvian_select
+		add_country_modifier = { name = latvian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980015
+	title = "Native American Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Mayan"
+		set_country_flag = mayan_select
+		add_country_modifier = { name = mayan_select duration = -1 }
+	}
+	option = {
+		name = "Nahua"
+		set_country_flag = nahua_select
+		add_country_modifier = { name = nahua_select duration = -1 }
+	}
+	option = {
+		name = "Quechua"
+		set_country_flag = quechua_select
+		add_country_modifier = { name = quechua_select duration = -1 }
+	}
+	option = {
+		name = "Guarani"
+		set_country_flag = guarani_select
+		add_country_modifier = { name = guarani_select duration = -1 }
+	}
+	option = {
+		name = "Aimara"
+		set_country_flag = aimara_select
+		add_country_modifier = { name = aimara_select duration = -1 }
+	}
+	option = {
+		name = "Amazonian"
+		set_country_flag = amazonian_select
+		add_country_modifier = { name = amazonian_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980016
+	}
+}
+
+country_event = {
+	id = 980016
+	title = "Native American Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Patagonian"
+		set_country_flag = patagonian_select
+		add_country_modifier = { name = patagonian_select duration = -1 }
+	}
+	option = {
+		name = "Tupinamba"
+		set_country_flag = tupinamba_select
+		add_country_modifier = { name = tupinamba_select duration = -1 }
+	}
+	option = {
+		name = "Metis"
+		set_country_flag = metis_select
+		add_country_modifier = { name = metis_select duration = -1 }
+	}
+	option = {
+		name = "Dakota"
+		set_country_flag = dakota_select
+		add_country_modifier = { name = dakota_select duration = -1 }
+	}
+	option = {
+		name = "Cherokee"
+		set_country_flag = cherokee_select
+		add_country_modifier = { name = cherokee_select duration = -1 }
+	}
+	option = {
+		name = "Pueblo"
+		set_country_flag = pueblo_select
+		add_country_modifier = { name = pueblo_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980017
+	}
+}
+
+country_event = {
+	id = 980017
+	title = "Native American Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Inuit"
+		set_country_flag = inuit_select
+		add_country_modifier = { name = inuit_select duration = -1 }
+	}
+	option = {
+		name = "Cree"
+		set_country_flag = cree_select
+		add_country_modifier = { name = cree_select duration = -1 }
+	}
+	option = {
+		name = "Navajo"
+		set_country_flag = navajo_select
+		add_country_modifier = { name = navajo_select duration = -1 }
+	}
+	option = {
+		name = "Native American Minor"
+		set_country_flag = native_american_minor_select
+		add_country_modifier = { name = native_american_minor_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980018
+	title = "Chinese Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Manchu"
+		set_country_flag = manchu_select
+		add_country_modifier = { name = manchu_select duration = -1 }
+	}
+	option = {
+		name = "North Han"
+		set_country_flag = beifaren_select
+		add_country_modifier = { name = beifaren_select duration = -1 }
+	}
+	option = {
+		name = "South Han"
+		set_country_flag = nanfaren_select
+		add_country_modifier = { name = nanfaren_select duration = -1 }
+	}
+	option = {
+		name = "Hui"
+		set_country_flag = hanhui_select
+		add_country_modifier = { name = hanhui_select duration = -1 }
+	}
+	option = {
+		name = "Hakka"
+		set_country_flag = hakka_select
+		add_country_modifier = { name = hakka_select duration = -1 }
+	}
+	option = {
+		name = "Miao"
+		set_country_flag = miao_select
+		add_country_modifier = { name = miao_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980019
+	}
+}
+
+country_event = {
+	id = 980019
+	title = "Chinese Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Min"
+		set_country_flag = min_select
+		add_country_modifier = { name = min_select duration = -1 }
+	}
+	option = {
+		name = "Zhuang"
+		set_country_flag = zhuang_select
+		add_country_modifier = { name = zhuang_select duration = -1 }
+	}
+	option = {
+		name = "Yi"
+		set_country_flag = yi_select
+		add_country_modifier = { name = yi_select duration = -1 }
+	}
+	option = {
+		name = "Yue"
+		set_country_flag = yue_select
+		add_country_modifier = { name = yue_select duration = -1 }
+	}
+	option = {
+		name = "Tibetan"
+		set_country_flag = tibetan_select
+		add_country_modifier = { name = tibetan_select duration = -1 }
+	}
+	option = {
+		name = "Uighur"
+		set_country_flag = uighur_select
+		add_country_modifier = { name = uighur_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980020
+	title = "Caucasian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Georgian"
+		set_country_flag = georgian_select
+		add_country_modifier = { name = georgian_select duration = -1 }
+	}
+	option = {
+		name = "Armenian"
+		set_country_flag = armenian_select
+		add_country_modifier = { name = armenian_select duration = -1 }
+	}
+	option = {
+		name = "Azerbaijani"
+		set_country_flag = azerbaijani_select
+		add_country_modifier = { name = azerbaijani_select duration = -1 }
+	}
+	option = {
+		name = "Dagestani"
+		set_country_flag = dagestani_select
+		add_country_modifier = { name = dagestani_select duration = -1 }
+	}
+	option = {
+		name = "Chechen"
+		set_country_flag = chechen_select
+		add_country_modifier = { name = chechen_select duration = -1 }
+	}
+	option = {
+		name = "Circassian"
+		set_country_flag = circassian_select
+		add_country_modifier = { name = circassian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980021
+	title = "Non-Chinese Far East Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Korean"
+		set_country_flag = korean_select
+		add_country_modifier = { name = korean_select duration = -1 }
+	}
+	option = {
+		name = "Japanese"
+		set_country_flag = japanese_select
+		add_country_modifier = { name = japanese_select duration = -1 }
+	}
+	option = {
+		name = "Ainu"
+		set_country_flag = ainu_select
+		add_country_modifier = { name = ainu_select duration = -1 }
+	}
+	option = {
+		name = "Mongol"
+		set_country_flag = mongol_select
+		add_country_modifier = { name = mongol_select duration = -1 }
+	}
+	option = {
+		name = "Vietnamese"
+		set_country_flag = vietnamese_select
+		add_country_modifier = { name = vietnamese_select duration = -1 }
+	}
+	option = {
+		name = "Siberian"
+		set_country_flag = siberian_select
+		add_country_modifier = { name = siberian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980022
+	title = "Iranian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Persian"
+		set_country_flag = persian_select
+		add_country_modifier = { name = persian_select duration = -1 }
+	}
+	option = {
+		name = "Uzbek"
+		set_country_flag = uzbek_select
+		add_country_modifier = { name = uzbek_select duration = -1 }
+	}
+	option = {
+		name = "Kazak"
+		set_country_flag = kazak_select
+		add_country_modifier = { name = kazak_select duration = -1 }
+	}
+	option = {
+		name = "Kirgiz"
+		set_country_flag = kirgiz_select
+		add_country_modifier = { name = kirgiz_select duration = -1 }
+	}
+	option = {
+		name = "Tajik"
+		set_country_flag = tajik_select
+		add_country_modifier = { name = tajik_select duration = -1 }
+	}
+	option = {
+		name = "Pashtun"
+		set_country_flag = pashtun_select
+		add_country_modifier = { name = pashtun_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980023
+	}
+}
+
+country_event = {
+	id = 980023
+	title = "Iranian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Baluchi"
+		set_country_flag = baluchi_select
+		add_country_modifier = { name = baluchi_select duration = -1 }
+	}
+	option = {
+		name = "Hazara"
+		set_country_flag = hazara_select
+		add_country_modifier = { name = hazara_select duration = -1 }
+	}
+	option = {
+		name = "Turkmen"
+		set_country_flag = turkmen_select
+		add_country_modifier = { name = turkmen_select duration = -1 }
+	}
+	option = {
+		name = "Tatar"
+		set_country_flag = tatar_select
+		add_country_modifier = { name = tatar_select duration = -1 }
+	}
+	option = {
+		name = "Kurdish"
+		set_country_flag = kurdish_select
+		add_country_modifier = { name = kurdish_select duration = -1 }
+	}
+	option = {
+		name = "Assyrian"
+		set_country_flag = assyrian_select
+		add_country_modifier = { name = assyrian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980024
+	title = "Indian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nepali"
+		set_country_flag = nepali_select
+		add_country_modifier = { name = nepali_select duration = -1 }
+	}
+	option = {
+		name = "Bihari"
+		set_country_flag = bihari_select
+		add_country_modifier = { name = bihari_select duration = -1 }
+	}
+	option = {
+		name = "Manipuri"
+		set_country_flag = manipuri_select
+		add_country_modifier = { name = manipuri_select duration = -1 }
+	}
+	option = {
+		name = "Oriya"
+		set_country_flag = oriya_select
+		add_country_modifier = { name = oriya_select duration = -1 }
+	}
+	option = {
+		name = "Sinhala"
+		set_country_flag = sinhala_select
+		add_country_modifier = { name = sinhala_select duration = -1 }
+	}
+	option = {
+		name = "Avadhi"
+		set_country_flag = avadhi_select
+		add_country_modifier = { name = avadhi_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980025
+	}
+}
+
+country_event = {
+	id = 980025
+	title = "Indian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Kanauji"
+		set_country_flag = kanauji_select
+		add_country_modifier = { name = kanauji_select duration = -1 }
+	}
+	option = {
+		name = "Kashmiri"
+		set_country_flag = kashmiri_select
+		add_country_modifier = { name = kashmiri_select duration = -1 }
+	}
+	option = {
+		name = "Gujarati"
+		set_country_flag = gujarati_select
+		add_country_modifier = { name = gujarati_select duration = -1 }
+	}
+	option = {
+		name = "Marathi"
+		set_country_flag = marathi_select
+		add_country_modifier = { name = marathi_select duration = -1 }
+	}
+	option = {
+		name = "Rajput"
+		set_country_flag = rajput_select
+		add_country_modifier = { name = rajput_select duration = -1 }
+	}
+	option = {
+		name = "Kannada"
+		set_country_flag = kannada_select
+		add_country_modifier = { name = kannada_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980026
+	}
+}
+
+country_event = {
+	id = 980026
+	title = "Indian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Malayalam"
+		set_country_flag = malayalam_select
+		add_country_modifier = { name = malayalam_select duration = -1 }
+	}
+	option = {
+		name = "Tamil"
+		set_country_flag = tamil_select
+		add_country_modifier = { name = tamil_select duration = -1 }
+	}
+	option = {
+		name = "Telegu"
+		set_country_flag = telegu_select
+		add_country_modifier = { name = telegu_select duration = -1 }
+	}
+	option = {
+		name = "Bengali"
+		set_country_flag = bengali_select
+		add_country_modifier = { name = bengali_select duration = -1 }
+	}
+	option = {
+		name = "Punjabi"
+		set_country_flag = panjabi_select
+		add_country_modifier = { name = panjabi_select duration = -1 }
+	}
+	option = {
+		name = "Sindi"
+		set_country_flag = sindi_select
+		add_country_modifier = { name = sindi_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980027
+	title = "Southeast Asian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Khmer"
+		set_country_flag = khmer_select
+		add_country_modifier = { name = khmer_select duration = -1 }
+	}
+	option = {
+		name = "Malay"
+		set_country_flag = malay_select
+		add_country_modifier = { name = malay_select duration = -1 }
+	}
+	option = {
+		name = "Filipino"
+		set_country_flag = filipino_select
+		add_country_modifier = { name = filipino_select duration = -1 }
+	}
+	option = {
+		name = "Javan"
+		set_country_flag = javan_select
+		add_country_modifier = { name = javan_select duration = -1 }
+	}
+	option = {
+		name = "Moluccan"
+		set_country_flag = moluccan_select
+		add_country_modifier = { name = moluccan_select duration = -1 }
+	}
+	option = {
+		name = "Thai"
+		set_country_flag = thai_select
+		add_country_modifier = { name = thai_select duration = -1 }
+	}
+	option = {
+		name = "Lao"
+		set_country_flag = lao_select
+		add_country_modifier = { name = lao_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980028
+	}
+}
+
+country_event = {
+	id = 980028
+	title = "Southeast Asian Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Shan"
+		set_country_flag = shan_select
+		add_country_modifier = { name = shan_select duration = -1 }
+	}
+	option = {
+		name = "Burmese"
+		set_country_flag = burmese_select
+		add_country_modifier = { name = burmese_select duration = -1 }
+	}
+	option = {
+		name = "Asian Minor"
+		set_country_flag = asian_minor_select
+		add_country_modifier = { name = asian_minor_select duration = -1 }
+	}
+	option = {
+		name = "Kachin"
+		set_country_flag = kachin_select
+		add_country_modifier = { name = kachin_select duration = -1 }
+	}
+	option = {
+		name = "Karen"
+		set_country_flag = karen_select
+		add_country_modifier = { name = karen_select duration = -1 }
+	}
+	option = {
+		name = "Assamese"
+		set_country_flag = assamese_select
+		add_country_modifier = { name = assamese_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980029
+	title = "Asian Natives Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yakut"
+		set_country_flag = yakut_select
+		add_country_modifier = { name = yakut_select duration = -1 }
+	}
+	option = {
+		name = "Polynesian"
+		set_country_flag = polynesian_select
+		add_country_modifier = { name = polynesian_select duration = -1 }
+	}
+	option = {
+		name = "Hawaiian"
+		set_country_flag = hawaiian_select
+		add_country_modifier = { name = hawaiian_select duration = -1 }
+	}
+	option = {
+		name = "Maori"
+		set_country_flag = maori_select
+		add_country_modifier = { name = maori_select duration = -1 }
+	}
+	option = {
+		name = "Aborigine"
+		set_country_flag = aborigine_select
+		add_country_modifier = { name = aborigine_select duration = -1 }
+	}
+	option = {
+		name = "Melanesian"
+		set_country_flag = melanesian_select
+		add_country_modifier = { name = melanesian_select duration = -1 }
+	}
+	option = {
+		name = "Micronesian"
+		set_country_flag = micronesian_select
+		add_country_modifier = { name = micronesian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980030
+	title = "African Diaspora Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Afro Caribbean"
+		set_country_flag = afro_caribbean_select
+		add_country_modifier = { name = afro_caribbean_select duration = -1 }
+	}
+	option = {
+		name = "Afro Caribeno"
+		set_country_flag = afro_caribeno_select
+		add_country_modifier = { name = afro_caribeno_select duration = -1 }
+	}
+	option = {
+		name = "Afro Brazilian"
+		set_country_flag = afro_brazilian_select
+		add_country_modifier = { name = afro_brazilian_select duration = -1 }
+	}
+	option = {
+		name = "Afro Antillean"
+		set_country_flag = afro_antillean_select
+		add_country_modifier = { name = afro_antillean_select duration = -1 }
+	}
+	option = {
+		name = "Kreol"
+		set_country_flag = kreol_select
+		add_country_modifier = { name = kreol_select duration = -1 }
+	}
+	option = {
+		name = "Griqua"
+		set_country_flag = griqua_select
+		add_country_modifier = { name = griqua_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980031
+	title = "African Diaspora Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Boer"
+		set_country_flag = boer_select
+		add_country_modifier = { name = boer_select duration = -1 }
+	}
+	option = {
+		name = "Australian"
+		set_country_flag = australian_select
+		add_country_modifier = { name = australian_select duration = -1 }
+	}
+	option = {
+		name = "Alaskan"
+		set_country_flag = alaskan_select
+		add_country_modifier = { name = alaskan_select duration = -1 }
+	}
+	option = {
+		name = "Neo Zelandais"
+		set_country_flag = neo_zelandais_select
+		add_country_modifier = { name = neo_zelandais_select duration = -1 }
+	}
+	option = {
+		name = "Louisianan"
+		set_country_flag = louisianan_select
+		add_country_modifier = { name = louisianan_select duration = -1 }
+	}
+	option = {
+		name = "Cajun"
+		set_country_flag = cajun_select
+		add_country_modifier = { name = cajun_select duration = -1 }
+	}
+	option = {
+		name = "French Australian"
+		set_country_flag = french_australian_select
+		add_country_modifier = { name = french_australian_select duration = -1 }
+	}
+	option = {
+		name = "Actually we don't have any desire to do anything at this time"	
+	}
+}
+
+country_event = {
+	id = 980032
+	title = "West African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Akan"
+		set_country_flag = akan_select
+		add_country_modifier = { name = akan_select duration = -1 }
+	}
+	option = {
+		name = "Bambara"
+		set_country_flag = bambara_select
+		add_country_modifier = { name = bambara_select duration = -1 }
+	}
+	option = {
+		name = "Dyula"
+		set_country_flag = dyula_select
+		add_country_modifier = { name = dyula_select duration = -1 }
+	}
+	option = {
+		name = "Edo"
+		set_country_flag = edo_select
+		add_country_modifier = { name = edo_select duration = -1 }
+	}
+	option = {
+		name = "Ewe"
+		set_country_flag = ewe_select
+		add_country_modifier = { name = ewe_select duration = -1 }
+	}
+	option = {
+		name = "Fon"
+		set_country_flag = fon_select
+		add_country_modifier = { name = fon_select duration = -1 }
+	}
+	option = {
+		name = "Fulbe"
+		set_country_flag = fulbe_select
+		add_country_modifier = { name = fulbe_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980033
+	}
+}
+
+country_event = {
+	id = 980033
+	title = "West African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Hausa"
+		set_country_flag = hausa_select
+		add_country_modifier = { name = hausa_select duration = -1 }
+	}
+	option = {
+		name = "Ibibio"
+		set_country_flag = ibibio_select
+		add_country_modifier = { name = ibibio_select duration = -1 }
+	}
+	option = {
+		name = "Itsekari"
+		set_country_flag = itsekari_select
+		add_country_modifier = { name = itsekari_select duration = -1 }
+	}
+	option = {
+		name = "Ibo"
+		set_country_flag = ibo_select
+		add_country_modifier = { name = ibo_select duration = -1 }
+	}
+	option = {
+		name = "Kru"
+		set_country_flag = kru_select
+		add_country_modifier = { name = kru_select duration = -1 }
+	}
+	option = {
+		name = "Mande"
+		set_country_flag = mande_select
+		add_country_modifier = { name = mande_select duration = -1 }
+	}
+	option = {
+		name = "Western Nigritic"
+		set_country_flag = western_nigritic_select
+		add_country_modifier = { name = western_nigritic_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980028
+	}
+}
+
+country_event = {
+	id = 980034
+	title = "West African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Mossi"
+		set_country_flag = mossi_select
+		add_country_modifier = { name = mossi_select duration = -1 }
+	}
+	option = {
+		name = "Gur"
+		set_country_flag = gur_select
+		add_country_modifier = { name = gur_select duration = -1 }
+	}
+	option = {
+		name = "Senufo"
+		set_country_flag = senufo_select
+		add_country_modifier = { name = senufo_select duration = -1 }
+	}
+	option = {
+		name = "Songhai"
+		set_country_flag = songhai_select
+		add_country_modifier = { name = songhai_select duration = -1 }
+	}
+	option = {
+		name = "Tiv"
+		set_country_flag = tiv_select
+		add_country_modifier = { name = tiv_select duration = -1 }
+	}
+	option = {
+		name = "Tuareg"
+		set_country_flag = tuareg_select
+		add_country_modifier = { name = tuareg_select duration = -1 }
+	}
+	option = {
+		name = "Wolof"
+		set_country_flag = wolof_select
+		add_country_modifier = { name = wolof_select duration = -1 }
+	}
+	option = {
+		name = "No more cultures please!"
+	}
+}
+
+country_event = {
+	id = 980035
+	title = "Central African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Yoruba"
+		set_country_flag = yoruba_select
+		add_country_modifier = { name = yoruba_select duration = -1 }
+	}
+	option = {
+		name = "East Kwa"
+		set_country_flag = east_kwa_select
+		add_country_modifier = { name = east_kwa_select duration = -1 }
+	}
+	option = {
+		name = "Bakongo"
+		set_country_flag = bakongo_select
+		add_country_modifier = { name = bakongo_select duration = -1 }
+	}
+	option = {
+		name = "Kuba"
+		set_country_flag = kuba_select
+		add_country_modifier = { name = kuba_select duration = -1 }
+	}
+	option = {
+		name = "Baguirmi"
+		set_country_flag = baguirmi_select
+		add_country_modifier = { name = baguirmi_select duration = -1 }
+	}
+	option = {
+		name = "Fang"
+		set_country_flag = fang_select
+		add_country_modifier = { name = fang_select duration = -1 }
+	}
+	option = {
+		name = "Kanuri"
+		set_country_flag = kanuri_select
+		add_country_modifier = { name = kanuri_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980036
+	}
+}
+
+country_event = {
+	id = 980036
+	title = "Central African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Luba"
+		set_country_flag = luba_select
+		add_country_modifier = { name = luba_select duration = -1 }
+	}
+	option = {
+		name = "Lunda"
+		set_country_flag = lunda_select
+		add_country_modifier = { name = lunda_select duration = -1 }
+	}
+	option = {
+		name = "Lendu"
+		set_country_flag = lendu_select
+		add_country_modifier = { name = lendu_select duration = -1 }
+	}
+	option = {
+		name = "Kingwana"
+		set_country_flag = kingwana_select
+		add_country_modifier = { name = kingwana_select duration = -1 }
+	}
+	option = {
+		name = "Chokwe"
+		set_country_flag = chokwe_select
+		add_country_modifier = { name = chokwe_select duration = -1 }
+	}
+	option = {
+		name = "Kavango"
+		set_country_flag = kavango_select
+		add_country_modifier = { name = kavango_select duration = -1 }
+	}
+	option = {
+		name = "Mongo"
+		set_country_flag = mongo_select
+		add_country_modifier = { name = mongo_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980037
+	}
+}
+
+country_event = {
+	id = 980037
+	title = "Central African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sara"
+		set_country_flag = sara_select
+		add_country_modifier = { name = sara_select duration = -1 }
+	}
+	option = {
+		name = "Teda"
+		set_country_flag = teda_select
+		add_country_modifier = { name = teda_select duration = -1 }
+	}
+	option = {
+		name = "Ubangian"
+		set_country_flag = ubangian_select
+		add_country_modifier = { name = ubangian_select duration = -1 }
+	}
+	option = {
+		name = "Forest Bantu"
+		set_country_flag = forest_bantu_select
+		add_country_modifier = { name = forest_bantu_select duration = -1 }
+	}
+	option = {
+		name = "South Forest Bantu"
+		set_country_flag = south_forest_bantu_select
+		add_country_modifier = { name = south_forest_bantu_select duration = -1 }
+	}
+	option = {
+		name = "Maures"
+		set_country_flag = maures_select
+		add_country_modifier = { name = maures_select duration = -1 }
+	}
+	option = {
+		name = "No more cultures please!"
+	}
+}
+
+country_event = {
+	id = 980038
+	title = "East African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Amhara"
+		set_country_flag = amhara_select
+		add_country_modifier = { name = amhara_select duration = -1 }
+	}
+	option = {
+		name = "Afar"
+		set_country_flag = afar_select
+		add_country_modifier = { name = afar_select duration = -1 }
+	}
+	option = {
+		name = "Azande"
+		set_country_flag = azande_select
+		add_country_modifier = { name = azande_select duration = -1 }
+	}
+	option = {
+		name = "Baganda"
+		set_country_flag = baganda_select
+		add_country_modifier = { name = baganda_select duration = -1 }
+	}
+	option = {
+		name = "Beja"
+		set_country_flag = beja_select
+		add_country_modifier = { name = beja_select duration = -1 }
+	}
+	option = {
+		name = "Dinka"
+		set_country_flag = dinka_select
+		add_country_modifier = { name = dinka_select duration = -1 }
+	}
+	option = {
+		name = "Fur"
+		set_country_flag = fur_select
+		add_country_modifier = { name = fur_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980039
+	}
+}
+
+country_event = {
+	id = 980039
+	title = "East African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Harari"
+		set_country_flag = harari_select
+		add_country_modifier = { name = harari_select duration = -1 }
+	}
+	option = {
+		name = "Kefficho"
+		set_country_flag = kefficho_select
+		add_country_modifier = { name = kefficho_select duration = -1 }
+	}
+	option = {
+		name = "Kikuyu"
+		set_country_flag = kikuyu_select
+		add_country_modifier = { name = kikuyu_select duration = -1 }
+	}
+	option = {
+		name = "Luo"
+		set_country_flag = luo_select
+		add_country_modifier = { name = luo_select duration = -1 }
+	}
+	option = {
+		name = "Maasai"
+		set_country_flag = maasai_select
+		add_country_modifier = { name = maasai_select duration = -1 }
+	}
+	option = {
+		name = "Nuer"
+		set_country_flag = nuer_select
+		add_country_modifier = { name = nuer_select duration = -1 }
+	}
+	option = {
+		name = "Nuba"
+		set_country_flag = nuba_select
+		add_country_modifier = { name = nuba_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980040
+	}
+}
+
+country_event = {
+	id = 980040
+	title = "East African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Oromo"
+		set_country_flag = oromo_select
+		add_country_modifier = { name = oromo_select duration = -1 }
+	}
+	option = {
+		name = "Ruanda"
+		set_country_flag = ruanda_select
+		add_country_modifier = { name = ruanda_select duration = -1 }
+	}
+	option = {
+		name = "Somali"
+		set_country_flag = somali_select
+		add_country_modifier = { name = somali_select duration = -1 }
+	}
+	option = {
+		name = "Sukuma"
+		set_country_flag = sukuma_select
+		add_country_modifier = { name = sukuma_select duration = -1 }
+	}
+	option = {
+		name = "Swahili"
+		set_country_flag = swahili_select
+		add_country_modifier = { name = swahili_select duration = -1 }
+	}
+	option = {
+		name = "Tigray"
+		set_country_flag = tigray_select
+		add_country_modifier = { name = tigray_select duration = -1 }
+	}
+	option = {
+		name = "Unyamwezi"
+		set_country_flag = unyamwezi_select
+		add_country_modifier = { name = unyamwezi_select duration = -1 }
+	}
+	option = {
+		name = "No more cultures please!"
+	}
+}
+
+country_event = {
+	id = 980041
+	title = "South African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Kilombero"
+		set_country_flag = kilombero_select
+		add_country_modifier = { name = kilombero_select duration = -1 }
+	}
+	option = {
+		name = "Lacustrine Bantu"
+		set_country_flag = lacustrine_bantu_select
+		add_country_modifier = { name = lacustrine_bantu_select duration = -1 }
+	}
+	option = {
+		name = "Cushitic"
+		set_country_flag = cushitic_select
+		add_country_modifier = { name = cushitic_select duration = -1 }
+	}
+	option = {
+		name = "Nilotic"
+		set_country_flag = nilotic_select
+		add_country_modifier = { name = nilotic_select duration = -1 }
+	}
+	option = {
+		name = "Chewa"
+		set_country_flag = chewa_select
+		add_country_modifier = { name = chewa_select duration = -1 }
+	}
+	option = {
+		name = "Nyasa"
+		set_country_flag = nyasa_select
+		add_country_modifier = { name = nyasa_select duration = -1 }
+	}
+	option = {
+		name = "Herero"
+		set_country_flag = herero_select
+		add_country_modifier = { name = herero_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980042
+	}
+}
+
+country_event = {
+	id = 980042
+	title = "South African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Khoisan"
+		set_country_flag = khoisan_select
+		add_country_modifier = { name = khoisan_select duration = -1 }
+	}
+	option = {
+		name = "Lomwe"
+		set_country_flag = lomwe_select
+		add_country_modifier = { name = lomwe_select duration = -1 }
+	}
+	option = {
+		name = "Makua"
+		set_country_flag = makua_select
+		add_country_modifier = { name = makua_select duration = -1 }
+	}
+	option = {
+		name = "Malagasy"
+		set_country_flag = malagasy_select
+		add_country_modifier = { name = malagasy_select duration = -1 }
+	}
+	option = {
+		name = "Nguni"
+		set_country_flag = nguni_select
+		add_country_modifier = { name = nguni_select duration = -1 }
+	}
+	option = {
+		name = "Southern Bantu"
+		set_country_flag = southern_bantu_select
+		add_country_modifier = { name = southern_bantu_select duration = -1 }
+	}
+	option = {
+		name = "Ovimbundu"
+		set_country_flag = ovimbundu_select
+		add_country_modifier = { name = ovimbundu_select duration = -1 }
+	}
+	option = {
+		name = "More cultures please!"
+		country_event = 980043
+	}
+}
+
+country_event = {
+	id = 980043
+	title = "South African Culture Select"
+	desc = " Immigrants can be managed with one of several options"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sena"
+		set_country_flag = sena_select
+		add_country_modifier = { name = sena_select duration = -1 }
+	}
+	option = {
+		name = "Shona"
+		set_country_flag = shona_select
+		add_country_modifier = { name = shona_select duration = -1 }
+	}
+	option = {
+		name = "Sotho"
+		set_country_flag = sotho_select
+		add_country_modifier = { name = sotho_select duration = -1 }
+	}
+	option = {
+		name = "Tonga"
+		set_country_flag = tonga_select
+		add_country_modifier = { name = tonga_select duration = -1 }
+	}
+	option = {
+		name = "Tswana"
+		set_country_flag = tswana_select
+		add_country_modifier = { name = tswana_select duration = -1 }
+	}
+	option = {
+		name = "Xhosa"
+		set_country_flag = xhosa_select
+		add_country_modifier = { name = xhosa_select duration = -1 }
+	}
+	option = {
+		name = "Yao"
+		set_country_flag = yao_select
+		add_country_modifier = { name = yao_select duration = -1 }
+	}
+	option = {
+		name = "Zulu"
+		set_country_flag = zulu_select
+		add_country_modifier = { name = zulu_select duration = -1 }
+	}
+}

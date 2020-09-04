@@ -1,0 +1,1273 @@
+political_decisions = {
+	ImmigrantOptions = {
+		picture = marching_soldiers
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = 980000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CultureSelectOptions = {
+		picture = marching_soldiers
+		potential = {
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = 979999
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	AmericancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = dixie
+					has_pop_culture = yankee
+					has_pop_culture = texan
+					has_pop_culture = mexican
+					has_pop_culture = anglo_canadian
+					has_pop_culture = afro_american
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = dixie
+					has_pop_culture = yankee
+					has_pop_culture = texan
+					has_pop_culture = mexican
+					has_pop_culture = anglo_canadian
+					has_pop_culture = afro_american
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980001
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SwisscultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = swiss_french
+					has_pop_culture = swiss_german
+					has_pop_culture = swiss_italian
+					has_pop_culture = romansh
+					has_pop_culture = ashkenazi
+					has_pop_culture = sephardic
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = swiss_french
+					has_pop_culture = swiss_german
+					has_pop_culture = swiss_italian
+					has_pop_culture = romansh
+					has_pop_culture = ashkenazi
+					has_pop_culture = sephardic
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980002
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GermancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = north_german
+					has_pop_culture = south_german
+					has_pop_culture = volga_german
+					has_pop_culture = siebenburger
+					has_pop_culture = dutch
+					has_pop_culture = flemish
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = north_german
+					has_pop_culture = south_german
+					has_pop_culture = volga_german
+					has_pop_culture = siebenburger
+					has_pop_culture = dutch
+					has_pop_culture = flemish
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980003
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	FrenchcultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = french
+					has_pop_culture = breton
+					has_pop_culture = occitan
+					has_pop_culture = picard
+					has_pop_culture = rhinelander
+					has_pop_culture = arpitan
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = french
+					has_pop_culture = breton
+					has_pop_culture = occitan
+					has_pop_culture = picard
+					has_pop_culture = rhinelander
+					has_pop_culture = arpitan
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980004
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SouthSlavcultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = croat
+					has_pop_culture = serb
+					has_pop_culture = bulgarian
+					has_pop_culture = montenegrin
+					has_pop_culture = slovene
+					has_pop_culture = bosniak
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = croat
+					has_pop_culture = serb
+					has_pop_culture = bulgarian
+					has_pop_culture = montenegrin
+					has_pop_culture = slovene
+					has_pop_culture = bosniak
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980005
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	NonSlavBalkancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = albanian
+					has_pop_culture = hungarian
+					has_pop_culture = romanian
+					has_pop_culture = greek
+					has_pop_culture = turkish
+					has_pop_culture = gypsy
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = albanian
+					has_pop_culture = hungarian
+					has_pop_culture = greek
+					has_pop_culture = romanian
+					has_pop_culture = turkish
+					has_pop_culture = gypsy
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980006
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	IberiancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = galician
+					has_pop_culture = basque
+					has_pop_culture = spanish
+					has_pop_culture = catalan
+					has_pop_culture = portuguese
+					has_pop_culture = brazilian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = galician
+					has_pop_culture = basque
+					has_pop_culture = spanish
+					has_pop_culture = catalan
+					has_pop_culture = portuguese
+					has_pop_culture = brazilian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980007
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	EastSlaviccultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = russian
+					has_pop_culture = byelorussian
+					has_pop_culture = ukrainian
+					has_pop_culture = ugrian
+					has_pop_culture = polish
+					has_pop_culture = western_slavic
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = russian
+					has_pop_culture = byelorussian
+					has_pop_culture = ukrainian
+					has_pop_culture = ugrian
+					has_pop_culture = polish
+					has_pop_culture = western_slavic
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980008
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ArabcultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = maghrebi
+					has_pop_culture = misri
+					has_pop_culture = mashriqi
+					has_pop_culture = bedouin
+					has_pop_culture = berber
+					has_pop_culture = sudanese
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = maghrebi
+					has_pop_culture = misri
+					has_pop_culture = mashriqi
+					has_pop_culture = bedouin
+					has_pop_culture = berber
+					has_pop_culture = sudanese
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980009
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ScandinaviancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = swedish
+					has_pop_culture = danish
+					has_pop_culture = norwegian
+					has_pop_culture = icelandic
+					has_pop_culture = finnish
+					has_pop_culture = sami
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = swedish
+					has_pop_culture = danish
+					has_pop_culture = norwegian
+					has_pop_culture = icelandic
+					has_pop_culture = finnish
+					has_pop_culture = sami
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980010
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	BritishcultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = british
+					has_pop_culture = irish
+					has_pop_culture = scottish
+					has_pop_culture = welsh
+					has_pop_culture = maltese
+					has_pop_culture = anglo_indian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = british
+					has_pop_culture = irish
+					has_pop_culture = scottish
+					has_pop_culture = welsh
+					has_pop_culture = maltese
+					has_pop_culture = anglo_indian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980011
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	LatinAmericancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = central_american
+					has_pop_culture = caribeno
+					has_pop_culture = north_andean
+					has_pop_culture = south_andean
+					has_pop_culture = platinean
+					has_pop_culture = french_canadian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = central_american
+					has_pop_culture = caribeno
+					has_pop_culture = north_andean
+					has_pop_culture = south_andean
+					has_pop_culture = platinean
+					has_pop_culture = french_canadian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980012
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ItalianBalticsCzechscultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+					has_pop_culture = wallonian
+					has_pop_culture = czech
+					has_pop_culture = slovak
+					has_pop_culture = lithuanian
+					has_pop_culture = latvian
+					has_pop_culture = estonian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = north_italian
+					has_pop_culture = south_italian
+					has_pop_culture = wallonian
+					has_pop_culture = czech
+					has_pop_culture = slovak
+					has_pop_culture = lithuanian
+					has_pop_culture = latvian
+					has_pop_culture = estonian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980013
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	NativeAmericancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = mayan
+					has_pop_culture = nahua
+					has_pop_culture = quechua
+					has_pop_culture = guarani
+					has_pop_culture = aimara
+					has_pop_culture = amazonian
+					has_pop_culture = patagonian
+					has_pop_culture = tupinamba
+					has_pop_culture = metis
+					has_pop_culture = dakota
+					has_pop_culture = cherokee
+					has_pop_culture = pueblo
+					has_pop_culture = inuit
+					has_pop_culture = cree
+					has_pop_culture = navajo
+					has_pop_culture = native_american_minor
+				}
+			}
+			ai = no
+		}
+		potential = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = mayan
+					has_pop_culture = nahua
+					has_pop_culture = quechua
+					has_pop_culture = guarani
+					has_pop_culture = aimara
+					has_pop_culture = amazonian
+					has_pop_culture = patagonian
+					has_pop_culture = tupinamba
+					has_pop_culture = metis
+					has_pop_culture = dakota
+					has_pop_culture = cherokee
+					has_pop_culture = pueblo
+					has_pop_culture = inuit
+					has_pop_culture = cree
+					has_pop_culture = navajo
+					has_pop_culture = native_american_minor
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980015
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	ChinesecultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+					has_pop_culture = hanhui
+					has_pop_culture = hakka
+					has_pop_culture = miao
+					has_pop_culture = min
+					has_pop_culture = zhuang
+					has_pop_culture = yi
+					has_pop_culture = yue
+					has_pop_culture = uighur
+					has_pop_culture = tibetan
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = manchu
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+					has_pop_culture = hanhui
+					has_pop_culture = hakka
+					has_pop_culture = miao
+					has_pop_culture = min
+					has_pop_culture = zhuang
+					has_pop_culture = yi
+					has_pop_culture = yue
+					has_pop_culture = uighur
+					has_pop_culture = tibetan
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980018
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CaucasiancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = georgian
+					has_pop_culture = armenian
+					has_pop_culture = azerbaijani
+					has_pop_culture = dagestani
+					has_pop_culture = chechen
+					has_pop_culture = circassian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = georgian
+					has_pop_culture = armenian
+					has_pop_culture = azerbaijani
+					has_pop_culture = dagestani
+					has_pop_culture = chechen
+					has_pop_culture = circassian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980020
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	NonChineseFarEastcultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = korean
+					has_pop_culture = japanese
+					has_pop_culture = ainu
+					has_pop_culture = mongol
+					has_pop_culture = vietnamese
+					has_pop_culture = siberian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = korean
+					has_pop_culture = japanese
+					has_pop_culture = ainu
+					has_pop_culture = mongol
+					has_pop_culture = vietnamese
+					has_pop_culture = siberian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980021
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	IraniancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = persian
+					has_pop_culture = uzbek
+					has_pop_culture = kazak
+					has_pop_culture = kirgiz
+					has_pop_culture = tajik
+					has_pop_culture = pashtun
+					has_pop_culture = baluchi
+					has_pop_culture = hazara
+					has_pop_culture = turkmen
+					has_pop_culture = tatar
+					has_pop_culture = kurdish
+					has_pop_culture = assyrian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = persian
+					has_pop_culture = uzbek
+					has_pop_culture = kazak
+					has_pop_culture = kirgiz
+					has_pop_culture = tajik
+					has_pop_culture = pashtun
+					has_pop_culture = baluchi
+					has_pop_culture = hazara
+					has_pop_culture = turkmen
+					has_pop_culture = tatar
+					has_pop_culture = kurdish
+					has_pop_culture = assyrian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980022
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	IndiancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = nepali
+					has_pop_culture = bihari
+					has_pop_culture = manipuri
+					has_pop_culture = oriya
+					has_pop_culture = sinhala
+					has_pop_culture = avadhi
+					has_pop_culture = kanauji
+					has_pop_culture = kashmiri
+					has_pop_culture = gujarati
+					has_pop_culture = marathi
+					has_pop_culture = rajput
+					has_pop_culture = kannada
+					has_pop_culture = malayalam
+					has_pop_culture = tamil
+					has_pop_culture = telegu
+					has_pop_culture = bengali
+					has_pop_culture = panjabi
+					has_pop_culture = sindi
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = nepali
+					has_pop_culture = bihari
+					has_pop_culture = manipuri
+					has_pop_culture = oriya
+					has_pop_culture = sinhala
+					has_pop_culture = avadhi
+					has_pop_culture = kanauji
+					has_pop_culture = kashmiri
+					has_pop_culture = gujarati
+					has_pop_culture = marathi
+					has_pop_culture = rajput
+					has_pop_culture = kannada
+					has_pop_culture = malayalam
+					has_pop_culture = tamil
+					has_pop_culture = telegu
+					has_pop_culture = bengali
+					has_pop_culture = panjabi
+					has_pop_culture = sindi
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980024
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SEAsiancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = khmer
+					has_pop_culture = malay
+					has_pop_culture = filipino
+					has_pop_culture = javan
+					has_pop_culture = moluccan
+					has_pop_culture = thai
+					has_pop_culture = lao
+					has_pop_culture = shan
+					has_pop_culture = burmese
+					has_pop_culture = asian_minor
+					has_pop_culture = kachin
+					has_pop_culture = karen
+					has_pop_culture = assamese		
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = khmer
+					has_pop_culture = malay
+					has_pop_culture = filipino
+					has_pop_culture = javan
+					has_pop_culture = moluccan
+					has_pop_culture = thai
+					has_pop_culture = lao
+					has_pop_culture = shan
+					has_pop_culture = burmese
+					has_pop_culture = asian_minor
+					has_pop_culture = kachin
+					has_pop_culture = karen
+					has_pop_culture = assamese
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980027
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	AsianNativescultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = yakut
+					has_pop_culture = polynesian
+					has_pop_culture = hawaiian
+					has_pop_culture = maori
+					has_pop_culture = aborigine
+					has_pop_culture = melanesian
+					has_pop_culture = micronesian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = yakut
+					has_pop_culture = polynesian
+					has_pop_culture = hawaiian
+					has_pop_culture = maori
+					has_pop_culture = aborigine
+					has_pop_culture = melanesian
+					has_pop_culture = micronesian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980029
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	AfricanDiasporacultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = afro_caribbean
+					has_pop_culture = afro_caribeno
+					has_pop_culture = afro_brazilian
+					has_pop_culture = afro_antillean
+					has_pop_culture = kreol
+					has_pop_culture = griqua
+				}
+			}
+			ai = no
+		}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = afro_caribbean
+					has_pop_culture = afro_caribeno
+					has_pop_culture = afro_brazilian
+					has_pop_culture = afro_antillean
+					has_pop_culture = kreol
+					has_pop_culture = griqua
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980030
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	NeoEuropeancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = boer
+					has_pop_culture = australian
+					has_pop_culture = alaskan
+					has_pop_culture = neo_zelandais
+					has_pop_culture = louisianan
+					has_pop_culture = cajun
+					has_pop_culture = french_australian
+				}
+			}
+			ai = no
+		}
+		allow = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = boer
+					has_pop_culture = australian
+					has_pop_culture = alaskan
+					has_pop_culture = neo_zelandais
+					has_pop_culture = louisianan
+					has_pop_culture = cajun
+					has_pop_culture = french_australian
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980031
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	WestAfricancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = akan
+					has_pop_culture = bambara
+					has_pop_culture = dyula
+					has_pop_culture = edo
+					has_pop_culture = ewe
+					has_pop_culture = fon
+					has_pop_culture = fulbe
+					has_pop_culture = hausa
+					has_pop_culture = ibibio
+					has_pop_culture = itsekari
+					has_pop_culture = ibo
+					has_pop_culture = kru
+					has_pop_culture = mande
+					has_pop_culture = western_nigritic
+					has_pop_culture = mossi
+					has_pop_culture = gur
+					has_pop_culture = senufo
+					has_pop_culture = songhai
+					has_pop_culture = tiv
+					has_pop_culture = tuareg
+					has_pop_culture = wolof	
+				}
+			}
+			ai = no
+		}
+		allow = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = akan
+					has_pop_culture = bambara
+					has_pop_culture = dyula
+					has_pop_culture = edo
+					has_pop_culture = ewe
+					has_pop_culture = fon
+					has_pop_culture = fulbe
+					has_pop_culture = hausa
+					has_pop_culture = ibibio
+					has_pop_culture = itsekari
+					has_pop_culture = ibo
+					has_pop_culture = kru
+					has_pop_culture = mande
+					has_pop_culture = western_nigritic
+					has_pop_culture = mossi
+					has_pop_culture = gur
+					has_pop_culture = senufo
+					has_pop_culture = songhai
+					has_pop_culture = tiv
+					has_pop_culture = tuareg
+					has_pop_culture = wolof				
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980032
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CentralAfricancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = yoruba
+					has_pop_culture = east_kwa
+					has_pop_culture = bakongo
+					has_pop_culture = baguirmi
+					has_pop_culture = fang
+					has_pop_culture = kanuri
+					has_pop_culture = kuba
+					has_pop_culture = luba
+					has_pop_culture = lunda
+					has_pop_culture = lendu
+					has_pop_culture = kingwana
+					has_pop_culture = chokwe
+					has_pop_culture = kavango
+					has_pop_culture = mongo
+					has_pop_culture = sara
+					has_pop_culture = teda
+					has_pop_culture = ubangian
+					has_pop_culture = forest_bantu
+					has_pop_culture = south_forest_bantu
+					has_pop_culture = maures	
+				}
+			}
+			ai = no
+		}
+		allow = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = yoruba
+					has_pop_culture = east_kwa
+					has_pop_culture = bakongo
+					has_pop_culture = baguirmi
+					has_pop_culture = fang
+					has_pop_culture = kanuri
+					has_pop_culture = kuba
+					has_pop_culture = luba
+					has_pop_culture = lunda
+					has_pop_culture = lendu
+					has_pop_culture = kingwana
+					has_pop_culture = chokwe
+					has_pop_culture = kavango
+					has_pop_culture = mongo
+					has_pop_culture = sara
+					has_pop_culture = teda
+					has_pop_culture = ubangian
+					has_pop_culture = forest_bantu
+					has_pop_culture = south_forest_bantu
+					has_pop_culture = maures			
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980035
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	EastAfricancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = amhara
+					has_pop_culture = afar
+					has_pop_culture = azande
+					has_pop_culture = baganda
+					has_pop_culture = beja
+					has_pop_culture = dinka
+					has_pop_culture = fur
+					has_pop_culture = harari
+					has_pop_culture = kefficho
+					has_pop_culture = kikuyu
+					has_pop_culture = luo
+					has_pop_culture = maasai
+					has_pop_culture = nuer
+					has_pop_culture = nuba
+					has_pop_culture = oromo
+					has_pop_culture = ruanda
+					has_pop_culture = somali
+					has_pop_culture = sukuma
+					has_pop_culture = swahili
+					has_pop_culture = tigray
+					has_pop_culture = unyamwezi
+				}
+			}
+			ai = no
+		}
+		allow = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = amhara
+					has_pop_culture = afar
+					has_pop_culture = azande
+					has_pop_culture = baganda
+					has_pop_culture = beja
+					has_pop_culture = dinka
+					has_pop_culture = fur
+					has_pop_culture = harari
+					has_pop_culture = kefficho
+					has_pop_culture = kikuyu
+					has_pop_culture = luo
+					has_pop_culture = maasai
+					has_pop_culture = nuer
+					has_pop_culture = nuba
+					has_pop_culture = oromo
+					has_pop_culture = ruanda
+					has_pop_culture = somali
+					has_pop_culture = sukuma
+					has_pop_culture = swahili
+					has_pop_culture = tigray
+					has_pop_culture = unyamwezi
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980038
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SouthAfricancultureGroup = {
+		picture = marching_soldiers
+		potential = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = kilombero
+					has_pop_culture = lacustrine_bantu
+					has_pop_culture = cushitic
+					has_pop_culture = nilotic
+					has_pop_culture = chewa
+					has_pop_culture = nyasa
+					has_pop_culture = herero
+					has_pop_culture = khoisan
+					has_pop_culture = lomwe
+					has_pop_culture = makua
+					has_pop_culture = malagasy
+					has_pop_culture = nguni
+					has_pop_culture = southern_bantu
+					has_pop_culture = ovimbundu
+					has_pop_culture = sena
+					has_pop_culture = shona
+					has_pop_culture = sotho
+					has_pop_culture = tonga
+					has_pop_culture = tswana
+					has_pop_culture = xhosa
+					has_pop_culture = yao
+					has_pop_culture = zulu				
+				}
+			}
+			ai = no
+		}
+		allow = {
+			has_country_flag = culture_select
+			any_owned_province = {
+				has_building = province_selector
+				OR = {
+					has_pop_culture = kilombero
+					has_pop_culture = lacustrine_bantu
+					has_pop_culture = cushitic
+					has_pop_culture = nilotic
+					has_pop_culture = chewa
+					has_pop_culture = nyasa
+					has_pop_culture = herero
+					has_pop_culture = khoisan
+					has_pop_culture = lomwe
+					has_pop_culture = makua
+					has_pop_culture = malagasy
+					has_pop_culture = nguni
+					has_pop_culture = southern_bantu
+					has_pop_culture = ovimbundu
+					has_pop_culture = sena
+					has_pop_culture = shona
+					has_pop_culture = sotho
+					has_pop_culture = tonga
+					has_pop_culture = tswana
+					has_pop_culture = xhosa
+					has_pop_culture = yao
+					has_pop_culture = zulu
+				}
+			}
+			ai = no
+		}
+		effect = {
+			country_event = 980041
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
