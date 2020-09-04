@@ -2020,3 +2020,54 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 }
+suspend_political_powers = {
+	
+		potential = {
+        always = yes
+		}
+		
+		allow = {
+		 NOT = { has_country_modifier = rights_suspended }
+            OR = {
+			 average_militancy = 6
+			 AND = {
+			  OR = { government = absolute_monarchy }
+			  average_militancy = 1
+			 }
+			 AND = {
+			  OR = { government = presidential_dictatorship }
+			  average_militancy = 1
+			 }
+			 AND = { 
+			  OR = { government = prussian_constitutionalism }
+			  average_militancy = 3
+			 }
+			 AND = { 
+			  OR = { government = hms_government }
+			  average_militancy = 5
+			 }
+		   }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = rights_suspended
+				duration = 1095
+			}
+		    upper_house = {
+			 ideology = Executive
+			 value = 1
+		    }
+			any_pop = {
+			 militancy = 3
+		    }
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				average_militancy = 6
+			}
+		}
+	}
+}
